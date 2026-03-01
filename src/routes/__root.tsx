@@ -1,11 +1,8 @@
 import { QueryClient } from '@tanstack/react-query'
-import { createRootRouteWithContext, Outlet } from '@tanstack/react-router'
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import { TanStackRouterDevtools } from '@tanstack/router-devtools'
+import { createRootRouteWithContext, Outlet, ScrollRestoration } from '@tanstack/react-router'
 import { Toaster } from '@/components/ui/sonner'
-import { NavigationProgress } from '@/components/navigation-progress'
-import GeneralError from '@/features/errors/general-error'
-import NotFoundError from '@/features/errors/not-found-error'
+import { Header } from '@/components/layout/header'
+import { Footer } from '@/components/layout/footer'
 
 export const Route = createRootRouteWithContext<{
   queryClient: QueryClient
@@ -13,18 +10,25 @@ export const Route = createRootRouteWithContext<{
   component: () => {
     return (
       <>
-        <NavigationProgress />
-        <Outlet />
-        <Toaster duration={50000} />
-        {import.meta.env.MODE === 'development' && (
-          <>
-            <ReactQueryDevtools buttonPosition='bottom-left' />
-            <TanStackRouterDevtools position='bottom-right' />
-          </>
-        )}
+        <div className="flex min-h-screen flex-col">
+          <Header />
+          <main className="flex-1">
+            <Outlet />
+          </main>
+          <Footer />
+        </div>
+        <ScrollRestoration />
+        <Toaster />
       </>
     )
   },
-  notFoundComponent: NotFoundError,
-  errorComponent: GeneralError,
+  notFoundComponent: () => (
+    <div className="flex min-h-[60vh] flex-col items-center justify-center text-center">
+      <h1 className="text-4xl font-bold">404</h1>
+      <p className="mt-2 text-muted-foreground">Page not found</p>
+      <a href="/" className="mt-4 text-sm text-scit-purple hover:underline">
+        Back to home
+      </a>
+    </div>
+  ),
 })

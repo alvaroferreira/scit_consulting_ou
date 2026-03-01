@@ -5,69 +5,68 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+
+  /* SCIT Light Theme */
+  --background: oklch(0.985 0.002 247);
+  --foreground: oklch(0.141 0.005 285.82);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.141 0.005 285.82);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.141 0.005 285.82);
+  --primary: oklch(0.488 0.243 286);
+  --primary-foreground: oklch(0.98 0.01 286);
+  --secondary: oklch(0.96 0.01 286);
+  --secondary-foreground: oklch(0.25 0.05 286);
+  --muted: oklch(0.96 0.01 286);
+  --muted-foreground: oklch(0.55 0.02 286);
+  --accent: oklch(0.68 0.14 200);
+  --accent-foreground: oklch(0.15 0.05 200);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
+  --border: oklch(0.91 0.01 286);
+  --input: oklch(0.91 0.01 286);
+  --ring: oklch(0.488 0.243 286);
+  --chart-1: oklch(0.488 0.243 286);
+  --chart-2: oklch(0.68 0.14 200);
+  --chart-3: oklch(0.55 0.24 285);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
 
-  --sidebar: var(--background);
-  --sidebar-foreground: var(--foreground);
-  --sidebar-primary: var(--primary);
-  --sidebar-primary-foreground: var(--primary-foreground);
-  --sidebar-accent: var(--accent);
-  --sidebar-accent-foreground: var(--accent-foreground);
-  --sidebar-border: var(--border);
-  --sidebar-ring: var(--ring);
+  /* SCIT Custom Colors */
+  --scit-purple: #673de6;
+  --scit-deep-purple: #1a0b3e;
+  --scit-violet: #8b5cf6;
+  --scit-cyan: #06b6d4;
+  --scit-dark-bg: #0f0a1f;
 }
 
 .dark {
-  --background: oklch(0.129 0.042 264.695);
-  --foreground: oklch(0.984 0.003 247.858);
-  --card: oklch(0.14 0.04 259.21);
-  --card-foreground: oklch(0.984 0.003 247.858);
-  --popover: oklch(0.208 0.042 265.755);
-  --popover-foreground: oklch(0.984 0.003 247.858);
-  --primary: oklch(0.929 0.013 255.508);
-  --primary-foreground: oklch(0.208 0.042 265.755);
-  --secondary: oklch(0.279 0.041 260.031);
-  --secondary-foreground: oklch(0.984 0.003 247.858);
-  --muted: oklch(0.279 0.041 260.031);
-  --muted-foreground: oklch(0.704 0.04 256.788);
-  --accent: oklch(0.279 0.041 260.031);
-  --accent-foreground: oklch(0.984 0.003 247.858);
+  --background: oklch(0.15 0.04 286);
+  --foreground: oklch(0.98 0.01 286);
+  --card: oklch(0.18 0.05 286);
+  --card-foreground: oklch(0.98 0.01 286);
+  --popover: oklch(0.18 0.05 286);
+  --popover-foreground: oklch(0.98 0.01 286);
+  --primary: oklch(0.55 0.24 285);
+  --primary-foreground: oklch(0.15 0.04 286);
+  --secondary: oklch(0.25 0.06 286);
+  --secondary-foreground: oklch(0.98 0.01 286);
+  --muted: oklch(0.25 0.06 286);
+  --muted-foreground: oklch(0.7 0.03 286);
+  --accent: oklch(0.68 0.14 200);
+  --accent-foreground: oklch(0.98 0.01 200);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
+  --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.551 0.027 264.364);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
+  --ring: oklch(0.55 0.24 285);
+  --chart-1: oklch(0.55 0.24 285);
+  --chart-2: oklch(0.68 0.14 200);
+  --chart-3: oklch(0.488 0.243 286);
   --chart-4: oklch(0.627 0.265 303.9);
   --chart-5: oklch(0.645 0.246 16.439);
 }
 
 @theme inline {
   --font-inter: 'Inter', 'sans-serif';
-  --font-manrope: 'Manrope', 'sans-serif';
 
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -96,14 +95,13 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
-  --color-sidebar: var(--sidebar);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* SCIT Brand Colors for Tailwind */
+  --color-scit-purple: #673de6;
+  --color-scit-deep: #1a0b3e;
+  --color-scit-violet: #8b5cf6;
+  --color-scit-cyan: #06b6d4;
+  --color-scit-dark: #0f0a1f;
 }
 
 @layer base {
@@ -113,10 +111,10 @@
     scrollbar-color: var(--border) transparent;
   }
   html {
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden scroll-smooth;
   }
   body {
-    @apply bg-background text-foreground min-h-svh w-full;
+    @apply bg-background text-foreground min-h-svh w-full font-[family-name:var(--font-inter)];
   }
 
   button:not(:disabled),
@@ -124,7 +122,6 @@
     cursor: pointer;
   }
 
-  /* Prevent focus zoom on mobile devices */
   @media screen and (max-width: 767px) {
     input,
     select,
@@ -137,23 +134,40 @@
 @utility container {
   margin-inline: auto;
   padding-inline: 2rem;
+  max-width: 1280px;
 }
 
 @utility no-scrollbar {
-  /* Hide scrollbar for Chrome, Safari and Opera */
   &::-webkit-scrollbar {
     display: none;
   }
-  /* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
-@utility faded-bottom {
-  @apply after:pointer-events-none after:absolute after:bottom-0 after:left-0 after:hidden after:h-32 after:w-full after:bg-[linear-gradient(180deg,_transparent_10%,_var(--background)_70%)] md:after:block;
+@utility gradient-text {
+  background: linear-gradient(135deg, #673de6, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-/* styles.css */
+@utility gradient-border {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, #673de6, #06b6d4);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
+/* Collapsible animations */
 .CollapsibleContent {
   overflow: hidden;
 }
@@ -165,19 +179,27 @@
 }
 
 @keyframes slideDown {
-  from {
-    height: 0;
-  }
-  to {
-    height: var(--radix-collapsible-content-height);
-  }
+  from { height: 0; }
+  to { height: var(--radix-collapsible-content-height); }
 }
 
 @keyframes slideUp {
+  from { height: var(--radix-collapsible-content-height); }
+  to { height: 0; }
+}
+
+@keyframes fadeInUp {
   from {
-    height: var(--radix-collapsible-content-height);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-    height: 0;
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+@keyframes countUp {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
 }
