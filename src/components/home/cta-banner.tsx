@@ -4,10 +4,21 @@ import { IconArrowRight } from '@tabler/icons-react'
 
 export function CtaBanner() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple py-20">
+    <section className="relative overflow-hidden bg-scit-deep py-20">
+      {/* Video Background */}
       <div className="absolute inset-0">
-        <div className="absolute top-0 right-1/4 h-64 w-64 rounded-full bg-scit-cyan/10 blur-3xl" />
-        <div className="absolute bottom-0 left-1/4 h-64 w-64 rounded-full bg-scit-violet/10 blur-3xl" />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className="h-full w-full object-cover"
+        >
+          <source src="/videos/neural.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-scit-deep/75 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-r from-scit-deep/60 to-scit-purple/40" />
       </div>
 
       <div className="container relative mx-auto text-center">

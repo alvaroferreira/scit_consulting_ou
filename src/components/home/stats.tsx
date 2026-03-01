@@ -3,8 +3,21 @@ import { stats } from '@/data/stats'
 
 export function Stats() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-scit-deep to-scit-purple py-16">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(6,182,212,0.1),transparent)]" />
+    <section className="relative overflow-hidden bg-scit-deep py-16">
+      {/* Video Background */}
+      <div className="absolute inset-0">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className="h-full w-full object-cover"
+        >
+          <source src="/videos/particles.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-scit-deep/80 mix-blend-multiply" />
+      </div>
 
       <div className="container relative mx-auto">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">

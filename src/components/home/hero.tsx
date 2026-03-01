@@ -4,11 +4,22 @@ import { IconArrowRight } from '@tabler/icons-react'
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple">
-      {/* Background glow */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-scit-cyan/10 blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-scit-violet/20 blur-3xl" />
+    <section className="relative overflow-hidden bg-scit-deep">
+      {/* Video Background */}
+      <div className="absolute inset-0">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          className="h-full w-full object-cover"
+        >
+          <source src="/videos/hero-bg.mp4" type="video/mp4" />
+        </video>
+        {/* Dark overlay with purple tint for readability */}
+        <div className="absolute inset-0 bg-scit-deep/70 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-b from-scit-deep/80 via-transparent to-scit-deep/90" />
       </div>
 
       <div className="container relative mx-auto flex min-h-[85vh] flex-col items-center justify-center px-4 py-20 text-center">
@@ -26,7 +37,7 @@ export function Hero() {
 
         <p className="mt-6 max-w-2xl text-lg text-white/70 md:text-xl">
           We implement AI tools, automate processes and build intelligent agents
-          &mdash; from strategy to execution.
+          , from strategy to execution.
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">

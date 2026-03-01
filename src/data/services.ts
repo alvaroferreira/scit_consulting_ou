@@ -61,7 +61,7 @@ export const services: Service[] = [
     description:
       'Autonomous AI agents for complex tasks like sales prospecting, customer support, data analysis, and business intelligence.',
     longDescription:
-      'We build custom AI agents that operate autonomously to handle complex business tasks. These intelligent systems can prospect for leads, analyze data patterns, support customers, and make decisions based on your business rules -- working 24/7 without fatigue.',
+      'We build custom AI agents that operate autonomously to handle complex business tasks. These intelligent systems can prospect for leads, analyze data patterns, support customers, and make decisions based on your business rules, working 24/7 without fatigue.',
     href: '/services/ai-agents',
     icon: IconBrain,
     pillar: 'implement',
@@ -93,7 +93,7 @@ export const services: Service[] = [
     description:
       'Intelligent conversational interfaces for customer support, internal helpdesks, and interactive product experiences.',
     longDescription:
-      'We create sophisticated conversational AI systems that go beyond simple FAQ bots. Our chatbots understand context, handle complex queries, and provide personalized responses -- whether serving your customers or empowering your internal teams.',
+      'We create sophisticated conversational AI systems that go beyond simple FAQ bots. Our chatbots understand context, handle complex queries, and provide personalized responses, whether serving your customers or empowering your internal teams.',
     href: '/services/chatbots',
     icon: IconMessageChatbot,
     pillar: 'implement',
@@ -125,7 +125,7 @@ export const services: Service[] = [
     description:
       'Selection and implementation of enterprise AI tools like ChatGPT Enterprise, Claude, GitHub Copilot, and custom solutions.',
     longDescription:
-      'Navigating the rapidly evolving AI tools landscape can be overwhelming. We help you select, implement, and optimize the right AI tools for your specific needs -- from enterprise platforms like ChatGPT and Claude to specialized tools for coding, design, and content creation.',
+      'Navigating the rapidly evolving AI tools landscape can be overwhelming. We help you select, implement, and optimize the right AI tools for your specific needs, from enterprise platforms like ChatGPT and Claude to specialized tools for coding, design, and content creation.',
     href: '/services/ai-tools',
     icon: IconTool,
     pillar: 'implement',
@@ -189,7 +189,7 @@ export const services: Service[] = [
     description:
       'Complete process modernization programs, including audit, agile delivery, change management, and AI-centered redesign.',
     longDescription:
-      'True digital transformation goes beyond technology -- it requires rethinking processes, culture, and workflows with AI at the center. We guide organizations through comprehensive transformation programs that deliver measurable business outcomes.',
+      'True digital transformation goes beyond technology, it requires rethinking processes, culture, and workflows with AI at the center. We guide organizations through comprehensive transformation programs that deliver measurable business outcomes.',
     href: '/services/digital-transformation',
     icon: IconTransform,
     pillar: 'transform',
@@ -230,7 +230,7 @@ export const pillars: Pillar[] = [
     title: 'Implement',
     subtitle: 'AI Tools & Build',
     description:
-      'We build and integrate AI solutions into your business -- from automated workflows and intelligent agents to conversational interfaces and enterprise tool deployments.',
+      'We build and integrate AI solutions into your business, from automated workflows and intelligent agents to conversational interfaces and enterprise tool deployments.',
     services: ['ai-automation', 'ai-agents', 'chatbots', 'ai-tools'],
   },
   {
@@ -238,7 +238,7 @@ export const pillars: Pillar[] = [
     title: 'Advise',
     subtitle: 'AI Consulting',
     description:
-      'We define the right AI strategy for your business -- assessing readiness, mapping opportunities, aligning objectives, and training your teams for successful AI adoption.',
+      'We define the right AI strategy for your business, assessing readiness, mapping opportunities, aligning objectives, and training your teams for successful AI adoption.',
     services: ['ai-consulting'],
   },
   {
@@ -246,7 +246,7 @@ export const pillars: Pillar[] = [
     title: 'Transform',
     subtitle: 'AI Processes',
     description:
-      'We redesign your processes with AI at the center -- auditing operations, implementing agile delivery, managing change, and driving comprehensive digital transformation.',
+      'We redesign your processes with AI at the center, auditing operations, implementing agile delivery, managing change, and driving comprehensive digital transformation.',
     services: ['digital-transformation'],
   },
 ]
