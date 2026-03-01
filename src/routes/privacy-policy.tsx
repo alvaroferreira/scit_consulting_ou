@@ -19,7 +19,7 @@ function PrivacyPolicyPage() {
         <div className="prose prose-zinc dark:prose-invert mx-auto max-w-3xl">
           <h2 className="text-xl font-bold mt-8">1. Introduction</h2>
           <p className="text-muted-foreground leading-relaxed mt-3">
-            SCIT Consulting O&Uuml; (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting your privacy.
+            SCIT Consulting (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) is committed to protecting your privacy.
             This Privacy Policy explains how we collect, use, and safeguard your personal
             information when you visit our website at scitconsulting.eu.
           </p>
@@ -62,7 +62,7 @@ function PrivacyPolicyPage() {
           <h2 className="text-xl font-bold mt-8">7. Contact</h2>
           <p className="text-muted-foreground leading-relaxed mt-3">
             For privacy-related inquiries, contact us at:<br />
-            SCIT Consulting O&Uuml;<br />
+            SCIT Consulting<br />
             Email: privacy@scitconsulting.eu
           </p>
         </div>

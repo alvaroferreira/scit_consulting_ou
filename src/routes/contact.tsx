@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { IconMail, IconBrandWhatsapp, IconCalendar } from '@tabler/icons-react'
+import { IconMessageCircle, IconCalendar } from '@tabler/icons-react'
 import { Section } from '@/components/shared/section'
 import { ContactForm } from '@/components/contact/contact-form'
 
@@ -35,54 +35,36 @@ function ContactPage() {
             </div>
 
             <div className="space-y-4">
-              <a
-                href="mailto:hello@scitconsulting.eu"
-                className="flex items-start gap-3 rounded-xl border border-border p-4 transition-colors hover:border-scit-purple/30"
-              >
+              <div className="flex items-start gap-3 rounded-xl border border-border p-4">
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-scit-purple/10 text-scit-purple">
-                  <IconMail size={20} />
+                  <IconMessageCircle size={20} />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold">Email</p>
-                  <p className="text-sm text-muted-foreground">hello@scitconsulting.eu</p>
+                  <p className="text-sm font-semibold">Send Us a Message</p>
+                  <p className="text-sm text-muted-foreground">Fill in the form and we&apos;ll get back to you</p>
                 </div>
-              </a>
+              </div>
 
               <a
-                href="https://wa.me/message/SCITCONSULTING"
+                href="https://cal.com/scitconsulting/consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-3 rounded-xl border border-border p-4 transition-colors hover:border-scit-purple/30"
               >
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-green-100 text-green-600 dark:bg-green-900/30">
-                  <IconBrandWhatsapp size={20} />
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-scit-cyan/10 text-scit-cyan">
+                  <IconCalendar size={20} />
                 </div>
                 <div>
-                  <p className="text-sm font-semibold">WhatsApp</p>
-                  <p className="text-sm text-muted-foreground">Quick message or call</p>
+                  <p className="text-sm font-semibold">Book a Call</p>
+                  <p className="text-sm text-muted-foreground">
+                    Schedule a 30-min consultation call
+                  </p>
                 </div>
               </a>
-
-              <div className="rounded-xl border border-border p-4">
-                <div className="flex items-start gap-3">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-scit-cyan/10 text-scit-cyan">
-                    <IconCalendar size={20} />
-                  </div>
-                  <div>
-                    <p className="text-sm font-semibold">Book a Call</p>
-                    <p className="text-sm text-muted-foreground">
-                      Schedule a 30-min consultation call
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
 
             <div className="rounded-xl bg-muted/50 p-4">
               <p className="text-xs text-muted-foreground">
-                <strong>SCIT Consulting O&Uuml;</strong><br />
-                Estonia, European Union<br />
-                <br />
                 We typically respond within 24 hours on business days.
               </p>
             </div>

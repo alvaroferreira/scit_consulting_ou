@@ -16,13 +16,17 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-scit-purple to-scit-cyan">
-            <span className="text-sm font-bold text-white">S</span>
-          </div>
-          <span className="text-lg font-bold tracking-tight">
-            SCIT<span className="text-scit-purple"> Consulting</span>
-          </span>
+        <Link to="/" className="flex items-center">
+          <img
+            src="/images/logo-black.png"
+            alt="SCIT Consulting"
+            className="h-8 dark:hidden"
+          />
+          <img
+            src="/images/logo-white.png"
+            alt="SCIT Consulting"
+            className="hidden h-8 dark:block"
+          />
         </Link>
 
         {/* Desktop Navigation */}

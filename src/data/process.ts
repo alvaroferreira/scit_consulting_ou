@@ -31,7 +31,7 @@ export const processSteps: ProcessStep[] = [
     number: 3,
     title: 'Implement',
     description:
-      'We build and deploy AI solutions iteratively, using agile methodology to deliver value fast and adapt as we learn.',
+      'We build and deploy AI solutions using agile development methodologies with live sharing of product evolution, so you follow every step of progress in real time.',
     icon: IconRocket,
   },
   {

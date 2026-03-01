@@ -72,7 +72,7 @@ function ApproachPage() {
             },
             {
               title: 'Iterative Delivery',
-              description: 'We deliver value in weeks, not months. Agile sprints ensure continuous progress and early feedback.',
+              description: 'We deliver value in weeks, not months. Agile sprints with live sharing of development progress ensure full transparency and early feedback.',
             },
             {
               title: 'Measurable Outcomes',

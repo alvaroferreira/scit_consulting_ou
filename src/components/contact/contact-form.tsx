@@ -71,8 +71,8 @@ export function ContactForm() {
       <div className="grid gap-6">
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-2">
-            <Label htmlFor="company">Company Name *</Label>
-            <Input id="company" name="company" required placeholder="Your company" />
+            <Label htmlFor="company">Company Name (optional)</Label>
+            <Input id="company" name="company" placeholder="Your company" />
           </div>
           <div className="space-y-2">
             <Label htmlFor="name">Contact Name *</Label>

@@ -19,7 +19,7 @@ function TermsPage() {
         <div className="prose prose-zinc dark:prose-invert mx-auto max-w-3xl">
           <h2 className="text-xl font-bold mt-8">1. Services</h2>
           <p className="text-muted-foreground leading-relaxed mt-3">
-            SCIT Consulting O&Uuml; provides AI consulting, implementation, and digital
+            SCIT Consulting provides AI consulting, implementation, and digital
             transformation services. All engagements are governed by individual service
             agreements that supplement these general terms.
           </p>
@@ -27,7 +27,7 @@ function TermsPage() {
           <h2 className="text-xl font-bold mt-8">2. Intellectual Property</h2>
           <p className="text-muted-foreground leading-relaxed mt-3">
             All content on this website, including text, graphics, logos, and code, is the
-            property of SCIT Consulting O&Uuml; and is protected by intellectual property laws.
+            property of SCIT Consulting and is protected by intellectual property laws.
             Client deliverables are owned by the client upon full payment, unless otherwise
             specified in the service agreement.
           </p>
@@ -47,14 +47,14 @@ function TermsPage() {
 
           <h2 className="text-xl font-bold mt-8">5. Governing Law</h2>
           <p className="text-muted-foreground leading-relaxed mt-3">
-            These terms are governed by the laws of the Republic of Estonia. Any disputes
-            shall be resolved in the courts of Tallinn, Estonia.
+            These terms are governed by applicable law. Any disputes
+            shall be resolved through appropriate legal channels.
           </p>
 
           <h2 className="text-xl font-bold mt-8">6. Contact</h2>
           <p className="text-muted-foreground leading-relaxed mt-3">
             For questions about these terms, contact us at:<br />
-            SCIT Consulting O&Uuml;<br />
+            SCIT Consulting<br />
             Email: hello@scitconsulting.eu
           </p>
         </div>

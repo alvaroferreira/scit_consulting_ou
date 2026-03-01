@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
-import { IconArrowRight, IconMapPin, IconBuildingSkyscraper, IconUsers } from '@tabler/icons-react'
+import { IconArrowRight, IconMapPin, IconBuildingSkyscraper, IconUsers, IconCertificate, IconWorld } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
@@ -32,29 +32,43 @@ function AboutPage() {
               AI-First Digital Transformation
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              SCIT Consulting is a boutique digital transformation consultancy registered
-              in Estonia (SCIT Consulting O&Uuml;). We specialize in helping businesses
-              leverage artificial intelligence to automate processes, build intelligent
-              systems, and transform their operations.
+              SCIT Consulting is a boutique digital transformation consultancy.
+              We specialize in helping businesses leverage artificial intelligence
+              to automate processes, build intelligent systems, and transform
+              their operations.
             </p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              With over 35 projects delivered across 6+ industries and 3 countries, we
-              bring deep expertise in AI agents, automation systems, conversational AI,
-              and strategic consulting. Our boutique approach means every client gets
-              senior-level attention and customized solutions.
+              Our team brings 15+ years of hands-on experience in executive consulting
+              and organizational transformation across multiple European markets &mdash;
+              including Portugal, Germany, Spain, and Czech Republic. We&apos;ve worked
+              in cities like Lisbon, Munich, D&uuml;sseldorf, Madrid, and Prague,
+              giving us a deep understanding of diverse business cultures and needs.
+            </p>
+            <p className="mt-4 text-muted-foreground leading-relaxed">
+              With over 35 projects delivered across industries such as IT &amp; Technology,
+              Financial Services, Retail &amp; E-commerce, Manufacturing, Healthcare,
+              and Telecommunications, we bring real-world expertise in AI agents,
+              automation systems, conversational AI, and strategic consulting.
+              Our boutique approach means every client gets senior-level attention
+              and customized solutions.
             </p>
           </div>
           <div className="grid gap-4 grid-cols-1">
             {[
               {
-                icon: IconBuildingSkyscraper,
-                title: 'SCIT Consulting O\u00DC',
-                description: 'Registered in Estonia, serving international clients.',
+                icon: IconWorld,
+                title: 'Multi-Market Experience',
+                description: 'Projects delivered across Lisbon, Munich, Düsseldorf, Madrid, and Prague.',
               },
               {
-                icon: IconMapPin,
-                title: 'Global Reach',
-                description: 'Operating across Europe with clients in 3+ countries.',
+                icon: IconBuildingSkyscraper,
+                title: '6+ Industries',
+                description: 'IT, Financial Services, Retail, Manufacturing, Healthcare, and Telecom.',
+              },
+              {
+                icon: IconCertificate,
+                title: 'Certified Agile Practices',
+                description: 'PSM II, PSPO II, and Kanban System Design certified team.',
               },
               {
                 icon: IconUsers,
