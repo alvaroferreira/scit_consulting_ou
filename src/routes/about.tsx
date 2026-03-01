@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
-import { IconArrowRight, IconMapPin, IconBuildingSkyscraper, IconUsers, IconCertificate, IconWorld } from '@tabler/icons-react'
+import { IconArrowRight, IconBuildingSkyscraper, IconUsers, IconCertificate, IconWorld } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
