@@ -52,7 +52,7 @@ function ContactPage() {
               </div>
 
               <a
-                href="https://cal.com/scitconsulting/consultation"
+                href="https://cal.eu/scitconsulting/consultation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-3 rounded-xl border border-border p-4 transition-colors hover:border-scit-purple/30"
