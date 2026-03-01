@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -11,6 +11,8 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { IconSend, IconCheck } from '@tabler/icons-react'
+
+const TURNSTILE_SITE_KEY = import.meta.env.VITE_TURNSTILE_SITE_KEY || '1x00000000000000000000AA' // test key fallback
 
 const serviceOptions = [
   'AI Automation',
@@ -41,15 +43,89 @@ const timelineOptions = [
 export function ContactForm() {
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
+  const turnstileRef = useRef<HTMLDivElement>(null)
+  const turnstileWidgetId = useRef<string | null>(null)
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  useEffect(() => {
+    // Load Turnstile script if not already loaded
+    if (!document.querySelector('script[src*="turnstile"]')) {
+      const script = document.createElement('script')
+      script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
+      script.async = true
+      script.defer = true
+      document.head.appendChild(script)
+      script.onload = renderTurnstile
+    } else if (window.turnstile) {
+      renderTurnstile()
+    } else {
+      // Script loaded but turnstile not ready yet — wait for it
+      const interval = setInterval(() => {
+        if (window.turnstile) {
+          clearInterval(interval)
+          renderTurnstile()
+        }
+      }, 100)
+      return () => clearInterval(interval)
+    }
+  }, [])
+
+  function renderTurnstile() {
+    if (!turnstileRef.current || turnstileWidgetId.current) return
+    turnstileWidgetId.current = window.turnstile.render(turnstileRef.current, {
+      sitekey: TURNSTILE_SITE_KEY,
+      callback: (token: string) => setTurnstileToken(token),
+      'expired-callback': () => setTurnstileToken(null),
+      'error-callback': () => setTurnstileToken(null),
+      theme: 'auto',
+    })
+  }
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    setError(null)
     setLoading(true)
-    // Simulate form submission
-    setTimeout(() => {
+
+    const formData = new FormData(e.currentTarget)
+
+    const payload = {
+      name: formData.get('name') as string,
+      email: formData.get('email') as string,
+      company: formData.get('company') as string,
+      phone: formData.get('phone') as string,
+      service: formData.get('service') as string,
+      budget: formData.get('budget') as string,
+      timeline: formData.get('timeline') as string,
+      description: formData.get('description') as string,
+      'cf-turnstile-response': turnstileToken || '',
+      _gotcha: formData.get('_gotcha') as string, // honeypot
+    }
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok || data.error) {
+        setError(data.error || 'Something went wrong. Please try again.')
+        // Reset Turnstile for retry
+        if (window.turnstile && turnstileWidgetId.current) {
+          window.turnstile.reset(turnstileWidgetId.current)
+          setTurnstileToken(null)
+        }
+      } else {
+        setSubmitted(true)
+      }
+    } catch {
+      setError('Network error. Please check your connection and try again.')
+    } finally {
       setLoading(false)
-      setSubmitted(true)
-    }, 1000)
+    }
   }
 
   if (submitted) {
@@ -69,6 +145,11 @@ export function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="rounded-xl border border-border bg-card p-6 md:p-8">
       <div className="grid gap-6">
+        {/* Honeypot — hidden from humans, bots fill it */}
+        <div className="absolute left-[-9999px]" aria-hidden="true">
+          <input type="text" name="_gotcha" tabIndex={-1} autoComplete="off" />
+        </div>
+
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-2">
             <Label htmlFor="company">Company Name (optional)</Label>
@@ -152,6 +233,13 @@ export function ContactForm() {
           />
           <p className="text-xs text-muted-foreground">Max 2000 characters</p>
         </div>
+
+        {/* Cloudflare Turnstile widget */}
+        <div ref={turnstileRef} className="flex justify-center" />
+
+        {error && (
+          <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
+        )}
 
         <Button
           type="submit"
