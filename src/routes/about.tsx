@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { IconArrowRight, IconBuildingSkyscraper, IconUsers, IconCertificate, IconWorld } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
+import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
 import { Stats } from '@/components/home/stats'
@@ -12,6 +13,11 @@ export const Route = createFileRoute('/about')({
 function AboutPage() {
   return (
     <>
+      <SEO
+        title="About Us"
+        description="SCIT Consulting is a boutique AI consultancy with 15+ years of experience in digital transformation across Europe. 35+ projects delivered across 6 industries."
+        path="/about"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple py-20 md:py-28">
         <div className="container mx-auto text-center">

@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 
 export const Route = createFileRoute('/terms')({
@@ -8,6 +9,11 @@ export const Route = createFileRoute('/terms')({
 function TermsPage() {
   return (
     <>
+      <SEO
+        title="Terms of Service"
+        description="Terms of service for SCIT Consulting AI consultancy and digital transformation services."
+        path="/terms"
+      />
       <section className="bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple py-16">
         <div className="container mx-auto text-center">
           <h1 className="text-3xl font-bold text-white md:text-4xl">Terms of Service</h1>

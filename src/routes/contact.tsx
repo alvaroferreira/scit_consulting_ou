@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { IconMessageCircle, IconCalendar } from '@tabler/icons-react'
+import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { ContactForm } from '@/components/contact/contact-form'
 
@@ -10,6 +11,11 @@ export const Route = createFileRoute('/contact')({
 function ContactPage() {
   return (
     <>
+      <SEO
+        title="Contact Us"
+        description="Ready to transform your business with AI? Get in touch with SCIT Consulting. Book a free consultation or send us a message."
+        path="/contact"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple py-20 md:py-28">
         <div className="container mx-auto text-center">

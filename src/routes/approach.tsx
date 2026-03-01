@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { IconArrowRight, IconCheck } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
+import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
 import { processSteps } from '@/data/process'
@@ -12,6 +13,11 @@ export const Route = createFileRoute('/approach')({
 function ApproachPage() {
   return (
     <>
+      <SEO
+        title="Our Approach"
+        description="A proven four-phase methodology that ensures every AI initiative delivers measurable business results. From discovery to optimization."
+        path="/approach"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple py-20 md:py-28">
         <div className="container mx-auto text-center">

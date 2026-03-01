@@ -6,13 +6,13 @@ export function Hero() {
   return (
     <section className="relative overflow-hidden bg-scit-deep">
       {/* Video Background */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0" aria-hidden="true">
         <video
           autoPlay
           muted
           loop
           playsInline
-          preload="auto"
+          preload="metadata"
           className="h-full w-full object-cover"
         >
           <source src="/videos/hero-bg.mp4" type="video/mp4" />

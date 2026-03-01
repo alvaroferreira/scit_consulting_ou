@@ -3,15 +3,15 @@ import { stats } from '@/data/stats'
 
 export function Stats() {
   return (
-    <section className="relative overflow-hidden bg-scit-deep py-16">
+    <section className="relative overflow-hidden bg-scit-deep py-16" aria-label="Company statistics">
       {/* Video Background */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0" aria-hidden="true">
         <video
           autoPlay
           muted
           loop
           playsInline
-          preload="auto"
+          preload="metadata"
           className="h-full w-full object-cover"
         >
           <source src="/videos/particles.mp4" type="video/mp4" />

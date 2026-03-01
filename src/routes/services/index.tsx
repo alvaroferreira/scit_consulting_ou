@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { IconArrowRight } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
+import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
 import { services, pillars } from '@/data/services'
@@ -19,6 +20,11 @@ const pillarIcons = {
 function ServicesPage() {
   return (
     <>
+      <SEO
+        title="AI Services"
+        description="Comprehensive AI solutions: automation, custom agents, chatbots, AI tools implementation, strategic consulting, and digital transformation."
+        path="/services"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple py-20 md:py-28">
         <div className="container mx-auto text-center">

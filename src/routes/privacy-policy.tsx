@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 
 export const Route = createFileRoute('/privacy-policy')({
@@ -8,6 +9,11 @@ export const Route = createFileRoute('/privacy-policy')({
 function PrivacyPolicyPage() {
   return (
     <>
+      <SEO
+        title="Privacy Policy"
+        description="Privacy policy for SCIT Consulting. Learn how we collect, use, and protect your personal data in compliance with GDPR."
+        path="/privacy-policy"
+      />
       <section className="bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple py-16">
         <div className="container mx-auto text-center">
           <h1 className="text-3xl font-bold text-white md:text-4xl">Privacy Policy</h1>

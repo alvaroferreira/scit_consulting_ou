@@ -1,6 +1,7 @@
 import { Link } from '@tanstack/react-router'
 import { IconArrowRight, IconCheck } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
+import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { services, type Service } from '@/data/services'
 
@@ -22,6 +23,11 @@ export function ServicePage({ serviceId }: ServicePageProps) {
 
   return (
     <>
+      <SEO
+        title={service.title}
+        description={service.description}
+        path={service.href}
+      />
       <ServiceHero service={service} />
       <ServiceFeatures service={service} />
       <ServiceBenefits service={service} />
@@ -37,13 +43,13 @@ function ServiceHero({ service }: { service: Service }) {
   return (
     <section className="relative overflow-hidden bg-scit-deep py-20 md:py-28">
       {/* Video Background */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0" aria-hidden="true">
         <video
           autoPlay
           muted
           loop
           playsInline
-          preload="auto"
+          preload="metadata"
           className="h-full w-full object-cover"
         >
           <source src="/videos/corporate-tech.mp4" type="video/mp4" />
