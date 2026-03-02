@@ -1,0 +1,36 @@
+# SCIT Consulting
+
+> AI-first digital transformation consultancy based in Estonia, serving businesses across Europe.
+
+## What We Do
+
+SCIT Consulting helps businesses leverage artificial intelligence to automate processes, build intelligent systems, and transform operations. We specialize in:
+
+- AI Automation & Process Automation
+- Custom AI Agents
+- Chatbots & Conversational AI
+- AI Tools Implementation
+- AI Strategy & Consulting
+- Digital Transformation
+
+## Who We Serve
+
+We work with businesses across Healthcare, Financial Services, Retail & E-Commerce, and B2B Services. Our team brings 15+ years of hands-on experience in executive consulting and organizational transformation across European markets including Portugal, Germany, Spain, and Czech Republic.
+
+## Key Facts
+
+- 35+ projects delivered
+- 6+ industries served
+- 3 European markets
+- 95% client satisfaction
+- Based in Tallinn, Estonia
+
+## Contact
+
+- Website: https://scitconsulting.eu
+- Contact: https://scitconsulting.eu/contact
+- Book a call: https://cal.eu/scitconsulting/consultation
+
+## More Info
+
+For detailed information including case studies, blog articles, and service descriptions, see: https://scitconsulting.eu/llms-full.txt

@@ -1,0 +1,85 @@
+# SCIT Consulting — Full Company Profile
+
+> AI-first digital transformation consultancy based in Estonia, serving businesses across Europe.
+
+## Company Overview
+
+SCIT Consulting is a boutique digital transformation consultancy specializing in helping businesses leverage artificial intelligence to automate processes, build intelligent systems, and transform their operations. Founded in Estonia, we serve clients across European markets.
+
+Our team brings 15+ years of hands-on experience in executive consulting and organizational transformation. We have worked across multiple European markets including Portugal, Germany, Spain, and Czech Republic — in cities like Lisbon, Munich, Düsseldorf, Madrid, and Prague.
+
+With over 35 projects delivered across industries such as IT & Technology, Financial Services, Retail & E-commerce, Manufacturing, Healthcare, and Telecommunications, we bring real-world expertise in AI agents, automation systems, conversational AI, and strategic consulting.
+
+## Services
+
+### AI Automation & Process Automation
+Identify and automate repetitive business processes using AI. We build intelligent workflows that reduce manual effort, minimize errors, and free your team to focus on high-value work.
+
+### Custom AI Agents
+Purpose-built AI agents that work alongside your team. From lead qualification to customer support, our agents handle complex tasks autonomously while learning from your business context.
+
+### Chatbots & Conversational AI
+Intelligent conversational interfaces for customer support, sales, and internal operations. Multi-language support with natural language understanding.
+
+### AI Tools Implementation
+Strategic selection and deployment of AI tools across your organization. We evaluate, integrate, and optimize tools like ChatGPT, Claude, Gemini, and open-source models for your specific workflows.
+
+### AI Strategy & Consulting
+Comprehensive AI readiness assessments, roadmap development, and strategic planning. We help leadership teams understand where AI creates the most value and build a practical path to implementation.
+
+### Digital Transformation
+End-to-end transformation programs that modernize operations, digitize workflows, and embed AI across your organization. From legacy systems to AI-native operations.
+
+## Case Studies
+
+### Multi-Location Physiotherapy Clinic Chain (Healthcare)
+Challenge: Patient scheduling inefficiencies, high no-show rates, fragmented communication across clinics.
+Results: 42% no-show reduction, 25 hours/week staff time saved, 94% patient satisfaction, 3x faster booking.
+
+### Leading Luxury Elderly Care Provider (Healthcare)
+Challenge: Modernize operations without compromising personalized, high-touch service.
+Results: 60% documentation time reduction, 85% family engagement increase, 97% care quality score, 35% staff retention improvement.
+
+### European B2B Services Company (B2B Services)
+Challenge: Slow response times, inconsistent proposal quality, 70% of sales time on admin tasks.
+Results: 75% proposal time reduction, 28% win rate increase, 40% revenue growth, 80% faster lead response.
+
+### Real Estate Management Portfolio (Real Estate)
+Challenge: Tenant communication delays, maintenance request backlogs, manual document management.
+Results: 90% response time reduction, 30% maintenance cost decrease, 88% tenant satisfaction, 65% requests automated.
+
+### Medical Clinic Network (Healthcare)
+Challenge: Implement AI tools across clinic network without disrupting workflows or compromising data privacy.
+Results: 45% operational efficiency improvement, 98% documentation accuracy, €250K annual cost savings, 92% staff AI adoption.
+
+## Frequently Asked Questions
+
+Q: What industries does SCIT Consulting serve?
+A: We primarily serve Healthcare, Financial Services, Retail & E-Commerce, and B2B Services, though our AI solutions are applicable across many industries.
+
+Q: Where is SCIT Consulting based?
+A: We are based in Tallinn, Estonia, and serve clients across Europe.
+
+Q: What AI models do you work with?
+A: We work with all major AI models including Claude (Anthropic), GPT (OpenAI), Gemini (Google), and various open-source models. We choose the best fit for each project.
+
+Q: How long does a typical AI implementation take?
+A: Depending on scope, projects range from 4-6 weeks for focused automation to 3-6 months for comprehensive digital transformation programs.
+
+Q: Do you offer AI strategy consulting without implementation?
+A: Yes. We offer standalone AI readiness assessments and strategy consulting to help businesses understand their AI opportunities before committing to implementation.
+
+## Values
+
+- Impact Over Hype: Real business outcomes, not trendy tech demos.
+- Quality Over Speed: Solutions that work reliably and scale sustainably.
+- Partnership Over Projects: Long-term relationships, not one-off engagements.
+- Transparency Over Promises: Honest communication about what AI can and cannot do.
+
+## Contact
+
+- Website: https://scitconsulting.eu
+- Contact page: https://scitconsulting.eu/contact
+- Book a consultation: https://cal.eu/scitconsulting/consultation
+- Case studies: https://scitconsulting.eu/case-studies
+- Blog: https://scitconsulting.eu/blog
