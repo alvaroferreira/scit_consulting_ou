@@ -1,28 +1,28 @@
 import { useEffect } from 'react'
 
-const CHATBASE_BOT_ID = import.meta.env.VITE_CHATBASE_BOT_ID || ''
-
 export function ChatbotWidget() {
   useEffect(() => {
-    // Only load if bot ID is configured
-    if (!CHATBASE_BOT_ID) return
-
     // Avoid loading twice
-    if (document.getElementById('chatbase-script')) return
+    if (document.getElementById('botpress-inject-script')) return
 
-    const script = document.createElement('script')
-    script.id = 'chatbase-script'
-    script.src = 'https://www.chatbase.co/embed.min.js'
-    script.defer = true
-    script.setAttribute('chatbotId', CHATBASE_BOT_ID)
-    document.body.appendChild(script)
+    const injectScript = document.createElement('script')
+    injectScript.id = 'botpress-inject-script'
+    injectScript.src = 'https://cdn.botpress.cloud/webchat/v3.6/inject.js'
+    document.body.appendChild(injectScript)
+
+    const configScript = document.createElement('script')
+    configScript.id = 'botpress-config-script'
+    configScript.src =
+      'https://files.bpcontent.cloud/2026/03/02/11/20260302112803-6V4SVWKB.js'
+    configScript.defer = true
+    document.body.appendChild(configScript)
 
     return () => {
-      const existing = document.getElementById('chatbase-script')
-      if (existing) existing.remove()
+      document.getElementById('botpress-inject-script')?.remove()
+      document.getElementById('botpress-config-script')?.remove()
     }
   }, [])
 
-  // Render nothing — Chatbase injects its own UI
+  // Render nothing — Botpress injects its own UI
   return null
 }
