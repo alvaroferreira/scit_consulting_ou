@@ -1,0 +1,178 @@
+{
+  "page": {
+    "title": "Case Studies",
+    "subtitle": "Real results from real projects. See how we've helped businesses transform with AI.",
+    "filterAll": "All"
+  },
+  "template": {
+    "theChallenge": "The Challenge",
+    "ourApproach": "Our Approach",
+    "theSolution": "The Solution",
+    "results": "Results",
+    "techStack": "Technology Stack",
+    "ctaTitle": "Ready for Similar Results?",
+    "ctaSubtitle": "Let's discuss how we can help your business achieve measurable outcomes with AI.",
+    "moreCaseStudies": "More Case Studies",
+    "getInTouch": "Get in Touch",
+    "readCaseStudy": "Read Case Study",
+    "notFound": "Case Study Not Found",
+    "notFoundMessage": "The case study you are looking for does not exist."
+  },
+  "caseStudies": {
+    "physiotherapy-clinic-chain": {
+      "title": "Multi-Location Physiotherapy Clinic Chain",
+      "industry": "Healthcare",
+      "industryCategory": "Healthcare",
+      "challenge": "A multi-location physiotherapy clinic chain was struggling with patient scheduling inefficiencies, high no-show rates, and fragmented communication across clinics. Staff spent excessive time on manual appointment management, reducing their capacity to focus on patient care.",
+      "approach": [
+        "Audited existing scheduling workflows and identified bottleneck patterns across all locations",
+        "Designed an AI-powered scheduling assistant that learns patient preferences and optimizes appointment slots",
+        "Implemented automated reminders via SMS and email with intelligent re-scheduling suggestions",
+        "Built a centralized dashboard for cross-location visibility and resource allocation"
+      ],
+      "solution": "We deployed a custom AI scheduling system integrated with their existing clinic management software. The solution uses predictive analytics to identify patients at risk of no-shows and proactively reaches out with alternative time slots. A conversational AI assistant handles booking, rescheduling, and cancellations across all locations through a unified interface.",
+      "results": [
+        {
+          "metric": "No-Show Reduction",
+          "description": "Decrease in patient no-shows through predictive outreach"
+        },
+        {
+          "metric": "Staff Hours Saved",
+          "description": "Weekly hours freed from manual scheduling tasks"
+        },
+        {
+          "metric": "Patient Satisfaction",
+          "description": "Satisfaction score for the booking experience"
+        },
+        {
+          "metric": "Booking Efficiency",
+          "description": "Faster appointment scheduling across locations"
+        }
+      ]
+    },
+    "luxury-elderly-care": {
+      "title": "Leading Luxury Elderly Care Provider",
+      "industry": "Healthcare",
+      "industryCategory": "Healthcare",
+      "challenge": "A premium elderly care provider needed to modernize their operations without compromising the personalized, high-touch service their residents expected. Their legacy systems created data silos between care teams, administration, and family communications.",
+      "approach": [
+        "Conducted stakeholder interviews with care staff, administrators, and resident families",
+        "Mapped the full care journey to identify digital intervention points that enhance rather than replace human touch",
+        "Developed a phased digital transformation roadmap prioritizing quick wins",
+        "Implemented AI tools for care documentation and family communication while preserving personal relationships"
+      ],
+      "solution": "We created a digital transformation strategy centered on an AI-enhanced care coordination platform. The system automates routine documentation, generates intelligent care insights from daily observations, and provides families with personalized updates. Voice-to-text AI helps caregivers document interactions naturally without disrupting their workflow.",
+      "results": [
+        {
+          "metric": "Documentation Time",
+          "description": "Reduction in time spent on care documentation"
+        },
+        {
+          "metric": "Family Engagement",
+          "description": "Increase in family portal usage and satisfaction"
+        },
+        {
+          "metric": "Care Quality Score",
+          "description": "Quality audit score after implementation"
+        },
+        {
+          "metric": "Staff Retention",
+          "description": "Improvement in staff retention over 12 months"
+        }
+      ]
+    },
+    "european-b2b-services": {
+      "title": "European B2B Services Company",
+      "industry": "B2B Services",
+      "industryCategory": "B2B Services",
+      "challenge": "A European B2B services company was losing deals due to slow response times and inconsistent proposal quality. Their sales team spent 70% of their time on administrative tasks rather than building client relationships, and cross-border operations added complexity to their workflows.",
+      "approach": [
+        "Analyzed the full sales pipeline to identify where AI could have the highest impact",
+        "Designed custom AI agents for proposal generation, lead qualification, and follow-up automation",
+        "Integrated AI tools with their existing CRM and communication platforms",
+        "Trained the sales team on AI-augmented workflows while maintaining their consultative approach"
+      ],
+      "solution": "We built a suite of AI agents that automate the heavy lifting in the sales process. A proposal generator creates customized, on-brand proposals in minutes rather than hours. An intelligent lead scoring system prioritizes high-value opportunities. Automated follow-up sequences maintain engagement while the sales team focuses on strategic conversations.",
+      "results": [
+        {
+          "metric": "Proposal Time",
+          "description": "Reduction in time from brief to finished proposal"
+        },
+        {
+          "metric": "Win Rate",
+          "description": "Increase in proposal-to-close conversion rate"
+        },
+        {
+          "metric": "Revenue Growth",
+          "description": "Year-over-year revenue increase attributed to AI workflows"
+        },
+        {
+          "metric": "Response Time",
+          "description": "Faster average response to incoming leads"
+        }
+      ]
+    },
+    "real-estate-portfolio": {
+      "title": "Real Estate Management Portfolio",
+      "industry": "Real Estate",
+      "industryCategory": "Real Estate",
+      "challenge": "A real estate management company overseeing a diverse portfolio of properties was drowning in tenant communications, maintenance requests, and document management. Manual processes led to delayed responses, missed maintenance windows, and tenant dissatisfaction.",
+      "approach": [
+        "Mapped all tenant touchpoints and identified repetitive patterns suitable for AI automation",
+        "Built a conversational AI chatbot for 24/7 tenant support and maintenance request triage",
+        "Implemented intelligent document processing for lease management and compliance",
+        "Created predictive maintenance models based on historical data and property characteristics"
+      ],
+      "solution": "We deployed an AI-powered property management assistant that handles tenant inquiries, triages maintenance requests by urgency, and automates document workflows. The chatbot manages routine communications in multiple languages while escalating complex issues to human managers. Predictive maintenance algorithms help prevent costly emergency repairs.",
+      "results": [
+        {
+          "metric": "Response Time",
+          "description": "Reduction in average tenant response time"
+        },
+        {
+          "metric": "Maintenance Costs",
+          "description": "Decrease in emergency maintenance expenses"
+        },
+        {
+          "metric": "Tenant Satisfaction",
+          "description": "Overall tenant satisfaction rating"
+        },
+        {
+          "metric": "Requests Automated",
+          "description": "Tenant requests handled without human intervention"
+        }
+      ]
+    },
+    "medical-clinic-network": {
+      "title": "Medical Clinic Network",
+      "industry": "Healthcare",
+      "industryCategory": "Healthcare",
+      "challenge": "A network of medical clinics needed to implement AI tools across their operations but lacked internal expertise. They wanted to leverage AI for clinical documentation, patient triage, and operational analytics without disrupting existing workflows or compromising data privacy.",
+      "approach": [
+        "Conducted an AI readiness assessment across all clinics to evaluate infrastructure and staff capabilities",
+        "Developed a prioritized AI implementation roadmap with clear ROI projections for each initiative",
+        "Implemented AI tools in pilot clinics first, measuring impact before network-wide rollout",
+        "Established AI governance policies and training programs for all staff levels"
+      ],
+      "solution": "We provided end-to-end AI strategy consulting, starting with a comprehensive readiness assessment and culminating in a phased rollout across the clinic network. AI-powered tools now assist with clinical documentation, patient intake, and operational reporting. A custom analytics dashboard provides network-wide insights for data-driven decision making.",
+      "results": [
+        {
+          "metric": "Operational Efficiency",
+          "description": "Improvement in overall operational efficiency"
+        },
+        {
+          "metric": "Documentation Accuracy",
+          "description": "Clinical documentation accuracy with AI assistance"
+        },
+        {
+          "metric": "Cost Savings",
+          "description": "Annual cost savings from AI-driven process improvements"
+        },
+        {
+          "metric": "Staff Adoption",
+          "description": "Staff AI tool adoption rate after training program"
+        }
+      ]
+    }
+  }
+}

@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next'
+
 const partners = [
   { name: 'OpenAI', logo: '/images/partners/openai.svg' },
   { name: 'Anthropic', logo: '/images/partners/anthropic.svg' },
@@ -9,11 +11,12 @@ const partners = [
 ]
 
 export function TechPartners() {
+  const { t } = useTranslation('home')
   return (
     <section className="border-b border-border bg-muted/30 py-8">
       <div className="container mx-auto">
         <p className="mb-6 text-center text-xs font-medium uppercase tracking-wider text-muted-foreground">
-          Built with leading AI &amp; cloud platforms
+          {t('techPartners.title')}
         </p>
         <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
           {partners.map((partner) => (

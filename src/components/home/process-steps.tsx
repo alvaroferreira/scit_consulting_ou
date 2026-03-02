@@ -1,22 +1,36 @@
+import { useTranslation } from 'react-i18next'
+import {
+  IconSearch,
+  IconMap,
+  IconRocket,
+  IconTrendingUp,
+} from '@tabler/icons-react'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
-import { processSteps } from '@/data/process'
+
+const steps = [
+  { id: 'diagnose', number: 1, icon: IconSearch },
+  { id: 'plan', number: 2, icon: IconMap },
+  { id: 'implement', number: 3, icon: IconRocket },
+  { id: 'scale', number: 4, icon: IconTrendingUp },
+]
 
 export function ProcessSteps() {
+  const { t } = useTranslation('home')
   return (
     <Section>
       <SectionHeading
-        title="Our Approach"
-        subtitle="A proven methodology that ensures every AI initiative delivers measurable business results."
+        title={t('process.sectionTitle')}
+        subtitle={t('process.sectionSubtitle')}
       />
 
       <div className="grid gap-8 md:grid-cols-4">
-        {processSteps.map((step, index) => {
+        {steps.map((step, index) => {
           const Icon = step.icon
           return (
-            <div key={step.number} className="relative text-center">
+            <div key={step.id} className="relative text-center">
               {/* Connector line */}
-              {index < processSteps.length - 1 && (
+              {index < steps.length - 1 && (
                 <div className="absolute top-6 left-[calc(50%+24px)] hidden h-0.5 w-[calc(100%-48px)] bg-gradient-to-r from-scit-purple/30 to-scit-cyan/30 md:block" />
               )}
 
@@ -25,11 +39,11 @@ export function ProcessSteps() {
               </div>
 
               <div className="text-xs font-medium text-scit-purple mb-1">
-                Step {step.number}
+                {t('process.stepLabel')} {step.number}
               </div>
-              <h3 className="text-lg font-bold">{step.title}</h3>
+              <h3 className="text-lg font-bold">{t(`process.steps.${step.id}.title`)}</h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                {step.description}
+                {t(`process.steps.${step.id}.description`)}
               </p>
             </div>
           )

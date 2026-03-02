@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
 
@@ -7,40 +8,16 @@ interface TimelineEvent {
   description: string
 }
 
-const timeline: TimelineEvent[] = [
-  {
-    year: '2010',
-    title: 'Consulting Roots',
-    description: 'Started in enterprise consulting, leading digital transformation projects across Europe.',
-  },
-  {
-    year: '2018',
-    title: 'AI Focus',
-    description: 'Shifted focus to artificial intelligence, building early automation and chatbot solutions.',
-  },
-  {
-    year: '2023',
-    title: 'SCIT Consulting Founded',
-    description: 'Established SCIT Consulting in Estonia as an AI-native consultancy for European businesses.',
-  },
-  {
-    year: '2024',
-    title: 'AI Agents & LLMs',
-    description: 'Expanded into custom AI agents, LLM integrations, and advanced automation using Claude, GPT, and Gemini.',
-  },
-  {
-    year: '2025',
-    title: '35+ Projects Milestone',
-    description: 'Surpassed 35 projects across 6 industries with a 95% client satisfaction rate.',
-  },
-]
-
 export function CompanyTimeline() {
+  const { t } = useTranslation('about')
+
+  const timeline = t('timeline.events', { returnObjects: true }) as TimelineEvent[]
+
   return (
     <Section className="bg-muted/30">
       <SectionHeading
-        title="Our Journey"
-        subtitle="From enterprise consulting to AI-native solutions."
+        title={t('timeline.title')}
+        subtitle={t('timeline.subtitle')}
       />
       <div className="mx-auto max-w-2xl">
         <div className="relative border-l-2 border-scit-purple/20 pl-8">

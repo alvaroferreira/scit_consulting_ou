@@ -9,55 +9,32 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as TermsRouteImport } from './routes/terms'
-import { Route as ResourcesRouteImport } from './routes/resources'
-import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
-import { Route as ContactRouteImport } from './routes/contact'
-import { Route as ApproachRouteImport } from './routes/approach'
-import { Route as AboutRouteImport } from './routes/about'
+import { Route as LocaleRouteImport } from './routes/$locale'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as ServicesIndexRouteImport } from './routes/services/index'
-import { Route as CaseStudiesIndexRouteImport } from './routes/case-studies/index'
-import { Route as BlogIndexRouteImport } from './routes/blog/index'
-import { Route as ToolsRoiCalculatorRouteImport } from './routes/tools/roi-calculator'
-import { Route as ToolsAiReadinessAssessmentRouteImport } from './routes/tools/ai-readiness-assessment'
-import { Route as ServicesDigitalTransformationRouteImport } from './routes/services/digital-transformation'
-import { Route as ServicesChatbotsRouteImport } from './routes/services/chatbots'
-import { Route as ServicesAiToolsRouteImport } from './routes/services/ai-tools'
-import { Route as ServicesAiConsultingRouteImport } from './routes/services/ai-consulting'
-import { Route as ServicesAiAutomationRouteImport } from './routes/services/ai-automation'
-import { Route as ServicesAiAgentsRouteImport } from './routes/services/ai-agents'
-import { Route as CaseStudiesSlugRouteImport } from './routes/case-studies/$slug'
-import { Route as BlogSlugRouteImport } from './routes/blog/$slug'
+import { Route as LocaleIndexRouteImport } from './routes/$locale/index'
+import { Route as LocaleTermsRouteImport } from './routes/$locale/terms'
+import { Route as LocaleResourcesRouteImport } from './routes/$locale/resources'
+import { Route as LocalePrivacyPolicyRouteImport } from './routes/$locale/privacy-policy'
+import { Route as LocaleContactRouteImport } from './routes/$locale/contact'
+import { Route as LocaleApproachRouteImport } from './routes/$locale/approach'
+import { Route as LocaleAboutRouteImport } from './routes/$locale/about'
+import { Route as LocaleServicesIndexRouteImport } from './routes/$locale/services/index'
+import { Route as LocaleCaseStudiesIndexRouteImport } from './routes/$locale/case-studies/index'
+import { Route as LocaleBlogIndexRouteImport } from './routes/$locale/blog/index'
+import { Route as LocaleToolsRoiCalculatorRouteImport } from './routes/$locale/tools/roi-calculator'
+import { Route as LocaleToolsAiReadinessAssessmentRouteImport } from './routes/$locale/tools/ai-readiness-assessment'
+import { Route as LocaleServicesDigitalTransformationRouteImport } from './routes/$locale/services/digital-transformation'
+import { Route as LocaleServicesChatbotsRouteImport } from './routes/$locale/services/chatbots'
+import { Route as LocaleServicesAiToolsRouteImport } from './routes/$locale/services/ai-tools'
+import { Route as LocaleServicesAiConsultingRouteImport } from './routes/$locale/services/ai-consulting'
+import { Route as LocaleServicesAiAutomationRouteImport } from './routes/$locale/services/ai-automation'
+import { Route as LocaleServicesAiAgentsRouteImport } from './routes/$locale/services/ai-agents'
+import { Route as LocaleCaseStudiesSlugRouteImport } from './routes/$locale/case-studies/$slug'
+import { Route as LocaleBlogSlugRouteImport } from './routes/$locale/blog/$slug'
 
-const TermsRoute = TermsRouteImport.update({
-  id: '/terms',
-  path: '/terms',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ResourcesRoute = ResourcesRouteImport.update({
-  id: '/resources',
-  path: '/resources',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
-  id: '/privacy-policy',
-  path: '/privacy-policy',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ContactRoute = ContactRouteImport.update({
-  id: '/contact',
-  path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ApproachRoute = ApproachRouteImport.update({
-  id: '/approach',
-  path: '/approach',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
+const LocaleRoute = LocaleRouteImport.update({
+  id: '/$locale',
+  path: '/$locale',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -65,275 +42,270 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ServicesIndexRoute = ServicesIndexRouteImport.update({
+const LocaleIndexRoute = LocaleIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleTermsRoute = LocaleTermsRouteImport.update({
+  id: '/terms',
+  path: '/terms',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleResourcesRoute = LocaleResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocalePrivacyPolicyRoute = LocalePrivacyPolicyRouteImport.update({
+  id: '/privacy-policy',
+  path: '/privacy-policy',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleContactRoute = LocaleContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleApproachRoute = LocaleApproachRouteImport.update({
+  id: '/approach',
+  path: '/approach',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleAboutRoute = LocaleAboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleServicesIndexRoute = LocaleServicesIndexRouteImport.update({
   id: '/services/',
   path: '/services/',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const CaseStudiesIndexRoute = CaseStudiesIndexRouteImport.update({
+const LocaleCaseStudiesIndexRoute = LocaleCaseStudiesIndexRouteImport.update({
   id: '/case-studies/',
   path: '/case-studies/',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const BlogIndexRoute = BlogIndexRouteImport.update({
+const LocaleBlogIndexRoute = LocaleBlogIndexRouteImport.update({
   id: '/blog/',
   path: '/blog/',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const ToolsRoiCalculatorRoute = ToolsRoiCalculatorRouteImport.update({
-  id: '/tools/roi-calculator',
-  path: '/tools/roi-calculator',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ToolsAiReadinessAssessmentRoute =
-  ToolsAiReadinessAssessmentRouteImport.update({
+const LocaleToolsRoiCalculatorRoute =
+  LocaleToolsRoiCalculatorRouteImport.update({
+    id: '/tools/roi-calculator',
+    path: '/tools/roi-calculator',
+    getParentRoute: () => LocaleRoute,
+  } as any)
+const LocaleToolsAiReadinessAssessmentRoute =
+  LocaleToolsAiReadinessAssessmentRouteImport.update({
     id: '/tools/ai-readiness-assessment',
     path: '/tools/ai-readiness-assessment',
-    getParentRoute: () => rootRouteImport,
+    getParentRoute: () => LocaleRoute,
   } as any)
-const ServicesDigitalTransformationRoute =
-  ServicesDigitalTransformationRouteImport.update({
+const LocaleServicesDigitalTransformationRoute =
+  LocaleServicesDigitalTransformationRouteImport.update({
     id: '/services/digital-transformation',
     path: '/services/digital-transformation',
-    getParentRoute: () => rootRouteImport,
+    getParentRoute: () => LocaleRoute,
   } as any)
-const ServicesChatbotsRoute = ServicesChatbotsRouteImport.update({
+const LocaleServicesChatbotsRoute = LocaleServicesChatbotsRouteImport.update({
   id: '/services/chatbots',
   path: '/services/chatbots',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const ServicesAiToolsRoute = ServicesAiToolsRouteImport.update({
+const LocaleServicesAiToolsRoute = LocaleServicesAiToolsRouteImport.update({
   id: '/services/ai-tools',
   path: '/services/ai-tools',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const ServicesAiConsultingRoute = ServicesAiConsultingRouteImport.update({
-  id: '/services/ai-consulting',
-  path: '/services/ai-consulting',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ServicesAiAutomationRoute = ServicesAiAutomationRouteImport.update({
-  id: '/services/ai-automation',
-  path: '/services/ai-automation',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ServicesAiAgentsRoute = ServicesAiAgentsRouteImport.update({
+const LocaleServicesAiConsultingRoute =
+  LocaleServicesAiConsultingRouteImport.update({
+    id: '/services/ai-consulting',
+    path: '/services/ai-consulting',
+    getParentRoute: () => LocaleRoute,
+  } as any)
+const LocaleServicesAiAutomationRoute =
+  LocaleServicesAiAutomationRouteImport.update({
+    id: '/services/ai-automation',
+    path: '/services/ai-automation',
+    getParentRoute: () => LocaleRoute,
+  } as any)
+const LocaleServicesAiAgentsRoute = LocaleServicesAiAgentsRouteImport.update({
   id: '/services/ai-agents',
   path: '/services/ai-agents',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const CaseStudiesSlugRoute = CaseStudiesSlugRouteImport.update({
+const LocaleCaseStudiesSlugRoute = LocaleCaseStudiesSlugRouteImport.update({
   id: '/case-studies/$slug',
   path: '/case-studies/$slug',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
-const BlogSlugRoute = BlogSlugRouteImport.update({
+const LocaleBlogSlugRoute = LocaleBlogSlugRouteImport.update({
   id: '/blog/$slug',
   path: '/blog/$slug',
-  getParentRoute: () => rootRouteImport,
+  getParentRoute: () => LocaleRoute,
 } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
-  '/approach': typeof ApproachRoute
-  '/contact': typeof ContactRoute
-  '/privacy-policy': typeof PrivacyPolicyRoute
-  '/resources': typeof ResourcesRoute
-  '/terms': typeof TermsRoute
-  '/blog/$slug': typeof BlogSlugRoute
-  '/case-studies/$slug': typeof CaseStudiesSlugRoute
-  '/services/ai-agents': typeof ServicesAiAgentsRoute
-  '/services/ai-automation': typeof ServicesAiAutomationRoute
-  '/services/ai-consulting': typeof ServicesAiConsultingRoute
-  '/services/ai-tools': typeof ServicesAiToolsRoute
-  '/services/chatbots': typeof ServicesChatbotsRoute
-  '/services/digital-transformation': typeof ServicesDigitalTransformationRoute
-  '/tools/ai-readiness-assessment': typeof ToolsAiReadinessAssessmentRoute
-  '/tools/roi-calculator': typeof ToolsRoiCalculatorRoute
-  '/blog/': typeof BlogIndexRoute
-  '/case-studies/': typeof CaseStudiesIndexRoute
-  '/services/': typeof ServicesIndexRoute
+  '/$locale': typeof LocaleRouteWithChildren
+  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/approach': typeof LocaleApproachRoute
+  '/$locale/contact': typeof LocaleContactRoute
+  '/$locale/privacy-policy': typeof LocalePrivacyPolicyRoute
+  '/$locale/resources': typeof LocaleResourcesRoute
+  '/$locale/terms': typeof LocaleTermsRoute
+  '/$locale/': typeof LocaleIndexRoute
+  '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
+  '/$locale/case-studies/$slug': typeof LocaleCaseStudiesSlugRoute
+  '/$locale/services/ai-agents': typeof LocaleServicesAiAgentsRoute
+  '/$locale/services/ai-automation': typeof LocaleServicesAiAutomationRoute
+  '/$locale/services/ai-consulting': typeof LocaleServicesAiConsultingRoute
+  '/$locale/services/ai-tools': typeof LocaleServicesAiToolsRoute
+  '/$locale/services/chatbots': typeof LocaleServicesChatbotsRoute
+  '/$locale/services/digital-transformation': typeof LocaleServicesDigitalTransformationRoute
+  '/$locale/tools/ai-readiness-assessment': typeof LocaleToolsAiReadinessAssessmentRoute
+  '/$locale/tools/roi-calculator': typeof LocaleToolsRoiCalculatorRoute
+  '/$locale/blog/': typeof LocaleBlogIndexRoute
+  '/$locale/case-studies/': typeof LocaleCaseStudiesIndexRoute
+  '/$locale/services/': typeof LocaleServicesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
-  '/approach': typeof ApproachRoute
-  '/contact': typeof ContactRoute
-  '/privacy-policy': typeof PrivacyPolicyRoute
-  '/resources': typeof ResourcesRoute
-  '/terms': typeof TermsRoute
-  '/blog/$slug': typeof BlogSlugRoute
-  '/case-studies/$slug': typeof CaseStudiesSlugRoute
-  '/services/ai-agents': typeof ServicesAiAgentsRoute
-  '/services/ai-automation': typeof ServicesAiAutomationRoute
-  '/services/ai-consulting': typeof ServicesAiConsultingRoute
-  '/services/ai-tools': typeof ServicesAiToolsRoute
-  '/services/chatbots': typeof ServicesChatbotsRoute
-  '/services/digital-transformation': typeof ServicesDigitalTransformationRoute
-  '/tools/ai-readiness-assessment': typeof ToolsAiReadinessAssessmentRoute
-  '/tools/roi-calculator': typeof ToolsRoiCalculatorRoute
-  '/blog': typeof BlogIndexRoute
-  '/case-studies': typeof CaseStudiesIndexRoute
-  '/services': typeof ServicesIndexRoute
+  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/approach': typeof LocaleApproachRoute
+  '/$locale/contact': typeof LocaleContactRoute
+  '/$locale/privacy-policy': typeof LocalePrivacyPolicyRoute
+  '/$locale/resources': typeof LocaleResourcesRoute
+  '/$locale/terms': typeof LocaleTermsRoute
+  '/$locale': typeof LocaleIndexRoute
+  '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
+  '/$locale/case-studies/$slug': typeof LocaleCaseStudiesSlugRoute
+  '/$locale/services/ai-agents': typeof LocaleServicesAiAgentsRoute
+  '/$locale/services/ai-automation': typeof LocaleServicesAiAutomationRoute
+  '/$locale/services/ai-consulting': typeof LocaleServicesAiConsultingRoute
+  '/$locale/services/ai-tools': typeof LocaleServicesAiToolsRoute
+  '/$locale/services/chatbots': typeof LocaleServicesChatbotsRoute
+  '/$locale/services/digital-transformation': typeof LocaleServicesDigitalTransformationRoute
+  '/$locale/tools/ai-readiness-assessment': typeof LocaleToolsAiReadinessAssessmentRoute
+  '/$locale/tools/roi-calculator': typeof LocaleToolsRoiCalculatorRoute
+  '/$locale/blog': typeof LocaleBlogIndexRoute
+  '/$locale/case-studies': typeof LocaleCaseStudiesIndexRoute
+  '/$locale/services': typeof LocaleServicesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
-  '/approach': typeof ApproachRoute
-  '/contact': typeof ContactRoute
-  '/privacy-policy': typeof PrivacyPolicyRoute
-  '/resources': typeof ResourcesRoute
-  '/terms': typeof TermsRoute
-  '/blog/$slug': typeof BlogSlugRoute
-  '/case-studies/$slug': typeof CaseStudiesSlugRoute
-  '/services/ai-agents': typeof ServicesAiAgentsRoute
-  '/services/ai-automation': typeof ServicesAiAutomationRoute
-  '/services/ai-consulting': typeof ServicesAiConsultingRoute
-  '/services/ai-tools': typeof ServicesAiToolsRoute
-  '/services/chatbots': typeof ServicesChatbotsRoute
-  '/services/digital-transformation': typeof ServicesDigitalTransformationRoute
-  '/tools/ai-readiness-assessment': typeof ToolsAiReadinessAssessmentRoute
-  '/tools/roi-calculator': typeof ToolsRoiCalculatorRoute
-  '/blog/': typeof BlogIndexRoute
-  '/case-studies/': typeof CaseStudiesIndexRoute
-  '/services/': typeof ServicesIndexRoute
+  '/$locale': typeof LocaleRouteWithChildren
+  '/$locale/about': typeof LocaleAboutRoute
+  '/$locale/approach': typeof LocaleApproachRoute
+  '/$locale/contact': typeof LocaleContactRoute
+  '/$locale/privacy-policy': typeof LocalePrivacyPolicyRoute
+  '/$locale/resources': typeof LocaleResourcesRoute
+  '/$locale/terms': typeof LocaleTermsRoute
+  '/$locale/': typeof LocaleIndexRoute
+  '/$locale/blog/$slug': typeof LocaleBlogSlugRoute
+  '/$locale/case-studies/$slug': typeof LocaleCaseStudiesSlugRoute
+  '/$locale/services/ai-agents': typeof LocaleServicesAiAgentsRoute
+  '/$locale/services/ai-automation': typeof LocaleServicesAiAutomationRoute
+  '/$locale/services/ai-consulting': typeof LocaleServicesAiConsultingRoute
+  '/$locale/services/ai-tools': typeof LocaleServicesAiToolsRoute
+  '/$locale/services/chatbots': typeof LocaleServicesChatbotsRoute
+  '/$locale/services/digital-transformation': typeof LocaleServicesDigitalTransformationRoute
+  '/$locale/tools/ai-readiness-assessment': typeof LocaleToolsAiReadinessAssessmentRoute
+  '/$locale/tools/roi-calculator': typeof LocaleToolsRoiCalculatorRoute
+  '/$locale/blog/': typeof LocaleBlogIndexRoute
+  '/$locale/case-studies/': typeof LocaleCaseStudiesIndexRoute
+  '/$locale/services/': typeof LocaleServicesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/about'
-    | '/approach'
-    | '/contact'
-    | '/privacy-policy'
-    | '/resources'
-    | '/terms'
-    | '/blog/$slug'
-    | '/case-studies/$slug'
-    | '/services/ai-agents'
-    | '/services/ai-automation'
-    | '/services/ai-consulting'
-    | '/services/ai-tools'
-    | '/services/chatbots'
-    | '/services/digital-transformation'
-    | '/tools/ai-readiness-assessment'
-    | '/tools/roi-calculator'
-    | '/blog/'
-    | '/case-studies/'
-    | '/services/'
+    | '/$locale'
+    | '/$locale/about'
+    | '/$locale/approach'
+    | '/$locale/contact'
+    | '/$locale/privacy-policy'
+    | '/$locale/resources'
+    | '/$locale/terms'
+    | '/$locale/'
+    | '/$locale/blog/$slug'
+    | '/$locale/case-studies/$slug'
+    | '/$locale/services/ai-agents'
+    | '/$locale/services/ai-automation'
+    | '/$locale/services/ai-consulting'
+    | '/$locale/services/ai-tools'
+    | '/$locale/services/chatbots'
+    | '/$locale/services/digital-transformation'
+    | '/$locale/tools/ai-readiness-assessment'
+    | '/$locale/tools/roi-calculator'
+    | '/$locale/blog/'
+    | '/$locale/case-studies/'
+    | '/$locale/services/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/about'
-    | '/approach'
-    | '/contact'
-    | '/privacy-policy'
-    | '/resources'
-    | '/terms'
-    | '/blog/$slug'
-    | '/case-studies/$slug'
-    | '/services/ai-agents'
-    | '/services/ai-automation'
-    | '/services/ai-consulting'
-    | '/services/ai-tools'
-    | '/services/chatbots'
-    | '/services/digital-transformation'
-    | '/tools/ai-readiness-assessment'
-    | '/tools/roi-calculator'
-    | '/blog'
-    | '/case-studies'
-    | '/services'
+    | '/$locale/about'
+    | '/$locale/approach'
+    | '/$locale/contact'
+    | '/$locale/privacy-policy'
+    | '/$locale/resources'
+    | '/$locale/terms'
+    | '/$locale'
+    | '/$locale/blog/$slug'
+    | '/$locale/case-studies/$slug'
+    | '/$locale/services/ai-agents'
+    | '/$locale/services/ai-automation'
+    | '/$locale/services/ai-consulting'
+    | '/$locale/services/ai-tools'
+    | '/$locale/services/chatbots'
+    | '/$locale/services/digital-transformation'
+    | '/$locale/tools/ai-readiness-assessment'
+    | '/$locale/tools/roi-calculator'
+    | '/$locale/blog'
+    | '/$locale/case-studies'
+    | '/$locale/services'
   id:
     | '__root__'
     | '/'
-    | '/about'
-    | '/approach'
-    | '/contact'
-    | '/privacy-policy'
-    | '/resources'
-    | '/terms'
-    | '/blog/$slug'
-    | '/case-studies/$slug'
-    | '/services/ai-agents'
-    | '/services/ai-automation'
-    | '/services/ai-consulting'
-    | '/services/ai-tools'
-    | '/services/chatbots'
-    | '/services/digital-transformation'
-    | '/tools/ai-readiness-assessment'
-    | '/tools/roi-calculator'
-    | '/blog/'
-    | '/case-studies/'
-    | '/services/'
+    | '/$locale'
+    | '/$locale/about'
+    | '/$locale/approach'
+    | '/$locale/contact'
+    | '/$locale/privacy-policy'
+    | '/$locale/resources'
+    | '/$locale/terms'
+    | '/$locale/'
+    | '/$locale/blog/$slug'
+    | '/$locale/case-studies/$slug'
+    | '/$locale/services/ai-agents'
+    | '/$locale/services/ai-automation'
+    | '/$locale/services/ai-consulting'
+    | '/$locale/services/ai-tools'
+    | '/$locale/services/chatbots'
+    | '/$locale/services/digital-transformation'
+    | '/$locale/tools/ai-readiness-assessment'
+    | '/$locale/tools/roi-calculator'
+    | '/$locale/blog/'
+    | '/$locale/case-studies/'
+    | '/$locale/services/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
-  ApproachRoute: typeof ApproachRoute
-  ContactRoute: typeof ContactRoute
-  PrivacyPolicyRoute: typeof PrivacyPolicyRoute
-  ResourcesRoute: typeof ResourcesRoute
-  TermsRoute: typeof TermsRoute
-  BlogSlugRoute: typeof BlogSlugRoute
-  CaseStudiesSlugRoute: typeof CaseStudiesSlugRoute
-  ServicesAiAgentsRoute: typeof ServicesAiAgentsRoute
-  ServicesAiAutomationRoute: typeof ServicesAiAutomationRoute
-  ServicesAiConsultingRoute: typeof ServicesAiConsultingRoute
-  ServicesAiToolsRoute: typeof ServicesAiToolsRoute
-  ServicesChatbotsRoute: typeof ServicesChatbotsRoute
-  ServicesDigitalTransformationRoute: typeof ServicesDigitalTransformationRoute
-  ToolsAiReadinessAssessmentRoute: typeof ToolsAiReadinessAssessmentRoute
-  ToolsRoiCalculatorRoute: typeof ToolsRoiCalculatorRoute
-  BlogIndexRoute: typeof BlogIndexRoute
-  CaseStudiesIndexRoute: typeof CaseStudiesIndexRoute
-  ServicesIndexRoute: typeof ServicesIndexRoute
+  LocaleRoute: typeof LocaleRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/terms': {
-      id: '/terms'
-      path: '/terms'
-      fullPath: '/terms'
-      preLoaderRoute: typeof TermsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/resources': {
-      id: '/resources'
-      path: '/resources'
-      fullPath: '/resources'
-      preLoaderRoute: typeof ResourcesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/privacy-policy': {
-      id: '/privacy-policy'
-      path: '/privacy-policy'
-      fullPath: '/privacy-policy'
-      preLoaderRoute: typeof PrivacyPolicyRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/contact': {
-      id: '/contact'
-      path: '/contact'
-      fullPath: '/contact'
-      preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/approach': {
-      id: '/approach'
-      path: '/approach'
-      fullPath: '/approach'
-      preLoaderRoute: typeof ApproachRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
+    '/$locale': {
+      id: '/$locale'
+      path: '/$locale'
+      fullPath: '/$locale'
+      preLoaderRoute: typeof LocaleRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -343,121 +315,202 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/services/': {
-      id: '/services/'
+    '/$locale/': {
+      id: '/$locale/'
+      path: '/'
+      fullPath: '/$locale/'
+      preLoaderRoute: typeof LocaleIndexRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/terms': {
+      id: '/$locale/terms'
+      path: '/terms'
+      fullPath: '/$locale/terms'
+      preLoaderRoute: typeof LocaleTermsRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/resources': {
+      id: '/$locale/resources'
+      path: '/resources'
+      fullPath: '/$locale/resources'
+      preLoaderRoute: typeof LocaleResourcesRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/privacy-policy': {
+      id: '/$locale/privacy-policy'
+      path: '/privacy-policy'
+      fullPath: '/$locale/privacy-policy'
+      preLoaderRoute: typeof LocalePrivacyPolicyRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/contact': {
+      id: '/$locale/contact'
+      path: '/contact'
+      fullPath: '/$locale/contact'
+      preLoaderRoute: typeof LocaleContactRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/approach': {
+      id: '/$locale/approach'
+      path: '/approach'
+      fullPath: '/$locale/approach'
+      preLoaderRoute: typeof LocaleApproachRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/about': {
+      id: '/$locale/about'
+      path: '/about'
+      fullPath: '/$locale/about'
+      preLoaderRoute: typeof LocaleAboutRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/services/': {
+      id: '/$locale/services/'
       path: '/services'
-      fullPath: '/services/'
-      preLoaderRoute: typeof ServicesIndexRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/services/'
+      preLoaderRoute: typeof LocaleServicesIndexRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/case-studies/': {
-      id: '/case-studies/'
+    '/$locale/case-studies/': {
+      id: '/$locale/case-studies/'
       path: '/case-studies'
-      fullPath: '/case-studies/'
-      preLoaderRoute: typeof CaseStudiesIndexRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/case-studies/'
+      preLoaderRoute: typeof LocaleCaseStudiesIndexRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/blog/': {
-      id: '/blog/'
+    '/$locale/blog/': {
+      id: '/$locale/blog/'
       path: '/blog'
-      fullPath: '/blog/'
-      preLoaderRoute: typeof BlogIndexRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/blog/'
+      preLoaderRoute: typeof LocaleBlogIndexRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/tools/roi-calculator': {
-      id: '/tools/roi-calculator'
+    '/$locale/tools/roi-calculator': {
+      id: '/$locale/tools/roi-calculator'
       path: '/tools/roi-calculator'
-      fullPath: '/tools/roi-calculator'
-      preLoaderRoute: typeof ToolsRoiCalculatorRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/tools/roi-calculator'
+      preLoaderRoute: typeof LocaleToolsRoiCalculatorRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/tools/ai-readiness-assessment': {
-      id: '/tools/ai-readiness-assessment'
+    '/$locale/tools/ai-readiness-assessment': {
+      id: '/$locale/tools/ai-readiness-assessment'
       path: '/tools/ai-readiness-assessment'
-      fullPath: '/tools/ai-readiness-assessment'
-      preLoaderRoute: typeof ToolsAiReadinessAssessmentRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/tools/ai-readiness-assessment'
+      preLoaderRoute: typeof LocaleToolsAiReadinessAssessmentRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/services/digital-transformation': {
-      id: '/services/digital-transformation'
+    '/$locale/services/digital-transformation': {
+      id: '/$locale/services/digital-transformation'
       path: '/services/digital-transformation'
-      fullPath: '/services/digital-transformation'
-      preLoaderRoute: typeof ServicesDigitalTransformationRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/services/digital-transformation'
+      preLoaderRoute: typeof LocaleServicesDigitalTransformationRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/services/chatbots': {
-      id: '/services/chatbots'
+    '/$locale/services/chatbots': {
+      id: '/$locale/services/chatbots'
       path: '/services/chatbots'
-      fullPath: '/services/chatbots'
-      preLoaderRoute: typeof ServicesChatbotsRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/services/chatbots'
+      preLoaderRoute: typeof LocaleServicesChatbotsRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/services/ai-tools': {
-      id: '/services/ai-tools'
+    '/$locale/services/ai-tools': {
+      id: '/$locale/services/ai-tools'
       path: '/services/ai-tools'
-      fullPath: '/services/ai-tools'
-      preLoaderRoute: typeof ServicesAiToolsRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/services/ai-tools'
+      preLoaderRoute: typeof LocaleServicesAiToolsRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/services/ai-consulting': {
-      id: '/services/ai-consulting'
+    '/$locale/services/ai-consulting': {
+      id: '/$locale/services/ai-consulting'
       path: '/services/ai-consulting'
-      fullPath: '/services/ai-consulting'
-      preLoaderRoute: typeof ServicesAiConsultingRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/services/ai-consulting'
+      preLoaderRoute: typeof LocaleServicesAiConsultingRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/services/ai-automation': {
-      id: '/services/ai-automation'
+    '/$locale/services/ai-automation': {
+      id: '/$locale/services/ai-automation'
       path: '/services/ai-automation'
-      fullPath: '/services/ai-automation'
-      preLoaderRoute: typeof ServicesAiAutomationRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/services/ai-automation'
+      preLoaderRoute: typeof LocaleServicesAiAutomationRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/services/ai-agents': {
-      id: '/services/ai-agents'
+    '/$locale/services/ai-agents': {
+      id: '/$locale/services/ai-agents'
       path: '/services/ai-agents'
-      fullPath: '/services/ai-agents'
-      preLoaderRoute: typeof ServicesAiAgentsRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/services/ai-agents'
+      preLoaderRoute: typeof LocaleServicesAiAgentsRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/case-studies/$slug': {
-      id: '/case-studies/$slug'
+    '/$locale/case-studies/$slug': {
+      id: '/$locale/case-studies/$slug'
       path: '/case-studies/$slug'
-      fullPath: '/case-studies/$slug'
-      preLoaderRoute: typeof CaseStudiesSlugRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/case-studies/$slug'
+      preLoaderRoute: typeof LocaleCaseStudiesSlugRouteImport
+      parentRoute: typeof LocaleRoute
     }
-    '/blog/$slug': {
-      id: '/blog/$slug'
+    '/$locale/blog/$slug': {
+      id: '/$locale/blog/$slug'
       path: '/blog/$slug'
-      fullPath: '/blog/$slug'
-      preLoaderRoute: typeof BlogSlugRouteImport
-      parentRoute: typeof rootRouteImport
+      fullPath: '/$locale/blog/$slug'
+      preLoaderRoute: typeof LocaleBlogSlugRouteImport
+      parentRoute: typeof LocaleRoute
     }
   }
 }
 
+interface LocaleRouteChildren {
+  LocaleAboutRoute: typeof LocaleAboutRoute
+  LocaleApproachRoute: typeof LocaleApproachRoute
+  LocaleContactRoute: typeof LocaleContactRoute
+  LocalePrivacyPolicyRoute: typeof LocalePrivacyPolicyRoute
+  LocaleResourcesRoute: typeof LocaleResourcesRoute
+  LocaleTermsRoute: typeof LocaleTermsRoute
+  LocaleIndexRoute: typeof LocaleIndexRoute
+  LocaleBlogSlugRoute: typeof LocaleBlogSlugRoute
+  LocaleCaseStudiesSlugRoute: typeof LocaleCaseStudiesSlugRoute
+  LocaleServicesAiAgentsRoute: typeof LocaleServicesAiAgentsRoute
+  LocaleServicesAiAutomationRoute: typeof LocaleServicesAiAutomationRoute
+  LocaleServicesAiConsultingRoute: typeof LocaleServicesAiConsultingRoute
+  LocaleServicesAiToolsRoute: typeof LocaleServicesAiToolsRoute
+  LocaleServicesChatbotsRoute: typeof LocaleServicesChatbotsRoute
+  LocaleServicesDigitalTransformationRoute: typeof LocaleServicesDigitalTransformationRoute
+  LocaleToolsAiReadinessAssessmentRoute: typeof LocaleToolsAiReadinessAssessmentRoute
+  LocaleToolsRoiCalculatorRoute: typeof LocaleToolsRoiCalculatorRoute
+  LocaleBlogIndexRoute: typeof LocaleBlogIndexRoute
+  LocaleCaseStudiesIndexRoute: typeof LocaleCaseStudiesIndexRoute
+  LocaleServicesIndexRoute: typeof LocaleServicesIndexRoute
+}
+
+const LocaleRouteChildren: LocaleRouteChildren = {
+  LocaleAboutRoute: LocaleAboutRoute,
+  LocaleApproachRoute: LocaleApproachRoute,
+  LocaleContactRoute: LocaleContactRoute,
+  LocalePrivacyPolicyRoute: LocalePrivacyPolicyRoute,
+  LocaleResourcesRoute: LocaleResourcesRoute,
+  LocaleTermsRoute: LocaleTermsRoute,
+  LocaleIndexRoute: LocaleIndexRoute,
+  LocaleBlogSlugRoute: LocaleBlogSlugRoute,
+  LocaleCaseStudiesSlugRoute: LocaleCaseStudiesSlugRoute,
+  LocaleServicesAiAgentsRoute: LocaleServicesAiAgentsRoute,
+  LocaleServicesAiAutomationRoute: LocaleServicesAiAutomationRoute,
+  LocaleServicesAiConsultingRoute: LocaleServicesAiConsultingRoute,
+  LocaleServicesAiToolsRoute: LocaleServicesAiToolsRoute,
+  LocaleServicesChatbotsRoute: LocaleServicesChatbotsRoute,
+  LocaleServicesDigitalTransformationRoute:
+    LocaleServicesDigitalTransformationRoute,
+  LocaleToolsAiReadinessAssessmentRoute: LocaleToolsAiReadinessAssessmentRoute,
+  LocaleToolsRoiCalculatorRoute: LocaleToolsRoiCalculatorRoute,
+  LocaleBlogIndexRoute: LocaleBlogIndexRoute,
+  LocaleCaseStudiesIndexRoute: LocaleCaseStudiesIndexRoute,
+  LocaleServicesIndexRoute: LocaleServicesIndexRoute,
+}
+
+const LocaleRouteWithChildren =
+  LocaleRoute._addFileChildren(LocaleRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
-  ApproachRoute: ApproachRoute,
-  ContactRoute: ContactRoute,
-  PrivacyPolicyRoute: PrivacyPolicyRoute,
-  ResourcesRoute: ResourcesRoute,
-  TermsRoute: TermsRoute,
-  BlogSlugRoute: BlogSlugRoute,
-  CaseStudiesSlugRoute: CaseStudiesSlugRoute,
-  ServicesAiAgentsRoute: ServicesAiAgentsRoute,
-  ServicesAiAutomationRoute: ServicesAiAutomationRoute,
-  ServicesAiConsultingRoute: ServicesAiConsultingRoute,
-  ServicesAiToolsRoute: ServicesAiToolsRoute,
-  ServicesChatbotsRoute: ServicesChatbotsRoute,
-  ServicesDigitalTransformationRoute: ServicesDigitalTransformationRoute,
-  ToolsAiReadinessAssessmentRoute: ToolsAiReadinessAssessmentRoute,
-  ToolsRoiCalculatorRoute: ToolsRoiCalculatorRoute,
-  BlogIndexRoute: BlogIndexRoute,
-  CaseStudiesIndexRoute: CaseStudiesIndexRoute,
-  ServicesIndexRoute: ServicesIndexRoute,
+  LocaleRoute: LocaleRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

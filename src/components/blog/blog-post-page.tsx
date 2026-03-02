@@ -1,10 +1,12 @@
 import { useMemo } from 'react'
 import { Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { IconArrowRight, IconArrowLeft, IconClock, IconCalendar } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
 import { SEO } from '@/components/shared/seo'
 import { JsonLd } from '@/components/shared/json-ld'
 import { Section } from '@/components/shared/section'
+import { useLocale } from '@/hooks/use-locale'
 import { BlogCard } from './blog-card'
 import { blogPosts, type BlogPost } from '@/data/blog-posts'
 
@@ -27,6 +29,9 @@ function getRelatedPosts(currentPost: BlogPost): BlogPost[] {
 }
 
 export function BlogPostPage({ post }: BlogPostPageProps) {
+  const { t } = useTranslation('blog')
+  const locale = useLocale()
+
   const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
@@ -52,15 +57,15 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
       url: 'https://scitconsulting.eu',
       logo: { '@type': 'ImageObject', url: 'https://scitconsulting.eu/images/logo-black.png' },
     },
-    mainEntityOfPage: `https://scitconsulting.eu/blog/${post.slug}`,
+    mainEntityOfPage: `https://scitconsulting.eu/${locale}/blog/${post.slug}`,
     keywords: post.tags.join(', '),
-  }), [post])
+  }), [post, locale])
 
   return (
     <>
       <SEO
-        title={post.title}
-        description={post.excerpt}
+        title={t(`posts.${post.slug}.title`, post.title)}
+        description={t(`posts.${post.slug}.excerpt`, post.excerpt)}
         path={`/blog/${post.slug}`}
       />
       <JsonLd data={articleJsonLd} />
@@ -71,11 +76,12 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
           <div className="max-w-3xl">
             {/* Back link */}
             <Link
-              to="/blog"
+              to="/$locale/blog"
+              params={{ locale }}
               className="mb-6 inline-flex items-center gap-1 text-sm text-white/60 transition-colors hover:text-white"
             >
               <IconArrowLeft size={14} />
-              Back to Blog
+              {t('template.backToBlog')}
             </Link>
 
             {/* Tags */}
@@ -92,7 +98,7 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
 
             {/* Title */}
             <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl leading-tight">
-              {post.title}
+              {t(`posts.${post.slug}.title`, post.title)}
             </h1>
 
             {/* Meta */}
@@ -105,7 +111,7 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
                 <IconClock size={16} />
                 {post.readTime}
               </span>
-              <span>By {post.author}</span>
+              <span>{t('template.by')} {post.author}</span>
             </div>
           </div>
         </div>
@@ -123,21 +129,21 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
       <section className="bg-gradient-to-r from-scit-deep to-scit-purple py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-2xl font-bold text-white md:text-3xl">
-            Need Help Implementing AI?
+            {t('template.ctaTitle')}
           </h2>
           <p className="mt-3 mx-auto max-w-xl text-white/70">
-            Our team can help you turn these insights into action. Let&apos;s discuss how AI can transform your business operations.
+            {t('template.ctaSubtitle')}
           </p>
           <div className="mt-6 flex items-center justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-scit-deep hover:bg-white/90">
-              <Link to="/contact">
-                Get in Touch
+              <Link to="/$locale/contact" params={{ locale }}>
+                {t('template.ctaPrimary')}
                 <IconArrowRight size={18} className="ml-2" />
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10">
-              <Link to="/case-studies">
-                View Case Studies
+              <Link to="/$locale/case-studies" params={{ locale }}>
+                {t('template.ctaSecondary')}
               </Link>
             </Button>
           </div>
@@ -148,7 +154,7 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
       {relatedPosts.length > 0 && (
         <Section>
           <h2 className="mb-10 text-center text-2xl font-bold md:text-3xl">
-            Related Articles
+            {t('template.relatedArticles')}
           </h2>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {relatedPosts.map((relatedPost) => (

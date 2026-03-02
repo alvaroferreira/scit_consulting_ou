@@ -1,0 +1,208 @@
+{
+  "roiCalculator": {
+    "sectionTitle": "Configure Your Parameters",
+    "sliders": {
+      "employees": {
+        "label": "Number of employees"
+      },
+      "hoursPerWeek": {
+        "label": "Hours spent on repetitive tasks per week (per employee)"
+      },
+      "hourlyCost": {
+        "label": "Average hourly cost"
+      }
+    },
+    "metrics": {
+      "annualCostManualWork": {
+        "label": "Annual Cost of Manual Work",
+        "sublabel": "hours wasted per week"
+      },
+      "estimatedSavings": {
+        "label": "Estimated Annual Savings",
+        "sublabel": "Based on {{rate}}% automation rate"
+      },
+      "estimatedRoi": {
+        "label": "Estimated ROI",
+        "sublabel": "Implementation cost: {{cost}}"
+      },
+      "paybackPeriod": {
+        "label": "Payback Period",
+        "sublabel": "Time to recover your investment"
+      }
+    },
+    "payback": {
+      "lessThanOneMonth": "< 1 month",
+      "oneMonth": "1 month",
+      "months": "{{count}} months"
+    },
+    "disclaimer": "These estimates are based on industry averages. Actual results may vary depending on your specific business processes and implementation scope.",
+    "cta": {
+      "title": "Want a precise ROI analysis for your business?",
+      "subtitle": "Our team will analyse your specific workflows and provide a detailed, customised assessment with actionable recommendations.",
+      "button": "Get Your Custom Analysis"
+    }
+  },
+  "aiReadiness": {
+    "progress": {
+      "question": "Question {{current}} of {{total}}",
+      "almostThere": "Almost there!",
+      "complete": "Complete"
+    },
+    "navigation": {
+      "back": "Back",
+      "next": "Next",
+      "seeResults": "See Results"
+    },
+    "questions": {
+      "1": {
+        "text": "How would you describe your organization's current data infrastructure?",
+        "options": [
+          "We have minimal digital data",
+          "We have some digital systems but data is siloed",
+          "We have centralized data with some integration",
+          "We have a modern data platform with strong integration"
+        ]
+      },
+      "2": {
+        "text": "How does your leadership view AI adoption?",
+        "options": [
+          "AI is not on the radar",
+          "There's curiosity but no commitment",
+          "Leadership is supportive and has allocated exploratory budget",
+          "AI is a strategic priority with dedicated investment"
+        ]
+      },
+      "3": {
+        "text": "What is your team's current technical capability with AI?",
+        "options": [
+          "No AI or data science expertise",
+          "Basic awareness, some self-taught exploration",
+          "Some team members with AI/ML experience",
+          "Dedicated AI/data science team or strong partnerships"
+        ]
+      },
+      "4": {
+        "text": "How much of your workflow involves repetitive, manual processes?",
+        "options": [
+          "Almost everything is manual",
+          "Many processes are manual with some automation",
+          "Most routine tasks are automated",
+          "Fully automated with minimal manual intervention"
+        ]
+      },
+      "5": {
+        "text": "How do you currently handle customer interactions?",
+        "options": [
+          "Entirely manual (phone, email)",
+          "Some self-service tools (FAQ, basic forms)",
+          "Multi-channel with some automated responses",
+          "AI-assisted with intelligent routing and automation"
+        ]
+      },
+      "6": {
+        "text": "What is your approach to data-driven decision making?",
+        "options": [
+          "Decisions are mostly intuition-based",
+          "We use basic reporting and spreadsheets",
+          "We have dashboards and regular analytics",
+          "We use predictive analytics and data models"
+        ]
+      },
+      "7": {
+        "text": "How would you describe your IT infrastructure?",
+        "options": [
+          "Legacy systems, mostly on-premises",
+          "Mix of legacy and some cloud services",
+          "Primarily cloud-based with modern APIs",
+          "Cloud-native with microservices architecture"
+        ]
+      },
+      "8": {
+        "text": "What is your organization's attitude toward change?",
+        "options": [
+          "Resistant to change",
+          "Open but slow to adopt",
+          "Actively pursuing innovation",
+          "Change is part of our culture"
+        ]
+      },
+      "9": {
+        "text": "How do you handle sensitive data and compliance?",
+        "options": [
+          "No formal data governance",
+          "Basic policies exist but aren't consistently followed",
+          "Formal data governance with regular audits",
+          "Comprehensive compliance program (GDPR, etc.) with automated controls"
+        ]
+      },
+      "10": {
+        "text": "What is your budget outlook for technology investments?",
+        "options": [
+          "Very limited, no room for new tools",
+          "Small budget for pilots and experiments",
+          "Moderate budget for strategic initiatives",
+          "Significant budget with clear ROI expectations"
+        ]
+      }
+    },
+    "emailGate": {
+      "title": "Your results are ready!",
+      "subtitle": "Enter your email to receive a detailed AI readiness report with personalized recommendations.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Company name",
+      "companyOptional": "(optional)",
+      "companyPlaceholder": "Your company",
+      "submitButton": "Get My Results",
+      "skipLink": "Skip, show results now"
+    },
+    "results": {
+      "scoreOf": "/ 40",
+      "recommendedNextSteps": "Recommended Next Steps",
+      "cta": {
+        "title": "Get a Personalized AI Strategy",
+        "subtitle": "Let our team analyze your specific situation and build a tailored roadmap for AI adoption.",
+        "primaryButton": "Book a Free Consultation",
+        "secondaryButton": "Retake Assessment"
+      },
+      "tiers": {
+        "early": {
+          "name": "Early Stage",
+          "description": "Your organization is at the beginning of the AI journey. Focus on data infrastructure and building awareness.",
+          "steps": [
+            "Audit your current data systems and identify gaps",
+            "Start collecting and organizing key business data",
+            "Schedule an AI awareness workshop for your leadership team"
+          ]
+        },
+        "developing": {
+          "name": "Developing",
+          "description": "You have some foundations in place. Quick wins in automation could build momentum for broader AI adoption.",
+          "steps": [
+            "Identify 2-3 repetitive processes ripe for automation",
+            "Pilot an AI tool in a low-risk area to build confidence",
+            "Develop a basic data strategy to unify siloed information"
+          ]
+        },
+        "ready": {
+          "name": "Ready",
+          "description": "Your organization is well-positioned for AI implementation. A strategic roadmap will help you prioritize high-impact use cases.",
+          "steps": [
+            "Build an AI roadmap aligned with business objectives",
+            "Evaluate and deploy AI solutions for your top 3 use cases",
+            "Invest in upskilling your team on AI tools and workflows"
+          ]
+        },
+        "advanced": {
+          "name": "Advanced",
+          "description": "You are ready for sophisticated AI solutions. Focus on advanced use cases, AI agents, and scaling existing capabilities.",
+          "steps": [
+            "Deploy autonomous AI agents for complex workflows",
+            "Scale successful AI initiatives across all departments",
+            "Explore custom AI models tailored to your industry data"
+          ]
+        }
+      }
+    }
+  }
+}

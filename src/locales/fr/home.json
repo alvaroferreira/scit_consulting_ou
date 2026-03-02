@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "badge": "Transformation Digitale IA-First",
+    "headline": "Transformez Votre Entreprise avec",
+    "headlineHighlight": "l'Intelligence Artificielle",
+    "subtitle": "Nous implementons des outils IA, automatisons vos processus et developpons des agents intelligents, de la strategie a l'execution.",
+    "ctaPrimary": "Prendre Rendez-vous",
+    "ctaSecondary": "Notre Approche",
+    "trustProjects": "35+ Projets Realises",
+    "trustIndustries": "6+ Secteurs d'Activite",
+    "trustCountries": "3 Pays"
+  },
+  "techPartners": {
+    "title": "Construit avec les meilleures plateformes IA & cloud",
+    "partners": {
+      "openai": "OpenAI",
+      "anthropic": "Anthropic",
+      "googleCloud": "Google Cloud",
+      "azure": "Microsoft Azure",
+      "cloudflare": "Cloudflare",
+      "vercel": "Vercel",
+      "supabase": "Supabase"
+    }
+  },
+  "pillars": {
+    "sectionTitle": "Comment Nous Vous Aidons",
+    "sectionSubtitle": "Trois piliers qui guident votre transformation IA, de la strategie a l'implementation et au-dela.",
+    "learnMore": "En savoir plus",
+    "items": {
+      "implement": {
+        "title": "Implementer",
+        "subtitle": "Outils IA & Developpement",
+        "description": "Nous concevons et integrons des solutions IA dans votre entreprise : workflows automatises, agents intelligents, interfaces conversationnelles et deploiements d'outils en entreprise."
+      },
+      "consult": {
+        "title": "Conseiller",
+        "subtitle": "Conseil en IA",
+        "description": "Nous definissons la bonne strategie IA pour votre entreprise : evaluation de maturite, identification des opportunites, alignement des objectifs et formation de vos equipes pour une adoption reussie."
+      },
+      "transform": {
+        "title": "Transformer",
+        "subtitle": "Processus IA",
+        "description": "Nous repensons vos processus avec l'IA au centre : audit des operations, livraison agile, conduite du changement et transformation digitale globale."
+      }
+    }
+  },
+  "servicesGrid": {
+    "sectionTitle": "Nos Services",
+    "sectionSubtitle": "Des solutions IA completes adaptees aux besoins de votre entreprise, de l'automatisation au conseil strategique.",
+    "learnMore": "En savoir plus",
+    "items": {
+      "aiAutomation": {
+        "shortTitle": "Automatisation IA",
+        "description": "Workflows automatises, traitement de documents et RPA enrichis par l'IA pour eliminer les taches repetitives et gagner en efficacite."
+      },
+      "aiAgents": {
+        "shortTitle": "Agents IA",
+        "description": "Agents IA autonomes pour des taches complexes : prospection commerciale, support client, analyse de donnees et intelligence decisionnelle."
+      },
+      "chatbots": {
+        "shortTitle": "Chatbots",
+        "description": "Interfaces conversationnelles intelligentes pour le support client, les helpdesks internes et les experiences produit interactives."
+      },
+      "aiTools": {
+        "shortTitle": "Outils IA",
+        "description": "Selection et deploiement d'outils IA en entreprise : ChatGPT Enterprise, Claude, GitHub Copilot et solutions sur mesure."
+      },
+      "aiConsulting": {
+        "shortTitle": "Conseil en IA",
+        "description": "Evaluations de maturite IA, feuilles de route strategiques, alignement OKR et formation des equipes pour tracer votre parcours de transformation IA."
+      },
+      "digitalTransformation": {
+        "shortTitle": "Transformation",
+        "description": "Programmes complets de modernisation des processus : audit, livraison agile, conduite du changement et redesign centre sur l'IA."
+      }
+    }
+  },
+  "needs": {
+    "sectionTitle": "Quel Est Votre Objectif ?",
+    "sectionSubtitle": "Choisissez votre objectif et nous vous montrerons comment nous pouvons vous aider.",
+    "items": {
+      "automateProcesses": {
+        "label": "Automatiser les processus repetitifs",
+        "description": "Liberez vos equipes des taches manuelles grace a des workflows IA."
+      },
+      "buildAgents": {
+        "label": "Developper des agents IA intelligents",
+        "description": "Deployez des agents sur mesure qui gerent des taches complexes en autonomie."
+      },
+      "improveSupport": {
+        "label": "Ameliorer le support client",
+        "description": "Des chatbots IA qui resolvent les problemes et montent en charge facilement."
+      },
+      "implementTools": {
+        "label": "Deployer des outils IA dans mon organisation",
+        "description": "Deploiement strategique de Claude, GPT, Gemini et d'autres outils."
+      },
+      "defineStrategy": {
+        "label": "Definir une strategie IA",
+        "description": "Evaluation de maturite et feuille de route pour l'adoption de l'IA."
+      },
+      "modernizeOperations": {
+        "label": "Moderniser les operations existantes",
+        "description": "Transformation digitale de bout en bout avec l'IA au coeur."
+      },
+      "seeResults": {
+        "label": "Voir d'abord des resultats concrets",
+        "description": "Parcourez les resultats obtenus par des entreprises comme la votre."
+      }
+    }
+  },
+  "process": {
+    "sectionTitle": "Notre Approche",
+    "sectionSubtitle": "Une methodologie eprouvee qui garantit des resultats mesurables pour chaque initiative IA.",
+    "stepLabel": "Etape",
+    "steps": {
+      "diagnose": {
+        "title": "Diagnostiquer",
+        "description": "Nous analysons vos processus actuels, votre infrastructure technologique et vos objectifs business pour identifier ou l'IA peut avoir le plus d'impact."
+      },
+      "plan": {
+        "title": "Planifier",
+        "description": "Nous concevons une strategie IA sur mesure avec des priorites claires, des delais et des resultats mesurables alignes sur vos objectifs."
+      },
+      "implement": {
+        "title": "Implementer",
+        "description": "Nous concevons et deployons des solutions IA en methodologie agile avec un partage en direct de l'evolution du produit, pour que vous suiviez chaque etape en temps reel."
+      },
+      "scale": {
+        "title": "Deployer",
+        "description": "Nous optimisons, monitorons et etendons les implementations IA reussies a l'ensemble de votre organisation pour un impact business maximal."
+      }
+    }
+  },
+  "stats": {
+    "ariaLabel": "Statistiques de l'entreprise",
+    "items": {
+      "projectsDelivered": {
+        "value": 35,
+        "suffix": "+",
+        "label": "Projets Realises"
+      },
+      "industriesServed": {
+        "value": 6,
+        "suffix": "+",
+        "label": "Secteurs d'Activite"
+      },
+      "countries": {
+        "value": 3,
+        "suffix": "",
+        "label": "Pays"
+      },
+      "clientSatisfaction": {
+        "value": 95,
+        "suffix": "%",
+        "label": "Satisfaction Client"
+      }
+    }
+  },
+  "industries": {
+    "sectionTitle": "Secteurs d'Activite",
+    "sectionSubtitle": "Des solutions IA adaptees aux defis specifiques de votre secteur.",
+    "viewCaseStudies": "Voir les etudes de cas",
+    "items": {
+      "healthcare": {
+        "title": "Sante",
+        "description": "Planification IA, documentation clinique, engagement des patients et coordination des soins pour les cliniques et les prestataires de sante."
+      },
+      "financialServices": {
+        "title": "Services Financiers",
+        "description": "Traitement intelligent de documents, automatisation de la conformite, analyse des risques et assistants IA pour les institutions financieres."
+      },
+      "retail": {
+        "title": "Commerce & E-Commerce",
+        "description": "Experiences client personnalisees, optimisation des stocks, commerce conversationnel et prevision de la demande grace a l'IA."
+      },
+      "b2bServices": {
+        "title": "Services B2B",
+        "description": "Automatisation commerciale, generation de propositions, scoring de leads et workflows augmentes par l'IA pour les societes de services."
+      }
+    }
+  },
+  "techStack": {
+    "sectionTitle": "Construit avec des Technologies Modernes",
+    "sectionSubtitle": "Nous utilisons les meilleurs outils et plateformes pour construire des solutions IA robustes et evolutives.",
+    "categories": {
+      "aiModels": {
+        "name": "Modeles IA",
+        "technologies": ["Claude", "GPT-4", "Gemini", "LangChain", "LlamaIndex", "Hugging Face"]
+      },
+      "frontend": {
+        "name": "Frontend",
+        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js"]
+      },
+      "backend": {
+        "name": "Backend",
+        "technologies": ["Node.js", "Python", "PostgreSQL", "FastAPI", "Supabase"]
+      },
+      "infrastructure": {
+        "name": "Infrastructure",
+        "technologies": ["AWS", "Cloudflare", "Docker", "CI/CD", "Vercel"]
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "Ce Que Disent Nos Clients",
+    "sectionSubtitle": "Des resultats concrets issus de partenariats reels.",
+    "items": [
+      {
+        "quote": "SCIT a transforme notre workflow de traitement documentaire grace a l'automatisation IA. Ce qui prenait des heures a notre equipe se fait desormais en quelques minutes, avec une plus grande precision.",
+        "name": "Maria S.",
+        "role": "Directrice des Operations",
+        "company": "Cabinet de Services Juridiques"
+      },
+      {
+        "quote": "L'agent de prospection IA que SCIT a developpe pour nous genere des leads qualifies en continu. Notre pipeline commercial n'a jamais ete aussi performant.",
+        "name": "Thomas K.",
+        "role": "Directeur Commercial",
+        "company": "Entreprise SaaS B2B"
+      },
+      {
+        "quote": "Leur approche strategique de l'implementation IA nous a apporte de la clarte. Au lieu de suivre les tendances, nous avons desormais une feuille de route ciblee avec des resultats mesurables.",
+        "name": "Ana R.",
+        "role": "PDG",
+        "company": "Startup HealthTech"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "title": "Pret a Lancer Votre Transformation IA ?",
+    "subtitle": "Echangeons sur la facon dont l'IA peut transformer vos processus, reduire vos couts et creer de nouvelles opportunites de croissance.",
+    "ctaPrimary": "Consultation Gratuite"
+  }
+}

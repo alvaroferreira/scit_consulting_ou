@@ -1,0 +1,78 @@
+{
+  "privacy": {
+    "seo": {
+      "title": "Politique de Confidentialite",
+      "description": "Politique de confidentialite de SCIT Consulting. Decouvrez comment nous collectons, utilisons et protegeons vos donnees personnelles en conformite avec le RGPD."
+    },
+    "hero": {
+      "title": "Politique de Confidentialite",
+      "lastUpdated": "Derniere mise a jour : mars 2026"
+    },
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "body": "SCIT Consulting (\"nous\", \"notre\", \"nos\") s'engage a proteger votre vie privee. Cette Politique de Confidentialite explique comment nous collectons, utilisons et protegeons vos informations personnelles lorsque vous visitez notre site web scitconsulting.eu."
+      },
+      {
+        "heading": "2. Informations Collectees",
+        "body": "Nous collectons les informations que vous fournissez volontairement via notre formulaire de contact, notamment votre nom, adresse email, nom d'entreprise, numero de telephone et details du projet. Nous collectons egalement des donnees d'analyse anonymisees sur la facon dont vous utilisez notre site."
+      },
+      {
+        "heading": "3. Utilisation de Vos Informations",
+        "body": "Nous utilisons vos informations pour repondre a vos demandes, fournir nos services de conseil, vous envoyer des communications pertinentes et ameliorer notre site web. Nous ne vendrons jamais vos informations personnelles a des tiers."
+      },
+      {
+        "heading": "4. Stockage et Securite des Donnees",
+        "body": "Vos donnees sont stockees de maniere securisee en utilisant un chiffrement aux normes industrielles. Nous utilisons Cloudflare pour l'hebergement, qui fournit une securite de niveau entreprise. Nous conservons vos donnees uniquement le temps necessaire pour atteindre les objectifs decrits dans cette politique."
+      },
+      {
+        "heading": "5. Vos Droits (RGPD)",
+        "body": "En vertu du RGPD, vous disposez du droit d'acces, de rectification, d'effacement, de limitation du traitement et de portabilite de vos donnees personnelles. Vous avez egalement le droit de vous opposer au traitement et de retirer votre consentement a tout moment. Pour exercer ces droits, contactez-nous a privacy@scitconsulting.eu."
+      },
+      {
+        "heading": "6. Cookies",
+        "body": "Nous utilisons des cookies essentiels pour le fonctionnement du site et des analyses respectueuses de la vie privee. Nous n'utilisons pas de cookies de suivi et ne partageons pas de donnees avec des reseaux publicitaires."
+      },
+      {
+        "heading": "7. Contact",
+        "body": "Pour toute question relative a la confidentialite, contactez-nous a :\nSCIT Consulting\nEmail : privacy@scitconsulting.eu"
+      }
+    ]
+  },
+  "terms": {
+    "seo": {
+      "title": "Conditions Generales",
+      "description": "Conditions generales de SCIT Consulting pour les services de conseil en IA et de transformation digitale."
+    },
+    "hero": {
+      "title": "Conditions Generales",
+      "lastUpdated": "Derniere mise a jour : mars 2026"
+    },
+    "sections": [
+      {
+        "heading": "1. Services",
+        "body": "SCIT Consulting fournit des services de conseil en IA, d'implementation et de transformation digitale. Toutes les missions sont regies par des accords de service individuels qui completent ces conditions generales."
+      },
+      {
+        "heading": "2. Propriete Intellectuelle",
+        "body": "Tous les contenus de ce site, y compris les textes, graphiques, logos et code, sont la propriete de SCIT Consulting et sont proteges par les lois sur la propriete intellectuelle. Les livrables client sont la propriete du client apres paiement integral, sauf disposition contraire dans l'accord de service."
+      },
+      {
+        "heading": "3. Limitation de Responsabilite",
+        "body": "SCIT Consulting fournit ses services \"en l'etat\". Nous ne donnons aucune garantie, expresse ou implicite, concernant l'adequation de nos services a un usage particulier. Notre responsabilite est limitee aux honoraires payes pour la mission concernee."
+      },
+      {
+        "heading": "4. Confidentialite",
+        "body": "Les deux parties s'engagent a maintenir la confidentialite de toute information proprietaire partagee pendant la mission. Cette obligation survit a la cessation des services."
+      },
+      {
+        "heading": "5. Droit Applicable",
+        "body": "Ces conditions sont regies par le droit applicable. Tout litige sera resolu par les voies juridiques appropriees."
+      },
+      {
+        "heading": "6. Contact",
+        "body": "Pour toute question relative a ces conditions, contactez-nous a :\nSCIT Consulting\nEmail : hello@scitconsulting.eu"
+      }
+    ]
+  }
+}

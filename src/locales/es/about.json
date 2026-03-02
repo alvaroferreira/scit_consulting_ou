@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "Sobre Nosotros",
+    "description": "SCIT Consulting es una consultoria boutique de AI con mas de 15 años de experiencia en transformacion digital en Europa. Mas de 35 proyectos entregados en 6 industrias."
+  },
+  "hero": {
+    "title": "Sobre SCIT Consulting",
+    "subtitle": "Una consultoria boutique de AI que ayuda a las empresas a transformarse con inteligencia artificial."
+  },
+  "mission": {
+    "title": "Transformacion Digital AI-First",
+    "paragraph1": "SCIT Consulting es una consultoria boutique de transformacion digital. Nos especializamos en ayudar a las empresas a aprovechar la inteligencia artificial para automatizar procesos, construir sistemas inteligentes y transformar sus operaciones.",
+    "paragraph2": "Nuestro equipo aporta mas de 15 años de experiencia practica en consultoria ejecutiva y transformacion organizacional en multiples mercados europeos, incluyendo Portugal, Alemania, España y la Republica Checa. Hemos trabajado en ciudades como Lisboa, Munich, Dusseldorf, Madrid y Praga, lo que nos da una comprension profunda de diversas culturas y necesidades empresariales.",
+    "paragraph3": "Con mas de 35 proyectos entregados en industrias como IT y Tecnologia, Servicios Financieros, Retail y Comercio Electronico, Manufactura, Salud y Telecomunicaciones, aportamos experiencia real en agentes de AI, sistemas de automatizacion, AI conversacional y consultoria estrategica. Nuestro enfoque boutique significa que cada cliente recibe atencion de nivel senior y soluciones personalizadas.",
+    "highlights": [
+      {
+        "title": "Experiencia Multi-Mercado",
+        "description": "Proyectos entregados en Lisboa, Munich, Dusseldorf, Madrid y Praga."
+      },
+      {
+        "title": "6+ Industrias",
+        "description": "IT, Servicios Financieros, Retail, Manufactura, Salud y Telecomunicaciones."
+      },
+      {
+        "title": "Desarrollo AI-Nativo",
+        "description": "Soluciones de AI a medida utilizando Claude, GPT, Gemini y modelos de codigo abierto."
+      },
+      {
+        "title": "Enfoque Boutique",
+        "description": "Experiencia de nivel senior en cada proyecto, siempre."
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Nuestro Stack Tecnologico",
+    "subtitle": "Elegimos las herramientas adecuadas para cada proyecto, sin depender de un unico proveedor.",
+    "categories": [
+      {
+        "label": "Modelos de AI",
+        "items": ["Claude (Anthropic)", "GPT-4o (OpenAI)", "Gemini (Google)", "LLaMA", "Mistral", "LLMs de codigo abierto"]
+      },
+      {
+        "label": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vite"]
+      },
+      {
+        "label": "Backend y APIs",
+        "items": ["Node.js", "Python", "FastAPI", "REST", "GraphQL", "WebSockets"]
+      },
+      {
+        "label": "Infraestructura",
+        "items": ["Cloudflare", "AWS", "Google Cloud", "Vercel", "Supabase", "Docker"]
+      },
+      {
+        "label": "Datos y Herramientas de AI",
+        "items": ["LangChain", "Vector DBs", "RAG Pipelines", "Hugging Face", "n8n", "Make"]
+      }
+    ]
+  },
+  "markets": {
+    "title": "Donde Operamos",
+    "subtitle": "Con sede en Estonia, ejecutando proyectos en toda Europa.",
+    "items": [
+      { "country": "Portugal", "cities": "Lisboa" },
+      { "country": "Alemania", "cities": "Munich, Dusseldorf" },
+      { "country": "España", "cities": "Madrid" },
+      { "country": "Republica Checa", "cities": "Praga" },
+      { "country": "Estonia", "cities": "Tallinn (Sede)" }
+    ]
+  },
+  "timeline": {
+    "title": "Nuestro Recorrido",
+    "subtitle": "De la consultoria empresarial a las soluciones AI-nativas.",
+    "events": [
+      {
+        "year": "2010",
+        "title": "Raices en Consultoria",
+        "description": "Iniciamos en consultoria empresarial, liderando proyectos de transformacion digital en Europa."
+      },
+      {
+        "year": "2018",
+        "title": "Enfoque en AI",
+        "description": "Giramos el enfoque hacia la inteligencia artificial, construyendo las primeras soluciones de automatizacion y chatbots."
+      },
+      {
+        "year": "2023",
+        "title": "Fundacion de SCIT Consulting",
+        "description": "Establecimos SCIT Consulting en Estonia como consultoria AI-nativa para empresas europeas."
+      },
+      {
+        "year": "2024",
+        "title": "Agentes de AI y LLMs",
+        "description": "Expansion hacia agentes de AI personalizados, integraciones con LLMs y automatizacion avanzada con Claude, GPT y Gemini."
+      },
+      {
+        "year": "2025",
+        "title": "Hito de 35+ Proyectos",
+        "description": "Superamos los 35 proyectos en 6 industrias con una tasa de satisfaccion del cliente del 95%."
+      }
+    ]
+  },
+  "values": {
+    "title": "Lo Que Nos Impulsa",
+    "subtitle": "Nuestros valores definen como trabajamos y los resultados que entregamos.",
+    "items": [
+      {
+        "title": "Impacto Sobre Tendencias",
+        "description": "Nos enfocamos en resultados de negocio reales, no en demostraciones tecnologicas de moda."
+      },
+      {
+        "title": "Calidad Sobre Rapidez",
+        "description": "Construimos soluciones que funcionan de manera confiable y escalan de forma sostenible."
+      },
+      {
+        "title": "Alianza Sobre Proyectos",
+        "description": "Invertimos en relaciones a largo plazo, no en compromisos puntuales."
+      },
+      {
+        "title": "Transparencia Sobre Promesas",
+        "description": "Comunicamos con honestidad lo que la AI puede y no puede hacer."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Construyamos Algo Extraordinario",
+    "subtitle": "¿Listo para explorar como la AI puede transformar su negocio?",
+    "button": "Contactenos"
+  }
+}

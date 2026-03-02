@@ -1,0 +1,72 @@
+{
+  "seo": {
+    "title": "Nuestra Metodologia",
+    "description": "Una metodologia probada en cuatro fases que asegura que cada iniciativa de AI entregue resultados de negocio medibles. Desde el descubrimiento hasta la optimizacion."
+  },
+  "hero": {
+    "title": "Nuestra Metodologia",
+    "subtitle": "Una metodologia probada que asegura que cada iniciativa de AI entregue resultados de negocio medibles."
+  },
+  "process": {
+    "title": "Como Trabajamos",
+    "subtitle": "Cuatro fases que lo llevan de la vision al valor.",
+    "phaseLabel": "Fase",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Diagnosticar",
+        "description": "Analizamos sus procesos actuales, stack tecnologico y objetivos de negocio para identificar donde la AI puede generar el mayor impacto."
+      },
+      {
+        "number": 2,
+        "title": "Planificar",
+        "description": "Diseñamos una estrategia de AI a medida con prioridades claras, plazos y resultados medibles alineados con sus objetivos."
+      },
+      {
+        "number": 3,
+        "title": "Implementar",
+        "description": "Construimos y desplegamos soluciones de AI utilizando metodologias agiles con seguimiento en tiempo real de la evolucion del producto, para que usted siga cada paso del progreso."
+      },
+      {
+        "number": 4,
+        "title": "Escalar",
+        "description": "Optimizamos, monitoreamos y expandimos las implementaciones de AI exitosas en toda su organizacion para maximizar el impacto en el negocio."
+      }
+    ]
+  },
+  "principles": {
+    "title": "Nuestros Principios",
+    "subtitle": "Los valores que guian cada compromiso.",
+    "items": [
+      {
+        "title": "AI con Enfoque de Negocio",
+        "description": "Comenzamos con sus objetivos de negocio, no con la tecnologia. La AI es un medio para lograr un fin, no el fin en si mismo."
+      },
+      {
+        "title": "Entrega Iterativa",
+        "description": "Entregamos valor en semanas, no en meses. Sprints agiles con seguimiento en vivo del progreso de desarrollo garantizan total transparencia y retroalimentacion temprana."
+      },
+      {
+        "title": "Resultados Medibles",
+        "description": "Cada iniciativa tiene KPIs y metricas de exito claras. Medimos el impacto, no solo los entregables."
+      },
+      {
+        "title": "Transferencia de Conocimiento",
+        "description": "Desarrollamos las capacidades de su equipo junto con la solucion. Usted es dueño del conocimiento, no solo del codigo."
+      },
+      {
+        "title": "Alianza Transparente",
+        "description": "Sin cajas negras. Comunicamos abiertamente sobre el progreso, los desafios y las decisiones de compromiso."
+      },
+      {
+        "title": "Escalabilidad Sostenible",
+        "description": "Soluciones diseñadas para crecer con su negocio, sin crear dependencia del proveedor."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Trabajemos Juntos",
+    "subtitle": "¿Listo para aplicar esta metodologia en su negocio? Comience con una consulta gratuita.",
+    "button": "Agendar Consulta"
+  }
+}

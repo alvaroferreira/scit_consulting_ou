@@ -1,0 +1,234 @@
+{
+  "hero": {
+    "badge": "AI-First Digital Transformation",
+    "headline": "Transform Your Business with",
+    "headlineHighlight": "Artificial Intelligence",
+    "subtitle": "We implement AI tools, automate processes and build intelligent agents, from strategy to execution.",
+    "ctaPrimary": "Book a Consultation",
+    "ctaSecondary": "Our Approach",
+    "trustProjects": "35+ Projects Delivered",
+    "trustIndustries": "6+ Industries",
+    "trustCountries": "3 Countries"
+  },
+  "techPartners": {
+    "title": "Built with leading AI & cloud platforms",
+    "partners": {
+      "openai": "OpenAI",
+      "anthropic": "Anthropic",
+      "googleCloud": "Google Cloud",
+      "azure": "Microsoft Azure",
+      "cloudflare": "Cloudflare",
+      "vercel": "Vercel",
+      "supabase": "Supabase"
+    }
+  },
+  "pillars": {
+    "sectionTitle": "How We Help",
+    "sectionSubtitle": "Three pillars that drive your AI transformation journey, from strategy to implementation and beyond.",
+    "learnMore": "Learn more",
+    "items": {
+      "implement": {
+        "title": "Implement",
+        "subtitle": "AI Tools & Build",
+        "description": "We build and integrate AI solutions into your business, from automated workflows and intelligent agents to conversational interfaces and enterprise tool deployments."
+      },
+      "consult": {
+        "title": "Advise",
+        "subtitle": "AI Consulting",
+        "description": "We define the right AI strategy for your business, assessing readiness, mapping opportunities, aligning objectives, and training your teams for successful AI adoption."
+      },
+      "transform": {
+        "title": "Transform",
+        "subtitle": "AI Processes",
+        "description": "We redesign your processes with AI at the center, auditing operations, implementing agile delivery, managing change, and driving comprehensive digital transformation."
+      }
+    }
+  },
+  "servicesGrid": {
+    "sectionTitle": "Our Services",
+    "sectionSubtitle": "Comprehensive AI solutions tailored to your business needs, from automation to strategic consulting.",
+    "learnMore": "Learn more",
+    "items": {
+      "aiAutomation": {
+        "shortTitle": "AI Automation",
+        "description": "Automated workflows, document processing, and RPA enhanced with AI to eliminate repetitive tasks and boost efficiency."
+      },
+      "aiAgents": {
+        "shortTitle": "AI Agents",
+        "description": "Autonomous AI agents for complex tasks like sales prospecting, customer support, data analysis, and business intelligence."
+      },
+      "chatbots": {
+        "shortTitle": "Chatbots",
+        "description": "Intelligent conversational interfaces for customer support, internal helpdesks, and interactive product experiences."
+      },
+      "aiTools": {
+        "shortTitle": "AI Tools",
+        "description": "Selection and implementation of enterprise AI tools like ChatGPT Enterprise, Claude, GitHub Copilot, and custom solutions."
+      },
+      "aiConsulting": {
+        "shortTitle": "AI Consulting",
+        "description": "AI readiness assessments, strategic roadmaps, OKR alignment, and team training to define your AI transformation path."
+      },
+      "digitalTransformation": {
+        "shortTitle": "Transformation",
+        "description": "Complete process modernization programs, including audit, agile delivery, change management, and AI-centered redesign."
+      }
+    }
+  },
+  "needs": {
+    "sectionTitle": "What Are You Looking to Achieve?",
+    "sectionSubtitle": "Choose your goal and we'll show you how we can help.",
+    "items": {
+      "automateProcesses": {
+        "label": "Automate repetitive processes",
+        "description": "Free your team from manual tasks with AI-powered workflows."
+      },
+      "buildAgents": {
+        "label": "Build intelligent AI agents",
+        "description": "Deploy custom agents that handle complex tasks autonomously."
+      },
+      "improveSupport": {
+        "label": "Improve customer support",
+        "description": "AI chatbots that resolve issues and scale effortlessly."
+      },
+      "implementTools": {
+        "label": "Implement AI tools across my org",
+        "description": "Strategic rollout of Claude, GPT, Gemini, and more."
+      },
+      "defineStrategy": {
+        "label": "Define an AI strategy",
+        "description": "Readiness assessment and roadmap for AI adoption."
+      },
+      "modernizeOperations": {
+        "label": "Modernize legacy operations",
+        "description": "End-to-end digital transformation with AI at the core."
+      },
+      "seeResults": {
+        "label": "See proven results first",
+        "description": "Browse real outcomes from businesses like yours."
+      }
+    }
+  },
+  "process": {
+    "sectionTitle": "Our Approach",
+    "sectionSubtitle": "A proven methodology that ensures every AI initiative delivers measurable business results.",
+    "stepLabel": "Step",
+    "steps": {
+      "diagnose": {
+        "title": "Diagnose",
+        "description": "We analyze your current processes, technology stack, and business objectives to identify where AI can create the most impact."
+      },
+      "plan": {
+        "title": "Plan",
+        "description": "We design a tailored AI strategy with clear priorities, timelines, and measurable outcomes aligned with your goals."
+      },
+      "implement": {
+        "title": "Implement",
+        "description": "We build and deploy AI solutions using agile development methodologies with live sharing of product evolution, so you follow every step of progress in real time."
+      },
+      "scale": {
+        "title": "Scale",
+        "description": "We optimize, monitor, and expand successful AI implementations across your organization for maximum business impact."
+      }
+    }
+  },
+  "stats": {
+    "ariaLabel": "Company statistics",
+    "items": {
+      "projectsDelivered": {
+        "value": 35,
+        "suffix": "+",
+        "label": "Projects Delivered"
+      },
+      "industriesServed": {
+        "value": 6,
+        "suffix": "+",
+        "label": "Industries Served"
+      },
+      "countries": {
+        "value": 3,
+        "suffix": "",
+        "label": "Countries"
+      },
+      "clientSatisfaction": {
+        "value": 95,
+        "suffix": "%",
+        "label": "Client Satisfaction"
+      }
+    }
+  },
+  "industries": {
+    "sectionTitle": "Industries We Serve",
+    "sectionSubtitle": "Tailored AI solutions for the challenges specific to your industry.",
+    "viewCaseStudies": "View case studies",
+    "items": {
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "AI-powered scheduling, clinical documentation, patient engagement, and care coordination for clinics and care providers."
+      },
+      "financialServices": {
+        "title": "Financial Services",
+        "description": "Intelligent document processing, compliance automation, risk analysis, and customer-facing AI assistants for financial institutions."
+      },
+      "retail": {
+        "title": "Retail & E-Commerce",
+        "description": "Personalized customer experiences, inventory optimization, conversational commerce, and demand forecasting with AI."
+      },
+      "b2bServices": {
+        "title": "B2B Services",
+        "description": "Sales automation, proposal generation, lead scoring, and AI-augmented workflows for professional services companies."
+      }
+    }
+  },
+  "techStack": {
+    "sectionTitle": "Built with Modern Technology",
+    "sectionSubtitle": "We leverage the best tools and platforms to build robust, scalable AI solutions.",
+    "categories": {
+      "aiModels": {
+        "name": "AI Models",
+        "technologies": ["Claude", "GPT-4", "Gemini", "LangChain", "LlamaIndex", "Hugging Face"]
+      },
+      "frontend": {
+        "name": "Frontend",
+        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js"]
+      },
+      "backend": {
+        "name": "Backend",
+        "technologies": ["Node.js", "Python", "PostgreSQL", "FastAPI", "Supabase"]
+      },
+      "infrastructure": {
+        "name": "Infrastructure",
+        "technologies": ["AWS", "Cloudflare", "Docker", "CI/CD", "Vercel"]
+      }
+    }
+  },
+  "testimonials": {
+    "sectionTitle": "What Our Clients Say",
+    "sectionSubtitle": "Real results from real partnerships.",
+    "items": [
+      {
+        "quote": "SCIT transformed our document processing workflow with AI automation. What used to take our team hours now happens in minutes with greater accuracy.",
+        "name": "Maria S.",
+        "role": "Operations Director",
+        "company": "Legal Services Firm"
+      },
+      {
+        "quote": "The AI prospecting agent SCIT built for us generates qualified leads around the clock. Our sales pipeline has never been healthier.",
+        "name": "Thomas K.",
+        "role": "Head of Sales",
+        "company": "B2B SaaS Company"
+      },
+      {
+        "quote": "Their strategic approach to AI implementation gave us clarity. Instead of chasing trends, we now have a focused roadmap with measurable outcomes.",
+        "name": "Ana R.",
+        "role": "CEO",
+        "company": "Healthcare Tech Startup"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "title": "Ready to Start Your AI Transformation?",
+    "subtitle": "Let's discuss how AI can transform your business processes, reduce costs, and unlock new opportunities for growth.",
+    "ctaPrimary": "Book a Free Consultation"
+  }
+}

@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
 
@@ -6,35 +7,16 @@ interface TechCategory {
   items: string[]
 }
 
-const techCategories: TechCategory[] = [
-  {
-    label: 'AI Models',
-    items: ['Claude (Anthropic)', 'GPT-4o (OpenAI)', 'Gemini (Google)', 'LLaMA', 'Mistral', 'Open-source LLMs'],
-  },
-  {
-    label: 'Frontend',
-    items: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vite'],
-  },
-  {
-    label: 'Backend & APIs',
-    items: ['Node.js', 'Python', 'FastAPI', 'REST', 'GraphQL', 'WebSockets'],
-  },
-  {
-    label: 'Infrastructure',
-    items: ['Cloudflare', 'AWS', 'Google Cloud', 'Vercel', 'Supabase', 'Docker'],
-  },
-  {
-    label: 'Data & AI Tools',
-    items: ['LangChain', 'Vector DBs', 'RAG Pipelines', 'Hugging Face', 'n8n', 'Make'],
-  },
-]
-
 export function TechnologiesSection() {
+  const { t } = useTranslation('about')
+
+  const techCategories = t('technologies.categories', { returnObjects: true }) as TechCategory[]
+
   return (
     <Section className="bg-muted/30">
       <SectionHeading
-        title="Our Technology Stack"
-        subtitle="We choose the right tools for each project — never locked into a single vendor."
+        title={t('technologies.title')}
+        subtitle={t('technologies.subtitle')}
       />
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
         {techCategories.map((category) => (

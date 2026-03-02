@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Recursos",
+    "description": "Recursos gratuitos de AI: casos de estudio, articulos de blog, calculadora de ROI y evaluacion de preparacion para AI. Todo lo que necesita para planificar su camino con AI."
+  },
+  "hero": {
+    "title": "Recursos",
+    "subtitle": "Casos de estudio, articulos y herramientas gratuitas para ayudarle a planificar y tener exito con AI."
+  },
+  "sections": {
+    "title": "Explore Nuestros Recursos",
+    "subtitle": "Todo lo que necesita para entender, evaluar e implementar AI en su negocio.",
+    "explore": "Explorar",
+    "items": [
+      {
+        "title": "Casos de Estudio",
+        "descriptionTemplate": "{{count}} proyectos reales con resultados medibles en salud, servicios B2B e inmobiliaria."
+      },
+      {
+        "title": "Blog e Insights",
+        "descriptionTemplate": "{{count}} articulos sobre estrategia de AI, implementacion, ROI de automatizacion y transformacion digital."
+      },
+      {
+        "title": "Calculadora de ROI de AI",
+        "description": "Estime los ahorros potenciales y el retorno de inversion de la automatizacion con AI para su negocio."
+      },
+      {
+        "title": "Evaluacion de Preparacion para AI",
+        "description": "Responda 10 preguntas para descubrir que tan preparada esta su organizacion para la adopcion de AI y obtenga recomendaciones practicas."
+      }
+    ]
+  },
+  "latestArticles": {
+    "title": "Ultimos Articulos",
+    "subtitle": "Mantengase al dia con las ultimas novedades sobre AI y transformacion digital.",
+    "viewAll": "Ver todos los articulos"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "Contactenos",
+    "description": "¿Listo para transformar su negocio con AI? Contacte a SCIT Consulting. Agende una consulta gratuita o envienos un mensaje."
+  },
+  "hero": {
+    "title": "Contactenos",
+    "subtitle": "¿Listo para transformar su negocio con AI? Cuentenos sobre su proyecto y le responderemos en un plazo de 24 horas."
+  },
+  "tabs": {
+    "message": "Enviar un Mensaje",
+    "booking": "Agendar una Llamada"
+  },
+  "booking": {
+    "iframeTitle": "Agendar una Llamada de Consulta",
+    "loading": "Cargando calendario de reservas..."
+  },
+  "footer": {
+    "responseTime": "Normalmente respondemos en un plazo de 24 horas en dias habiles."
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "Nombre *",
+        "placeholder": "Su nombre"
+      },
+      "email": {
+        "label": "Correo electronico *",
+        "placeholder": "usted@empresa.com"
+      },
+      "phone": {
+        "label": "Telefono (opcional)",
+        "placeholder": "+34 600 000 000"
+      },
+      "message": {
+        "label": "¿Como podemos ayudarle? *",
+        "placeholder": "Cuentenos sobre su proyecto, objetivos y desafios...",
+        "maxLengthHint": "Maximo 500 caracteres"
+      }
+    },
+    "submit": {
+      "idle": "Enviar Mensaje",
+      "loading": "Enviando..."
+    },
+    "success": {
+      "title": "¡Mensaje Enviado!",
+      "description": "Gracias por su interes. Le responderemos en un plazo de 24 horas."
+    },
+    "errors": {
+      "generic": "Algo salio mal. Por favor, intentelo de nuevo.",
+      "network": "Error de conexion. Verifique su conexion a internet e intentelo de nuevo."
+    }
+  }
+}

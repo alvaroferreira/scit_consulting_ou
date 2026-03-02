@@ -1,0 +1,78 @@
+{
+  "privacy": {
+    "seo": {
+      "title": "Politica de Privacidad",
+      "description": "Politica de privacidad de SCIT Consulting. Conozca como recopilamos, utilizamos y protegemos sus datos personales en cumplimiento con el GDPR."
+    },
+    "hero": {
+      "title": "Politica de Privacidad",
+      "lastUpdated": "Ultima actualizacion: marzo 2026"
+    },
+    "sections": [
+      {
+        "heading": "1. Introduccion",
+        "body": "SCIT Consulting (\"nosotros\", \"nos\", \"nuestro\") se compromete a proteger su privacidad. Esta Politica de Privacidad explica como recopilamos, utilizamos y protegemos su informacion personal cuando visita nuestro sitio web en scitconsulting.eu."
+      },
+      {
+        "heading": "2. Informacion que Recopilamos",
+        "body": "Recopilamos la informacion que usted proporciona voluntariamente a traves de nuestro formulario de contacto, incluyendo su nombre, direccion de correo electronico, nombre de empresa, numero de telefono y detalles del proyecto. Tambien recopilamos datos anonimizados de analitica sobre como utiliza nuestro sitio web."
+      },
+      {
+        "heading": "3. Como Utilizamos Su Informacion",
+        "body": "Utilizamos su informacion para responder a sus consultas, prestar nuestros servicios de consultoria, enviar comunicaciones relevantes y mejorar nuestro sitio web. Nunca venderemos su informacion personal a terceros."
+      },
+      {
+        "heading": "4. Almacenamiento y Seguridad de Datos",
+        "body": "Sus datos se almacenan de forma segura utilizando encriptacion estandar de la industria. Utilizamos Cloudflare para el alojamiento, que proporciona seguridad de nivel empresarial. Conservamos sus datos solo durante el tiempo necesario para cumplir con los propositos descritos en esta politica."
+      },
+      {
+        "heading": "5. Sus Derechos (GDPR)",
+        "body": "Bajo el GDPR, usted tiene derecho a acceder, rectificar, eliminar, restringir el procesamiento y portar sus datos personales. Tambien tiene derecho a oponerse al procesamiento y a retirar su consentimiento en cualquier momento. Para ejercer estos derechos, contactenos en privacy@scitconsulting.eu."
+      },
+      {
+        "heading": "6. Cookies",
+        "body": "Utilizamos cookies esenciales para la funcionalidad del sitio web y analiticas respetuosas con la privacidad. No utilizamos cookies de seguimiento ni compartimos datos con redes publicitarias."
+      },
+      {
+        "heading": "7. Contacto",
+        "body": "Para consultas relacionadas con la privacidad, contactenos en:\nSCIT Consulting\nCorreo electronico: privacy@scitconsulting.eu"
+      }
+    ]
+  },
+  "terms": {
+    "seo": {
+      "title": "Terminos de Servicio",
+      "description": "Terminos de servicio de SCIT Consulting para servicios de consultoria de AI y transformacion digital."
+    },
+    "hero": {
+      "title": "Terminos de Servicio",
+      "lastUpdated": "Ultima actualizacion: marzo 2026"
+    },
+    "sections": [
+      {
+        "heading": "1. Servicios",
+        "body": "SCIT Consulting proporciona servicios de consultoria de AI, implementacion y transformacion digital. Todos los compromisos se rigen por acuerdos de servicio individuales que complementan estos terminos generales."
+      },
+      {
+        "heading": "2. Propiedad Intelectual",
+        "body": "Todo el contenido de este sitio web, incluyendo textos, graficos, logotipos y codigo, es propiedad de SCIT Consulting y esta protegido por las leyes de propiedad intelectual. Los entregables del cliente son propiedad del cliente una vez realizado el pago completo, salvo que se especifique lo contrario en el acuerdo de servicio."
+      },
+      {
+        "heading": "3. Limitacion de Responsabilidad",
+        "body": "SCIT Consulting presta sus servicios \"tal cual\". No ofrecemos garantias, expresas o implicitas, respecto a la idoneidad de nuestros servicios para un proposito particular. Nuestra responsabilidad se limita a los honorarios pagados por el compromiso especifico."
+      },
+      {
+        "heading": "4. Confidencialidad",
+        "body": "Ambas partes acuerdan mantener la confidencialidad de cualquier informacion propietaria compartida durante el compromiso. Esta obligacion sobrevive a la finalizacion de los servicios."
+      },
+      {
+        "heading": "5. Ley Aplicable",
+        "body": "Estos terminos se rigen por la ley aplicable. Cualquier disputa se resolvera a traves de los canales legales correspondientes."
+      },
+      {
+        "heading": "6. Contacto",
+        "body": "Para preguntas sobre estos terminos, contactenos en:\nSCIT Consulting\nCorreo electronico: hello@scitconsulting.eu"
+      }
+    ]
+  }
+}

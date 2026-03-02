@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Ressources",
+    "description": "Ressources IA gratuites : etudes de cas, articles, calculateur ROI et evaluation de maturite IA. Tout pour planifier votre parcours IA."
+  },
+  "hero": {
+    "title": "Ressources",
+    "subtitle": "Etudes de cas, articles et outils gratuits pour vous aider a planifier et reussir votre adoption de l'IA."
+  },
+  "sections": {
+    "title": "Explorez Nos Ressources",
+    "subtitle": "Tout ce dont vous avez besoin pour comprendre, evaluer et implementer l'IA dans votre entreprise.",
+    "explore": "Explorer",
+    "items": [
+      {
+        "title": "Etudes de Cas",
+        "descriptionTemplate": "{{count}} projets concrets avec des resultats mesurables dans la sante, les services B2B et l'immobilier."
+      },
+      {
+        "title": "Blog & Perspectives",
+        "descriptionTemplate": "{{count}} articles sur la strategie IA, l'implementation, le ROI de l'automatisation et la transformation digitale."
+      },
+      {
+        "title": "Calculateur ROI de l'IA",
+        "description": "Estimez les economies potentielles et le retour sur investissement de l'automatisation IA pour votre entreprise."
+      },
+      {
+        "title": "Evaluation de Maturite IA",
+        "description": "Repondez a 10 questions pour decouvrir le niveau de preparation de votre organisation a l'adoption de l'IA et obtenir des recommandations concretes."
+      }
+    ]
+  },
+  "latestArticles": {
+    "title": "Derniers Articles",
+    "subtitle": "Restez informe des dernieres perspectives sur l'IA et la transformation digitale.",
+    "viewAll": "Voir tous les articles"
+  }
+}

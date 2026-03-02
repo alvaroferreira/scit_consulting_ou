@@ -1,0 +1,129 @@
+{
+  "seo": {
+    "title": "A Propos",
+    "description": "SCIT Consulting est un cabinet de conseil boutique en IA avec plus de 15 ans d'experience en transformation digitale a travers l'Europe. Plus de 35 projets realises dans 6 secteurs."
+  },
+  "hero": {
+    "title": "A Propos de SCIT Consulting",
+    "subtitle": "Un cabinet de conseil boutique en IA qui accompagne les entreprises dans leur transformation par l'intelligence artificielle."
+  },
+  "mission": {
+    "title": "Transformation Digitale IA-First",
+    "paragraph1": "SCIT Consulting est un cabinet de conseil boutique en transformation digitale. Nous sommes specialises dans l'accompagnement des entreprises qui souhaitent exploiter l'intelligence artificielle pour automatiser leurs processus, developper des systemes intelligents et transformer leurs operations.",
+    "paragraph2": "Notre equipe cumule plus de 15 ans d'experience en conseil de direction et en transformation organisationnelle sur plusieurs marches europeens, notamment le Portugal, l'Allemagne, l'Espagne et la Republique tcheque. Nous avons travaille dans des villes comme Lisbonne, Munich, Dusseldorf, Madrid et Prague, ce qui nous confere une comprehension approfondie des cultures et besoins d'affaires europeens.",
+    "paragraph3": "Avec plus de 35 projets realises dans des secteurs tels que l'IT & Technologies, les Services Financiers, le Commerce & E-commerce, l'Industrie, la Sante et les Telecommunications, nous apportons une expertise concrete en agents IA, systemes d'automatisation, IA conversationnelle et conseil strategique. Notre approche boutique garantit a chaque client un accompagnement de niveau senior et des solutions personnalisees.",
+    "highlights": [
+      {
+        "title": "Experience Multi-Marches",
+        "description": "Projets realises a Lisbonne, Munich, Dusseldorf, Madrid et Prague."
+      },
+      {
+        "title": "6+ Secteurs d'Activite",
+        "description": "IT, Services Financiers, Commerce, Industrie, Sante et Telecommunications."
+      },
+      {
+        "title": "Developpement IA-Natif",
+        "description": "Solutions IA sur mesure avec Claude, GPT, Gemini et des modeles open source."
+      },
+      {
+        "title": "Approche Boutique",
+        "description": "Expertise de niveau senior sur chaque projet, a chaque fois."
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Notre Stack Technologique",
+    "subtitle": "Nous choisissons les bons outils pour chaque projet, sans jamais etre lies a un seul editeur.",
+    "categories": [
+      {
+        "label": "Modeles IA",
+        "items": ["Claude (Anthropic)", "GPT-4o (OpenAI)", "Gemini (Google)", "LLaMA", "Mistral", "LLMs Open Source"]
+      },
+      {
+        "label": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vite"]
+      },
+      {
+        "label": "Backend & APIs",
+        "items": ["Node.js", "Python", "FastAPI", "REST", "GraphQL", "WebSockets"]
+      },
+      {
+        "label": "Infrastructure",
+        "items": ["Cloudflare", "AWS", "Google Cloud", "Vercel", "Supabase", "Docker"]
+      },
+      {
+        "label": "Donnees & Outils IA",
+        "items": ["LangChain", "Bases vectorielles", "Pipelines RAG", "Hugging Face", "n8n", "Make"]
+      }
+    ]
+  },
+  "markets": {
+    "title": "Nos Marches",
+    "subtitle": "Base en Estonie, nous intervenons a travers l'Europe.",
+    "items": [
+      { "country": "Portugal", "cities": "Lisbonne" },
+      { "country": "Allemagne", "cities": "Munich, Dusseldorf" },
+      { "country": "Espagne", "cities": "Madrid" },
+      { "country": "Republique tcheque", "cities": "Prague" },
+      { "country": "Estonie", "cities": "Tallinn (Siege)" }
+    ]
+  },
+  "timeline": {
+    "title": "Notre Parcours",
+    "subtitle": "Du conseil en entreprise aux solutions IA-natives.",
+    "events": [
+      {
+        "year": "2010",
+        "title": "Les Racines du Conseil",
+        "description": "Debut dans le conseil en entreprise, pilotant des projets de transformation digitale a travers l'Europe."
+      },
+      {
+        "year": "2018",
+        "title": "Virage vers l'IA",
+        "description": "Recentrage sur l'intelligence artificielle avec le developpement des premieres solutions d'automatisation et de chatbots."
+      },
+      {
+        "year": "2023",
+        "title": "Creation de SCIT Consulting",
+        "description": "Fondation de SCIT Consulting en Estonie en tant que cabinet de conseil IA-natif pour les entreprises europeennes."
+      },
+      {
+        "year": "2024",
+        "title": "Agents IA & LLMs",
+        "description": "Expansion vers les agents IA sur mesure, les integrations LLM et l'automatisation avancee avec Claude, GPT et Gemini."
+      },
+      {
+        "year": "2025",
+        "title": "Cap des 35+ Projets",
+        "description": "Plus de 35 projets realises dans 6 secteurs avec un taux de satisfaction client de 95 %."
+      }
+    ]
+  },
+  "values": {
+    "title": "Ce Qui Nous Anime",
+    "subtitle": "Nos valeurs guident notre facon de travailler et les resultats que nous delivrons.",
+    "items": [
+      {
+        "title": "L'Impact Avant le Battage",
+        "description": "Nous privilegions les resultats business concrets, pas les demonstrations technologiques a la mode."
+      },
+      {
+        "title": "La Qualite Avant la Vitesse",
+        "description": "Nous construisons des solutions fiables et evolutives sur le long terme."
+      },
+      {
+        "title": "Le Partenariat Avant le Projet",
+        "description": "Nous investissons dans des relations durables, pas dans des missions ponctuelles."
+      },
+      {
+        "title": "La Transparence Avant les Promesses",
+        "description": "Nous communiquons honnetement sur ce que l'IA peut et ne peut pas faire."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Construisons Ensemble",
+    "subtitle": "Pret a explorer comment l'IA peut transformer votre entreprise ?",
+    "button": "Nous Contacter"
+  }
+}

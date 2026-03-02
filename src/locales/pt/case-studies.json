@@ -1,0 +1,178 @@
+{
+  "page": {
+    "title": "Casos de Sucesso",
+    "subtitle": "Resultados reais de projetos reais. Veja como ajudamos empresas a transformarem-se com AI.",
+    "filterAll": "Todos"
+  },
+  "template": {
+    "theChallenge": "O Desafio",
+    "ourApproach": "A Nossa Abordagem",
+    "theSolution": "A Solucao",
+    "results": "Resultados",
+    "techStack": "Stack Tecnologico",
+    "ctaTitle": "Pronto Para Resultados Semelhantes?",
+    "ctaSubtitle": "Vamos discutir como podemos ajudar o seu negocio a alcancar resultados mensuraveis com AI.",
+    "moreCaseStudies": "Mais Casos de Sucesso",
+    "getInTouch": "Fale Connosco",
+    "readCaseStudy": "Ler Caso de Sucesso",
+    "notFound": "Caso de Sucesso Nao Encontrado",
+    "notFoundMessage": "O caso de sucesso que procura nao existe."
+  },
+  "caseStudies": {
+    "physiotherapy-clinic-chain": {
+      "title": "Rede de Clinicas de Fisioterapia Multi-Localizacao",
+      "industry": "Saude",
+      "industryCategory": "Saude",
+      "challenge": "Uma rede de clinicas de fisioterapia com varias localizacoes enfrentava ineficiencias no agendamento de pacientes, elevadas taxas de faltas e comunicacao fragmentada entre clinicas. A equipa passava tempo excessivo na gestao manual de consultas, reduzindo a sua capacidade de se focar no atendimento ao paciente.",
+      "approach": [
+        "Auditoria dos workflows de agendamento existentes e identificacao de padroes de estrangulamento em todas as localizacoes",
+        "Desenho de um assistente de agendamento com AI que aprende as preferencias dos pacientes e otimiza os horarios de consulta",
+        "Implementacao de lembretes automatizados via SMS e email com sugestoes inteligentes de reagendamento",
+        "Construcao de um dashboard centralizado para visibilidade entre localizacoes e alocacao de recursos"
+      ],
+      "solution": "Implementamos um sistema de agendamento com AI personalizado integrado com o software de gestao clinica existente. A solucao utiliza analitica preditiva para identificar pacientes em risco de falta e contacta-os proativamente com horarios alternativos. Um assistente de AI conversacional gere reservas, reagendamentos e cancelamentos em todas as localizacoes atraves de uma interface unificada.",
+      "results": [
+        {
+          "metric": "Reducao de Faltas",
+          "description": "Diminuicao nas faltas dos pacientes atraves de contacto preditivo"
+        },
+        {
+          "metric": "Horas de Equipa Poupadas",
+          "description": "Horas semanais libertadas de tarefas manuais de agendamento"
+        },
+        {
+          "metric": "Satisfacao do Paciente",
+          "description": "Pontuacao de satisfacao com a experiencia de marcacao"
+        },
+        {
+          "metric": "Eficiencia de Agendamento",
+          "description": "Agendamento de consultas mais rapido em todas as localizacoes"
+        }
+      ]
+    },
+    "luxury-elderly-care": {
+      "title": "Prestador Lider de Cuidados Senior Premium",
+      "industry": "Saude",
+      "industryCategory": "Saude",
+      "challenge": "Um prestador de cuidados senior premium precisava de modernizar as suas operacoes sem comprometer o servico personalizado e de excelencia que os seus residentes esperavam. Os seus sistemas legados criavam silos de dados entre equipas de cuidados, administracao e comunicacao com familias.",
+      "approach": [
+        "Realizacao de entrevistas com stakeholders incluindo equipa de cuidados, administradores e familias dos residentes",
+        "Mapeamento de todo o percurso de cuidados para identificar pontos de intervencao digital que melhoram em vez de substituir o toque humano",
+        "Desenvolvimento de um roadmap de transformacao digital faseado priorizando vitorias rapidas",
+        "Implementacao de ferramentas AI para documentacao de cuidados e comunicacao com familias preservando relacoes pessoais"
+      ],
+      "solution": "Criamos uma estrategia de transformacao digital centrada numa plataforma de coordenacao de cuidados potenciada por AI. O sistema automatiza documentacao de rotina, gera insights inteligentes de cuidados a partir de observacoes diarias e fornece atualizacoes personalizadas as familias. AI de voz para texto ajuda os cuidadores a documentar interacoes naturalmente sem interromper o seu workflow.",
+      "results": [
+        {
+          "metric": "Tempo de Documentacao",
+          "description": "Reducao no tempo gasto em documentacao de cuidados"
+        },
+        {
+          "metric": "Envolvimento Familiar",
+          "description": "Aumento na utilizacao e satisfacao do portal de familias"
+        },
+        {
+          "metric": "Pontuacao de Qualidade de Cuidados",
+          "description": "Pontuacao em auditoria de qualidade apos implementacao"
+        },
+        {
+          "metric": "Retencao de Equipa",
+          "description": "Melhoria na retencao de equipa ao longo de 12 meses"
+        }
+      ]
+    },
+    "european-b2b-services": {
+      "title": "Empresa Europeia de Servicos B2B",
+      "industry": "Servicos B2B",
+      "industryCategory": "Servicos B2B",
+      "challenge": "Uma empresa europeia de servicos B2B estava a perder negocios devido a tempos de resposta lentos e qualidade inconsistente de propostas. A equipa comercial passava 70% do seu tempo em tarefas administrativas em vez de construir relacoes com clientes, e operacoes transfronteiricas adicionavam complexidade aos workflows.",
+      "approach": [
+        "Analise de todo o pipeline comercial para identificar onde a AI poderia ter maior impacto",
+        "Desenho de agentes AI personalizados para geracao de propostas, qualificacao de leads e automacao de follow-up",
+        "Integracao de ferramentas AI com o CRM e plataformas de comunicacao existentes",
+        "Formacao da equipa comercial em workflows potenciados por AI mantendo a sua abordagem consultiva"
+      ],
+      "solution": "Desenvolvemos um conjunto de agentes AI que automatizam o trabalho pesado no processo comercial. Um gerador de propostas cria propostas personalizadas e alinhadas com a marca em minutos em vez de horas. Um sistema inteligente de scoring de leads prioriza oportunidades de alto valor. Sequencias de follow-up automatizadas mantem o envolvimento enquanto a equipa comercial se foca em conversas estrategicas.",
+      "results": [
+        {
+          "metric": "Tempo de Proposta",
+          "description": "Reducao no tempo desde o brief ate a proposta finalizada"
+        },
+        {
+          "metric": "Taxa de Conversao",
+          "description": "Aumento na taxa de conversao de proposta para fecho"
+        },
+        {
+          "metric": "Crescimento de Receita",
+          "description": "Crescimento anual de receita atribuido aos workflows de AI"
+        },
+        {
+          "metric": "Tempo de Resposta",
+          "description": "Resposta mais rapida a leads recebidos"
+        }
+      ]
+    },
+    "real-estate-portfolio": {
+      "title": "Portfolio de Gestao Imobiliaria",
+      "industry": "Imobiliario",
+      "industryCategory": "Imobiliario",
+      "challenge": "Uma empresa de gestao imobiliaria que supervisiona um portfolio diversificado de imoveis estava afogada em comunicacoes com inquilinos, pedidos de manutencao e gestao documental. Processos manuais resultavam em respostas atrasadas, janelas de manutencao perdidas e insatisfacao dos inquilinos.",
+      "approach": [
+        "Mapeamento de todos os pontos de contacto com inquilinos e identificacao de padroes repetitivos adequados para automacao AI",
+        "Construcao de um chatbot de AI conversacional para suporte ao inquilino 24/7 e triagem de pedidos de manutencao",
+        "Implementacao de processamento inteligente de documentos para gestao de contratos e conformidade",
+        "Criacao de modelos de manutencao preditiva baseados em dados historicos e caracteristicas dos imoveis"
+      ],
+      "solution": "Implementamos um assistente de gestao imobiliaria com AI que gere consultas de inquilinos, faz triagem de pedidos de manutencao por urgencia e automatiza workflows documentais. O chatbot gere comunicacoes de rotina em multiplos idiomas enquanto escala questoes complexas para gestores humanos. Algoritmos de manutencao preditiva ajudam a prevenir reparacoes de emergencia dispendiosas.",
+      "results": [
+        {
+          "metric": "Tempo de Resposta",
+          "description": "Reducao no tempo medio de resposta ao inquilino"
+        },
+        {
+          "metric": "Custos de Manutencao",
+          "description": "Diminuicao nas despesas de manutencao de emergencia"
+        },
+        {
+          "metric": "Satisfacao do Inquilino",
+          "description": "Classificacao geral de satisfacao dos inquilinos"
+        },
+        {
+          "metric": "Pedidos Automatizados",
+          "description": "Pedidos de inquilinos tratados sem intervencao humana"
+        }
+      ]
+    },
+    "medical-clinic-network": {
+      "title": "Rede de Clinicas Medicas",
+      "industry": "Saude",
+      "industryCategory": "Saude",
+      "challenge": "Uma rede de clinicas medicas precisava de implementar ferramentas AI em todas as suas operacoes mas nao tinha experiencia interna. Queriam utilizar AI para documentacao clinica, triagem de pacientes e analitica operacional sem perturbar workflows existentes nem comprometer a privacidade dos dados.",
+      "approach": [
+        "Realizacao de uma avaliacao de maturidade AI em todas as clinicas para avaliar infraestrutura e capacidades da equipa",
+        "Desenvolvimento de um roadmap priorizado de implementacao AI com projecoes claras de ROI para cada iniciativa",
+        "Implementacao de ferramentas AI em clinicas piloto primeiro, medindo o impacto antes da implementacao em toda a rede",
+        "Estabelecimento de politicas de governanca AI e programas de formacao para todos os niveis da equipa"
+      ],
+      "solution": "Providenciamos consultoria estrategica de AI de ponta a ponta, comecando com uma avaliacao abrangente de maturidade e culminando numa implementacao faseada em toda a rede de clinicas. Ferramentas com AI assistem agora na documentacao clinica, intake de pacientes e relatorios operacionais. Um dashboard de analitica personalizado fornece insights a nivel de rede para tomada de decisao baseada em dados.",
+      "results": [
+        {
+          "metric": "Eficiencia Operacional",
+          "description": "Melhoria na eficiencia operacional global"
+        },
+        {
+          "metric": "Precisao de Documentacao",
+          "description": "Precisao da documentacao clinica com assistencia AI"
+        },
+        {
+          "metric": "Poupanca de Custos",
+          "description": "Poupanca anual de custos com melhorias de processos por AI"
+        },
+        {
+          "metric": "Adocao pela Equipa",
+          "description": "Taxa de adocao de ferramentas AI pela equipa apos programa de formacao"
+        }
+      ]
+    }
+  }
+}

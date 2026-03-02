@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
+import { useLocale } from '@/hooks/use-locale'
 import {
   IconArrowRight,
   IconCheck,
@@ -19,8 +21,11 @@ interface ServicePageProps {
 }
 
 export function ServicePage({ serviceId }: ServicePageProps) {
+  const { t } = useTranslation('services')
   const service = services.find((s) => s.id === serviceId)
   if (!service) return null
+
+  const serviceKey = service.id
 
   const relatedServices = services.filter(
     (s) => s.id !== serviceId && s.pillar === service.pillar
@@ -44,29 +49,31 @@ export function ServicePage({ serviceId }: ServicePageProps) {
   return (
     <>
       <SEO
-        title={service.title}
-        description={service.description}
+        title={t(`services.${serviceKey}.title`)}
+        description={t(`services.${serviceKey}.description`)}
         path={service.href}
       />
-      <ServiceHero service={service} />
-      <ServiceProblem service={service} />
-      <ServiceSolution service={service} />
-      <ServiceFeatures service={service} />
+      <ServiceHero service={service} serviceKey={serviceKey} />
+      <ServiceProblem serviceKey={serviceKey} />
+      <ServiceSolution serviceKey={serviceKey} />
+      <ServiceFeatures serviceKey={serviceKey} />
       {relatedCaseStudy && (
         <MiniCaseStudy caseStudy={relatedCaseStudy} />
       )}
-      <ServiceBenefits service={service} />
-      <ServiceFAQ service={service} />
+      <ServiceBenefits serviceKey={serviceKey} />
+      <ServiceFAQ serviceKey={serviceKey} />
       <RelatedServices
         services={enhancedRelatedServices}
-        descriptions={service.relatedServiceDescriptions}
+        currentServiceKey={serviceKey}
       />
       <ServiceCta />
     </>
   )
 }
 
-function ServiceHero({ service }: { service: Service }) {
+function ServiceHero({ service, serviceKey }: { service: Service; serviceKey: string }) {
+  const locale = useLocale()
+  const { t } = useTranslation('services')
   const Icon = service.icon
   return (
     <section className="relative overflow-hidden bg-scit-deep py-20 md:py-28">
@@ -91,10 +98,10 @@ function ServiceHero({ service }: { service: Service }) {
             <Icon size={28} />
           </div>
           <h1 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-            {service.heroHeadline}
+            {t(`services.${serviceKey}.heroHeadline`)}
           </h1>
           <p className="mt-4 text-lg text-white/70 md:text-xl max-w-2xl">
-            {service.longDescription}
+            {t(`services.${serviceKey}.longDescription`)}
           </p>
           <div className="mt-8">
             <Button
@@ -102,8 +109,8 @@ function ServiceHero({ service }: { service: Service }) {
               size="lg"
               className="bg-white text-scit-deep hover:bg-white/90"
             >
-              <Link to="/contact">
-                Get Started
+              <Link to="/$locale/contact" params={{ locale }}>
+                {t('template.getStarted')}
                 <IconArrowRight size={18} className="ml-2" />
               </Link>
             </Button>
@@ -114,7 +121,8 @@ function ServiceHero({ service }: { service: Service }) {
   )
 }
 
-function ServiceProblem({ service }: { service: Service }) {
+function ServiceProblem({ serviceKey }: { serviceKey: string }) {
+  const { t } = useTranslation('services')
   return (
     <Section>
       <div className="grid gap-10 md:grid-cols-2 items-center">
@@ -122,11 +130,11 @@ function ServiceProblem({ service }: { service: Service }) {
           <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-red-100 text-red-600 dark:bg-red-950 dark:text-red-400">
             <IconAlertTriangle size={22} />
           </div>
-          <h2 className="text-2xl font-bold md:text-3xl">The Challenge</h2>
+          <h2 className="text-2xl font-bold md:text-3xl">{t('template.theChallenge')}</h2>
         </div>
         <div>
           <p className="text-muted-foreground leading-relaxed text-lg">
-            {service.problemDescription}
+            {t(`services.${serviceKey}.problemDescription`)}
           </p>
         </div>
       </div>
@@ -134,7 +142,8 @@ function ServiceProblem({ service }: { service: Service }) {
   )
 }
 
-function ServiceSolution({ service }: { service: Service }) {
+function ServiceSolution({ serviceKey }: { serviceKey: string }) {
+  const { t } = useTranslation('services')
   return (
     <Section className="bg-muted/30">
       <div className="grid gap-10 md:grid-cols-2 items-center">
@@ -142,11 +151,11 @@ function ServiceSolution({ service }: { service: Service }) {
           <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-scit-purple/10 text-scit-purple">
             <IconBulb size={22} />
           </div>
-          <h2 className="text-2xl font-bold md:text-3xl">Our Solution</h2>
+          <h2 className="text-2xl font-bold md:text-3xl">{t('template.ourSolution')}</h2>
         </div>
         <div>
           <p className="text-muted-foreground leading-relaxed text-lg">
-            {service.solutionDescription}
+            {t(`services.${serviceKey}.solutionDescription`)}
           </p>
         </div>
       </div>
@@ -154,19 +163,22 @@ function ServiceSolution({ service }: { service: Service }) {
   )
 }
 
-function ServiceFeatures({ service }: { service: Service }) {
+function ServiceFeatures({ serviceKey }: { serviceKey: string }) {
+  const { t } = useTranslation('services')
+  const features = t(`services.${serviceKey}.features`, { returnObjects: true }) as string[]
+
   return (
     <Section>
       <div className="grid gap-12 md:grid-cols-2 items-center">
         <div>
-          <h2 className="text-2xl font-bold md:text-3xl">What&apos;s Included</h2>
+          <h2 className="text-2xl font-bold md:text-3xl">{t('template.whatsIncluded')}</h2>
           <p className="mt-3 text-muted-foreground">
-            Comprehensive solutions designed to deliver measurable results.
+            {t('template.whatsIncludedSubtitle')}
           </p>
         </div>
         <div className="grid gap-3">
-          {service.features.map((feature) => (
-            <div key={feature} className="flex items-start gap-3 rounded-lg border border-border p-4">
+          {features.map((feature, i) => (
+            <div key={i} className="flex items-start gap-3 rounded-lg border border-border p-4">
               <div className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-scit-purple/10">
                 <IconCheck size={12} className="text-scit-purple" />
               </div>
@@ -180,23 +192,27 @@ function ServiceFeatures({ service }: { service: Service }) {
 }
 
 function MiniCaseStudy({ caseStudy }: { caseStudy: CaseStudy }) {
+  const locale = useLocale()
+  const { t } = useTranslation('services')
+  const { t: tCs } = useTranslation('case-studies')
   const firstTwoResults = caseStudy.results.slice(0, 2)
+  const csKey = caseStudy.slug
 
   return (
     <Section className="bg-muted/30">
       <div className="max-w-3xl mx-auto">
         <div className="mb-8 text-center">
-          <h2 className="text-2xl font-bold md:text-3xl">Real Results</h2>
+          <h2 className="text-2xl font-bold md:text-3xl">{t('template.realResults')}</h2>
           <p className="mt-3 text-muted-foreground">
-            See how we delivered measurable impact in a similar engagement.
+            {t('template.realResultsSubtitle')}
           </p>
         </div>
         <div className="rounded-xl border border-border bg-card p-6 md:p-8">
           <div className="flex flex-wrap items-start justify-between gap-4 mb-6">
             <div>
-              <h3 className="text-lg font-semibold">{caseStudy.title}</h3>
+              <h3 className="text-lg font-semibold">{tCs(`caseStudies.${csKey}.title`)}</h3>
               <span className="mt-1 inline-block rounded-full bg-scit-purple/10 px-3 py-1 text-xs font-medium text-scit-purple">
-                {caseStudy.industry}
+                {tCs(`caseStudies.${csKey}.industry`)}
               </span>
             </div>
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-scit-purple/10 text-scit-purple">
@@ -204,28 +220,32 @@ function MiniCaseStudy({ caseStudy }: { caseStudy: CaseStudy }) {
             </div>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 mb-6">
-            {firstTwoResults.map((result) => (
-              <div
-                key={result.metric}
-                className="rounded-lg border border-border bg-muted/50 p-4 text-center"
-              >
-                <div className="text-2xl font-bold text-scit-purple">
-                  {result.value}
-                  {result.suffix}
+            {firstTwoResults.map((result, i) => {
+              const results = tCs(`caseStudies.${csKey}.results`, { returnObjects: true }) as Array<{ metric: string; description: string }>
+              const translatedResult = results[i]
+              return (
+                <div
+                  key={result.metric}
+                  className="rounded-lg border border-border bg-muted/50 p-4 text-center"
+                >
+                  <div className="text-2xl font-bold text-scit-purple">
+                    {result.value}
+                    {result.suffix}
+                  </div>
+                  <div className="mt-1 text-sm font-medium">{translatedResult?.metric ?? result.metric}</div>
+                  <div className="mt-1 text-xs text-muted-foreground">
+                    {translatedResult?.description ?? result.description}
+                  </div>
                 </div>
-                <div className="mt-1 text-sm font-medium">{result.metric}</div>
-                <div className="mt-1 text-xs text-muted-foreground">
-                  {result.description}
-                </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
           <Button asChild variant="outline" className="w-full">
             <Link
-              to="/case-studies/$slug"
-              params={{ slug: caseStudy.slug }}
+              to="/$locale/case-studies/$slug"
+              params={{ locale, slug: caseStudy.slug }}
             >
-              Read the Full Case Study
+              {t('template.readFullCaseStudy')}
               <IconArrowRight size={16} className="ml-2" />
             </Link>
           </Button>
@@ -235,14 +255,17 @@ function MiniCaseStudy({ caseStudy }: { caseStudy: CaseStudy }) {
   )
 }
 
-function ServiceBenefits({ service }: { service: Service }) {
+function ServiceBenefits({ serviceKey }: { serviceKey: string }) {
+  const { t } = useTranslation('services')
+  const benefits = t(`services.${serviceKey}.benefits`, { returnObjects: true }) as string[]
+
   return (
     <Section>
       <h2 className="text-2xl font-bold text-center md:text-3xl mb-12">
-        Business Benefits
+        {t('template.businessBenefits')}
       </h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-        {service.benefits.map((benefit, i) => (
+        {benefits.map((benefit, i) => (
           <div key={i} className="rounded-xl border border-border bg-card p-6 text-center">
             <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-scit-purple to-scit-cyan text-white text-sm font-bold">
               {i + 1}
@@ -255,17 +278,19 @@ function ServiceBenefits({ service }: { service: Service }) {
   )
 }
 
-function ServiceFAQ({ service }: { service: Service }) {
+function ServiceFAQ({ serviceKey }: { serviceKey: string }) {
+  const { t } = useTranslation('services')
   const [openIndex, setOpenIndex] = useState<number | null>(null)
+  const faqs = t(`services.${serviceKey}.faqs`, { returnObjects: true }) as Array<{ question: string; answer: string }>
 
   // Inject FAQPage JSON-LD schema
   useEffect(() => {
-    if (service.faqs.length === 0) return
+    if (!faqs || faqs.length === 0) return
 
     const faqSchema = {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      mainEntity: service.faqs.map((faq) => ({
+      mainEntity: faqs.map((faq) => ({
         '@type': 'Question',
         name: faq.question,
         acceptedAnswer: {
@@ -283,18 +308,18 @@ function ServiceFAQ({ service }: { service: Service }) {
     return () => {
       document.head.removeChild(script)
     }
-  }, [service.faqs])
+  }, [faqs])
 
-  if (service.faqs.length === 0) return null
+  if (!faqs || faqs.length === 0) return null
 
   return (
     <Section className="bg-muted/30">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-center md:text-3xl mb-12">
-          Frequently Asked Questions
+          {t('template.faq')}
         </h2>
         <div className="space-y-3">
-          {service.faqs.map((faq, i) => {
+          {faqs.map((faq, i) => {
             const isOpen = openIndex === i
             return (
               <div key={i} className="rounded-lg border border-border bg-card">
@@ -324,36 +349,40 @@ function ServiceFAQ({ service }: { service: Service }) {
 
 function RelatedServices({
   services: relatedServices,
-  descriptions,
+  currentServiceKey,
 }: {
   services: Service[]
-  descriptions: Record<string, string>
+  currentServiceKey: string
 }) {
+  const locale = useLocale()
+  const { t } = useTranslation('services')
+
   if (relatedServices.length === 0) return null
 
   return (
     <Section>
       <h2 className="text-2xl font-bold text-center md:text-3xl mb-12">
-        Related Services
+        {t('template.relatedServices')}
       </h2>
       <div className="grid gap-6 md:grid-cols-3">
         {relatedServices.map((service) => {
           const Icon = service.icon
-          const contextualDescription = descriptions[service.id]
+          const contextualDescription = t(`services.${currentServiceKey}.relatedServiceDescriptions.${service.id}`, { defaultValue: '' })
           return (
             <Link
               key={service.id}
-              to={service.href}
+              to={`/$locale${service.href}` as string}
+              params={{ locale }}
               className="group rounded-xl border border-border bg-card p-6 transition-all hover:border-scit-purple/30 hover:shadow-lg"
             >
               <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-scit-purple/10 text-scit-purple">
                 <Icon size={20} />
               </div>
               <h3 className="font-semibold group-hover:text-scit-purple transition-colors">
-                {service.shortTitle}
+                {t(`services.${service.id}.shortTitle`)}
               </h3>
               <p className="mt-2 text-sm text-muted-foreground line-clamp-3">
-                {contextualDescription || service.description}
+                {contextualDescription || t(`services.${service.id}.description`)}
               </p>
             </Link>
           )
@@ -364,19 +393,21 @@ function RelatedServices({
 }
 
 function ServiceCta() {
+  const locale = useLocale()
+  const { t } = useTranslation('services')
   return (
     <section className="bg-gradient-to-r from-scit-deep to-scit-purple py-16">
       <div className="container mx-auto text-center">
         <h2 className="text-2xl font-bold text-white md:text-3xl">
-          Ready to Get Started?
+          {t('template.ctaTitle')}
         </h2>
         <p className="mt-3 text-white/70 max-w-xl mx-auto">
-          Let&apos;s discuss how we can help your business leverage AI for real results.
+          {t('template.ctaSubtitle')}
         </p>
         <div className="mt-6">
           <Button asChild size="lg" className="bg-white text-scit-deep hover:bg-white/90">
-            <Link to="/contact">
-              Book a Consultation
+            <Link to="/$locale/contact" params={{ locale }}>
+              {t('template.bookConsultation')}
               <IconArrowRight size={18} className="ml-2" />
             </Link>
           </Button>

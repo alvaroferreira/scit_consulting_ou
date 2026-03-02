@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "SCIT Consulting - Transformation Digitale par l'IA",
+    "description": "Nous implémentons des outils d'IA, automatisons les processus et créons des agents intelligents. De la stratégie à l'exécution, SCIT Consulting transforme votre entreprise grâce à l'intelligence artificielle."
+  },
+  "about": {
+    "title": "À Propos",
+    "description": "SCIT Consulting est un cabinet spécialisé en IA avec plus de 15 ans d'expérience en transformation digitale en Europe. Plus de 35 projets livrés dans 6 secteurs d'activité."
+  },
+  "services": {
+    "title": "Services IA",
+    "description": "Solutions IA complètes : automatisation, agents personnalisés, chatbots, implémentation d'outils IA, conseil stratégique et transformation digitale."
+  },
+  "caseStudies": {
+    "title": "Études de Cas",
+    "description": "Découvrez comment SCIT Consulting a aidé des entreprises dans la santé, les services B2B et l'immobilier à obtenir des résultats mesurables avec des solutions IA."
+  },
+  "blog": {
+    "title": "Blog & Insights",
+    "description": "Analyses d'experts sur l'automatisation IA, la transformation digitale et la stratégie d'entreprise. Guides pratiques et réflexions de SCIT Consulting."
+  },
+  "contact": {
+    "title": "Contactez-Nous",
+    "description": "Prêt à transformer votre entreprise avec l'IA ? Contactez SCIT Consulting. Réservez une consultation gratuite ou envoyez-nous un message."
+  },
+  "approach": {
+    "title": "Notre Approche",
+    "description": "Une méthodologie éprouvée en quatre phases qui garantit des résultats mesurables pour chaque initiative IA. De la découverte à l'optimisation."
+  },
+  "resources": {
+    "title": "Ressources",
+    "description": "Ressources IA gratuites : études de cas, articles de blog, calculateur de ROI et évaluation de maturité IA. Tout pour planifier votre parcours IA."
+  },
+  "privacyPolicy": {
+    "title": "Politique de Confidentialité",
+    "description": "Politique de confidentialité de SCIT Consulting. Découvrez comment nous collectons, utilisons et protégeons vos données personnelles conformément au RGPD."
+  },
+  "terms": {
+    "title": "Conditions d'Utilisation",
+    "description": "Conditions d'utilisation des services de conseil en IA et de transformation digitale de SCIT Consulting."
+  },
+  "roiCalculator": {
+    "title": "Calculateur de ROI IA",
+    "description": "Calculez le retour sur investissement potentiel de l'automatisation par IA pour votre entreprise. Outil interactif gratuit par SCIT Consulting."
+  },
+  "aiReadiness": {
+    "title": "Évaluation de Maturité IA",
+    "description": "Répondez à notre questionnaire gratuit de 10 questions pour évaluer la maturité IA de votre organisation. Recevez des recommandations personnalisées de SCIT Consulting."
+  }
+}

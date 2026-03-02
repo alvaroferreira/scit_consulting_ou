@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Blog & Insights",
+    "subtitle": "Practical insights on AI implementation, automation strategy, and digital transformation for business leaders.",
+    "filterAll": "All",
+    "emptyState": "No articles found for this tag. Try selecting a different filter."
+  },
+  "template": {
+    "backToBlog": "Back to Blog",
+    "by": "By",
+    "ctaTitle": "Need Help Implementing AI?",
+    "ctaSubtitle": "Our team can help you turn these insights into action. Let's discuss how AI can transform your business operations.",
+    "ctaPrimary": "Get in Touch",
+    "ctaSecondary": "View Case Studies",
+    "relatedArticles": "Related Articles",
+    "notFound": "Article Not Found",
+    "notFoundMessage": "The article you are looking for does not exist or has been moved."
+  },
+  "posts": {
+    "ai-agents-transforming-business-operations-2025": {
+      "title": "How AI Agents Are Transforming Business Operations in 2025",
+      "excerpt": "AI agents are moving beyond simple task automation to become autonomous decision-makers in business operations. Here is what this shift means for your organization."
+    },
+    "roi-of-ai-automation-year-one": {
+      "title": "The ROI of AI Automation: What to Expect in Year One",
+      "excerpt": "Understanding the realistic return on investment from AI automation projects in the first 12 months, including hidden costs and unexpected benefits."
+    },
+    "choosing-right-ai-strategy-business-size": {
+      "title": "Choosing the Right AI Strategy for Your Business Size",
+      "excerpt": "A practical framework for selecting AI initiatives that match your company size, budget, and technical maturity, from solo entrepreneurs to mid-market enterprises."
+    },
+    "5-signs-business-ready-ai-implementation": {
+      "title": "5 Signs Your Business Is Ready for AI Implementation",
+      "excerpt": "Not every business is ready for AI. Here are five concrete indicators that your organization has the foundation to succeed with AI implementation."
+    },
+    "conversational-ai-vs-traditional-chatbots": {
+      "title": "Conversational AI vs Traditional Chatbots: What's the Difference?",
+      "excerpt": "Understanding the fundamental differences between rule-based chatbots and modern conversational AI, and why the distinction matters for your business."
+    },
+    "ai-in-healthcare-practical-applications": {
+      "title": "AI in Healthcare: Practical Applications Beyond the Hype",
+      "excerpt": "Moving past the headlines to examine where AI is delivering real, measurable value in healthcare operations today, from scheduling to clinical documentation."
+    },
+    "building-ai-first-culture-leadership-guide": {
+      "title": "Building an AI-First Culture: A Leadership Guide",
+      "excerpt": "Creating an organizational culture that embraces AI requires deliberate leadership action. Here is a practical guide to making AI adoption a cultural norm."
+    },
+    "hidden-costs-not-automating-b2b": {
+      "title": "The Hidden Costs of Not Automating: A B2B Perspective",
+      "excerpt": "While businesses carefully calculate the cost of automation, they rarely measure the ongoing cost of manual processes. Here is what you are actually paying for inaction."
+    },
+    "data-privacy-ai-european-businesses": {
+      "title": "Data Privacy and AI: What European Businesses Need to Know",
+      "excerpt": "Navigating the intersection of AI implementation and European data protection regulations, with practical guidance for GDPR-compliant AI deployment."
+    },
+    "pilot-to-production-scaling-ai-projects": {
+      "title": "From Pilot to Production: Scaling AI Projects Successfully",
+      "excerpt": "Most AI pilots never reach production. Here is a practical framework for bridging the gap between a successful proof of concept and a fully operational AI system."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "privacy": {
+    "seo": {
+      "title": "Privacy Policy",
+      "description": "Privacy policy for SCIT Consulting. Learn how we collect, use, and protect your personal data in compliance with GDPR."
+    },
+    "hero": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: March 2026"
+    },
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "body": "SCIT Consulting (\"we\", \"us\", \"our\") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website at scitconsulting.eu."
+      },
+      {
+        "heading": "2. Information We Collect",
+        "body": "We collect information you voluntarily provide through our contact form, including your name, email address, company name, phone number, and project details. We also collect anonymized analytics data about how you use our website."
+      },
+      {
+        "heading": "3. How We Use Your Information",
+        "body": "We use your information to respond to your inquiries, provide our consulting services, send relevant communications, and improve our website. We will never sell your personal information to third parties."
+      },
+      {
+        "heading": "4. Data Storage & Security",
+        "body": "Your data is stored securely using industry-standard encryption. We use Cloudflare for hosting, which provides enterprise-grade security. We retain your data only as long as necessary to fulfill the purposes described in this policy."
+      },
+      {
+        "heading": "5. Your Rights (GDPR)",
+        "body": "Under the GDPR, you have the right to access, rectify, erase, restrict processing, and port your personal data. You also have the right to object to processing and to withdraw consent at any time. To exercise these rights, contact us at privacy@scitconsulting.eu."
+      },
+      {
+        "heading": "6. Cookies",
+        "body": "We use essential cookies for website functionality and privacy-friendly analytics. We do not use tracking cookies or share data with advertising networks."
+      },
+      {
+        "heading": "7. Contact",
+        "body": "For privacy-related inquiries, contact us at:\nSCIT Consulting\nEmail: privacy@scitconsulting.eu"
+      }
+    ]
+  },
+  "terms": {
+    "seo": {
+      "title": "Terms of Service",
+      "description": "Terms of service for SCIT Consulting AI consultancy and digital transformation services."
+    },
+    "hero": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: March 2026"
+    },
+    "sections": [
+      {
+        "heading": "1. Services",
+        "body": "SCIT Consulting provides AI consulting, implementation, and digital transformation services. All engagements are governed by individual service agreements that supplement these general terms."
+      },
+      {
+        "heading": "2. Intellectual Property",
+        "body": "All content on this website, including text, graphics, logos, and code, is the property of SCIT Consulting and is protected by intellectual property laws. Client deliverables are owned by the client upon full payment, unless otherwise specified in the service agreement."
+      },
+      {
+        "heading": "3. Limitation of Liability",
+        "body": "SCIT Consulting provides services on an \"as is\" basis. We make no warranties, express or implied, regarding the suitability of our services for any particular purpose. Our liability is limited to the fees paid for the specific engagement."
+      },
+      {
+        "heading": "4. Confidentiality",
+        "body": "Both parties agree to maintain the confidentiality of any proprietary information shared during the engagement. This obligation survives the termination of services."
+      },
+      {
+        "heading": "5. Governing Law",
+        "body": "These terms are governed by applicable law. Any disputes shall be resolved through appropriate legal channels."
+      },
+      {
+        "heading": "6. Contact",
+        "body": "For questions about these terms, contact us at:\nSCIT Consulting\nEmail: hello@scitconsulting.eu"
+      }
+    ]
+  }
+}

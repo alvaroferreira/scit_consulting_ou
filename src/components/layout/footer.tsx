@@ -1,14 +1,20 @@
 import { Link } from '@tanstack/react-router'
-import { footerNavItems } from '@/data/navigation'
+import { useTranslation } from 'react-i18next'
+import { useLocalizedFooterNav } from '@/hooks/use-localized-nav'
+import { useLocale } from '@/hooks/use-locale'
 
 export function Footer() {
+  const locale = useLocale()
+  const navItems = useLocalizedFooterNav()
+  const { t } = useTranslation('common')
+
   return (
     <footer className="border-t border-border bg-muted/30">
       <div className="container mx-auto py-12 md:py-16">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center">
+            <Link to="/$locale" params={{ locale }} className="flex items-center">
               <img
                 src="/images/logo-black.png"
                 alt="SCIT Consulting"
@@ -21,19 +27,18 @@ export function Footer() {
               />
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs">
-              AI-first digital transformation consultancy. We implement AI tools,
-              automate processes, and build intelligent agents.
+              {t('footer.description')}
             </p>
             <p className="mt-4 text-xs text-muted-foreground">
-              SCIT Consulting
+              {t('footer.company')}
             </p>
           </div>
 
           {/* Services */}
           <div>
-            <h3 className="mb-4 text-sm font-semibold">Services</h3>
+            <h3 className="mb-4 text-sm font-semibold">{t('footer.servicesTitle')}</h3>
             <ul className="space-y-2">
-              {footerNavItems.services.map((item) => (
+              {navItems.services.map((item) => (
                 <li key={item.href}>
                   <Link
                     to={item.href}
@@ -48,9 +53,9 @@ export function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="mb-4 text-sm font-semibold">Company</h3>
+            <h3 className="mb-4 text-sm font-semibold">{t('footer.companyTitle')}</h3>
             <ul className="space-y-2">
-              {footerNavItems.company.map((item) => (
+              {navItems.company.map((item) => (
                 <li key={item.href}>
                   <Link
                     to={item.href}
@@ -65,9 +70,9 @@ export function Footer() {
 
           {/* Legal */}
           <div>
-            <h3 className="mb-4 text-sm font-semibold">Legal</h3>
+            <h3 className="mb-4 text-sm font-semibold">{t('footer.legalTitle')}</h3>
             <ul className="space-y-2">
-              {footerNavItems.legal.map((item) => (
+              {navItems.legal.map((item) => (
                 <li key={item.href}>
                   <Link
                     to={item.href}
@@ -83,10 +88,10 @@ export function Footer() {
 
         <div className="mt-12 border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} SCIT Consulting. All rights reserved.
+            &copy; {new Date().getFullYear()} {t('footer.copyright')}
           </p>
           <p className="text-xs text-muted-foreground">
-            Built with AI, for businesses embracing AI.
+            {t('footer.tagline')}
           </p>
         </div>
       </div>

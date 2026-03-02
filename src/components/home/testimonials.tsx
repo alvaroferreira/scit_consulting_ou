@@ -1,14 +1,24 @@
+import { useTranslation } from 'react-i18next'
 import { IconQuote } from '@tabler/icons-react'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
-import { testimonials } from '@/data/testimonials'
+
+interface TranslatedTestimonial {
+  quote: string
+  name: string
+  role: string
+  company: string
+}
 
 export function Testimonials() {
+  const { t } = useTranslation('home')
+  const testimonials = t('testimonials.items', { returnObjects: true }) as TranslatedTestimonial[]
+
   return (
     <Section>
       <SectionHeading
-        title="What Our Clients Say"
-        subtitle="Real results from real partnerships."
+        title={t('testimonials.sectionTitle')}
+        subtitle={t('testimonials.sectionSubtitle')}
       />
 
       <div className="grid gap-6 md:grid-cols-3">

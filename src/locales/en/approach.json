@@ -1,0 +1,72 @@
+{
+  "seo": {
+    "title": "Our Approach",
+    "description": "A proven four-phase methodology that ensures every AI initiative delivers measurable business results. From discovery to optimization."
+  },
+  "hero": {
+    "title": "Our Approach",
+    "subtitle": "A proven methodology that ensures every AI initiative delivers measurable business results."
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "Four phases that take you from vision to value.",
+    "phaseLabel": "Phase",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Diagnose",
+        "description": "We analyze your current processes, technology stack, and business objectives to identify where AI can create the most impact."
+      },
+      {
+        "number": 2,
+        "title": "Plan",
+        "description": "We design a tailored AI strategy with clear priorities, timelines, and measurable outcomes aligned with your goals."
+      },
+      {
+        "number": 3,
+        "title": "Implement",
+        "description": "We build and deploy AI solutions using agile development methodologies with live sharing of product evolution, so you follow every step of progress in real time."
+      },
+      {
+        "number": 4,
+        "title": "Scale",
+        "description": "We optimize, monitor, and expand successful AI implementations across your organization for maximum business impact."
+      }
+    ]
+  },
+  "principles": {
+    "title": "Our Principles",
+    "subtitle": "The values that guide every engagement.",
+    "items": [
+      {
+        "title": "Business-First AI",
+        "description": "We start with your business goals, not the technology. AI is a means to an end, not the end itself."
+      },
+      {
+        "title": "Iterative Delivery",
+        "description": "We deliver value in weeks, not months. Agile sprints with live sharing of development progress ensure full transparency and early feedback."
+      },
+      {
+        "title": "Measurable Outcomes",
+        "description": "Every initiative has clear KPIs and success metrics. We measure impact, not just output."
+      },
+      {
+        "title": "Knowledge Transfer",
+        "description": "We build your team's capabilities alongside the solution. You own the knowledge, not just the code."
+      },
+      {
+        "title": "Transparent Partnership",
+        "description": "No black boxes. We communicate openly about progress, challenges, and trade-offs."
+      },
+      {
+        "title": "Sustainable Scale",
+        "description": "Solutions designed to grow with your business, not create vendor dependency."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's Work Together",
+    "subtitle": "Ready to apply this methodology to your business? Start with a free consultation.",
+    "button": "Book a Consultation"
+  }
+}

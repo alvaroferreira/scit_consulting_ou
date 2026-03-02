@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Recursos",
+    "description": "Recursos gratuitos de AI: casos de sucesso, artigos, calculadora de ROI e avaliacao de maturidade AI. Tudo o que precisa para planear a sua jornada de AI."
+  },
+  "hero": {
+    "title": "Recursos",
+    "subtitle": "Casos de sucesso, artigos e ferramentas gratuitas para ajudar a planear e ter sucesso com AI."
+  },
+  "sections": {
+    "title": "Explore os Nossos Recursos",
+    "subtitle": "Tudo o que precisa para compreender, avaliar e implementar AI no seu negocio.",
+    "explore": "Explorar",
+    "items": [
+      {
+        "title": "Casos de Sucesso",
+        "descriptionTemplate": "{{count}} projetos reais com resultados mensuraveis nos setores de saude, servicos B2B e imobiliario."
+      },
+      {
+        "title": "Blog & Artigos",
+        "descriptionTemplate": "{{count}} artigos sobre estrategia de AI, implementacao, ROI de automacao e transformacao digital."
+      },
+      {
+        "title": "Calculadora de ROI de AI",
+        "description": "Estime as poupancas potenciais e o retorno do investimento em automacao com AI para o seu negocio."
+      },
+      {
+        "title": "Avaliacao de Maturidade AI",
+        "description": "Responda a 10 perguntas para descobrir o nivel de preparacao da sua organizacao para a adocao de AI e receba recomendacoes praticas."
+      }
+    ]
+  },
+  "latestArticles": {
+    "title": "Artigos Mais Recentes",
+    "subtitle": "Mantenha-se atualizado com as ultimas perspetivas sobre AI e transformacao digital.",
+    "viewAll": "Ver todos os artigos"
+  }
+}

@@ -1,8 +1,12 @@
 import { Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { IconArrowRight } from '@tabler/icons-react'
+import { useLocale } from '@/hooks/use-locale'
 
 export function Hero() {
+  const locale = useLocale()
+  const { t } = useTranslation('home')
   return (
     <section className="relative overflow-hidden bg-scit-deep">
       {/* Video Background */}
@@ -25,19 +29,18 @@ export function Hero() {
       <div className="container relative mx-auto flex min-h-[85vh] flex-col items-center justify-center px-4 py-20 text-center">
         <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-sm text-white/80 backdrop-blur-sm mb-8">
           <span className="h-2 w-2 rounded-full bg-scit-cyan animate-pulse" />
-          AI-First Digital Transformation
+          {t('hero.badge')}
         </div>
 
         <h1 className="max-w-4xl text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-7xl">
-          Transform Your Business with{' '}
+          {t('hero.headline')}{' '}
           <span className="bg-gradient-to-r from-scit-violet to-scit-cyan bg-clip-text text-transparent">
-            Artificial Intelligence
+            {t('hero.headlineHighlight')}
           </span>
         </h1>
 
         <p className="mt-6 max-w-2xl text-lg text-white/70 md:text-xl">
-          We implement AI tools, automate processes and build intelligent agents
-          , from strategy to execution.
+          {t('hero.subtitle')}
         </p>
 
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -46,8 +49,8 @@ export function Hero() {
             size="lg"
             className="bg-white text-scit-deep hover:bg-white/90 text-base px-8"
           >
-            <Link to="/contact">
-              Book a Consultation
+            <Link to="/$locale/contact" params={{ locale }}>
+              {t('hero.ctaPrimary')}
               <IconArrowRight size={18} className="ml-2" />
             </Link>
           </Button>
@@ -57,17 +60,17 @@ export function Hero() {
             variant="outline"
             className="border-white/20 text-white bg-white/5 hover:bg-white/10 text-base px-8"
           >
-            <Link to="/approach">Our Approach</Link>
+            <Link to="/$locale/approach" params={{ locale }}>{t('hero.ctaSecondary')}</Link>
           </Button>
         </div>
 
         {/* Trust indicators */}
         <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-white/40 text-sm">
-          <span>35+ Projects Delivered</span>
+          <span>{t('hero.trustProjects')}</span>
           <span className="hidden sm:inline">&middot;</span>
-          <span>6+ Industries</span>
+          <span>{t('hero.trustIndustries')}</span>
           <span className="hidden sm:inline">&middot;</span>
-          <span>3 Countries</span>
+          <span>{t('hero.trustCountries')}</span>
         </div>
       </div>
     </section>

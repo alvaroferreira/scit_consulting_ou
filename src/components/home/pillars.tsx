@@ -1,8 +1,14 @@
 import { Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { IconRocket, IconBulb, IconRefresh, IconArrowRight } from '@tabler/icons-react'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
-import { pillars } from '@/data/services'
+
+const pillarItems = [
+  { id: 'implement', link: '/services' },
+  { id: 'consult', link: '/services/ai-consulting' },
+  { id: 'transform', link: '/services/digital-transformation' },
+]
 
 const pillarIcons = {
   implement: IconRocket,
@@ -10,24 +16,18 @@ const pillarIcons = {
   transform: IconRefresh,
 }
 
-const pillarLinks = {
-  implement: '/services',
-  consult: '/services/ai-consulting',
-  transform: '/services/digital-transformation',
-}
-
 export function Pillars() {
+  const { t } = useTranslation('home')
   return (
     <Section>
       <SectionHeading
-        title="How We Help"
-        subtitle="Three pillars that drive your AI transformation journey, from strategy to implementation and beyond."
+        title={t('pillars.sectionTitle')}
+        subtitle={t('pillars.sectionSubtitle')}
       />
 
       <div className="grid gap-6 md:grid-cols-3">
-        {pillars.map((pillar) => {
+        {pillarItems.map((pillar) => {
           const Icon = pillarIcons[pillar.id as keyof typeof pillarIcons]
-          const link = pillarLinks[pillar.id as keyof typeof pillarLinks]
 
           return (
             <div
@@ -38,17 +38,17 @@ export function Pillars() {
                 <Icon size={24} />
               </div>
 
-              <h3 className="text-xl font-bold">{pillar.title}</h3>
-              <p className="text-sm font-medium text-scit-purple">{pillar.subtitle}</p>
+              <h3 className="text-xl font-bold">{t(`pillars.items.${pillar.id}.title`)}</h3>
+              <p className="text-sm font-medium text-scit-purple">{t(`pillars.items.${pillar.id}.subtitle`)}</p>
               <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-                {pillar.description}
+                {t(`pillars.items.${pillar.id}.description`)}
               </p>
 
               <Link
-                to={link}
+                to={pillar.link}
                 className="mt-6 inline-flex items-center gap-1 text-sm font-medium text-scit-purple transition-colors hover:text-scit-violet"
               >
-                Learn more
+                {t('pillars.learnMore')}
                 <IconArrowRight size={14} className="transition-transform group-hover:translate-x-1" />
               </Link>
             </div>

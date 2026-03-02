@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Blog & Artigos",
+    "subtitle": "Perspetivas praticas sobre implementacao de AI, estrategia de automacao e transformacao digital para lideres empresariais.",
+    "filterAll": "Todos",
+    "emptyState": "Nenhum artigo encontrado para esta categoria. Experimente selecionar um filtro diferente."
+  },
+  "template": {
+    "backToBlog": "Voltar ao Blog",
+    "by": "Por",
+    "ctaTitle": "Precisa de Ajuda a Implementar AI?",
+    "ctaSubtitle": "A nossa equipa pode ajuda-lo a transformar estas perspetivas em acao. Vamos discutir como a AI pode transformar as operacoes do seu negocio.",
+    "ctaPrimary": "Fale Connosco",
+    "ctaSecondary": "Ver Casos de Sucesso",
+    "relatedArticles": "Artigos Relacionados",
+    "notFound": "Artigo Nao Encontrado",
+    "notFoundMessage": "O artigo que procura nao existe ou foi movido."
+  },
+  "posts": {
+    "ai-agents-transforming-business-operations-2025": {
+      "title": "Como os Agentes AI Estao a Transformar Operacoes Empresariais em 2025",
+      "excerpt": "Os agentes AI estao a evoluir de simples automacao de tarefas para se tornarem decisores autonomos nas operacoes empresariais. Eis o que esta mudanca significa para a sua organizacao."
+    },
+    "roi-of-ai-automation-year-one": {
+      "title": "O ROI da Automacao AI: O Que Esperar no Primeiro Ano",
+      "excerpt": "Compreender o retorno realista do investimento em projetos de automacao AI nos primeiros 12 meses, incluindo custos ocultos e beneficios inesperados."
+    },
+    "choosing-right-ai-strategy-business-size": {
+      "title": "Escolher a Estrategia AI Certa Para a Dimensao do Seu Negocio",
+      "excerpt": "Um framework pratico para selecionar iniciativas de AI adequadas a dimensao da sua empresa, orcamento e maturidade tecnica, desde empreendedores individuais ate empresas de media dimensao."
+    },
+    "5-signs-business-ready-ai-implementation": {
+      "title": "5 Sinais de Que o Seu Negocio Esta Pronto Para Implementar AI",
+      "excerpt": "Nem todas as empresas estao prontas para AI. Aqui estao cinco indicadores concretos de que a sua organizacao tem a base necessaria para ter sucesso com a implementacao de AI."
+    },
+    "conversational-ai-vs-traditional-chatbots": {
+      "title": "AI Conversacional vs Chatbots Tradicionais: Qual e a Diferenca?",
+      "excerpt": "Compreender as diferencas fundamentais entre chatbots baseados em regras e AI conversacional moderna, e porque e que a distincao importa para o seu negocio."
+    },
+    "ai-in-healthcare-practical-applications": {
+      "title": "AI na Saude: Aplicacoes Praticas Alem do Hype",
+      "excerpt": "Indo alem dos titulos para examinar onde a AI esta a entregar valor real e mensuravel nas operacoes de saude atualmente, desde agendamento ate documentacao clinica."
+    },
+    "building-ai-first-culture-leadership-guide": {
+      "title": "Construir Uma Cultura AI-First: Guia Para Lideres",
+      "excerpt": "Criar uma cultura organizacional que abrace a AI requer acao deliberada da lideranca. Eis um guia pratico para tornar a adocao de AI uma norma cultural."
+    },
+    "hidden-costs-not-automating-b2b": {
+      "title": "Os Custos Ocultos de Nao Automatizar: Uma Perspetiva B2B",
+      "excerpt": "Enquanto as empresas calculam cuidadosamente o custo da automacao, raramente medem o custo continuo de processos manuais. Eis o que esta realmente a pagar pela inacao."
+    },
+    "data-privacy-ai-european-businesses": {
+      "title": "Privacidade de Dados e AI: O Que as Empresas Europeias Precisam de Saber",
+      "excerpt": "Navegar a intersecao entre implementacao de AI e regulamentacao europeia de protecao de dados, com orientacao pratica para implementacao de AI em conformidade com o RGPD."
+    },
+    "pilot-to-production-scaling-ai-projects": {
+      "title": "Do Piloto a Producao: Escalar Projetos de AI Com Sucesso",
+      "excerpt": "A maioria dos pilotos de AI nunca chega a producao. Eis um framework pratico para colmatar a lacuna entre uma prova de conceito bem-sucedida e um sistema de AI totalmente operacional."
+    }
+  }
+}

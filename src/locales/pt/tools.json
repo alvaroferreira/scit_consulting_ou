@@ -1,0 +1,208 @@
+{
+  "roiCalculator": {
+    "sectionTitle": "Configure os Seus Parametros",
+    "sliders": {
+      "employees": {
+        "label": "Numero de colaboradores"
+      },
+      "hoursPerWeek": {
+        "label": "Horas gastas em tarefas repetitivas por semana (por colaborador)"
+      },
+      "hourlyCost": {
+        "label": "Custo medio por hora"
+      }
+    },
+    "metrics": {
+      "annualCostManualWork": {
+        "label": "Custo Anual do Trabalho Manual",
+        "sublabel": "horas desperdicadas por semana"
+      },
+      "estimatedSavings": {
+        "label": "Poupanca Anual Estimada",
+        "sublabel": "Com base numa taxa de automacao de {{rate}}%"
+      },
+      "estimatedRoi": {
+        "label": "ROI Estimado",
+        "sublabel": "Custo de implementacao: {{cost}}"
+      },
+      "paybackPeriod": {
+        "label": "Periodo de Payback",
+        "sublabel": "Tempo para recuperar o seu investimento"
+      }
+    },
+    "payback": {
+      "lessThanOneMonth": "< 1 mes",
+      "oneMonth": "1 mes",
+      "months": "{{count}} meses"
+    },
+    "disclaimer": "Estas estimativas baseiam-se em medias do setor. Os resultados reais podem variar dependendo dos seus processos de negocio especificos e do ambito da implementacao.",
+    "cta": {
+      "title": "Quer uma analise de ROI precisa para o seu negocio?",
+      "subtitle": "A nossa equipa analisara os seus workflows especificos e fornecera uma avaliacao detalhada e personalizada com recomendacoes praticas.",
+      "button": "Obter Analise Personalizada"
+    }
+  },
+  "aiReadiness": {
+    "progress": {
+      "question": "Pergunta {{current}} de {{total}}",
+      "almostThere": "Quase la!",
+      "complete": "Concluido"
+    },
+    "navigation": {
+      "back": "Voltar",
+      "next": "Seguinte",
+      "seeResults": "Ver Resultados"
+    },
+    "questions": {
+      "1": {
+        "text": "Como descreveria a infraestrutura de dados atual da sua organizacao?",
+        "options": [
+          "Temos dados digitais minimos",
+          "Temos alguns sistemas digitais mas os dados estao em silos",
+          "Temos dados centralizados com alguma integracao",
+          "Temos uma plataforma de dados moderna com forte integracao"
+        ]
+      },
+      "2": {
+        "text": "Como e que a lideranca da sua organizacao encara a adocao de AI?",
+        "options": [
+          "A AI nao esta no radar",
+          "Ha curiosidade mas nenhum compromisso",
+          "A lideranca e favoravel e alocou orcamento exploratoria",
+          "A AI e uma prioridade estrategica com investimento dedicado"
+        ]
+      },
+      "3": {
+        "text": "Qual e a capacidade tecnica atual da sua equipa em relacao a AI?",
+        "options": [
+          "Sem experiencia em AI ou ciencia de dados",
+          "Conhecimento basico, alguma exploracao autodidata",
+          "Alguns membros da equipa com experiencia em AI/ML",
+          "Equipa dedicada de AI/ciencia de dados ou parcerias solidas"
+        ]
+      },
+      "4": {
+        "text": "Que proporcao do seu workflow envolve processos manuais e repetitivos?",
+        "options": [
+          "Quase tudo e manual",
+          "Muitos processos sao manuais com alguma automacao",
+          "A maioria das tarefas de rotina esta automatizada",
+          "Totalmente automatizado com intervencao manual minima"
+        ]
+      },
+      "5": {
+        "text": "Como gerem atualmente as interacoes com clientes?",
+        "options": [
+          "Totalmente manual (telefone, email)",
+          "Algumas ferramentas de self-service (FAQ, formularios basicos)",
+          "Multi-canal com algumas respostas automatizadas",
+          "Com assistencia de AI e encaminhamento e automacao inteligentes"
+        ]
+      },
+      "6": {
+        "text": "Qual e a vossa abordagem a tomada de decisao baseada em dados?",
+        "options": [
+          "As decisoes baseiam-se maioritariamente na intuicao",
+          "Usamos relatorios basicos e folhas de calculo",
+          "Temos dashboards e analitica regular",
+          "Usamos analitica preditiva e modelos de dados"
+        ]
+      },
+      "7": {
+        "text": "Como descreveria a sua infraestrutura de TI?",
+        "options": [
+          "Sistemas legados, maioritariamente on-premises",
+          "Mix de legado e alguns servicos cloud",
+          "Predominantemente na cloud com APIs modernas",
+          "Cloud-native com arquitetura de microservicos"
+        ]
+      },
+      "8": {
+        "text": "Qual e a atitude da sua organizacao perante a mudanca?",
+        "options": [
+          "Resistente a mudanca",
+          "Aberta mas lenta a adotar",
+          "A procurar ativamente inovacao",
+          "A mudanca faz parte da nossa cultura"
+        ]
+      },
+      "9": {
+        "text": "Como lidam com dados sensiveis e conformidade?",
+        "options": [
+          "Sem governanca formal de dados",
+          "Existem politicas basicas mas nao sao seguidas consistentemente",
+          "Governanca formal de dados com auditorias regulares",
+          "Programa de conformidade abrangente (RGPD, etc.) com controlos automatizados"
+        ]
+      },
+      "10": {
+        "text": "Qual e a vossa perspetiva de orcamento para investimentos em tecnologia?",
+        "options": [
+          "Muito limitado, sem margem para novas ferramentas",
+          "Orcamento reduzido para pilotos e experiencias",
+          "Orcamento moderado para iniciativas estrategicas",
+          "Orcamento significativo com expectativas claras de ROI"
+        ]
+      }
+    },
+    "emailGate": {
+      "title": "Os seus resultados estao prontos!",
+      "subtitle": "Introduza o seu email para receber um relatorio detalhado de maturidade AI com recomendacoes personalizadas.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "voce@empresa.com",
+      "companyLabel": "Nome da empresa",
+      "companyOptional": "(opcional)",
+      "companyPlaceholder": "A sua empresa",
+      "submitButton": "Obter Resultados",
+      "skipLink": "Saltar, mostrar resultados agora"
+    },
+    "results": {
+      "scoreOf": "/ 40",
+      "recommendedNextSteps": "Proximos Passos Recomendados",
+      "cta": {
+        "title": "Obtenha uma Estrategia AI Personalizada",
+        "subtitle": "Deixe a nossa equipa analisar a sua situacao especifica e construir um roadmap personalizado para adocao de AI.",
+        "primaryButton": "Agendar Consultoria Gratuita",
+        "secondaryButton": "Refazer Avaliacao"
+      },
+      "tiers": {
+        "early": {
+          "name": "Fase Inicial",
+          "description": "A sua organizacao esta no inicio da jornada de AI. Concentre-se na infraestrutura de dados e na construcao de sensibilizacao.",
+          "steps": [
+            "Auditar os sistemas de dados atuais e identificar lacunas",
+            "Comecar a recolher e organizar dados de negocio essenciais",
+            "Agendar um workshop de sensibilizacao sobre AI para a equipa de lideranca"
+          ]
+        },
+        "developing": {
+          "name": "Em Desenvolvimento",
+          "description": "Tem algumas bases no lugar. Vitorias rapidas em automacao podem criar momentum para uma adocao mais ampla de AI.",
+          "steps": [
+            "Identificar 2-3 processos repetitivos prontos para automacao",
+            "Fazer um piloto com uma ferramenta AI numa area de baixo risco para ganhar confianca",
+            "Desenvolver uma estrategia de dados basica para unificar informacao em silos"
+          ]
+        },
+        "ready": {
+          "name": "Preparado",
+          "description": "A sua organizacao esta bem posicionada para implementacao de AI. Um roadmap estrategico ajudara a priorizar os casos de uso de maior impacto.",
+          "steps": [
+            "Construir um roadmap de AI alinhado com os objetivos de negocio",
+            "Avaliar e implementar solucoes de AI para os seus 3 principais casos de uso",
+            "Investir na capacitacao da equipa em ferramentas e workflows de AI"
+          ]
+        },
+        "advanced": {
+          "name": "Avancado",
+          "description": "Esta pronto para solucoes de AI sofisticadas. Concentre-se em casos de uso avancados, agentes AI e escalabilidade das capacidades existentes.",
+          "steps": [
+            "Implementar agentes AI autonomos para workflows complexos",
+            "Escalar iniciativas de AI bem-sucedidas para todos os departamentos",
+            "Explorar modelos de AI personalizados adaptados aos dados da sua industria"
+          ]
+        }
+      }
+    }
+  }
+}

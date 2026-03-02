@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -8,6 +9,7 @@ import { IconSend, IconCheck } from '@tabler/icons-react'
 const TURNSTILE_SITE_KEY = import.meta.env.VITE_TURNSTILE_SITE_KEY || '1x00000000000000000000AA' // test key fallback
 
 export function ContactForm() {
+  const { t } = useTranslation('contact')
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -75,7 +77,7 @@ export function ContactForm() {
       const data = await response.json()
 
       if (!response.ok || data.error) {
-        setError(data.error || 'Something went wrong. Please try again.')
+        setError(data.error || t('form.errors.generic'))
         // Reset Turnstile for retry
         if (window.turnstile && turnstileWidgetId.current) {
           window.turnstile.reset(turnstileWidgetId.current)
@@ -85,7 +87,7 @@ export function ContactForm() {
         setSubmitted(true)
       }
     } catch {
-      setError('Network error. Please check your connection and try again.')
+      setError(t('form.errors.network'))
     } finally {
       setLoading(false)
     }
@@ -97,9 +99,9 @@ export function ContactForm() {
         <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 dark:bg-green-900/30">
           <IconCheck size={32} className="text-green-600" />
         </div>
-        <h3 className="text-xl font-bold">Message Sent!</h3>
+        <h3 className="text-xl font-bold">{t('form.success.title')}</h3>
         <p className="mt-2 text-muted-foreground">
-          Thank you for your interest. We&apos;ll get back to you within 24 hours.
+          {t('form.success.description')}
         </p>
       </div>
     )
@@ -115,31 +117,31 @@ export function ContactForm() {
 
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-2">
-            <Label htmlFor="name">Name *</Label>
-            <Input id="name" name="name" required placeholder="Your name" />
+            <Label htmlFor="name">{t('form.fields.name.label')}</Label>
+            <Input id="name" name="name" required placeholder={t('form.fields.name.placeholder')} />
           </div>
           <div className="space-y-2">
-            <Label htmlFor="email">Email *</Label>
-            <Input id="email" name="email" type="email" required placeholder="you@company.com" />
+            <Label htmlFor="email">{t('form.fields.email.label')}</Label>
+            <Input id="email" name="email" type="email" required placeholder={t('form.fields.email.placeholder')} />
           </div>
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="phone">Phone (optional)</Label>
-          <Input id="phone" name="phone" type="tel" placeholder="+1 (555) 000-0000" />
+          <Label htmlFor="phone">{t('form.fields.phone.label')}</Label>
+          <Input id="phone" name="phone" type="tel" placeholder={t('form.fields.phone.placeholder')} />
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="message">How can we help? *</Label>
+          <Label htmlFor="message">{t('form.fields.message.label')}</Label>
           <Textarea
             id="message"
             name="message"
             required
-            placeholder="Tell us about your project, goals, and challenges..."
+            placeholder={t('form.fields.message.placeholder')}
             rows={5}
             maxLength={500}
           />
-          <p className="text-xs text-muted-foreground">Max 500 characters</p>
+          <p className="text-xs text-muted-foreground">{t('form.fields.message.maxLengthHint')}</p>
         </div>
 
         {/* Cloudflare Turnstile widget */}
@@ -156,10 +158,10 @@ export function ContactForm() {
           disabled={loading}
         >
           {loading ? (
-            'Sending...'
+            t('form.submit.loading')
           ) : (
             <>
-              Send Message
+              {t('form.submit.idle')}
               <IconSend size={18} className="ml-2" />
             </>
           )}

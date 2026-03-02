@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "Contact Us",
+    "description": "Ready to transform your business with AI? Get in touch with SCIT Consulting. Book a free consultation or send us a message."
+  },
+  "hero": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to transform your business with AI? Tell us about your project and we'll get back to you within 24 hours."
+  },
+  "tabs": {
+    "message": "Send a Message",
+    "booking": "Book a Call"
+  },
+  "booking": {
+    "iframeTitle": "Book a Consultation Call",
+    "loading": "Loading booking calendar..."
+  },
+  "footer": {
+    "responseTime": "We typically respond within 24 hours on business days."
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "Name *",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email *",
+        "placeholder": "you@company.com"
+      },
+      "phone": {
+        "label": "Phone (optional)",
+        "placeholder": "+1 (555) 000-0000"
+      },
+      "message": {
+        "label": "How can we help? *",
+        "placeholder": "Tell us about your project, goals, and challenges...",
+        "maxLengthHint": "Max 500 characters"
+      }
+    },
+    "submit": {
+      "idle": "Send Message",
+      "loading": "Sending..."
+    },
+    "success": {
+      "title": "Message Sent!",
+      "description": "Thank you for your interest. We'll get back to you within 24 hours."
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "network": "Network error. Please check your connection and try again."
+    }
+  }
+}

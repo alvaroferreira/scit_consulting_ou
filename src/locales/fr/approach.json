@@ -1,0 +1,72 @@
+{
+  "seo": {
+    "title": "Notre Approche",
+    "description": "Une methodologie en quatre phases eprouvee qui garantit des resultats business mesurables pour chaque initiative IA. Du diagnostic a l'optimisation."
+  },
+  "hero": {
+    "title": "Notre Approche",
+    "subtitle": "Une methodologie eprouvee qui garantit des resultats business mesurables pour chaque initiative IA."
+  },
+  "process": {
+    "title": "Comment Nous Travaillons",
+    "subtitle": "Quatre phases qui vous menent de la vision a la valeur.",
+    "phaseLabel": "Phase",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Diagnostiquer",
+        "description": "Nous analysons vos processus actuels, votre infrastructure technologique et vos objectifs business pour identifier ou l'IA peut avoir le plus d'impact."
+      },
+      {
+        "number": 2,
+        "title": "Planifier",
+        "description": "Nous concevons une strategie IA sur mesure avec des priorites claires, des delais et des resultats mesurables alignes sur vos objectifs."
+      },
+      {
+        "number": 3,
+        "title": "Implementer",
+        "description": "Nous concevons et deployons des solutions IA en methodologie agile avec un partage en direct de l'evolution du produit, pour que vous suiviez chaque etape en temps reel."
+      },
+      {
+        "number": 4,
+        "title": "Deployer",
+        "description": "Nous optimisons, monitorons et etendons les implementations IA reussies a l'ensemble de votre organisation pour un impact business maximal."
+      }
+    ]
+  },
+  "principles": {
+    "title": "Nos Principes",
+    "subtitle": "Les valeurs qui guident chaque mission.",
+    "items": [
+      {
+        "title": "L'IA au Service du Business",
+        "description": "Nous partons de vos objectifs business, pas de la technologie. L'IA est un moyen, pas une fin en soi."
+      },
+      {
+        "title": "Livraison Iterative",
+        "description": "Nous generons de la valeur en semaines, pas en mois. Des sprints agiles avec un partage en direct de l'avancement garantissent une transparence totale et des retours precoces."
+      },
+      {
+        "title": "Resultats Mesurables",
+        "description": "Chaque initiative dispose de KPI et de metriques de succes clairement definis. Nous mesurons l'impact, pas seulement la production."
+      },
+      {
+        "title": "Transfert de Competences",
+        "description": "Nous developpons les competences de vos equipes en parallele de la solution. Vous possedez le savoir-faire, pas seulement le code."
+      },
+      {
+        "title": "Partenariat Transparent",
+        "description": "Pas de boites noires. Nous communiquons ouvertement sur l'avancement, les defis et les arbitrages."
+      },
+      {
+        "title": "Croissance Durable",
+        "description": "Des solutions concues pour grandir avec votre entreprise, sans creer de dependance fournisseur."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Travaillons Ensemble",
+    "subtitle": "Pret a appliquer cette methodologie a votre entreprise ? Commencez par une consultation gratuite.",
+    "button": "Prendre Rendez-vous"
+  }
+}

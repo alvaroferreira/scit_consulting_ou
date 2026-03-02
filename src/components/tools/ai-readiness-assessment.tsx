@@ -1,5 +1,7 @@
 import { useState, useCallback } from 'react'
 import { Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
+import { useLocale } from '@/hooks/use-locale'
 import {
   IconArrowRight,
   IconArrowLeft,
@@ -25,27 +27,18 @@ import { cn } from '@/lib/utils'
 /*  Types                                                                     */
 /* -------------------------------------------------------------------------- */
 
-interface QuestionOption {
-  label: string
-  score: number
-}
-
 interface Question {
   id: number
-  text: string
   icon: React.ElementType
-  options: QuestionOption[]
+  scores: number[]
 }
 
 type Tier = 'early' | 'developing' | 'ready' | 'advanced'
 
-interface TierInfo {
-  name: string
-  description: string
+interface TierStyle {
   color: string
   bgColor: string
   ringColor: string
-  steps: string[]
 }
 
 /* -------------------------------------------------------------------------- */
@@ -53,170 +46,38 @@ interface TierInfo {
 /* -------------------------------------------------------------------------- */
 
 const questions: Question[] = [
-  {
-    id: 1,
-    text: "How would you describe your organization's current data infrastructure?",
-    icon: IconDatabase,
-    options: [
-      { label: 'We have minimal digital data', score: 1 },
-      { label: 'We have some digital systems but data is siloed', score: 2 },
-      { label: 'We have centralized data with some integration', score: 3 },
-      { label: 'We have a modern data platform with strong integration', score: 4 },
-    ],
-  },
-  {
-    id: 2,
-    text: 'How does your leadership view AI adoption?',
-    icon: IconUsers,
-    options: [
-      { label: 'AI is not on the radar', score: 1 },
-      { label: "There's curiosity but no commitment", score: 2 },
-      { label: 'Leadership is supportive and has allocated exploratory budget', score: 3 },
-      { label: 'AI is a strategic priority with dedicated investment', score: 4 },
-    ],
-  },
-  {
-    id: 3,
-    text: "What is your team's current technical capability with AI?",
-    icon: IconBrain,
-    options: [
-      { label: 'No AI or data science expertise', score: 1 },
-      { label: 'Basic awareness, some self-taught exploration', score: 2 },
-      { label: 'Some team members with AI/ML experience', score: 3 },
-      { label: 'Dedicated AI/data science team or strong partnerships', score: 4 },
-    ],
-  },
-  {
-    id: 4,
-    text: 'How much of your workflow involves repetitive, manual processes?',
-    icon: IconTarget,
-    options: [
-      { label: 'Almost everything is manual', score: 4 },
-      { label: 'Many processes are manual with some automation', score: 3 },
-      { label: 'Most routine tasks are automated', score: 2 },
-      { label: 'Fully automated with minimal manual intervention', score: 1 },
-    ],
-  },
-  {
-    id: 5,
-    text: 'How do you currently handle customer interactions?',
-    icon: IconBulb,
-    options: [
-      { label: 'Entirely manual (phone, email)', score: 1 },
-      { label: 'Some self-service tools (FAQ, basic forms)', score: 2 },
-      { label: 'Multi-channel with some automated responses', score: 3 },
-      { label: 'AI-assisted with intelligent routing and automation', score: 4 },
-    ],
-  },
-  {
-    id: 6,
-    text: 'What is your approach to data-driven decision making?',
-    icon: IconTrendingUp,
-    options: [
-      { label: 'Decisions are mostly intuition-based', score: 1 },
-      { label: 'We use basic reporting and spreadsheets', score: 2 },
-      { label: 'We have dashboards and regular analytics', score: 3 },
-      { label: 'We use predictive analytics and data models', score: 4 },
-    ],
-  },
-  {
-    id: 7,
-    text: 'How would you describe your IT infrastructure?',
-    icon: IconCloud,
-    options: [
-      { label: 'Legacy systems, mostly on-premises', score: 1 },
-      { label: 'Mix of legacy and some cloud services', score: 2 },
-      { label: 'Primarily cloud-based with modern APIs', score: 3 },
-      { label: 'Cloud-native with microservices architecture', score: 4 },
-    ],
-  },
-  {
-    id: 8,
-    text: "What is your organization's attitude toward change?",
-    icon: IconRocket,
-    options: [
-      { label: 'Resistant to change', score: 1 },
-      { label: 'Open but slow to adopt', score: 2 },
-      { label: 'Actively pursuing innovation', score: 3 },
-      { label: 'Change is part of our culture', score: 4 },
-    ],
-  },
-  {
-    id: 9,
-    text: 'How do you handle sensitive data and compliance?',
-    icon: IconShieldCheck,
-    options: [
-      { label: 'No formal data governance', score: 1 },
-      { label: "Basic policies exist but aren't consistently followed", score: 2 },
-      { label: 'Formal data governance with regular audits', score: 3 },
-      { label: 'Comprehensive compliance program (GDPR, etc.) with automated controls', score: 4 },
-    ],
-  },
-  {
-    id: 10,
-    text: 'What is your budget outlook for technology investments?',
-    icon: IconCoin,
-    options: [
-      { label: 'Very limited, no room for new tools', score: 1 },
-      { label: 'Small budget for pilots and experiments', score: 2 },
-      { label: 'Moderate budget for strategic initiatives', score: 3 },
-      { label: 'Significant budget with clear ROI expectations', score: 4 },
-    ],
-  },
+  { id: 1, icon: IconDatabase, scores: [1, 2, 3, 4] },
+  { id: 2, icon: IconUsers, scores: [1, 2, 3, 4] },
+  { id: 3, icon: IconBrain, scores: [1, 2, 3, 4] },
+  { id: 4, icon: IconTarget, scores: [4, 3, 2, 1] },
+  { id: 5, icon: IconBulb, scores: [1, 2, 3, 4] },
+  { id: 6, icon: IconTrendingUp, scores: [1, 2, 3, 4] },
+  { id: 7, icon: IconCloud, scores: [1, 2, 3, 4] },
+  { id: 8, icon: IconRocket, scores: [1, 2, 3, 4] },
+  { id: 9, icon: IconShieldCheck, scores: [1, 2, 3, 4] },
+  { id: 10, icon: IconCoin, scores: [1, 2, 3, 4] },
 ]
 
-const tiers: Record<Tier, TierInfo> = {
+const tierStyles: Record<Tier, TierStyle> = {
   early: {
-    name: 'Early Stage',
-    description:
-      'Your organization is at the beginning of the AI journey. Focus on data infrastructure and building awareness.',
     color: 'text-red-500 dark:text-red-400',
     bgColor: 'bg-red-500 dark:bg-red-400',
     ringColor: 'ring-red-500/30 dark:ring-red-400/30',
-    steps: [
-      'Audit your current data systems and identify gaps',
-      'Start collecting and organizing key business data',
-      'Schedule an AI awareness workshop for your leadership team',
-    ],
   },
   developing: {
-    name: 'Developing',
-    description:
-      'You have some foundations in place. Quick wins in automation could build momentum for broader AI adoption.',
     color: 'text-orange-500 dark:text-orange-400',
     bgColor: 'bg-orange-500 dark:bg-orange-400',
     ringColor: 'ring-orange-500/30 dark:ring-orange-400/30',
-    steps: [
-      'Identify 2-3 repetitive processes ripe for automation',
-      'Pilot an AI tool in a low-risk area to build confidence',
-      'Develop a basic data strategy to unify siloed information',
-    ],
   },
   ready: {
-    name: 'Ready',
-    description:
-      'Your organization is well-positioned for AI implementation. A strategic roadmap will help you prioritize high-impact use cases.',
     color: 'text-green-500 dark:text-green-400',
     bgColor: 'bg-green-500 dark:bg-green-400',
     ringColor: 'ring-green-500/30 dark:ring-green-400/30',
-    steps: [
-      'Build an AI roadmap aligned with business objectives',
-      'Evaluate and deploy AI solutions for your top 3 use cases',
-      'Invest in upskilling your team on AI tools and workflows',
-    ],
   },
   advanced: {
-    name: 'Advanced',
-    description:
-      'You are ready for sophisticated AI solutions. Focus on advanced use cases, AI agents, and scaling existing capabilities.',
     color: 'text-scit-purple',
     bgColor: 'bg-scit-purple',
     ringColor: 'ring-scit-purple/30',
-    steps: [
-      'Deploy autonomous AI agents for complex workflows',
-      'Scale successful AI initiatives across all departments',
-      'Explore custom AI models tailored to your industry data',
-    ],
   },
 }
 
@@ -234,6 +95,8 @@ function getTier(score: number): Tier {
 type Phase = 'quiz' | 'email-gate' | 'results'
 
 export function AiReadinessAssessment() {
+  const { t } = useTranslation('tools')
+  const locale = useLocale()
   const [currentQ, setCurrentQ] = useState(0)
   const [answers, setAnswers] = useState<Record<number, number>>({})
   const [phase, setPhase] = useState<Phase>('quiz')
@@ -248,7 +111,11 @@ export function AiReadinessAssessment() {
 
   const totalScore = Object.values(answers).reduce((sum, s) => sum + s, 0)
   const tier = getTier(totalScore)
-  const tierInfo = tiers[tier]
+  const tierStyle = tierStyles[tier]
+
+  const tierName = t(`aiReadiness.results.tiers.${tier}.name`)
+  const tierDescription = t(`aiReadiness.results.tiers.${tier}.description`)
+  const tierSteps = t(`aiReadiness.results.tiers.${tier}.steps`, { returnObjects: true }) as string[]
 
   const selectOption = useCallback(
     (score: number) => {
@@ -314,10 +181,10 @@ export function AiReadinessAssessment() {
         <div className="mb-2 flex items-center justify-between text-sm text-muted-foreground">
           <span>
             {phase === 'quiz'
-              ? `Question ${currentQ + 1} of ${totalQuestions}`
+              ? t('aiReadiness.progress.question', { current: currentQ + 1, total: totalQuestions })
               : phase === 'email-gate'
-                ? 'Almost there!'
-                : 'Complete'}
+                ? t('aiReadiness.progress.almostThere')
+                : t('aiReadiness.progress.complete')}
           </span>
           <span>{Math.round(progress)}%</span>
         </div>
@@ -356,19 +223,20 @@ export function AiReadinessAssessment() {
                 <Icon size={24} className="text-scit-purple" />
               </div>
               <h2 className="text-xl font-semibold leading-snug md:text-2xl">
-                {question.text}
+                {t(`aiReadiness.questions.${question.id}.text`)}
               </h2>
             </div>
 
             {/* Options */}
             <div className="space-y-3">
-              {question.options.map((option, idx) => {
-                const isSelected = selectedScore === option.score
+              {(t(`aiReadiness.questions.${question.id}.options`, { returnObjects: true }) as string[]).map((optionLabel, idx) => {
+                const score = question.scores[idx]
+                const isSelected = selectedScore === score
                 return (
                   <button
                     key={idx}
                     type="button"
-                    onClick={() => selectOption(option.score)}
+                    onClick={() => selectOption(score)}
                     className={cn(
                       'group flex w-full items-center gap-4 rounded-xl border p-4 text-left transition-all duration-200',
                       isSelected
@@ -392,7 +260,7 @@ export function AiReadinessAssessment() {
                         isSelected ? 'font-medium text-foreground' : 'text-muted-foreground'
                       )}
                     >
-                      {option.label}
+                      {optionLabel}
                     </span>
                   </button>
                 )
@@ -409,14 +277,14 @@ export function AiReadinessAssessment() {
               className="gap-2"
             >
               <IconArrowLeft size={18} />
-              Back
+              {t('aiReadiness.navigation.back')}
             </Button>
             <Button
               onClick={goNext}
               disabled={selectedScore === null}
               className="gap-2 bg-scit-purple text-white hover:bg-scit-violet"
             >
-              {currentQ === totalQuestions - 1 && allAnswered ? 'See Results' : 'Next'}
+              {currentQ === totalQuestions - 1 && allAnswered ? t('aiReadiness.navigation.seeResults') : t('aiReadiness.navigation.next')}
               <IconArrowRight size={18} />
             </Button>
           </div>
@@ -442,36 +310,35 @@ export function AiReadinessAssessment() {
               </div>
             </div>
             <h2 className="text-center text-xl font-bold md:text-2xl">
-              Your results are ready!
+              {t('aiReadiness.emailGate.title')}
             </h2>
             <p className="mt-2 text-center text-muted-foreground">
-              Enter your email to receive a detailed AI readiness report with personalized
-              recommendations.
+              {t('aiReadiness.emailGate.subtitle')}
             </p>
 
             <form onSubmit={handleEmailSubmit} className="mt-6 space-y-4">
               <div className="space-y-2">
                 <label htmlFor="assessment-email" className="text-sm font-medium">
-                  Email <span className="text-red-500 dark:text-red-400">*</span>
+                  {t('aiReadiness.emailGate.emailLabel')} <span className="text-red-500 dark:text-red-400">*</span>
                 </label>
                 <Input
                   id="assessment-email"
                   type="email"
                   required
-                  placeholder="you@company.com"
+                  placeholder={t('aiReadiness.emailGate.emailPlaceholder')}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <div className="space-y-2">
                 <label htmlFor="assessment-company" className="text-sm font-medium">
-                  Company name{' '}
-                  <span className="text-muted-foreground font-normal">(optional)</span>
+                  {t('aiReadiness.emailGate.companyLabel')}{' '}
+                  <span className="text-muted-foreground font-normal">{t('aiReadiness.emailGate.companyOptional')}</span>
                 </label>
                 <Input
                   id="assessment-company"
                   type="text"
-                  placeholder="Your company"
+                  placeholder={t('aiReadiness.emailGate.companyPlaceholder')}
                   value={company}
                   onChange={(e) => setCompany(e.target.value)}
                 />
@@ -481,7 +348,7 @@ export function AiReadinessAssessment() {
                 className="w-full gap-2 bg-scit-purple text-white hover:bg-scit-violet"
                 size="lg"
               >
-                Get My Results
+                {t('aiReadiness.emailGate.submitButton')}
                 <IconArrowRight size={18} />
               </Button>
             </form>
@@ -492,7 +359,7 @@ export function AiReadinessAssessment() {
                 onClick={skipEmail}
                 className="text-sm text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
               >
-                Skip, show results now
+                {t('aiReadiness.emailGate.skipLink')}
               </button>
             </div>
           </div>
@@ -533,7 +400,7 @@ export function AiReadinessAssessment() {
                   fill="none"
                   strokeWidth="10"
                   strokeLinecap="round"
-                  className={tierInfo.color}
+                  className={tierStyle.color}
                   stroke="currentColor"
                   strokeDasharray={circumference}
                   strokeDashoffset={strokeDashoffset}
@@ -544,34 +411,34 @@ export function AiReadinessAssessment() {
               </svg>
               <div className="absolute inset-0 flex flex-col items-center justify-center">
                 <span className="text-3xl font-bold">{totalScore}</span>
-                <span className="text-xs text-muted-foreground">/ 40</span>
+                <span className="text-xs text-muted-foreground">{t('aiReadiness.results.scoreOf')}</span>
               </div>
             </div>
 
             <div
               className={cn(
                 'inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-semibold ring-2',
-                tierInfo.color,
-                tierInfo.ringColor
+                tierStyle.color,
+                tierStyle.ringColor
               )}
             >
-              <div className={cn('h-2.5 w-2.5 rounded-full', tierInfo.bgColor)} />
-              {tierInfo.name}
+              <div className={cn('h-2.5 w-2.5 rounded-full', tierStyle.bgColor)} />
+              {tierName}
             </div>
           </div>
 
           {/* Description */}
           <div className="mb-8 rounded-xl border border-border bg-card p-6 text-center">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              {tierInfo.description}
+              {tierDescription}
             </p>
           </div>
 
           {/* Recommended Next Steps */}
           <div className="mb-8">
-            <h3 className="mb-4 text-lg font-semibold">Recommended Next Steps</h3>
+            <h3 className="mb-4 text-lg font-semibold">{t('aiReadiness.results.recommendedNextSteps')}</h3>
             <div className="space-y-3">
-              {tierInfo.steps.map((step, idx) => (
+              {tierSteps.map((step, idx) => (
                 <div
                   key={idx}
                   className="flex items-start gap-3 rounded-xl border border-border bg-card p-4"
@@ -590,11 +457,10 @@ export function AiReadinessAssessment() {
           {/* CTA */}
           <div className="rounded-xl bg-gradient-to-br from-scit-deep via-[#2f1c6a] to-scit-purple p-6 text-center md:p-8">
             <h3 className="text-xl font-bold text-white md:text-2xl">
-              Get a Personalized AI Strategy
+              {t('aiReadiness.results.cta.title')}
             </h3>
             <p className="mx-auto mt-2 max-w-md text-white/70">
-              Let our team analyze your specific situation and build a tailored roadmap for AI
-              adoption.
+              {t('aiReadiness.results.cta.subtitle')}
             </p>
             <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
               <Button
@@ -602,8 +468,8 @@ export function AiReadinessAssessment() {
                 size="lg"
                 className="w-full gap-2 bg-white text-scit-deep hover:bg-white/90 sm:w-auto"
               >
-                <Link to="/contact">
-                  Book a Free Consultation
+                <Link to="/$locale/contact" params={{ locale }}>
+                  {t('aiReadiness.results.cta.primaryButton')}
                   <IconArrowRight size={18} />
                 </Link>
               </Button>
@@ -613,7 +479,7 @@ export function AiReadinessAssessment() {
                 onClick={restartQuiz}
                 className="w-full text-white/70 hover:bg-white/10 hover:text-white sm:w-auto"
               >
-                Retake Assessment
+                {t('aiReadiness.results.cta.secondaryButton')}
               </Button>
             </div>
           </div>

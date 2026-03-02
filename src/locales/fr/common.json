@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "services": "Services",
+    "caseStudies": "Etudes de Cas",
+    "resources": "Ressources",
+    "about": "A Propos",
+    "contact": "Contact",
+    "blog": "Blog & Perspectives",
+    "roiCalculator": "Calculateur ROI de l'IA",
+    "aiReadiness": "Evaluation de Maturite IA",
+    "aiAutomation": "Automatisation & Processus IA",
+    "aiAgents": "Agents IA Sur Mesure",
+    "chatbots": "Chatbots & IA Conversationnelle",
+    "aiTools": "Deploiement d'Outils IA",
+    "aiConsulting": "Strategie & Conseil en IA",
+    "digitalTransformation": "Transformation Digitale"
+  },
+  "header": {
+    "bookConsultation": "Prendre Rendez-vous",
+    "toggleMenu": "Ouvrir le menu",
+    "mainNavigation": "Navigation principale",
+    "mobileNavigation": "Navigation mobile"
+  },
+  "footer": {
+    "description": "Cabinet de conseil en transformation digitale, IA-first. Nous implementons des outils IA, automatisons vos processus et developpons des agents intelligents.",
+    "company": "SCIT Consulting",
+    "servicesTitle": "Services",
+    "companyTitle": "Entreprise",
+    "legalTitle": "Mentions legales",
+    "copyright": "SCIT Consulting. Tous droits reserves.",
+    "tagline": "Concu avec l'IA, pour les entreprises qui adoptent l'IA.",
+    "aiAutomation": "Automatisation IA",
+    "aiAgents": "Agents IA",
+    "chatbots": "Chatbots",
+    "aiTools": "Outils IA",
+    "aiConsulting": "Conseil en IA",
+    "digitalTransformation": "Transformation Digitale",
+    "about": "A Propos",
+    "approach": "Approche",
+    "blog": "Blog",
+    "resources": "Ressources",
+    "contact": "Contact",
+    "privacyPolicy": "Politique de Confidentialite",
+    "termsOfService": "Conditions Generales"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Page introuvable",
+    "backHome": "Retour a l'accueil"
+  },
+  "cta": {
+    "getInTouch": "Nous Contacter",
+    "bookConsultation": "Prendre Rendez-vous",
+    "bookFreeConsultation": "Consultation Gratuite",
+    "getStarted": "Demarrer",
+    "learnMore": "En savoir plus",
+    "explore": "Explorer",
+    "viewAllArticles": "Voir tous les articles",
+    "viewCaseStudies": "Voir les Etudes de Cas",
+    "readArticle": "Lire l'Article",
+    "readCaseStudy": "Lire l'Etude de Cas",
+    "viewCaseStudiesInline": "Voir les etudes de cas"
+  }
+}

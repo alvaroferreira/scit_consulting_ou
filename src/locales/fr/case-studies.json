@@ -1,0 +1,178 @@
+{
+  "page": {
+    "title": "Etudes de Cas",
+    "subtitle": "Des resultats concrets issus de projets reels. Decouvrez comment nous avons aide des entreprises a se transformer avec l'IA.",
+    "filterAll": "Tous"
+  },
+  "template": {
+    "theChallenge": "Le Defi",
+    "ourApproach": "Notre Approche",
+    "theSolution": "La Solution",
+    "results": "Resultats",
+    "techStack": "Stack Technologique",
+    "ctaTitle": "Pret a Obtenir des Resultats Similaires ?",
+    "ctaSubtitle": "Echangeons sur la facon dont nous pouvons aider votre entreprise a atteindre des resultats mesurables avec l'IA.",
+    "moreCaseStudies": "Plus d'Etudes de Cas",
+    "getInTouch": "Nous Contacter",
+    "readCaseStudy": "Lire l'Etude de Cas",
+    "notFound": "Etude de Cas Introuvable",
+    "notFoundMessage": "L'etude de cas que vous recherchez n'existe pas."
+  },
+  "caseStudies": {
+    "physiotherapy-clinic-chain": {
+      "title": "Chaine de Cliniques de Kinesitherapie Multi-Sites",
+      "industry": "Sante",
+      "industryCategory": "Sante",
+      "challenge": "Une chaine de cliniques de kinesitherapie multi-sites faisait face a des inefficacites dans la planification des patients, des taux d'absence eleves et une communication fragmentee entre les etablissements. Le personnel passait un temps excessif sur la gestion manuelle des rendez-vous, reduisant leur capacite a se concentrer sur les soins aux patients.",
+      "approach": [
+        "Audit des workflows de planification existants et identification des schemas de goulots d'etranglement sur tous les sites",
+        "Conception d'un assistant de planification IA qui apprend les preferences des patients et optimise les creneaux de rendez-vous",
+        "Implementation de rappels automatises par SMS et email avec suggestions intelligentes de replanification",
+        "Developpement d'un tableau de bord centralise pour la visibilite inter-sites et l'allocation des ressources"
+      ],
+      "solution": "Nous avons deploye un systeme de planification IA sur mesure integre a leur logiciel de gestion de clinique existant. La solution utilise l'analytique predictive pour identifier les patients a risque d'absence et les contacte proactivement avec des creneaux alternatifs. Un assistant IA conversationnel gere les reservations, les replanifications et les annulations sur tous les sites via une interface unifiee.",
+      "results": [
+        {
+          "metric": "Reduction des Absences",
+          "description": "Baisse des absences patients grace a la sensibilisation predictive"
+        },
+        {
+          "metric": "Heures de Personnel Liberees",
+          "description": "Heures hebdomadaires liberees des taches de planification manuelle"
+        },
+        {
+          "metric": "Satisfaction Patient",
+          "description": "Score de satisfaction pour l'experience de reservation"
+        },
+        {
+          "metric": "Efficacite de Reservation",
+          "description": "Planification des rendez-vous plus rapide sur tous les sites"
+        }
+      ]
+    },
+    "luxury-elderly-care": {
+      "title": "Leader de l'Hebergement Premium pour Personnes Agees",
+      "industry": "Sante",
+      "industryCategory": "Sante",
+      "challenge": "Un prestataire premium de soins aux personnes agees devait moderniser ses operations sans compromettre le service personnalise et attentionne que ses residents attendaient. Leurs systemes legacy creaient des silos de donnees entre les equipes de soins, l'administration et la communication avec les familles.",
+      "approach": [
+        "Conduite d'entretiens avec les parties prenantes : personnel soignant, administrateurs et familles de residents",
+        "Cartographie du parcours de soins complet pour identifier les points d'intervention numerique qui renforcent plutot que remplacent le contact humain",
+        "Elaboration d'une feuille de route de transformation digitale phasee priorisant les victoires rapides",
+        "Implementation d'outils IA pour la documentation des soins et la communication avec les familles tout en preservant les relations personnelles"
+      ],
+      "solution": "Nous avons cree une strategie de transformation digitale centree sur une plateforme de coordination des soins enrichie par l'IA. Le systeme automatise la documentation de routine, genere des insights intelligents a partir des observations quotidiennes et fournit aux familles des mises a jour personnalisees. La dictee vocale IA aide les soignants a documenter les interactions naturellement sans perturber leur workflow.",
+      "results": [
+        {
+          "metric": "Temps de Documentation",
+          "description": "Reduction du temps consacre a la documentation des soins"
+        },
+        {
+          "metric": "Engagement des Familles",
+          "description": "Augmentation de l'utilisation du portail familles et de la satisfaction"
+        },
+        {
+          "metric": "Score Qualite des Soins",
+          "description": "Score d'audit qualite apres implementation"
+        },
+        {
+          "metric": "Retention du Personnel",
+          "description": "Amelioration de la retention du personnel sur 12 mois"
+        }
+      ]
+    },
+    "european-b2b-services": {
+      "title": "Entreprise Europeenne de Services B2B",
+      "industry": "Services B2B",
+      "industryCategory": "Services B2B",
+      "challenge": "Une entreprise europeenne de services B2B perdait des contrats en raison de temps de reponse lents et d'une qualite de propositions inconsistante. Leur equipe commerciale passait 70 % de son temps sur des taches administratives plutot qu'a construire des relations clients, et les operations transfrontalieres ajoutaient de la complexite a leurs workflows.",
+      "approach": [
+        "Analyse du pipeline commercial complet pour identifier ou l'IA pouvait avoir le plus fort impact",
+        "Conception d'agents IA sur mesure pour la generation de propositions, la qualification de leads et l'automatisation des relances",
+        "Integration d'outils IA avec leur CRM existant et leurs plateformes de communication",
+        "Formation de l'equipe commerciale aux workflows augmentes par l'IA tout en maintenant leur approche consultative"
+      ],
+      "solution": "Nous avons developpe une suite d'agents IA qui automatisent les taches chronophages du processus commercial. Un generateur de propositions cree des documents personnalises et conformes a la charte en quelques minutes au lieu d'heures. Un systeme intelligent de scoring de leads priorise les opportunites a forte valeur. Des sequences de relance automatisees maintiennent l'engagement pendant que l'equipe commerciale se concentre sur les conversations strategiques.",
+      "results": [
+        {
+          "metric": "Delai de Proposition",
+          "description": "Reduction du temps entre le brief et la proposition finalisee"
+        },
+        {
+          "metric": "Taux de Transformation",
+          "description": "Augmentation du taux de conversion proposition-signature"
+        },
+        {
+          "metric": "Croissance du CA",
+          "description": "Augmentation du chiffre d'affaires annuel attribuee aux workflows IA"
+        },
+        {
+          "metric": "Temps de Reponse",
+          "description": "Reponse plus rapide aux leads entrants"
+        }
+      ]
+    },
+    "real-estate-portfolio": {
+      "title": "Portefeuille de Gestion Immobiliere",
+      "industry": "Immobilier",
+      "industryCategory": "Immobilier",
+      "challenge": "Une societe de gestion immobiliere gerant un portefeuille diversifie de proprietes etait submergee par les communications avec les locataires, les demandes de maintenance et la gestion documentaire. Les processus manuels entrainaient des reponses retardees, des fenetres de maintenance manquees et une insatisfaction des locataires.",
+      "approach": [
+        "Cartographie de tous les points de contact locataires et identification des schemas repetitifs adaptees a l'automatisation IA",
+        "Developpement d'un chatbot IA conversationnel pour le support locataire 24h/24 et le triage des demandes de maintenance",
+        "Implementation du traitement intelligent de documents pour la gestion des baux et la conformite",
+        "Creation de modeles de maintenance predictive bases sur les donnees historiques et les caracteristiques des proprietes"
+      ],
+      "solution": "Nous avons deploye un assistant de gestion immobiliere IA qui gere les demandes des locataires, trie les requetes de maintenance par urgence et automatise les workflows documentaires. Le chatbot gere les communications courantes en plusieurs langues tout en escaladant les problemes complexes vers les gestionnaires humains. Les algorithmes de maintenance predictive aident a prevenir les reparations d'urgence couteuses.",
+      "results": [
+        {
+          "metric": "Temps de Reponse",
+          "description": "Reduction du temps de reponse moyen aux locataires"
+        },
+        {
+          "metric": "Couts de Maintenance",
+          "description": "Baisse des depenses de maintenance d'urgence"
+        },
+        {
+          "metric": "Satisfaction Locataire",
+          "description": "Score global de satisfaction des locataires"
+        },
+        {
+          "metric": "Demandes Automatisees",
+          "description": "Demandes locataires traitees sans intervention humaine"
+        }
+      ]
+    },
+    "medical-clinic-network": {
+      "title": "Reseau de Cliniques Medicales",
+      "industry": "Sante",
+      "industryCategory": "Sante",
+      "challenge": "Un reseau de cliniques medicales devait implementer des outils IA dans l'ensemble de ses operations mais manquait d'expertise interne. Ils souhaitaient exploiter l'IA pour la documentation clinique, le triage patient et l'analytique operationnelle sans perturber les workflows existants ni compromettre la confidentialite des donnees.",
+      "approach": [
+        "Conduite d'une evaluation de maturite IA dans toutes les cliniques pour evaluer l'infrastructure et les competences du personnel",
+        "Elaboration d'une feuille de route d'implementation IA priorisee avec des projections de ROI claires pour chaque initiative",
+        "Implementation des outils IA dans des cliniques pilotes d'abord, mesure de l'impact avant le deploiement a l'ensemble du reseau",
+        "Mise en place de politiques de gouvernance IA et de programmes de formation pour tous les niveaux du personnel"
+      ],
+      "solution": "Nous avons fourni un accompagnement conseil IA de bout en bout, depuis l'evaluation de maturite complete jusqu'au deploiement phase a l'ensemble du reseau de cliniques. Des outils IA assistent desormais la documentation clinique, l'accueil des patients et le reporting operationnel. Un tableau de bord analytique sur mesure fournit des insights a l'echelle du reseau pour une prise de decision basee sur les donnees.",
+      "results": [
+        {
+          "metric": "Efficacite Operationnelle",
+          "description": "Amelioration de l'efficacite operationnelle globale"
+        },
+        {
+          "metric": "Precision Documentaire",
+          "description": "Precision de la documentation clinique avec l'assistance IA"
+        },
+        {
+          "metric": "Economies Realisees",
+          "description": "Economies annuelles grace aux ameliorations de processus par l'IA"
+        },
+        {
+          "metric": "Adoption par le Personnel",
+          "description": "Taux d'adoption des outils IA apres le programme de formation"
+        }
+      ]
+    }
+  }
+}

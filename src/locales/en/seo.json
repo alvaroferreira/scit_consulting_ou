@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "SCIT Consulting - AI-First Digital Transformation",
+    "description": "We implement AI tools, automate processes and build intelligent agents. From strategy to execution, SCIT Consulting transforms your business with artificial intelligence."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "SCIT Consulting is a boutique AI consultancy with 15+ years of experience in digital transformation across Europe. 35+ projects delivered across 6 industries."
+  },
+  "services": {
+    "title": "AI Services",
+    "description": "Comprehensive AI solutions: automation, custom agents, chatbots, AI tools implementation, strategic consulting, and digital transformation."
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "description": "Explore how SCIT Consulting has helped businesses across healthcare, B2B services, and real estate achieve measurable results with AI solutions."
+  },
+  "blog": {
+    "title": "Blog & Insights",
+    "description": "Expert insights on AI automation, digital transformation, and business strategy. Practical guides and thought leadership from SCIT Consulting."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Ready to transform your business with AI? Get in touch with SCIT Consulting. Book a free consultation or send us a message."
+  },
+  "approach": {
+    "title": "Our Approach",
+    "description": "A proven four-phase methodology that ensures every AI initiative delivers measurable business results. From discovery to optimization."
+  },
+  "resources": {
+    "title": "Resources",
+    "description": "Free AI resources: case studies, blog articles, ROI calculator, and AI readiness assessment. Everything you need to plan your AI journey."
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "description": "Privacy policy for SCIT Consulting. Learn how we collect, use, and protect your personal data in compliance with GDPR."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "description": "Terms of service for SCIT Consulting AI consultancy and digital transformation services."
+  },
+  "roiCalculator": {
+    "title": "AI ROI Calculator",
+    "description": "Calculate the potential return on investment from AI automation for your business. Free interactive tool by SCIT Consulting."
+  },
+  "aiReadiness": {
+    "title": "AI Readiness Assessment",
+    "description": "Take our free 10-question assessment to discover how ready your organization is for AI adoption. Get personalized recommendations from SCIT Consulting."
+  }
+}

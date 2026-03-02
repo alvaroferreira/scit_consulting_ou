@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "services": "Servicos",
+    "caseStudies": "Casos de Sucesso",
+    "resources": "Recursos",
+    "about": "Sobre Nos",
+    "contact": "Contacto",
+    "blog": "Blog & Artigos",
+    "roiCalculator": "Calculadora de ROI de AI",
+    "aiReadiness": "Avaliacao de Maturidade AI",
+    "aiAutomation": "Automacao com AI & Processos",
+    "aiAgents": "Agentes de AI Personalizados",
+    "chatbots": "Chatbots & AI Conversacional",
+    "aiTools": "Implementacao de Ferramentas AI",
+    "aiConsulting": "Estrategia & Consultoria AI",
+    "digitalTransformation": "Transformacao Digital"
+  },
+  "header": {
+    "bookConsultation": "Agendar Consultoria",
+    "toggleMenu": "Abrir menu",
+    "mainNavigation": "Navegacao principal",
+    "mobileNavigation": "Navegacao mobile"
+  },
+  "footer": {
+    "description": "Consultoria de transformacao digital com foco em AI. Implementamos ferramentas de AI, automatizamos processos e desenvolvemos agentes inteligentes.",
+    "company": "SCIT Consulting",
+    "servicesTitle": "Servicos",
+    "companyTitle": "Empresa",
+    "legalTitle": "Legal",
+    "copyright": "SCIT Consulting. Todos os direitos reservados.",
+    "tagline": "Desenvolvido com AI, para empresas que abracem a AI.",
+    "aiAutomation": "Automacao AI",
+    "aiAgents": "Agentes AI",
+    "chatbots": "Chatbots",
+    "aiTools": "Ferramentas AI",
+    "aiConsulting": "Consultoria AI",
+    "digitalTransformation": "Transformacao Digital",
+    "about": "Sobre Nos",
+    "approach": "Abordagem",
+    "blog": "Blog",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "privacyPolicy": "Politica de Privacidade",
+    "termsOfService": "Termos de Servico"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Pagina nao encontrada",
+    "backHome": "Voltar ao inicio"
+  },
+  "cta": {
+    "getInTouch": "Fale Connosco",
+    "bookConsultation": "Agendar Consultoria",
+    "bookFreeConsultation": "Agendar Consultoria Gratuita",
+    "getStarted": "Comecar Agora",
+    "learnMore": "Saber mais",
+    "explore": "Explorar",
+    "viewAllArticles": "Ver todos os artigos",
+    "viewCaseStudies": "Ver Casos de Sucesso",
+    "readArticle": "Ler Artigo",
+    "readCaseStudy": "Ler Caso de Sucesso",
+    "viewCaseStudiesInline": "Ver casos de sucesso"
+  }
+}

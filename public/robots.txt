@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://scitconsulting.eu/sitemap.xml
+Sitemap: https://www.scitconsulting.eu/sitemap.xml

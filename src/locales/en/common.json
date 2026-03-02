@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "resources": "Resources",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog & Insights",
+    "roiCalculator": "AI ROI Calculator",
+    "aiReadiness": "AI Readiness Assessment",
+    "aiAutomation": "AI Automation & Processes",
+    "aiAgents": "Custom AI Agents",
+    "chatbots": "Chatbots & Conversational AI",
+    "aiTools": "AI Tools Implementation",
+    "aiConsulting": "AI Strategy & Consulting",
+    "digitalTransformation": "Digital Transformation"
+  },
+  "header": {
+    "bookConsultation": "Book a Consultation",
+    "toggleMenu": "Toggle menu",
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Mobile navigation"
+  },
+  "footer": {
+    "description": "AI-first digital transformation consultancy. We implement AI tools, automate processes, and build intelligent agents.",
+    "company": "SCIT Consulting",
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "legalTitle": "Legal",
+    "copyright": "SCIT Consulting. All rights reserved.",
+    "tagline": "Built with AI, for businesses embracing AI.",
+    "aiAutomation": "AI Automation",
+    "aiAgents": "AI Agents",
+    "chatbots": "Chatbots",
+    "aiTools": "AI Tools",
+    "aiConsulting": "AI Consulting",
+    "digitalTransformation": "Digital Transformation",
+    "about": "About",
+    "approach": "Approach",
+    "blog": "Blog",
+    "resources": "Resources",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Page not found",
+    "backHome": "Back to home"
+  },
+  "cta": {
+    "getInTouch": "Get in Touch",
+    "bookConsultation": "Book a Consultation",
+    "bookFreeConsultation": "Book a Free Consultation",
+    "getStarted": "Get Started",
+    "learnMore": "Learn more",
+    "explore": "Explore",
+    "viewAllArticles": "View all articles",
+    "viewCaseStudies": "View Case Studies",
+    "readArticle": "Read Article",
+    "readCaseStudy": "Read Case Study",
+    "viewCaseStudiesInline": "View case studies"
+  }
+}

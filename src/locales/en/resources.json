@@ -1,0 +1,38 @@
+{
+  "seo": {
+    "title": "Resources",
+    "description": "Free AI resources: case studies, blog articles, ROI calculator, and AI readiness assessment. Everything you need to plan your AI journey."
+  },
+  "hero": {
+    "title": "Resources",
+    "subtitle": "Case studies, articles, and free tools to help you plan and succeed with AI."
+  },
+  "sections": {
+    "title": "Explore Our Resources",
+    "subtitle": "Everything you need to understand, evaluate, and implement AI in your business.",
+    "explore": "Explore",
+    "items": [
+      {
+        "title": "Case Studies",
+        "descriptionTemplate": "{{count}} real-world projects with measurable results across healthcare, B2B services, and real estate."
+      },
+      {
+        "title": "Blog & Insights",
+        "descriptionTemplate": "{{count}} articles on AI strategy, implementation, automation ROI, and digital transformation."
+      },
+      {
+        "title": "AI ROI Calculator",
+        "description": "Estimate the potential savings and return on investment from AI automation for your business."
+      },
+      {
+        "title": "AI Readiness Assessment",
+        "description": "Answer 10 questions to discover how ready your organization is for AI adoption and get actionable recommendations."
+      }
+    ]
+  },
+  "latestArticles": {
+    "title": "Latest Articles",
+    "subtitle": "Stay up to date with the latest insights on AI and digital transformation.",
+    "viewAll": "View all articles"
+  }
+}

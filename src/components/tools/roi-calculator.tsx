@@ -1,5 +1,7 @@
 import { useState, useMemo } from 'react'
 import { Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
+import { useLocale } from '@/hooks/use-locale'
 import {
   IconCurrencyEuro,
   IconTrendingUp,
@@ -106,6 +108,8 @@ function MetricCard({ icon, label, value, sublabel }: MetricCardProps) {
 }
 
 export function RoiCalculator() {
+  const { t } = useTranslation('tools')
+  const locale = useLocale()
   const [employees, setEmployees] = useState(25)
   const [hoursPerWeek, setHoursPerWeek] = useState(10)
   const [hourlyCost, setHourlyCost] = useState(45)
@@ -128,9 +132,9 @@ export function RoiCalculator() {
   }, [employees, hoursPerWeek, hourlyCost])
 
   const formatPayback = (months: number): string => {
-    if (months < 1) return '< 1 month'
-    if (months < 2) return '1 month'
-    return `${formatPercent.format(months)} months`
+    if (months < 1) return t('roiCalculator.payback.lessThanOneMonth')
+    if (months < 2) return t('roiCalculator.payback.oneMonth')
+    return t('roiCalculator.payback.months', { count: Math.round(months) })
   }
 
   return (
@@ -143,13 +147,13 @@ export function RoiCalculator() {
               <IconCalculator size={20} className="text-scit-purple" />
             </div>
             <h2 className="text-xl font-semibold text-foreground">
-              Configure Your Parameters
+              {t('roiCalculator.sectionTitle')}
             </h2>
           </div>
 
           <div className="space-y-8">
             <SliderField
-              label="Number of employees"
+              label={t('roiCalculator.sliders.employees.label')}
               value={employees}
               min={5}
               max={500}
@@ -157,7 +161,7 @@ export function RoiCalculator() {
               onChange={setEmployees}
             />
             <SliderField
-              label="Hours spent on repetitive tasks per week (per employee)"
+              label={t('roiCalculator.sliders.hoursPerWeek.label')}
               value={hoursPerWeek}
               min={1}
               max={40}
@@ -166,7 +170,7 @@ export function RoiCalculator() {
               onChange={setHoursPerWeek}
             />
             <SliderField
-              label="Average hourly cost"
+              label={t('roiCalculator.sliders.hourlyCost.label')}
               value={hourlyCost}
               min={15}
               max={150}
@@ -181,49 +185,47 @@ export function RoiCalculator() {
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
           <MetricCard
             icon={<IconCurrencyEuro size={18} />}
-            label="Annual Cost of Manual Work"
+            label={t('roiCalculator.metrics.annualCostManualWork.label')}
             value={formatCurrency.format(results.annualCostManualWork)}
-            sublabel={`${formatPercent.format(employees * hoursPerWeek)} hours wasted per week`}
+            sublabel={`${formatPercent.format(employees * hoursPerWeek)} ${t('roiCalculator.metrics.annualCostManualWork.sublabel')}`}
           />
           <MetricCard
             icon={<IconTrendingUp size={18} />}
-            label="Estimated Annual Savings"
+            label={t('roiCalculator.metrics.estimatedSavings.label')}
             value={formatCurrency.format(results.estimatedSavings)}
-            sublabel={`Based on ${(AUTOMATION_RATE * 100).toFixed(0)}% automation rate`}
+            sublabel={t('roiCalculator.metrics.estimatedSavings.sublabel', { rate: (AUTOMATION_RATE * 100).toFixed(0) })}
           />
           <MetricCard
             icon={<IconTrendingUp size={18} />}
-            label="Estimated ROI"
+            label={t('roiCalculator.metrics.estimatedRoi.label')}
             value={`${formatPercent.format(results.roiPercentage)}%`}
-            sublabel={`Implementation cost: ${formatCurrency.format(results.implementationCost)}`}
+            sublabel={t('roiCalculator.metrics.estimatedRoi.sublabel', { cost: formatCurrency.format(results.implementationCost) })}
           />
           <MetricCard
             icon={<IconClock size={18} />}
-            label="Payback Period"
+            label={t('roiCalculator.metrics.paybackPeriod.label')}
             value={formatPayback(results.paybackMonths)}
-            sublabel="Time to recover your investment"
+            sublabel={t('roiCalculator.metrics.paybackPeriod.sublabel')}
           />
         </div>
 
         {/* Disclaimer */}
         <p className="mt-6 text-center text-xs text-muted-foreground">
-          These estimates are based on industry averages. Actual results may vary
-          depending on your specific business processes and implementation scope.
+          {t('roiCalculator.disclaimer')}
         </p>
 
         {/* CTA */}
         <div className="mt-10 rounded-xl border border-border bg-gradient-to-br from-scit-purple/5 to-scit-cyan/5 p-8 text-center">
           <h3 className="text-xl font-semibold text-foreground md:text-2xl">
-            Want a precise ROI analysis for your business?
+            {t('roiCalculator.cta.title')}
           </h3>
           <p className="mx-auto mt-3 max-w-lg text-muted-foreground">
-            Our team will analyse your specific workflows and provide a detailed,
-            customised assessment with actionable recommendations.
+            {t('roiCalculator.cta.subtitle')}
           </p>
           <div className="mt-6">
             <Button asChild size="lg" className="text-base px-8">
-              <Link to="/contact">
-                Get Your Custom Analysis
+              <Link to="/$locale/contact" params={{ locale }}>
+                {t('roiCalculator.cta.button')}
                 <IconArrowRight size={18} className="ml-2" />
               </Link>
             </Button>

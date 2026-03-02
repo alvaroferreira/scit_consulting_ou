@@ -1,22 +1,28 @@
 import { useState } from 'react'
 import { Link, useRouter } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { IconMenu2, IconX, IconChevronDown } from '@tabler/icons-react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
-import { mainNavItems } from '@/data/navigation'
+import { useLocalizedMainNav } from '@/hooks/use-localized-nav'
+import { useLocale } from '@/hooks/use-locale'
 import { ThemeSwitch } from '@/components/theme-switch'
+import { LanguageSwitcher } from '@/components/shared/language-switcher'
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [openDropdown, setOpenDropdown] = useState<string | null>(null)
   const router = useRouter()
   const pathname = router.state.location.pathname
+  const locale = useLocale()
+  const navItems = useLocalizedMainNav()
+  const { t } = useTranslation('common')
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-lg">
       <div className="container mx-auto flex h-16 items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center">
+        <Link to="/$locale" params={{ locale }} className="flex items-center">
           <img
             src="/images/logo-black.png"
             alt="SCIT Consulting"
@@ -30,8 +36,8 @@ export function Header() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav aria-label="Main navigation" className="hidden items-center gap-1 md:flex">
-          {mainNavItems.map((item) => (
+        <nav aria-label={t('header.mainNavigation')} className="hidden items-center gap-1 md:flex">
+          {navItems.map((item) => (
             <div
               key={item.href}
               className="relative"
@@ -72,8 +78,9 @@ export function Header() {
         {/* Desktop CTA */}
         <div className="hidden items-center gap-3 md:flex">
           <ThemeSwitch />
+          <LanguageSwitcher />
           <Button asChild className="bg-scit-purple hover:bg-scit-violet text-white">
-            <Link to="/contact">Book a Consultation</Link>
+            <Link to="/$locale/contact" params={{ locale }}>{t('header.bookConsultation')}</Link>
           </Button>
         </div>
 
@@ -83,7 +90,7 @@ export function Header() {
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="p-2 text-foreground"
-            aria-label="Toggle menu"
+            aria-label={t('header.toggleMenu')}
           >
             {mobileOpen ? <IconX size={24} /> : <IconMenu2 size={24} />}
           </button>
@@ -93,8 +100,8 @@ export function Header() {
       {/* Mobile Navigation */}
       {mobileOpen && (
         <div className="border-t border-border bg-background md:hidden">
-          <nav aria-label="Mobile navigation" className="container mx-auto py-4">
-            {mainNavItems.map((item) => (
+          <nav aria-label={t('header.mobileNavigation')} className="container mx-auto py-4">
+            {navItems.map((item) => (
               <div key={item.href}>
                 <Link
                   to={item.href}
@@ -120,10 +127,13 @@ export function Header() {
                 ))}
               </div>
             ))}
-            <div className="mt-4 pt-4 border-t border-border">
+            <div className="mt-4 pt-4 border-t border-border space-y-3">
+              <div className="flex items-center justify-start">
+                <LanguageSwitcher />
+              </div>
               <Button asChild className="w-full bg-scit-purple hover:bg-scit-violet text-white">
-                <Link to="/contact" onClick={() => setMobileOpen(false)}>
-                  Book a Consultation
+                <Link to="/$locale/contact" params={{ locale }} onClick={() => setMobileOpen(false)}>
+                  {t('header.bookConsultation')}
                 </Link>
               </Button>
             </div>

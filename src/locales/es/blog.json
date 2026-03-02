@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Blog e Insights",
+    "subtitle": "Conocimientos practicos sobre implementacion de AI, estrategia de automatizacion y transformacion digital para lideres empresariales.",
+    "filterAll": "Todos",
+    "emptyState": "No se encontraron articulos para esta etiqueta. Intente seleccionar un filtro diferente."
+  },
+  "template": {
+    "backToBlog": "Volver al Blog",
+    "by": "Por",
+    "ctaTitle": "¿Necesita Ayuda para Implementar AI?",
+    "ctaSubtitle": "Nuestro equipo puede ayudarle a convertir estos conocimientos en accion. Hablemos sobre como la AI puede transformar sus operaciones empresariales.",
+    "ctaPrimary": "Contactenos",
+    "ctaSecondary": "Ver Casos de Estudio",
+    "relatedArticles": "Articulos Relacionados",
+    "notFound": "Articulo No Encontrado",
+    "notFoundMessage": "El articulo que busca no existe o ha sido trasladado."
+  },
+  "posts": {
+    "ai-agents-transforming-business-operations-2025": {
+      "title": "Como los Agentes de AI Estan Transformando las Operaciones Empresariales en 2025",
+      "excerpt": "Los agentes de AI estan evolucionando mas alla de la simple automatizacion de tareas para convertirse en tomadores de decisiones autonomos en las operaciones empresariales. Esto es lo que este cambio significa para su organizacion."
+    },
+    "roi-of-ai-automation-year-one": {
+      "title": "El ROI de la Automatizacion con AI: Que Esperar en el Primer Año",
+      "excerpt": "Entendiendo el retorno de inversion realista de los proyectos de automatizacion con AI en los primeros 12 meses, incluyendo costos ocultos y beneficios inesperados."
+    },
+    "choosing-right-ai-strategy-business-size": {
+      "title": "Como Elegir la Estrategia de AI Adecuada Segun el Tamaño de Su Empresa",
+      "excerpt": "Un marco practico para seleccionar iniciativas de AI que se ajusten al tamaño de su empresa, presupuesto y madurez tecnica, desde emprendedores independientes hasta empresas medianas."
+    },
+    "5-signs-business-ready-ai-implementation": {
+      "title": "5 Señales de Que Su Empresa Esta Lista para Implementar AI",
+      "excerpt": "No todas las empresas estan listas para la AI. Estas son cinco señales concretas de que su organizacion tiene las bases para tener exito con la implementacion de AI."
+    },
+    "conversational-ai-vs-traditional-chatbots": {
+      "title": "AI Conversacional vs Chatbots Tradicionales: ¿Cual es la Diferencia?",
+      "excerpt": "Entendiendo las diferencias fundamentales entre chatbots basados en reglas y la AI conversacional moderna, y por que esta distincion es importante para su negocio."
+    },
+    "ai-in-healthcare-practical-applications": {
+      "title": "AI en Salud: Aplicaciones Practicas Mas Alla del Hype",
+      "excerpt": "Mas alla de los titulares, examinamos donde la AI esta entregando valor real y medible en las operaciones de salud hoy, desde la programacion hasta la documentacion clinica."
+    },
+    "building-ai-first-culture-leadership-guide": {
+      "title": "Construir una Cultura AI-First: Guia para Lideres",
+      "excerpt": "Crear una cultura organizacional que adopte la AI requiere accion deliberada del liderazgo. Esta es una guia practica para hacer de la adopcion de AI una norma cultural."
+    },
+    "hidden-costs-not-automating-b2b": {
+      "title": "Los Costos Ocultos de No Automatizar: Una Perspectiva B2B",
+      "excerpt": "Mientras las empresas calculan cuidadosamente el costo de la automatizacion, rara vez miden el costo continuo de los procesos manuales. Esto es lo que realmente esta pagando por la inaccion."
+    },
+    "data-privacy-ai-european-businesses": {
+      "title": "Privacidad de Datos y AI: Lo Que las Empresas Europeas Necesitan Saber",
+      "excerpt": "Navegando la interseccion entre la implementacion de AI y las regulaciones europeas de proteccion de datos, con orientacion practica para un despliegue de AI compatible con el GDPR."
+    },
+    "pilot-to-production-scaling-ai-projects": {
+      "title": "Del Piloto a Produccion: Como Escalar Proyectos de AI con Exito",
+      "excerpt": "La mayoria de los pilotos de AI nunca llegan a produccion. Este es un marco practico para cerrar la brecha entre una prueba de concepto exitosa y un sistema de AI completamente operativo."
+    }
+  }
+}

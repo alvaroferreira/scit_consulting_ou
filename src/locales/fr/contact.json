@@ -1,0 +1,54 @@
+{
+  "seo": {
+    "title": "Contactez-Nous",
+    "description": "Pret a transformer votre entreprise avec l'IA ? Contactez SCIT Consulting. Reservez une consultation gratuite ou envoyez-nous un message."
+  },
+  "hero": {
+    "title": "Contactez-Nous",
+    "subtitle": "Pret a transformer votre entreprise avec l'IA ? Parlez-nous de votre projet et nous vous repondrons sous 24 heures."
+  },
+  "tabs": {
+    "message": "Envoyer un Message",
+    "booking": "Planifier un Appel"
+  },
+  "booking": {
+    "iframeTitle": "Planifier un Appel de Consultation",
+    "loading": "Chargement du calendrier de reservation..."
+  },
+  "footer": {
+    "responseTime": "Nous repondons generalement sous 24 heures les jours ouvrables."
+  },
+  "form": {
+    "fields": {
+      "name": {
+        "label": "Nom *",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "Email *",
+        "placeholder": "vous@entreprise.com"
+      },
+      "phone": {
+        "label": "Telephone (facultatif)",
+        "placeholder": "+33 1 23 45 67 89"
+      },
+      "message": {
+        "label": "Comment pouvons-nous vous aider ? *",
+        "placeholder": "Parlez-nous de votre projet, de vos objectifs et de vos defis...",
+        "maxLengthHint": "500 caracteres maximum"
+      }
+    },
+    "submit": {
+      "idle": "Envoyer le Message",
+      "loading": "Envoi en cours..."
+    },
+    "success": {
+      "title": "Message Envoye !",
+      "description": "Merci pour votre interet. Nous vous repondrons sous 24 heures."
+    },
+    "errors": {
+      "generic": "Une erreur est survenue. Veuillez reessayer.",
+      "network": "Erreur reseau. Veuillez verifier votre connexion et reessayer."
+    }
+  }
+}

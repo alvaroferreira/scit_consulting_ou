@@ -1,0 +1,208 @@
+{
+  "roiCalculator": {
+    "sectionTitle": "Configurez Vos Parametres",
+    "sliders": {
+      "employees": {
+        "label": "Nombre de collaborateurs"
+      },
+      "hoursPerWeek": {
+        "label": "Heures consacrees aux taches repetitives par semaine (par collaborateur)"
+      },
+      "hourlyCost": {
+        "label": "Cout horaire moyen"
+      }
+    },
+    "metrics": {
+      "annualCostManualWork": {
+        "label": "Cout Annuel du Travail Manuel",
+        "sublabel": "heures perdues par semaine"
+      },
+      "estimatedSavings": {
+        "label": "Economies Annuelles Estimees",
+        "sublabel": "Base sur un taux d'automatisation de {{rate}} %"
+      },
+      "estimatedRoi": {
+        "label": "ROI Estime",
+        "sublabel": "Cout d'implementation : {{cost}}"
+      },
+      "paybackPeriod": {
+        "label": "Delai de Rentabilisation",
+        "sublabel": "Temps pour recuperer votre investissement"
+      }
+    },
+    "payback": {
+      "lessThanOneMonth": "< 1 mois",
+      "oneMonth": "1 mois",
+      "months": "{{count}} mois"
+    },
+    "disclaimer": "Ces estimations sont basees sur des moyennes sectorielles. Les resultats reels peuvent varier en fonction de vos processus metier specifiques et du perimetre d'implementation.",
+    "cta": {
+      "title": "Vous souhaitez une analyse ROI precise pour votre entreprise ?",
+      "subtitle": "Notre equipe analysera vos workflows specifiques et vous fournira une evaluation detaillee et personnalisee avec des recommandations actionnables.",
+      "button": "Obtenir Votre Analyse Personnalisee"
+    }
+  },
+  "aiReadiness": {
+    "progress": {
+      "question": "Question {{current}} sur {{total}}",
+      "almostThere": "Presque termine !",
+      "complete": "Termine"
+    },
+    "navigation": {
+      "back": "Retour",
+      "next": "Suivant",
+      "seeResults": "Voir les Resultats"
+    },
+    "questions": {
+      "1": {
+        "text": "Comment decririez-vous l'infrastructure de donnees actuelle de votre organisation ?",
+        "options": [
+          "Nous avons tres peu de donnees numeriques",
+          "Nous avons quelques systemes numeriques mais les donnees sont cloisonnees",
+          "Nous avons des donnees centralisees avec une certaine integration",
+          "Nous disposons d'une plateforme de donnees moderne avec une forte integration"
+        ]
+      },
+      "2": {
+        "text": "Comment votre direction percoit-elle l'adoption de l'IA ?",
+        "options": [
+          "L'IA n'est pas a l'ordre du jour",
+          "Il y a de la curiosite mais pas d'engagement",
+          "La direction soutient et a alloue un budget exploratoire",
+          "L'IA est une priorite strategique avec un investissement dedie"
+        ]
+      },
+      "3": {
+        "text": "Quel est le niveau de competence technique actuel de votre equipe en matiere d'IA ?",
+        "options": [
+          "Aucune expertise en IA ou en data science",
+          "Sensibilisation de base, quelques explorations en autodidacte",
+          "Certains membres de l'equipe ont une experience en IA/ML",
+          "Equipe dediee IA/data science ou partenariats solides"
+        ]
+      },
+      "4": {
+        "text": "Quelle part de vos workflows implique des processus manuels et repetitifs ?",
+        "options": [
+          "Presque tout est manuel",
+          "De nombreux processus sont manuels avec une certaine automatisation",
+          "La plupart des taches de routine sont automatisees",
+          "Entierement automatise avec une intervention manuelle minimale"
+        ]
+      },
+      "5": {
+        "text": "Comment gerez-vous actuellement les interactions avec les clients ?",
+        "options": [
+          "Entierement manuel (telephone, email)",
+          "Quelques outils en libre-service (FAQ, formulaires basiques)",
+          "Multi-canal avec quelques reponses automatisees",
+          "Assiste par l'IA avec routage intelligent et automatisation"
+        ]
+      },
+      "6": {
+        "text": "Quelle est votre approche de la prise de decision basee sur les donnees ?",
+        "options": [
+          "Les decisions reposent principalement sur l'intuition",
+          "Nous utilisons des rapports basiques et des tableurs",
+          "Nous disposons de tableaux de bord et d'analyses regulieres",
+          "Nous utilisons l'analytique predictive et des modeles de donnees"
+        ]
+      },
+      "7": {
+        "text": "Comment decririez-vous votre infrastructure informatique ?",
+        "options": [
+          "Systemes legacy, principalement on-premise",
+          "Mix de legacy et de quelques services cloud",
+          "Principalement en cloud avec des APIs modernes",
+          "Cloud-native avec une architecture microservices"
+        ]
+      },
+      "8": {
+        "text": "Quelle est l'attitude de votre organisation face au changement ?",
+        "options": [
+          "Resistante au changement",
+          "Ouverte mais lente a adopter",
+          "En quete active d'innovation",
+          "Le changement fait partie de notre culture"
+        ]
+      },
+      "9": {
+        "text": "Comment gerez-vous les donnees sensibles et la conformite ?",
+        "options": [
+          "Pas de gouvernance formelle des donnees",
+          "Des politiques de base existent mais ne sont pas suivies de maniere constante",
+          "Gouvernance formelle des donnees avec des audits reguliers",
+          "Programme de conformite complet (RGPD, etc.) avec des controles automatises"
+        ]
+      },
+      "10": {
+        "text": "Quelle est votre enveloppe budgetaire pour les investissements technologiques ?",
+        "options": [
+          "Tres limitee, pas de marge pour de nouveaux outils",
+          "Budget modeste pour des pilotes et des experimentations",
+          "Budget modere pour des initiatives strategiques",
+          "Budget significatif avec des attentes claires de ROI"
+        ]
+      }
+    },
+    "emailGate": {
+      "title": "Vos resultats sont prets !",
+      "subtitle": "Saisissez votre email pour recevoir un rapport detaille de maturite IA avec des recommandations personnalisees.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@entreprise.com",
+      "companyLabel": "Nom de l'entreprise",
+      "companyOptional": "(facultatif)",
+      "companyPlaceholder": "Votre entreprise",
+      "submitButton": "Obtenir Mes Resultats",
+      "skipLink": "Passer, afficher les resultats maintenant"
+    },
+    "results": {
+      "scoreOf": "/ 40",
+      "recommendedNextSteps": "Prochaines Etapes Recommandees",
+      "cta": {
+        "title": "Obtenez une Strategie IA Personnalisee",
+        "subtitle": "Laissez notre equipe analyser votre situation specifique et construire une feuille de route sur mesure pour l'adoption de l'IA.",
+        "primaryButton": "Consultation Gratuite",
+        "secondaryButton": "Refaire l'Evaluation"
+      },
+      "tiers": {
+        "early": {
+          "name": "Phase Initiale",
+          "description": "Votre organisation en est au debut de son parcours IA. Concentrez-vous sur l'infrastructure de donnees et la sensibilisation.",
+          "steps": [
+            "Auditez vos systemes de donnees actuels et identifiez les lacunes",
+            "Commencez a collecter et organiser les donnees business cles",
+            "Planifiez un atelier de sensibilisation IA pour votre equipe dirigeante"
+          ]
+        },
+        "developing": {
+          "name": "En Developpement",
+          "description": "Vous disposez de certaines fondations. Des victoires rapides en automatisation pourraient creer un elan pour une adoption plus large de l'IA.",
+          "steps": [
+            "Identifiez 2 a 3 processus repetitifs murs pour l'automatisation",
+            "Testez un outil IA dans un domaine a faible risque pour instaurer la confiance",
+            "Elaborez une strategie de donnees basique pour unifier les informations cloisonnees"
+          ]
+        },
+        "ready": {
+          "name": "Pret",
+          "description": "Votre organisation est bien positionnee pour l'implementation de l'IA. Une feuille de route strategique vous aidera a prioriser les cas d'usage a fort impact.",
+          "steps": [
+            "Construisez une feuille de route IA alignee sur les objectifs business",
+            "Evaluez et deployez des solutions IA pour vos 3 principaux cas d'usage",
+            "Investissez dans la montee en competences de vos equipes sur les outils et workflows IA"
+          ]
+        },
+        "advanced": {
+          "name": "Avance",
+          "description": "Vous etes pret pour des solutions IA sophistiquees. Concentrez-vous sur les cas d'usage avances, les agents IA et l'extension des capacites existantes.",
+          "steps": [
+            "Deployez des agents IA autonomes pour les workflows complexes",
+            "Etendez les initiatives IA reussies a l'ensemble des departements",
+            "Explorez des modeles IA personalises adaptes aux donnees de votre secteur"
+          ]
+        }
+      }
+    }
+  }
+}

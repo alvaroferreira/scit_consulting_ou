@@ -1,5 +1,7 @@
 import { Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { IconArrowRight, IconClock, IconCalendar } from '@tabler/icons-react'
+import { useLocale } from '@/hooks/use-locale'
 import type { BlogPost } from '@/data/blog-posts'
 
 interface BlogCardProps {
@@ -7,6 +9,9 @@ interface BlogCardProps {
 }
 
 export function BlogCard({ post }: BlogCardProps) {
+  const { t } = useTranslation('blog')
+  const locale = useLocale()
+
   const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
@@ -15,8 +20,8 @@ export function BlogCard({ post }: BlogCardProps) {
 
   return (
     <Link
-      to="/blog/$slug"
-      params={{ slug: post.slug }}
+      to="/$locale/blog/$slug"
+      params={{ locale, slug: post.slug }}
       className="group flex flex-col rounded-xl border border-border bg-card p-6 transition-all hover:border-scit-purple/30 hover:shadow-lg"
     >
       {/* Date & Read Time */}
@@ -33,12 +38,12 @@ export function BlogCard({ post }: BlogCardProps) {
 
       {/* Title */}
       <h3 className="text-lg font-semibold leading-snug group-hover:text-scit-purple transition-colors">
-        {post.title}
+        {t(`posts.${post.slug}.title`, post.title)}
       </h3>
 
       {/* Excerpt */}
       <p className="mt-2 text-sm text-muted-foreground line-clamp-2">
-        {post.excerpt}
+        {t(`posts.${post.slug}.excerpt`, post.excerpt)}
       </p>
 
       {/* Tags */}
@@ -55,7 +60,7 @@ export function BlogCard({ post }: BlogCardProps) {
 
       {/* Read More */}
       <div className="mt-auto pt-4 flex items-center text-sm font-medium text-scit-purple opacity-0 transition-opacity group-hover:opacity-100">
-        Read Article
+        {t('template.readArticle', 'Read Article')}
         <IconArrowRight size={16} className="ml-1" />
       </div>
     </Link>

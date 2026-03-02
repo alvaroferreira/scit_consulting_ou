@@ -1,8 +1,12 @@
 import { Link } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/button'
 import { IconArrowRight } from '@tabler/icons-react'
+import { useLocale } from '@/hooks/use-locale'
 
 export function CtaBanner() {
+  const locale = useLocale()
+  const { t } = useTranslation('home')
   return (
     <section className="relative overflow-hidden bg-scit-deep py-20">
       {/* Video Background */}
@@ -23,11 +27,10 @@ export function CtaBanner() {
 
       <div className="container relative mx-auto text-center">
         <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-          Ready to Start Your AI Transformation?
+          {t('ctaBanner.title')}
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-white/70">
-          Let&apos;s discuss how AI can transform your business processes, reduce costs,
-          and unlock new opportunities for growth.
+          {t('ctaBanner.subtitle')}
         </p>
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <Button
@@ -35,8 +38,8 @@ export function CtaBanner() {
             size="lg"
             className="bg-white text-scit-deep hover:bg-white/90 text-base px-8"
           >
-            <Link to="/contact">
-              Book a Free Consultation
+            <Link to="/$locale/contact" params={{ locale }}>
+              {t('ctaBanner.ctaPrimary')}
               <IconArrowRight size={18} className="ml-2" />
             </Link>
           </Button>

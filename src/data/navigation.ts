@@ -1,55 +1,55 @@
 export interface NavItem {
-  label: string
+  labelKey: string
   href: string
   children?: NavItem[]
 }
 
 export const mainNavItems: NavItem[] = [
   {
-    label: 'Services',
+    labelKey: 'nav.services',
     href: '/services',
     children: [
-      { label: 'AI Automation & Processes', href: '/services/ai-automation' },
-      { label: 'Custom AI Agents', href: '/services/ai-agents' },
-      { label: 'Chatbots & Conversational AI', href: '/services/chatbots' },
-      { label: 'AI Tools Implementation', href: '/services/ai-tools' },
-      { label: 'AI Strategy & Consulting', href: '/services/ai-consulting' },
-      { label: 'Digital Transformation', href: '/services/digital-transformation' },
+      { labelKey: 'nav.aiAutomation', href: '/services/ai-automation' },
+      { labelKey: 'nav.aiAgents', href: '/services/ai-agents' },
+      { labelKey: 'nav.chatbots', href: '/services/chatbots' },
+      { labelKey: 'nav.aiTools', href: '/services/ai-tools' },
+      { labelKey: 'nav.aiConsulting', href: '/services/ai-consulting' },
+      { labelKey: 'nav.digitalTransformation', href: '/services/digital-transformation' },
     ],
   },
-  { label: 'Case Studies', href: '/case-studies' },
+  { labelKey: 'nav.caseStudies', href: '/case-studies' },
   {
-    label: 'Resources',
+    labelKey: 'nav.resources',
     href: '/resources',
     children: [
-      { label: 'Blog & Insights', href: '/blog' },
-      { label: 'AI ROI Calculator', href: '/tools/roi-calculator' },
-      { label: 'AI Readiness Assessment', href: '/tools/ai-readiness-assessment' },
+      { labelKey: 'nav.blog', href: '/blog' },
+      { labelKey: 'nav.roiCalculator', href: '/tools/roi-calculator' },
+      { labelKey: 'nav.aiReadiness', href: '/tools/ai-readiness-assessment' },
     ],
   },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
+  { labelKey: 'nav.about', href: '/about' },
+  { labelKey: 'nav.contact', href: '/contact' },
 ]
 
 export const footerNavItems = {
   services: [
-    { label: 'AI Automation', href: '/services/ai-automation' },
-    { label: 'AI Agents', href: '/services/ai-agents' },
-    { label: 'Chatbots', href: '/services/chatbots' },
-    { label: 'AI Tools', href: '/services/ai-tools' },
-    { label: 'AI Consulting', href: '/services/ai-consulting' },
-    { label: 'Digital Transformation', href: '/services/digital-transformation' },
+    { labelKey: 'footer.aiAutomation', href: '/services/ai-automation' },
+    { labelKey: 'footer.aiAgents', href: '/services/ai-agents' },
+    { labelKey: 'footer.chatbots', href: '/services/chatbots' },
+    { labelKey: 'footer.aiTools', href: '/services/ai-tools' },
+    { labelKey: 'footer.aiConsulting', href: '/services/ai-consulting' },
+    { labelKey: 'footer.digitalTransformation', href: '/services/digital-transformation' },
   ],
   company: [
-    { label: 'About', href: '/about' },
-    { label: 'Approach', href: '/approach' },
-    { label: 'Case Studies', href: '/case-studies' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Resources', href: '/resources' },
-    { label: 'Contact', href: '/contact' },
+    { labelKey: 'footer.about', href: '/about' },
+    { labelKey: 'footer.approach', href: '/approach' },
+    { labelKey: 'nav.caseStudies', href: '/case-studies' },
+    { labelKey: 'footer.blog', href: '/blog' },
+    { labelKey: 'footer.resources', href: '/resources' },
+    { labelKey: 'footer.contact', href: '/contact' },
   ],
   legal: [
-    { label: 'Privacy Policy', href: '/privacy-policy' },
-    { label: 'Terms of Service', href: '/terms' },
+    { labelKey: 'footer.privacyPolicy', href: '/privacy-policy' },
+    { labelKey: 'footer.termsOfService', href: '/terms' },
   ],
 }
