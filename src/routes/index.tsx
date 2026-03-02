@@ -1,10 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { SEO } from '@/components/shared/seo'
 import { Hero } from '@/components/home/hero'
+import { TechPartners } from '@/components/home/tech-partners'
 import { Pillars } from '@/components/home/pillars'
 import { ServicesGrid } from '@/components/home/services-grid'
+import { NeedsNavigation } from '@/components/home/needs-navigation'
 import { ProcessSteps } from '@/components/home/process-steps'
 import { Stats } from '@/components/home/stats'
+import { Industries } from '@/components/home/industries'
 import { TechStack } from '@/components/home/tech-stack'
 import { Testimonials } from '@/components/home/testimonials'
 import { CtaBanner } from '@/components/home/cta-banner'
@@ -22,10 +25,13 @@ function HomePage() {
         path="/"
       />
       <Hero />
+      <TechPartners />
       <Pillars />
       <ServicesGrid />
+      <NeedsNavigation />
       <ProcessSteps />
       <Stats />
+      <Industries />
       <TechStack />
       <Testimonials />
       <CtaBanner />

@@ -3,6 +3,7 @@ import { createRootRouteWithContext, Outlet, ScrollRestoration } from '@tanstack
 import { Toaster } from '@/components/ui/sonner'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { ChatbotWidget } from '@/components/shared/chatbot-widget'
 
 export const Route = createRootRouteWithContext<{
   queryClient: QueryClient
@@ -19,6 +20,7 @@ export const Route = createRootRouteWithContext<{
         </div>
         <ScrollRestoration />
         <Toaster />
+        <ChatbotWidget />
       </>
     )
   },

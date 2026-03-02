@@ -17,7 +17,16 @@ export const mainNavItems: NavItem[] = [
       { label: 'Digital Transformation', href: '/services/digital-transformation' },
     ],
   },
-  { label: 'Approach', href: '/approach' },
+  { label: 'Case Studies', href: '/case-studies' },
+  {
+    label: 'Resources',
+    href: '/resources',
+    children: [
+      { label: 'Blog & Insights', href: '/blog' },
+      { label: 'AI ROI Calculator', href: '/tools/roi-calculator' },
+      { label: 'AI Readiness Assessment', href: '/tools/ai-readiness-assessment' },
+    ],
+  },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ]
@@ -34,6 +43,9 @@ export const footerNavItems = {
   company: [
     { label: 'About', href: '/about' },
     { label: 'Approach', href: '/approach' },
+    { label: 'Case Studies', href: '/case-studies' },
+    { label: 'Blog', href: '/blog' },
+    { label: 'Resources', href: '/resources' },
     { label: 'Contact', href: '/contact' },
   ],
   legal: [
