@@ -1,10 +1,13 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
-import { IconArrowRight, IconBuildingSkyscraper, IconUsers, IconCertificate, IconWorld } from '@tabler/icons-react'
+import { IconArrowRight, IconBuildingSkyscraper, IconUsers, IconBrain, IconWorld } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
 import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { SectionHeading } from '@/components/shared/section-heading'
 import { Stats } from '@/components/home/stats'
+import { TechnologiesSection } from '@/components/about/technologies-section'
+import { MarketsMap } from '@/components/about/markets-map'
+import { CompanyTimeline } from '@/components/about/company-timeline'
 
 export const Route = createFileRoute('/about')({
   component: AboutPage,
@@ -72,9 +75,9 @@ function AboutPage() {
                 description: 'IT, Financial Services, Retail, Manufacturing, Healthcare, and Telecom.',
               },
               {
-                icon: IconCertificate,
-                title: 'Certified Agile Practices',
-                description: 'PSM II, PSPO II, and Kanban System Design certified team.',
+                icon: IconBrain,
+                title: 'AI-Native Development',
+                description: 'Purpose-built AI solutions using Claude, GPT, Gemini, and open-source models.',
               },
               {
                 icon: IconUsers,
@@ -98,6 +101,15 @@ function AboutPage() {
 
       {/* Stats */}
       <Stats />
+
+      {/* Technologies */}
+      <TechnologiesSection />
+
+      {/* Markets */}
+      <MarketsMap />
+
+      {/* Timeline */}
+      <CompanyTimeline />
 
       {/* Values */}
       <Section>

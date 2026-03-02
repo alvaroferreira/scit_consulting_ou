@@ -6,12 +6,8 @@ interface Env {
 interface ContactBody {
   name: string
   email: string
-  company?: string
   phone?: string
-  service: string
-  budget?: string
-  timeline?: string
-  description: string
+  message: string
   'cf-turnstile-response': string
   _gotcha?: string // honeypot
 }
@@ -40,7 +36,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     }
 
     // Validate required fields
-    if (!body.name?.trim() || !body.email?.trim() || !body.service?.trim() || !body.description?.trim()) {
+    if (!body.name?.trim() || !body.email?.trim() || !body.message?.trim()) {
       return new Response(JSON.stringify({ error: 'Missing required fields.' }), {
         status: 400,
         headers: { 'Content-Type': 'application/json', ...corsHeaders },
@@ -88,13 +84,9 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
 <table style="border-collapse:collapse;width:100%;max-width:600px;font-family:sans-serif;">
   <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">Name</td><td style="padding:8px;border:1px solid #ddd;">${escapeHtml(body.name)}</td></tr>
   <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">Email</td><td style="padding:8px;border:1px solid #ddd;"><a href="mailto:${escapeHtml(body.email)}">${escapeHtml(body.email)}</a></td></tr>
-  ${body.company ? `<tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">Company</td><td style="padding:8px;border:1px solid #ddd;">${escapeHtml(body.company)}</td></tr>` : ''}
   ${body.phone ? `<tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">Phone</td><td style="padding:8px;border:1px solid #ddd;">${escapeHtml(body.phone)}</td></tr>` : ''}
-  <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">Service</td><td style="padding:8px;border:1px solid #ddd;">${escapeHtml(body.service)}</td></tr>
-  ${body.budget ? `<tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">Budget</td><td style="padding:8px;border:1px solid #ddd;">${escapeHtml(body.budget)}</td></tr>` : ''}
-  ${body.timeline ? `<tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;">Timeline</td><td style="padding:8px;border:1px solid #ddd;">${escapeHtml(body.timeline)}</td></tr>` : ''}
-  <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;" colspan="2">Project Description</td></tr>
-  <tr><td style="padding:8px;border:1px solid #ddd;" colspan="2">${escapeHtml(body.description).replace(/\n/g, '<br>')}</td></tr>
+  <tr><td style="padding:8px;border:1px solid #ddd;font-weight:bold;" colspan="2">Message</td></tr>
+  <tr><td style="padding:8px;border:1px solid #ddd;" colspan="2">${escapeHtml(body.message).replace(/\n/g, '<br>')}</td></tr>
 </table>
 `
 
@@ -109,7 +101,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         from: 'SCIT Consulting <noreply@scitconsulting.eu>',
         to: ['alvaroferreira@scitconsulting.eu'],
         reply_to: body.email,
-        subject: `New Contact: ${body.name} — ${body.service}`,
+        subject: `New Contact: ${body.name}`,
         html: emailHtml,
       }),
     })

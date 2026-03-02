@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { IconMessageCircle, IconCalendar } from '@tabler/icons-react'
 import { SEO } from '@/components/shared/seo'
@@ -9,6 +10,16 @@ export const Route = createFileRoute('/contact')({
 })
 
 function ContactPage() {
+  const [activeTab, setActiveTab] = useState<'message' | 'booking'>('message')
+  const [bookingLoaded, setBookingLoaded] = useState(false)
+
+  function selectTab(tab: 'message' | 'booking') {
+    setActiveTab(tab)
+    if (tab === 'booking' && !bookingLoaded) {
+      setBookingLoaded(true)
+    }
+  }
+
   return (
     <>
       <SEO
@@ -30,55 +41,58 @@ function ContactPage() {
       </section>
 
       <Section>
-        <div className="grid gap-12 lg:grid-cols-3">
-          {/* Contact Info */}
-          <div className="space-y-6">
-            <div>
-              <h2 className="text-xl font-bold">Let&apos;s Talk</h2>
-              <p className="mt-2 text-sm text-muted-foreground">
-                Choose your preferred way to reach us. We respond to all inquiries within one business day.
-              </p>
-            </div>
-
-            <div className="space-y-4">
-              <div className="flex items-start gap-3 rounded-xl border border-border p-4">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-scit-purple/10 text-scit-purple">
-                  <IconMessageCircle size={20} />
-                </div>
-                <div>
-                  <p className="text-sm font-semibold">Send Us a Message</p>
-                  <p className="text-sm text-muted-foreground">Fill in the form and we&apos;ll get back to you</p>
-                </div>
-              </div>
-
-              <a
-                href="https://cal.eu/scitconsulting/consultation"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-start gap-3 rounded-xl border border-border p-4 transition-colors hover:border-scit-purple/30"
-              >
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-scit-cyan/10 text-scit-cyan">
-                  <IconCalendar size={20} />
-                </div>
-                <div>
-                  <p className="text-sm font-semibold">Book a Call</p>
-                  <p className="text-sm text-muted-foreground">
-                    Schedule a 30-min consultation call
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div className="rounded-xl bg-muted/50 p-4">
-              <p className="text-xs text-muted-foreground">
-                We typically respond within 24 hours on business days.
-              </p>
-            </div>
+        <div className="mx-auto max-w-3xl">
+          {/* Tab Buttons */}
+          <div className="mb-8 grid grid-cols-2 rounded-lg bg-muted p-1">
+            <button
+              onClick={() => selectTab('message')}
+              className={`inline-flex items-center justify-center gap-2 rounded-md px-4 py-2.5 text-sm font-medium transition-all ${
+                activeTab === 'message'
+                  ? 'bg-background text-foreground shadow-sm'
+                  : 'text-muted-foreground hover:text-foreground'
+              }`}
+            >
+              <IconMessageCircle size={18} />
+              Send a Message
+            </button>
+            <button
+              onClick={() => selectTab('booking')}
+              className={`inline-flex items-center justify-center gap-2 rounded-md px-4 py-2.5 text-sm font-medium transition-all ${
+                activeTab === 'booking'
+                  ? 'bg-background text-foreground shadow-sm'
+                  : 'text-muted-foreground hover:text-foreground'
+              }`}
+            >
+              <IconCalendar size={18} />
+              Book a Call
+            </button>
           </div>
 
-          {/* Form */}
-          <div className="lg:col-span-2">
-            <ContactForm />
+          {/* Tab Content */}
+          {activeTab === 'message' && <ContactForm />}
+
+          {activeTab === 'booking' && (
+            <div className="rounded-xl border border-border bg-card overflow-hidden">
+              {bookingLoaded ? (
+                <iframe
+                  src="https://cal.eu/scitconsulting/consultation?embed=true"
+                  title="Book a Consultation Call"
+                  className="w-full border-0"
+                  style={{ height: '500px' }}
+                  loading="lazy"
+                />
+              ) : (
+                <div className="flex items-center justify-center py-20 text-muted-foreground">
+                  Loading booking calendar...
+                </div>
+              )}
+            </div>
+          )}
+
+          <div className="mt-6 rounded-xl bg-muted/50 p-4 text-center">
+            <p className="text-xs text-muted-foreground">
+              We typically respond within 24 hours on business days.
+            </p>
           </div>
         </div>
       </Section>
