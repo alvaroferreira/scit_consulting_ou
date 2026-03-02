@@ -1,39 +1,39 @@
 {
   "seo": {
-    "title": "Sobre Nos",
-    "description": "A SCIT Consulting e uma consultoria boutique de AI com mais de 15 anos de experiencia em transformacao digital na Europa. Mais de 35 projetos entregues em 6 industrias."
+    "title": "Sobre Nós",
+    "description": "A SCIT Consulting é uma consultoria boutique de AI com mais de 15 anos de experiência em transformação digital na Europa. Mais de 35 projetos entregues em 6 indústrias."
   },
   "hero": {
     "title": "Sobre a SCIT Consulting",
-    "subtitle": "Uma consultoria boutique de AI que ajuda empresas a transformarem-se com inteligencia artificial."
+    "subtitle": "Uma consultoria boutique de AI que ajuda empresas a transformarem-se com inteligência artificial."
   },
   "mission": {
-    "title": "Transformacao Digital com AI",
-    "paragraph1": "A SCIT Consulting e uma consultoria boutique de transformacao digital. Somos especializados em ajudar empresas a tirar partido da inteligencia artificial para automatizar processos, construir sistemas inteligentes e transformar as suas operacoes.",
-    "paragraph2": "A nossa equipa traz mais de 15 anos de experiencia pratica em consultoria executiva e transformacao organizacional em varios mercados europeus, incluindo Portugal, Alemanha, Espanha e Republica Checa. Trabalhamos em cidades como Lisboa, Munique, Dusseldorf, Madrid e Praga, o que nos confere um profundo conhecimento de diversas culturas e necessidades empresariais.",
-    "paragraph3": "Com mais de 35 projetos entregues em industrias como Tecnologia, Servicos Financeiros, Retalho & E-commerce, Manufatura, Saude e Telecomunicacoes, trazemos experiencia concreta em agentes de AI, sistemas de automacao, AI conversacional e consultoria estrategica. A nossa abordagem boutique garante que cada cliente recebe atencao de nivel senior e solucoes personalizadas.",
+    "title": "Transformação Digital com AI",
+    "paragraph1": "A SCIT Consulting é uma consultoria boutique de transformação digital. Somos especializados em ajudar empresas a tirar partido da inteligência artificial para automatizar processos, construir sistemas inteligentes e transformar as suas operações.",
+    "paragraph2": "A nossa equipa traz mais de 15 anos de experiência prática em consultoria executiva e transformação organizacional em vários mercados europeus, incluindo Portugal, Alemanha, Espanha e República Checa. Trabalhamos em cidades como Lisboa, Munique, Düsseldorf, Madrid e Praga, o que nos confere um profundo conhecimento de diversas culturas e necessidades empresariais.",
+    "paragraph3": "Com mais de 35 projetos entregues em indústrias como Tecnologia, Serviços Financeiros, Retalho & E-commerce, Manufatura, Saúde e Telecomunicações, trazemos experiência concreta em agentes de AI, sistemas de automação, AI conversacional e consultoria estratégica. A nossa abordagem boutique garante que cada cliente recebe atenção de nível senior e soluções personalizadas.",
     "highlights": [
       {
-        "title": "Experiencia Multi-Mercado",
-        "description": "Projetos entregues em Lisboa, Munique, Dusseldorf, Madrid e Praga."
+        "title": "Experiência Multi-Mercado",
+        "description": "Projetos entregues em Lisboa, Munique, Düsseldorf, Madrid e Praga."
       },
       {
-        "title": "6+ Industrias",
-        "description": "Tecnologia, Servicos Financeiros, Retalho, Manufatura, Saude e Telecomunicacoes."
+        "title": "6+ Indústrias",
+        "description": "Tecnologia, Serviços Financeiros, Retalho, Manufatura, Saúde e Telecomunicações."
       },
       {
         "title": "Desenvolvimento AI-Nativo",
-        "description": "Solucoes de AI construidas de raiz com Claude, GPT, Gemini e modelos open-source."
+        "description": "Soluções de AI construídas de raiz com Claude, GPT, Gemini e modelos open-source."
       },
       {
         "title": "Abordagem Boutique",
-        "description": "Experiencia de nivel senior em cada projeto, sempre."
+        "description": "Experiência de nível senior em cada projeto, sempre."
       }
     ]
   },
   "technologies": {
-    "title": "O Nosso Stack Tecnologico",
-    "subtitle": "Escolhemos as ferramentas certas para cada projeto, sem dependencia de um unico fornecedor.",
+    "title": "O Nosso Stack Tecnológico",
+    "subtitle": "Escolhemos as ferramentas certas para cada projeto, sem dependência de um único fornecedor.",
     "categories": [
       {
         "label": "Modelos AI",
@@ -59,43 +59,43 @@
   },
   "markets": {
     "title": "Onde Operamos",
-    "subtitle": "Sediados na Estonia, a entregar projetos em toda a Europa.",
+    "subtitle": "Sediados na Estónia, a entregar projetos em toda a Europa.",
     "items": [
       { "country": "Portugal", "cities": "Lisboa" },
-      { "country": "Alemanha", "cities": "Munique, Dusseldorf" },
+      { "country": "Alemanha", "cities": "Munique, Düsseldorf" },
       { "country": "Espanha", "cities": "Madrid" },
-      { "country": "Republica Checa", "cities": "Praga" },
-      { "country": "Estonia", "cities": "Tallinn (Sede)" }
+      { "country": "República Checa", "cities": "Praga" },
+      { "country": "Estónia", "cities": "Tallinn (Sede)" }
     ]
   },
   "timeline": {
     "title": "O Nosso Percurso",
-    "subtitle": "Da consultoria empresarial as solucoes AI-nativas.",
+    "subtitle": "Da consultoria empresarial às soluções AI-nativas.",
     "events": [
       {
         "year": "2010",
-        "title": "Raizes na Consultoria",
-        "description": "Inicio na consultoria empresarial, liderando projetos de transformacao digital na Europa."
+        "title": "Raízes na Consultoria",
+        "description": "Início na consultoria empresarial, liderando projetos de transformação digital na Europa."
       },
       {
         "year": "2018",
         "title": "Foco em AI",
-        "description": "Viragem estrategica para a inteligencia artificial, desenvolvendo as primeiras solucoes de automacao e chatbots."
+        "description": "Viragem estratégica para a inteligência artificial, desenvolvendo as primeiras soluções de automação e chatbots."
       },
       {
         "year": "2023",
-        "title": "Fundacao da SCIT Consulting",
-        "description": "Criacao da SCIT Consulting na Estonia como consultoria AI-nativa para empresas europeias."
+        "title": "Fundação da SCIT Consulting",
+        "description": "Criação da SCIT Consulting na Estónia como consultoria AI-nativa para empresas europeias."
       },
       {
         "year": "2024",
         "title": "Agentes AI & LLMs",
-        "description": "Expansao para agentes de AI personalizados, integracoes de LLMs e automacao avancada com Claude, GPT e Gemini."
+        "description": "Expansão para agentes de AI personalizados, integrações de LLMs e automação avançada com Claude, GPT e Gemini."
       },
       {
         "year": "2025",
         "title": "Marco de 35+ Projetos",
-        "description": "Ultrapassados 35 projetos em 6 industrias com uma taxa de satisfacao de cliente de 95%."
+        "description": "Ultrapassados 35 projetos em 6 indústrias com uma taxa de satisfação de cliente de 95%."
       }
     ]
   },
@@ -105,25 +105,25 @@
     "items": [
       {
         "title": "Impacto Acima do Hype",
-        "description": "Focamo-nos em resultados de negocio reais, nao em demonstracoes de tecnologia da moda."
+        "description": "Focamo-nos em resultados de negócio reais, não em demonstrações de tecnologia da moda."
       },
       {
         "title": "Qualidade Acima da Velocidade",
-        "description": "Construimos solucoes que funcionam de forma fiavel e escalam de forma sustentavel."
+        "description": "Construímos soluções que funcionam de forma fiável e escalam de forma sustentável."
       },
       {
         "title": "Parceria Acima de Projetos",
-        "description": "Investimos em relacoes de longo prazo, nao em compromissos pontuais."
+        "description": "Investimos em relações de longo prazo, não em compromissos pontuais."
       },
       {
-        "title": "Transparencia Acima de Promessas",
-        "description": "Comunicamos com honestidade sobre o que a AI pode e nao pode fazer."
+        "title": "Transparência Acima de Promessas",
+        "description": "Comunicamos com honestidade sobre o que a AI pode e não pode fazer."
       }
     ]
   },
   "cta": {
-    "title": "Vamos Construir Algo Extraordinario",
-    "subtitle": "Pronto para explorar como a AI pode transformar o seu negocio?",
+    "title": "Vamos Construir Algo Extraordinário",
+    "subtitle": "Pronto para explorar como a AI pode transformar o seu negócio?",
     "button": "Fale Connosco"
   }
 }

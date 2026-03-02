@@ -1,11 +1,11 @@
 {
   "seo": {
     "title": "Contacte-nos",
-    "description": "Pronto para transformar o seu negocio com AI? Entre em contacto com a SCIT Consulting. Agende uma consultoria gratuita ou envie-nos uma mensagem."
+    "description": "Pronto para transformar o seu negócio com AI? Entre em contacto com a SCIT Consulting. Agende uma consultoria gratuita ou envie-nos uma mensagem."
   },
   "hero": {
     "title": "Fale Connosco",
-    "subtitle": "Pronto para transformar o seu negocio com AI? Conte-nos sobre o seu projeto e responderemos em menos de 24 horas."
+    "subtitle": "Pronto para transformar o seu negócio com AI? Conte-nos sobre o seu projeto e responderemos em menos de 24 horas."
   },
   "tabs": {
     "message": "Enviar Mensagem",
@@ -13,10 +13,10 @@
   },
   "booking": {
     "iframeTitle": "Agendar Chamada de Consultoria",
-    "loading": "A carregar calendario de agendamento..."
+    "loading": "A carregar calendário de agendamento..."
   },
   "footer": {
-    "responseTime": "Respondemos normalmente em 24 horas nos dias uteis."
+    "responseTime": "Respondemos normalmente em 24 horas nos dias úteis."
   },
   "form": {
     "fields": {
@@ -35,7 +35,7 @@
       "message": {
         "label": "Como podemos ajudar? *",
         "placeholder": "Conte-nos sobre o seu projeto, objetivos e desafios...",
-        "maxLengthHint": "Maximo 500 caracteres"
+        "maxLengthHint": "Máximo 500 caracteres"
       }
     },
     "submit": {
@@ -48,7 +48,7 @@
     },
     "errors": {
       "generic": "Ocorreu um erro. Por favor, tente novamente.",
-      "network": "Erro de rede. Verifique a sua ligacao e tente novamente."
+      "network": "Erro de rede. Verifique a sua ligação e tente novamente."
     }
   }
 }

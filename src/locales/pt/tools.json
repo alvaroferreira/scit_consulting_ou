@@ -1,52 +1,52 @@
 {
   "roiCalculator": {
-    "sectionTitle": "Configure os Seus Parametros",
+    "sectionTitle": "Configure os Seus Parâmetros",
     "sliders": {
       "employees": {
-        "label": "Numero de colaboradores"
+        "label": "Número de colaboradores"
       },
       "hoursPerWeek": {
         "label": "Horas gastas em tarefas repetitivas por semana (por colaborador)"
       },
       "hourlyCost": {
-        "label": "Custo medio por hora"
+        "label": "Custo médio por hora"
       }
     },
     "metrics": {
       "annualCostManualWork": {
         "label": "Custo Anual do Trabalho Manual",
-        "sublabel": "horas desperdicadas por semana"
+        "sublabel": "horas desperdiçadas por semana"
       },
       "estimatedSavings": {
-        "label": "Poupanca Anual Estimada",
-        "sublabel": "Com base numa taxa de automacao de {{rate}}%"
+        "label": "Poupança Anual Estimada",
+        "sublabel": "Com base numa taxa de automação de {{rate}}%"
       },
       "estimatedRoi": {
         "label": "ROI Estimado",
-        "sublabel": "Custo de implementacao: {{cost}}"
+        "sublabel": "Custo de implementação: {{cost}}"
       },
       "paybackPeriod": {
-        "label": "Periodo de Payback",
+        "label": "Período de Payback",
         "sublabel": "Tempo para recuperar o seu investimento"
       }
     },
     "payback": {
-      "lessThanOneMonth": "< 1 mes",
-      "oneMonth": "1 mes",
+      "lessThanOneMonth": "< 1 mês",
+      "oneMonth": "1 mês",
       "months": "{{count}} meses"
     },
-    "disclaimer": "Estas estimativas baseiam-se em medias do setor. Os resultados reais podem variar dependendo dos seus processos de negocio especificos e do ambito da implementacao.",
+    "disclaimer": "Estas estimativas baseiam-se em médias do setor. Os resultados reais podem variar dependendo dos seus processos de negócio específicos e do âmbito da implementação.",
     "cta": {
-      "title": "Quer uma analise de ROI precisa para o seu negocio?",
-      "subtitle": "A nossa equipa analisara os seus workflows especificos e fornecera uma avaliacao detalhada e personalizada com recomendacoes praticas.",
-      "button": "Obter Analise Personalizada"
+      "title": "Quer uma análise de ROI precisa para o seu negócio?",
+      "subtitle": "A nossa equipa analisará os seus workflows específicos e fornecerá uma avaliação detalhada e personalizada com recomendações práticas.",
+      "button": "Obter Análise Personalizada"
     }
   },
   "aiReadiness": {
     "progress": {
       "question": "Pergunta {{current}} de {{total}}",
-      "almostThere": "Quase la!",
-      "complete": "Concluido"
+      "almostThere": "Quase lá!",
+      "complete": "Concluído"
     },
     "navigation": {
       "back": "Voltar",
@@ -55,99 +55,99 @@
     },
     "questions": {
       "1": {
-        "text": "Como descreveria a infraestrutura de dados atual da sua organizacao?",
+        "text": "Como descreveria a infraestrutura de dados atual da sua organização?",
         "options": [
-          "Temos dados digitais minimos",
-          "Temos alguns sistemas digitais mas os dados estao em silos",
-          "Temos dados centralizados com alguma integracao",
-          "Temos uma plataforma de dados moderna com forte integracao"
+          "Temos dados digitais mínimos",
+          "Temos alguns sistemas digitais mas os dados estão em silos",
+          "Temos dados centralizados com alguma integração",
+          "Temos uma plataforma de dados moderna com forte integração"
         ]
       },
       "2": {
-        "text": "Como e que a lideranca da sua organizacao encara a adocao de AI?",
+        "text": "Como é que a liderança da sua organização encara a adoção de AI?",
         "options": [
-          "A AI nao esta no radar",
-          "Ha curiosidade mas nenhum compromisso",
-          "A lideranca e favoravel e alocou orcamento exploratoria",
-          "A AI e uma prioridade estrategica com investimento dedicado"
+          "A AI não está no radar",
+          "Há curiosidade mas nenhum compromisso",
+          "A liderança é favorável e alocou orçamento exploratório",
+          "A AI é uma prioridade estratégica com investimento dedicado"
         ]
       },
       "3": {
-        "text": "Qual e a capacidade tecnica atual da sua equipa em relacao a AI?",
+        "text": "Qual é a capacidade técnica atual da sua equipa em relação a AI?",
         "options": [
-          "Sem experiencia em AI ou ciencia de dados",
-          "Conhecimento basico, alguma exploracao autodidata",
-          "Alguns membros da equipa com experiencia em AI/ML",
-          "Equipa dedicada de AI/ciencia de dados ou parcerias solidas"
+          "Sem experiência em AI ou ciência de dados",
+          "Conhecimento básico, alguma exploração autodidata",
+          "Alguns membros da equipa com experiência em AI/ML",
+          "Equipa dedicada de AI/ciência de dados ou parcerias sólidas"
         ]
       },
       "4": {
-        "text": "Que proporcao do seu workflow envolve processos manuais e repetitivos?",
+        "text": "Que proporção do seu workflow envolve processos manuais e repetitivos?",
         "options": [
-          "Quase tudo e manual",
-          "Muitos processos sao manuais com alguma automacao",
-          "A maioria das tarefas de rotina esta automatizada",
-          "Totalmente automatizado com intervencao manual minima"
+          "Quase tudo é manual",
+          "Muitos processos são manuais com alguma automação",
+          "A maioria das tarefas de rotina está automatizada",
+          "Totalmente automatizado com intervenção manual mínima"
         ]
       },
       "5": {
-        "text": "Como gerem atualmente as interacoes com clientes?",
+        "text": "Como gerem atualmente as interações com clientes?",
         "options": [
           "Totalmente manual (telefone, email)",
-          "Algumas ferramentas de self-service (FAQ, formularios basicos)",
+          "Algumas ferramentas de self-service (FAQ, formulários básicos)",
           "Multi-canal com algumas respostas automatizadas",
-          "Com assistencia de AI e encaminhamento e automacao inteligentes"
+          "Com assistência de AI e encaminhamento e automação inteligentes"
         ]
       },
       "6": {
-        "text": "Qual e a vossa abordagem a tomada de decisao baseada em dados?",
+        "text": "Qual é a vossa abordagem à tomada de decisão baseada em dados?",
         "options": [
-          "As decisoes baseiam-se maioritariamente na intuicao",
-          "Usamos relatorios basicos e folhas de calculo",
-          "Temos dashboards e analitica regular",
-          "Usamos analitica preditiva e modelos de dados"
+          "As decisões baseiam-se maioritariamente na intuição",
+          "Usamos relatórios básicos e folhas de cálculo",
+          "Temos dashboards e analítica regular",
+          "Usamos analítica preditiva e modelos de dados"
         ]
       },
       "7": {
         "text": "Como descreveria a sua infraestrutura de TI?",
         "options": [
           "Sistemas legados, maioritariamente on-premises",
-          "Mix de legado e alguns servicos cloud",
+          "Mix de legado e alguns serviços cloud",
           "Predominantemente na cloud com APIs modernas",
-          "Cloud-native com arquitetura de microservicos"
+          "Cloud-native com arquitetura de microsserviços"
         ]
       },
       "8": {
-        "text": "Qual e a atitude da sua organizacao perante a mudanca?",
+        "text": "Qual é a atitude da sua organização perante a mudança?",
         "options": [
-          "Resistente a mudanca",
+          "Resistente à mudança",
           "Aberta mas lenta a adotar",
-          "A procurar ativamente inovacao",
-          "A mudanca faz parte da nossa cultura"
+          "À procura ativamente de inovação",
+          "A mudança faz parte da nossa cultura"
         ]
       },
       "9": {
-        "text": "Como lidam com dados sensiveis e conformidade?",
+        "text": "Como lidam com dados sensíveis e conformidade?",
         "options": [
-          "Sem governanca formal de dados",
-          "Existem politicas basicas mas nao sao seguidas consistentemente",
-          "Governanca formal de dados com auditorias regulares",
+          "Sem governança formal de dados",
+          "Existem políticas básicas mas não são seguidas consistentemente",
+          "Governança formal de dados com auditorias regulares",
           "Programa de conformidade abrangente (RGPD, etc.) com controlos automatizados"
         ]
       },
       "10": {
-        "text": "Qual e a vossa perspetiva de orcamento para investimentos em tecnologia?",
+        "text": "Qual é a vossa perspetiva de orçamento para investimentos em tecnologia?",
         "options": [
           "Muito limitado, sem margem para novas ferramentas",
-          "Orcamento reduzido para pilotos e experiencias",
-          "Orcamento moderado para iniciativas estrategicas",
-          "Orcamento significativo com expectativas claras de ROI"
+          "Orçamento reduzido para pilotos e experiências",
+          "Orçamento moderado para iniciativas estratégicas",
+          "Orçamento significativo com expectativas claras de ROI"
         ]
       }
     },
     "emailGate": {
-      "title": "Os seus resultados estao prontos!",
-      "subtitle": "Introduza o seu email para receber um relatorio detalhado de maturidade AI com recomendacoes personalizadas.",
+      "title": "Os seus resultados estão prontos!",
+      "subtitle": "Introduza o seu email para receber um relatório detalhado de maturidade AI com recomendações personalizadas.",
       "emailLabel": "Email",
       "emailPlaceholder": "voce@empresa.com",
       "companyLabel": "Nome da empresa",
@@ -158,48 +158,48 @@
     },
     "results": {
       "scoreOf": "/ 40",
-      "recommendedNextSteps": "Proximos Passos Recomendados",
+      "recommendedNextSteps": "Próximos Passos Recomendados",
       "cta": {
-        "title": "Obtenha uma Estrategia AI Personalizada",
-        "subtitle": "Deixe a nossa equipa analisar a sua situacao especifica e construir um roadmap personalizado para adocao de AI.",
+        "title": "Obtenha uma Estratégia AI Personalizada",
+        "subtitle": "Deixe a nossa equipa analisar a sua situação específica e construir um roadmap personalizado para adoção de AI.",
         "primaryButton": "Agendar Consultoria Gratuita",
-        "secondaryButton": "Refazer Avaliacao"
+        "secondaryButton": "Refazer Avaliação"
       },
       "tiers": {
         "early": {
           "name": "Fase Inicial",
-          "description": "A sua organizacao esta no inicio da jornada de AI. Concentre-se na infraestrutura de dados e na construcao de sensibilizacao.",
+          "description": "A sua organização está no início da jornada de AI. Concentre-se na infraestrutura de dados e na construção de sensibilização.",
           "steps": [
             "Auditar os sistemas de dados atuais e identificar lacunas",
-            "Comecar a recolher e organizar dados de negocio essenciais",
-            "Agendar um workshop de sensibilizacao sobre AI para a equipa de lideranca"
+            "Começar a recolher e organizar dados de negócio essenciais",
+            "Agendar um workshop de sensibilização sobre AI para a equipa de liderança"
           ]
         },
         "developing": {
           "name": "Em Desenvolvimento",
-          "description": "Tem algumas bases no lugar. Vitorias rapidas em automacao podem criar momentum para uma adocao mais ampla de AI.",
+          "description": "Tem algumas bases no lugar. Vitórias rápidas em automação podem criar momentum para uma adoção mais ampla de AI.",
           "steps": [
-            "Identificar 2-3 processos repetitivos prontos para automacao",
-            "Fazer um piloto com uma ferramenta AI numa area de baixo risco para ganhar confianca",
-            "Desenvolver uma estrategia de dados basica para unificar informacao em silos"
+            "Identificar 2-3 processos repetitivos prontos para automação",
+            "Fazer um piloto com uma ferramenta AI numa área de baixo risco para ganhar confiança",
+            "Desenvolver uma estratégia de dados básica para unificar informação em silos"
           ]
         },
         "ready": {
           "name": "Preparado",
-          "description": "A sua organizacao esta bem posicionada para implementacao de AI. Um roadmap estrategico ajudara a priorizar os casos de uso de maior impacto.",
+          "description": "A sua organização está bem posicionada para implementação de AI. Um roadmap estratégico ajudará a priorizar os casos de uso de maior impacto.",
           "steps": [
-            "Construir um roadmap de AI alinhado com os objetivos de negocio",
-            "Avaliar e implementar solucoes de AI para os seus 3 principais casos de uso",
-            "Investir na capacitacao da equipa em ferramentas e workflows de AI"
+            "Construir um roadmap de AI alinhado com os objetivos de negócio",
+            "Avaliar e implementar soluções de AI para os seus 3 principais casos de uso",
+            "Investir na capacitação da equipa em ferramentas e workflows de AI"
           ]
         },
         "advanced": {
-          "name": "Avancado",
-          "description": "Esta pronto para solucoes de AI sofisticadas. Concentre-se em casos de uso avancados, agentes AI e escalabilidade das capacidades existentes.",
+          "name": "Avançado",
+          "description": "Está pronto para soluções de AI sofisticadas. Concentre-se em casos de uso avançados, agentes AI e escalabilidade das capacidades existentes.",
           "steps": [
-            "Implementar agentes AI autonomos para workflows complexos",
+            "Implementar agentes AI autónomos para workflows complexos",
             "Escalar iniciativas de AI bem-sucedidas para todos os departamentos",
-            "Explorar modelos de AI personalizados adaptados aos dados da sua industria"
+            "Explorar modelos de AI personalizados adaptados aos dados da sua indústria"
           ]
         }
       }

@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Recursos",
-    "description": "Recursos gratuitos de AI: casos de sucesso, artigos, calculadora de ROI e avaliacao de maturidade AI. Tudo o que precisa para planear a sua jornada de AI."
+    "description": "Recursos gratuitos de AI: casos de sucesso, artigos, calculadora de ROI e avaliação de maturidade AI. Tudo o que precisa para planear a sua jornada de AI."
   },
   "hero": {
     "title": "Recursos",
@@ -9,30 +9,30 @@
   },
   "sections": {
     "title": "Explore os Nossos Recursos",
-    "subtitle": "Tudo o que precisa para compreender, avaliar e implementar AI no seu negocio.",
+    "subtitle": "Tudo o que precisa para compreender, avaliar e implementar AI no seu negócio.",
     "explore": "Explorar",
     "items": [
       {
         "title": "Casos de Sucesso",
-        "descriptionTemplate": "{{count}} projetos reais com resultados mensuraveis nos setores de saude, servicos B2B e imobiliario."
+        "descriptionTemplate": "{{count}} projetos reais com resultados mensuráveis nos setores de saúde, serviços B2B e imobiliário."
       },
       {
         "title": "Blog & Artigos",
-        "descriptionTemplate": "{{count}} artigos sobre estrategia de AI, implementacao, ROI de automacao e transformacao digital."
+        "descriptionTemplate": "{{count}} artigos sobre estratégia de AI, implementação, ROI de automação e transformação digital."
       },
       {
         "title": "Calculadora de ROI de AI",
-        "description": "Estime as poupancas potenciais e o retorno do investimento em automacao com AI para o seu negocio."
+        "description": "Estime as poupanças potenciais e o retorno do investimento em automação com AI para o seu negócio."
       },
       {
-        "title": "Avaliacao de Maturidade AI",
-        "description": "Responda a 10 perguntas para descobrir o nivel de preparacao da sua organizacao para a adocao de AI e receba recomendacoes praticas."
+        "title": "Avaliação de Maturidade AI",
+        "description": "Responda a 10 perguntas para descobrir o nível de preparação da sua organização para a adoção de AI e receba recomendações práticas."
       }
     ]
   },
   "latestArticles": {
     "title": "Artigos Mais Recentes",
-    "subtitle": "Mantenha-se atualizado com as ultimas perspetivas sobre AI e transformacao digital.",
+    "subtitle": "Mantenha-se atualizado com as últimas perspetivas sobre AI e transformação digital.",
     "viewAll": "Ver todos os artigos"
   }
 }

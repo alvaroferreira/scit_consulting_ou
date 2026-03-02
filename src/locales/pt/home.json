@@ -1,17 +1,17 @@
 {
   "hero": {
-    "badge": "Transformacao Digital com AI",
-    "headline": "Transforme o Seu Negocio com",
-    "headlineHighlight": "Inteligencia Artificial",
-    "subtitle": "Implementamos ferramentas de AI, automatizamos processos e desenvolvemos agentes inteligentes, da estrategia a execucao.",
+    "badge": "Transformação Digital com AI",
+    "headline": "Transforme o Seu Negócio com",
+    "headlineHighlight": "Inteligência Artificial",
+    "subtitle": "Implementamos ferramentas de AI, automatizamos processos e desenvolvemos agentes inteligentes, da estratégia à execução.",
     "ctaPrimary": "Agendar Consultoria",
     "ctaSecondary": "A Nossa Abordagem",
     "trustProjects": "35+ Projetos Entregues",
-    "trustIndustries": "6+ Industrias",
-    "trustCountries": "3 Paises"
+    "trustIndustries": "6+ Indústrias",
+    "trustCountries": "3 Países"
   },
   "techPartners": {
-    "title": "Construido com as principais plataformas de AI e cloud",
+    "title": "Construído com as principais plataformas de AI e cloud",
     "partners": {
       "openai": "OpenAI",
       "anthropic": "Anthropic",
@@ -24,59 +24,59 @@
   },
   "pillars": {
     "sectionTitle": "Como Ajudamos",
-    "sectionSubtitle": "Tres pilares que impulsionam a sua jornada de transformacao com AI, da estrategia a implementacao e alem.",
+    "sectionSubtitle": "Três pilares que impulsionam a sua jornada de transformação com AI, da estratégia à implementação e além.",
     "learnMore": "Saber mais",
     "items": {
       "implement": {
         "title": "Implementar",
         "subtitle": "Ferramentas AI & Desenvolvimento",
-        "description": "Desenvolvemos e integramos solucoes de AI no seu negocio, desde workflows automatizados e agentes inteligentes ate interfaces conversacionais e implementacao de ferramentas empresariais."
+        "description": "Desenvolvemos e integramos soluções de AI no seu negócio, desde workflows automatizados e agentes inteligentes até interfaces conversacionais e implementação de ferramentas empresariais."
       },
       "consult": {
         "title": "Aconselhar",
         "subtitle": "Consultoria AI",
-        "description": "Definimos a estrategia de AI ideal para o seu negocio, avaliando a maturidade, mapeando oportunidades, alinhando objetivos e formando as suas equipas para uma adocao bem-sucedida."
+        "description": "Definimos a estratégia de AI ideal para o seu negócio, avaliando a maturidade, mapeando oportunidades, alinhando objetivos e formando as suas equipas para uma adoção bem-sucedida."
       },
       "transform": {
         "title": "Transformar",
         "subtitle": "Processos AI",
-        "description": "Redesenhamos os seus processos com AI no centro, auditando operacoes, implementando entregas ageis, gerindo a mudanca e conduzindo uma transformacao digital abrangente."
+        "description": "Redesenhamos os seus processos com AI no centro, auditando operações, implementando entregas ágeis, gerindo a mudança e conduzindo uma transformação digital abrangente."
       }
     }
   },
   "servicesGrid": {
-    "sectionTitle": "Os Nossos Servicos",
-    "sectionSubtitle": "Solucoes completas de AI adaptadas as necessidades do seu negocio, desde automacao ate consultoria estrategica.",
+    "sectionTitle": "Os Nossos Serviços",
+    "sectionSubtitle": "Soluções completas de AI adaptadas às necessidades do seu negócio, desde automação até consultoria estratégica.",
     "learnMore": "Saber mais",
     "items": {
       "aiAutomation": {
-        "shortTitle": "Automacao AI",
-        "description": "Workflows automatizados, processamento de documentos e RPA potenciado por AI para eliminar tarefas repetitivas e aumentar a eficiencia."
+        "shortTitle": "Automação AI",
+        "description": "Workflows automatizados, processamento de documentos e RPA potenciado por AI para eliminar tarefas repetitivas e aumentar a eficiência."
       },
       "aiAgents": {
         "shortTitle": "Agentes AI",
-        "description": "Agentes de AI autonomos para tarefas complexas como prospeccao comercial, suporte ao cliente, analise de dados e business intelligence."
+        "description": "Agentes de AI autónomos para tarefas complexas como prospeção comercial, suporte ao cliente, análise de dados e business intelligence."
       },
       "chatbots": {
         "shortTitle": "Chatbots",
-        "description": "Interfaces conversacionais inteligentes para atendimento ao cliente, helpdesks internos e experiencias interativas de produto."
+        "description": "Interfaces conversacionais inteligentes para atendimento ao cliente, helpdesks internos e experiências interativas de produto."
       },
       "aiTools": {
         "shortTitle": "Ferramentas AI",
-        "description": "Selecao e implementacao de ferramentas de AI empresariais como ChatGPT Enterprise, Claude, GitHub Copilot e solucoes personalizadas."
+        "description": "Seleção e implementação de ferramentas de AI empresariais como ChatGPT Enterprise, Claude, GitHub Copilot e soluções personalizadas."
       },
       "aiConsulting": {
         "shortTitle": "Consultoria AI",
-        "description": "Avaliacoes de maturidade AI, roadmaps estrategicos, alinhamento de OKRs e formacao de equipas para definir o seu caminho de transformacao."
+        "description": "Avaliações de maturidade AI, roadmaps estratégicos, alinhamento de OKRs e formação de equipas para definir o seu caminho de transformação."
       },
       "digitalTransformation": {
-        "shortTitle": "Transformacao",
-        "description": "Programas completos de modernizacao de processos, incluindo auditoria, entrega agil, gestao da mudanca e redesenho centrado em AI."
+        "shortTitle": "Transformação",
+        "description": "Programas completos de modernização de processos, incluindo auditoria, entrega ágil, gestão da mudança e redesenho centrado em AI."
       }
     }
   },
   "needs": {
-    "sectionTitle": "O Que Pretende Alcancar?",
+    "sectionTitle": "O Que Pretende Alcançar?",
     "sectionSubtitle": "Escolha o seu objetivo e mostramos-lhe como podemos ajudar.",
     "items": {
       "automateProcesses": {
@@ -85,23 +85,23 @@
       },
       "buildAgents": {
         "label": "Desenvolver agentes de AI inteligentes",
-        "description": "Implemente agentes personalizados que executam tarefas complexas de forma autonoma."
+        "description": "Implemente agentes personalizados que executam tarefas complexas de forma autónoma."
       },
       "improveSupport": {
         "label": "Melhorar o atendimento ao cliente",
-        "description": "Chatbots de AI que resolvem questoes e escalam sem esforco."
+        "description": "Chatbots de AI que resolvem questões e escalam sem esforço."
       },
       "implementTools": {
-        "label": "Implementar ferramentas de AI na organizacao",
-        "description": "Implementacao estrategica de Claude, GPT, Gemini e outras ferramentas."
+        "label": "Implementar ferramentas de AI na organização",
+        "description": "Implementação estratégica de Claude, GPT, Gemini e outras ferramentas."
       },
       "defineStrategy": {
-        "label": "Definir uma estrategia de AI",
-        "description": "Avaliacao de maturidade e roadmap para adocao de AI."
+        "label": "Definir uma estratégia de AI",
+        "description": "Avaliação de maturidade e roadmap para adoção de AI."
       },
       "modernizeOperations": {
-        "label": "Modernizar operacoes legadas",
-        "description": "Transformacao digital completa com AI no centro da operacao."
+        "label": "Modernizar operações legadas",
+        "description": "Transformação digital completa com AI no centro da operação."
       },
       "seeResults": {
         "label": "Ver resultados comprovados primeiro",
@@ -111,29 +111,29 @@
   },
   "process": {
     "sectionTitle": "A Nossa Abordagem",
-    "sectionSubtitle": "Uma metodologia comprovada que garante que cada iniciativa de AI produz resultados de negocio mensuraveis.",
+    "sectionSubtitle": "Uma metodologia comprovada que garante que cada iniciativa de AI produz resultados de negócio mensuráveis.",
     "stepLabel": "Passo",
     "steps": {
       "diagnose": {
         "title": "Diagnosticar",
-        "description": "Analisamos os seus processos atuais, stack tecnologico e objetivos de negocio para identificar onde a AI pode gerar maior impacto."
+        "description": "Analisamos os seus processos atuais, stack tecnológico e objetivos de negócio para identificar onde a AI pode gerar maior impacto."
       },
       "plan": {
         "title": "Planear",
-        "description": "Desenhamos uma estrategia de AI personalizada com prioridades claras, cronogramas e resultados mensuraveis alinhados com os seus objetivos."
+        "description": "Desenhamos uma estratégia de AI personalizada com prioridades claras, cronogramas e resultados mensuráveis alinhados com os seus objetivos."
       },
       "implement": {
         "title": "Implementar",
-        "description": "Desenvolvemos e implementamos solucoes de AI usando metodologias ageis com partilha em tempo real da evolucao do produto, para que acompanhe cada passo do progresso."
+        "description": "Desenvolvemos e implementamos soluções de AI usando metodologias ágeis com partilha em tempo real da evolução do produto, para que acompanhe cada passo do progresso."
       },
       "scale": {
         "title": "Escalar",
-        "description": "Otimizamos, monitorizamos e expandimos as implementacoes de AI bem-sucedidas em toda a sua organizacao para maximo impacto no negocio."
+        "description": "Otimizamos, monitorizamos e expandimos as implementações de AI bem-sucedidas em toda a sua organização para máximo impacto no negócio."
       }
     }
   },
   "stats": {
-    "ariaLabel": "Estatisticas da empresa",
+    "ariaLabel": "Estatísticas da empresa",
     "items": {
       "projectsDelivered": {
         "value": 35,
@@ -143,46 +143,46 @@
       "industriesServed": {
         "value": 6,
         "suffix": "+",
-        "label": "Industrias Servidas"
+        "label": "Indústrias Servidas"
       },
       "countries": {
         "value": 3,
         "suffix": "",
-        "label": "Paises"
+        "label": "Países"
       },
       "clientSatisfaction": {
         "value": 95,
         "suffix": "%",
-        "label": "Satisfacao do Cliente"
+        "label": "Satisfação do Cliente"
       }
     }
   },
   "industries": {
-    "sectionTitle": "Industrias Que Servimos",
-    "sectionSubtitle": "Solucoes de AI personalizadas para os desafios especificos da sua industria.",
+    "sectionTitle": "Indústrias Que Servimos",
+    "sectionSubtitle": "Soluções de AI personalizadas para os desafios específicos da sua indústria.",
     "viewCaseStudies": "Ver casos de sucesso",
     "items": {
       "healthcare": {
-        "title": "Saude",
-        "description": "Agendamento inteligente, documentacao clinica, envolvimento do paciente e coordenacao de cuidados para clinicas e prestadores de saude."
+        "title": "Saúde",
+        "description": "Agendamento inteligente, documentação clínica, envolvimento do paciente e coordenação de cuidados para clínicas e prestadores de saúde."
       },
       "financialServices": {
-        "title": "Servicos Financeiros",
-        "description": "Processamento inteligente de documentos, automacao de conformidade, analise de risco e assistentes de AI para instituicoes financeiras."
+        "title": "Serviços Financeiros",
+        "description": "Processamento inteligente de documentos, automação de conformidade, análise de risco e assistentes de AI para instituições financeiras."
       },
       "retail": {
         "title": "Retalho & E-Commerce",
-        "description": "Experiencias personalizadas, otimizacao de inventario, comercio conversacional e previsao de procura com AI."
+        "description": "Experiências personalizadas, otimização de inventário, comércio conversacional e previsão de procura com AI."
       },
       "b2bServices": {
-        "title": "Servicos B2B",
-        "description": "Automacao comercial, geracao de propostas, qualificacao de leads e workflows potenciados por AI para empresas de servicos profissionais."
+        "title": "Serviços B2B",
+        "description": "Automação comercial, geração de propostas, qualificação de leads e workflows potenciados por AI para empresas de serviços profissionais."
       }
     }
   },
   "techStack": {
-    "sectionTitle": "Construido com Tecnologia Moderna",
-    "sectionSubtitle": "Utilizamos as melhores ferramentas e plataformas para construir solucoes de AI robustas e escalaveis.",
+    "sectionTitle": "Construído com Tecnologia Moderna",
+    "sectionSubtitle": "Utilizamos as melhores ferramentas e plataformas para construir soluções de AI robustas e escaláveis.",
     "categories": {
       "aiModels": {
         "name": "Modelos AI",
@@ -207,28 +207,28 @@
     "sectionSubtitle": "Resultados reais de parcerias reais.",
     "items": [
       {
-        "quote": "A SCIT transformou o nosso workflow de processamento de documentos com automacao AI. O que antes levava horas a equipa, agora acontece em minutos com maior precisao.",
+        "quote": "A SCIT transformou o nosso workflow de processamento de documentos com automação AI. O que antes levava horas à equipa, agora acontece em minutos com maior precisão.",
         "name": "Maria S.",
-        "role": "Diretora de Operacoes",
-        "company": "Empresa de Servicos Juridicos"
+        "role": "Diretora de Operações",
+        "company": "Empresa de Serviços Jurídicos"
       },
       {
-        "quote": "O agente de prospeccao AI que a SCIT desenvolveu para nos gera leads qualificados 24 horas por dia. O nosso pipeline comercial nunca esteve tao saudavel.",
+        "quote": "O agente de prospeção AI que a SCIT desenvolveu para nós gera leads qualificados 24 horas por dia. O nosso pipeline comercial nunca esteve tão saudável.",
         "name": "Thomas K.",
         "role": "Diretor Comercial",
         "company": "Empresa B2B SaaS"
       },
       {
-        "quote": "A abordagem estrategica da SCIT para implementacao de AI deu-nos clareza. Em vez de perseguir tendencias, temos agora um roadmap focado com resultados mensuraveis.",
+        "quote": "A abordagem estratégica da SCIT para implementação de AI deu-nos clareza. Em vez de perseguir tendências, temos agora um roadmap focado com resultados mensuráveis.",
         "name": "Ana R.",
         "role": "CEO",
-        "company": "Startup de Tecnologia na Saude"
+        "company": "Startup de Tecnologia na Saúde"
       }
     ]
   },
   "ctaBanner": {
-    "title": "Pronto Para Iniciar a Sua Transformacao com AI?",
-    "subtitle": "Vamos discutir como a AI pode transformar os processos do seu negocio, reduzir custos e desbloquear novas oportunidades de crescimento.",
+    "title": "Pronto Para Iniciar a Sua Transformação com AI?",
+    "subtitle": "Vamos discutir como a AI pode transformar os processos do seu negócio, reduzir custos e desbloquear novas oportunidades de crescimento.",
     "ctaPrimary": "Agendar Consultoria Gratuita"
   }
 }

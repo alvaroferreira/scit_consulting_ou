@@ -1,58 +1,58 @@
 {
   "nav": {
-    "services": "Servicos",
+    "services": "Serviços",
     "caseStudies": "Casos de Sucesso",
     "resources": "Recursos",
-    "about": "Sobre Nos",
+    "about": "Sobre Nós",
     "contact": "Contacto",
     "blog": "Blog & Artigos",
     "roiCalculator": "Calculadora de ROI de AI",
-    "aiReadiness": "Avaliacao de Maturidade AI",
-    "aiAutomation": "Automacao com AI & Processos",
+    "aiReadiness": "Avaliação de Maturidade AI",
+    "aiAutomation": "Automação com AI & Processos",
     "aiAgents": "Agentes de AI Personalizados",
     "chatbots": "Chatbots & AI Conversacional",
-    "aiTools": "Implementacao de Ferramentas AI",
-    "aiConsulting": "Estrategia & Consultoria AI",
-    "digitalTransformation": "Transformacao Digital"
+    "aiTools": "Implementação de Ferramentas AI",
+    "aiConsulting": "Estratégia & Consultoria AI",
+    "digitalTransformation": "Transformação Digital"
   },
   "header": {
     "bookConsultation": "Agendar Consultoria",
     "toggleMenu": "Abrir menu",
-    "mainNavigation": "Navegacao principal",
-    "mobileNavigation": "Navegacao mobile"
+    "mainNavigation": "Navegação principal",
+    "mobileNavigation": "Navegação mobile"
   },
   "footer": {
-    "description": "Consultoria de transformacao digital com foco em AI. Implementamos ferramentas de AI, automatizamos processos e desenvolvemos agentes inteligentes.",
+    "description": "Consultoria de transformação digital com foco em AI. Implementamos ferramentas de AI, automatizamos processos e desenvolvemos agentes inteligentes.",
     "company": "SCIT Consulting",
-    "servicesTitle": "Servicos",
+    "servicesTitle": "Serviços",
     "companyTitle": "Empresa",
     "legalTitle": "Legal",
     "copyright": "SCIT Consulting. Todos os direitos reservados.",
     "tagline": "Desenvolvido com AI, para empresas que abracem a AI.",
-    "aiAutomation": "Automacao AI",
+    "aiAutomation": "Automação AI",
     "aiAgents": "Agentes AI",
     "chatbots": "Chatbots",
     "aiTools": "Ferramentas AI",
     "aiConsulting": "Consultoria AI",
-    "digitalTransformation": "Transformacao Digital",
-    "about": "Sobre Nos",
+    "digitalTransformation": "Transformação Digital",
+    "about": "Sobre Nós",
     "approach": "Abordagem",
     "blog": "Blog",
     "resources": "Recursos",
     "contact": "Contacto",
-    "privacyPolicy": "Politica de Privacidade",
-    "termsOfService": "Termos de Servico"
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
   },
   "notFound": {
     "title": "404",
-    "message": "Pagina nao encontrada",
-    "backHome": "Voltar ao inicio"
+    "message": "Página não encontrada",
+    "backHome": "Voltar ao início"
   },
   "cta": {
     "getInTouch": "Fale Connosco",
     "bookConsultation": "Agendar Consultoria",
     "bookFreeConsultation": "Agendar Consultoria Gratuita",
-    "getStarted": "Comecar Agora",
+    "getStarted": "Começar Agora",
     "learnMore": "Saber mais",
     "explore": "Explorar",
     "viewAllArticles": "Ver todos os artigos",

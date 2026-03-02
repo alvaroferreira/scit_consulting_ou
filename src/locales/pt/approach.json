@@ -1,72 +1,72 @@
 {
   "seo": {
     "title": "A Nossa Abordagem",
-    "description": "Uma metodologia comprovada em quatro fases que garante que cada iniciativa de AI produz resultados de negocio mensuraveis. Do diagnostico a otimizacao."
+    "description": "Uma metodologia comprovada em quatro fases que garante que cada iniciativa de AI produz resultados de negócio mensuráveis. Do diagnóstico à otimização."
   },
   "hero": {
     "title": "A Nossa Abordagem",
-    "subtitle": "Uma metodologia comprovada que garante que cada iniciativa de AI produz resultados de negocio mensuraveis."
+    "subtitle": "Uma metodologia comprovada que garante que cada iniciativa de AI produz resultados de negócio mensuráveis."
   },
   "process": {
     "title": "Como Trabalhamos",
-    "subtitle": "Quatro fases que o levam da visao ao valor.",
+    "subtitle": "Quatro fases que o levam da visão ao valor.",
     "phaseLabel": "Fase",
     "steps": [
       {
         "number": 1,
         "title": "Diagnosticar",
-        "description": "Analisamos os seus processos atuais, stack tecnologico e objetivos de negocio para identificar onde a AI pode gerar maior impacto."
+        "description": "Analisamos os seus processos atuais, stack tecnológico e objetivos de negócio para identificar onde a AI pode gerar maior impacto."
       },
       {
         "number": 2,
         "title": "Planear",
-        "description": "Desenhamos uma estrategia de AI personalizada com prioridades claras, cronogramas e resultados mensuraveis alinhados com os seus objetivos."
+        "description": "Desenhamos uma estratégia de AI personalizada com prioridades claras, cronogramas e resultados mensuráveis alinhados com os seus objetivos."
       },
       {
         "number": 3,
         "title": "Implementar",
-        "description": "Desenvolvemos e implementamos solucoes de AI usando metodologias ageis com partilha em tempo real da evolucao do produto, para que acompanhe cada passo do progresso."
+        "description": "Desenvolvemos e implementamos soluções de AI usando metodologias ágeis com partilha em tempo real da evolução do produto, para que acompanhe cada passo do progresso."
       },
       {
         "number": 4,
         "title": "Escalar",
-        "description": "Otimizamos, monitorizamos e expandimos as implementacoes de AI bem-sucedidas em toda a sua organizacao para maximo impacto no negocio."
+        "description": "Otimizamos, monitorizamos e expandimos as implementações de AI bem-sucedidas em toda a sua organização para máximo impacto no negócio."
       }
     ]
   },
   "principles": {
-    "title": "Os Nossos Principios",
+    "title": "Os Nossos Princípios",
     "subtitle": "Os valores que guiam cada projeto.",
     "items": [
       {
-        "title": "AI ao Servico do Negocio",
-        "description": "Comecamos pelos seus objetivos de negocio, nao pela tecnologia. A AI e um meio para atingir um fim, nao o fim em si."
+        "title": "AI ao Serviço do Negócio",
+        "description": "Começamos pelos seus objetivos de negócio, não pela tecnologia. A AI é um meio para atingir um fim, não o fim em si."
       },
       {
         "title": "Entrega Iterativa",
-        "description": "Entregamos valor em semanas, nao em meses. Sprints ageis com partilha em tempo real do progresso garantem total transparencia e feedback antecipado."
+        "description": "Entregamos valor em semanas, não em meses. Sprints ágeis com partilha em tempo real do progresso garantem total transparência e feedback antecipado."
       },
       {
-        "title": "Resultados Mensuraveis",
-        "description": "Cada iniciativa tem KPIs claros e metricas de sucesso. Medimos o impacto, nao apenas o output."
+        "title": "Resultados Mensuráveis",
+        "description": "Cada iniciativa tem KPIs claros e métricas de sucesso. Medimos o impacto, não apenas o output."
       },
       {
-        "title": "Transferencia de Conhecimento",
-        "description": "Desenvolvemos as competencias da sua equipa em paralelo com a solucao. O conhecimento e seu, nao apenas o codigo."
+        "title": "Transferência de Conhecimento",
+        "description": "Desenvolvemos as competências da sua equipa em paralelo com a solução. O conhecimento é seu, não apenas o código."
       },
       {
         "title": "Parceria Transparente",
         "description": "Sem caixas negras. Comunicamos abertamente sobre progresso, desafios e compromissos."
       },
       {
-        "title": "Escalabilidade Sustentavel",
-        "description": "Solucoes desenhadas para crescer com o seu negocio, sem criar dependencia de fornecedores."
+        "title": "Escalabilidade Sustentável",
+        "description": "Soluções desenhadas para crescer com o seu negócio, sem criar dependência de fornecedores."
       }
     ]
   },
   "cta": {
     "title": "Vamos Trabalhar Juntos",
-    "subtitle": "Pronto para aplicar esta metodologia ao seu negocio? Comece com uma consultoria gratuita.",
+    "subtitle": "Pronto para aplicar esta metodologia ao seu negócio? Comece com uma consultoria gratuita.",
     "button": "Agendar Consultoria"
   }
 }
