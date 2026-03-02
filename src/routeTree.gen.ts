@@ -10,22 +10,34 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TermsRouteImport } from './routes/terms'
+import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as ApproachRouteImport } from './routes/approach'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ServicesIndexRouteImport } from './routes/services/index'
+import { Route as CaseStudiesIndexRouteImport } from './routes/case-studies/index'
+import { Route as BlogIndexRouteImport } from './routes/blog/index'
+import { Route as ToolsRoiCalculatorRouteImport } from './routes/tools/roi-calculator'
+import { Route as ToolsAiReadinessAssessmentRouteImport } from './routes/tools/ai-readiness-assessment'
 import { Route as ServicesDigitalTransformationRouteImport } from './routes/services/digital-transformation'
 import { Route as ServicesChatbotsRouteImport } from './routes/services/chatbots'
 import { Route as ServicesAiToolsRouteImport } from './routes/services/ai-tools'
 import { Route as ServicesAiConsultingRouteImport } from './routes/services/ai-consulting'
 import { Route as ServicesAiAutomationRouteImport } from './routes/services/ai-automation'
 import { Route as ServicesAiAgentsRouteImport } from './routes/services/ai-agents'
+import { Route as CaseStudiesSlugRouteImport } from './routes/case-studies/$slug'
+import { Route as BlogSlugRouteImport } from './routes/blog/$slug'
 
 const TermsRoute = TermsRouteImport.update({
   id: '/terms',
   path: '/terms',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ResourcesRoute = ResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
@@ -58,6 +70,27 @@ const ServicesIndexRoute = ServicesIndexRouteImport.update({
   path: '/services/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CaseStudiesIndexRoute = CaseStudiesIndexRouteImport.update({
+  id: '/case-studies/',
+  path: '/case-studies/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogIndexRoute = BlogIndexRouteImport.update({
+  id: '/blog/',
+  path: '/blog/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ToolsRoiCalculatorRoute = ToolsRoiCalculatorRouteImport.update({
+  id: '/tools/roi-calculator',
+  path: '/tools/roi-calculator',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ToolsAiReadinessAssessmentRoute =
+  ToolsAiReadinessAssessmentRouteImport.update({
+    id: '/tools/ai-readiness-assessment',
+    path: '/tools/ai-readiness-assessment',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const ServicesDigitalTransformationRoute =
   ServicesDigitalTransformationRouteImport.update({
     id: '/services/digital-transformation',
@@ -89,6 +122,16 @@ const ServicesAiAgentsRoute = ServicesAiAgentsRouteImport.update({
   path: '/services/ai-agents',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CaseStudiesSlugRoute = CaseStudiesSlugRouteImport.update({
+  id: '/case-studies/$slug',
+  path: '/case-studies/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogSlugRoute = BlogSlugRouteImport.update({
+  id: '/blog/$slug',
+  path: '/blog/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -96,13 +139,20 @@ export interface FileRoutesByFullPath {
   '/approach': typeof ApproachRoute
   '/contact': typeof ContactRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
+  '/resources': typeof ResourcesRoute
   '/terms': typeof TermsRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
   '/services/ai-agents': typeof ServicesAiAgentsRoute
   '/services/ai-automation': typeof ServicesAiAutomationRoute
   '/services/ai-consulting': typeof ServicesAiConsultingRoute
   '/services/ai-tools': typeof ServicesAiToolsRoute
   '/services/chatbots': typeof ServicesChatbotsRoute
   '/services/digital-transformation': typeof ServicesDigitalTransformationRoute
+  '/tools/ai-readiness-assessment': typeof ToolsAiReadinessAssessmentRoute
+  '/tools/roi-calculator': typeof ToolsRoiCalculatorRoute
+  '/blog/': typeof BlogIndexRoute
+  '/case-studies/': typeof CaseStudiesIndexRoute
   '/services/': typeof ServicesIndexRoute
 }
 export interface FileRoutesByTo {
@@ -111,13 +161,20 @@ export interface FileRoutesByTo {
   '/approach': typeof ApproachRoute
   '/contact': typeof ContactRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
+  '/resources': typeof ResourcesRoute
   '/terms': typeof TermsRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
   '/services/ai-agents': typeof ServicesAiAgentsRoute
   '/services/ai-automation': typeof ServicesAiAutomationRoute
   '/services/ai-consulting': typeof ServicesAiConsultingRoute
   '/services/ai-tools': typeof ServicesAiToolsRoute
   '/services/chatbots': typeof ServicesChatbotsRoute
   '/services/digital-transformation': typeof ServicesDigitalTransformationRoute
+  '/tools/ai-readiness-assessment': typeof ToolsAiReadinessAssessmentRoute
+  '/tools/roi-calculator': typeof ToolsRoiCalculatorRoute
+  '/blog': typeof BlogIndexRoute
+  '/case-studies': typeof CaseStudiesIndexRoute
   '/services': typeof ServicesIndexRoute
 }
 export interface FileRoutesById {
@@ -127,13 +184,20 @@ export interface FileRoutesById {
   '/approach': typeof ApproachRoute
   '/contact': typeof ContactRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
+  '/resources': typeof ResourcesRoute
   '/terms': typeof TermsRoute
+  '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
   '/services/ai-agents': typeof ServicesAiAgentsRoute
   '/services/ai-automation': typeof ServicesAiAutomationRoute
   '/services/ai-consulting': typeof ServicesAiConsultingRoute
   '/services/ai-tools': typeof ServicesAiToolsRoute
   '/services/chatbots': typeof ServicesChatbotsRoute
   '/services/digital-transformation': typeof ServicesDigitalTransformationRoute
+  '/tools/ai-readiness-assessment': typeof ToolsAiReadinessAssessmentRoute
+  '/tools/roi-calculator': typeof ToolsRoiCalculatorRoute
+  '/blog/': typeof BlogIndexRoute
+  '/case-studies/': typeof CaseStudiesIndexRoute
   '/services/': typeof ServicesIndexRoute
 }
 export interface FileRouteTypes {
@@ -144,13 +208,20 @@ export interface FileRouteTypes {
     | '/approach'
     | '/contact'
     | '/privacy-policy'
+    | '/resources'
     | '/terms'
+    | '/blog/$slug'
+    | '/case-studies/$slug'
     | '/services/ai-agents'
     | '/services/ai-automation'
     | '/services/ai-consulting'
     | '/services/ai-tools'
     | '/services/chatbots'
     | '/services/digital-transformation'
+    | '/tools/ai-readiness-assessment'
+    | '/tools/roi-calculator'
+    | '/blog/'
+    | '/case-studies/'
     | '/services/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -159,13 +230,20 @@ export interface FileRouteTypes {
     | '/approach'
     | '/contact'
     | '/privacy-policy'
+    | '/resources'
     | '/terms'
+    | '/blog/$slug'
+    | '/case-studies/$slug'
     | '/services/ai-agents'
     | '/services/ai-automation'
     | '/services/ai-consulting'
     | '/services/ai-tools'
     | '/services/chatbots'
     | '/services/digital-transformation'
+    | '/tools/ai-readiness-assessment'
+    | '/tools/roi-calculator'
+    | '/blog'
+    | '/case-studies'
     | '/services'
   id:
     | '__root__'
@@ -174,13 +252,20 @@ export interface FileRouteTypes {
     | '/approach'
     | '/contact'
     | '/privacy-policy'
+    | '/resources'
     | '/terms'
+    | '/blog/$slug'
+    | '/case-studies/$slug'
     | '/services/ai-agents'
     | '/services/ai-automation'
     | '/services/ai-consulting'
     | '/services/ai-tools'
     | '/services/chatbots'
     | '/services/digital-transformation'
+    | '/tools/ai-readiness-assessment'
+    | '/tools/roi-calculator'
+    | '/blog/'
+    | '/case-studies/'
     | '/services/'
   fileRoutesById: FileRoutesById
 }
@@ -190,13 +275,20 @@ export interface RootRouteChildren {
   ApproachRoute: typeof ApproachRoute
   ContactRoute: typeof ContactRoute
   PrivacyPolicyRoute: typeof PrivacyPolicyRoute
+  ResourcesRoute: typeof ResourcesRoute
   TermsRoute: typeof TermsRoute
+  BlogSlugRoute: typeof BlogSlugRoute
+  CaseStudiesSlugRoute: typeof CaseStudiesSlugRoute
   ServicesAiAgentsRoute: typeof ServicesAiAgentsRoute
   ServicesAiAutomationRoute: typeof ServicesAiAutomationRoute
   ServicesAiConsultingRoute: typeof ServicesAiConsultingRoute
   ServicesAiToolsRoute: typeof ServicesAiToolsRoute
   ServicesChatbotsRoute: typeof ServicesChatbotsRoute
   ServicesDigitalTransformationRoute: typeof ServicesDigitalTransformationRoute
+  ToolsAiReadinessAssessmentRoute: typeof ToolsAiReadinessAssessmentRoute
+  ToolsRoiCalculatorRoute: typeof ToolsRoiCalculatorRoute
+  BlogIndexRoute: typeof BlogIndexRoute
+  CaseStudiesIndexRoute: typeof CaseStudiesIndexRoute
   ServicesIndexRoute: typeof ServicesIndexRoute
 }
 
@@ -207,6 +299,13 @@ declare module '@tanstack/react-router' {
       path: '/terms'
       fullPath: '/terms'
       preLoaderRoute: typeof TermsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/resources': {
+      id: '/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof ResourcesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/privacy-policy': {
@@ -251,6 +350,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/case-studies/': {
+      id: '/case-studies/'
+      path: '/case-studies'
+      fullPath: '/case-studies/'
+      preLoaderRoute: typeof CaseStudiesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/': {
+      id: '/blog/'
+      path: '/blog'
+      fullPath: '/blog/'
+      preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tools/roi-calculator': {
+      id: '/tools/roi-calculator'
+      path: '/tools/roi-calculator'
+      fullPath: '/tools/roi-calculator'
+      preLoaderRoute: typeof ToolsRoiCalculatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tools/ai-readiness-assessment': {
+      id: '/tools/ai-readiness-assessment'
+      path: '/tools/ai-readiness-assessment'
+      fullPath: '/tools/ai-readiness-assessment'
+      preLoaderRoute: typeof ToolsAiReadinessAssessmentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/services/digital-transformation': {
       id: '/services/digital-transformation'
       path: '/services/digital-transformation'
@@ -293,6 +420,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesAiAgentsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/case-studies/$slug': {
+      id: '/case-studies/$slug'
+      path: '/case-studies/$slug'
+      fullPath: '/case-studies/$slug'
+      preLoaderRoute: typeof CaseStudiesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/$slug': {
+      id: '/blog/$slug'
+      path: '/blog/$slug'
+      fullPath: '/blog/$slug'
+      preLoaderRoute: typeof BlogSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -302,13 +443,20 @@ const rootRouteChildren: RootRouteChildren = {
   ApproachRoute: ApproachRoute,
   ContactRoute: ContactRoute,
   PrivacyPolicyRoute: PrivacyPolicyRoute,
+  ResourcesRoute: ResourcesRoute,
   TermsRoute: TermsRoute,
+  BlogSlugRoute: BlogSlugRoute,
+  CaseStudiesSlugRoute: CaseStudiesSlugRoute,
   ServicesAiAgentsRoute: ServicesAiAgentsRoute,
   ServicesAiAutomationRoute: ServicesAiAutomationRoute,
   ServicesAiConsultingRoute: ServicesAiConsultingRoute,
   ServicesAiToolsRoute: ServicesAiToolsRoute,
   ServicesChatbotsRoute: ServicesChatbotsRoute,
   ServicesDigitalTransformationRoute: ServicesDigitalTransformationRoute,
+  ToolsAiReadinessAssessmentRoute: ToolsAiReadinessAssessmentRoute,
+  ToolsRoiCalculatorRoute: ToolsRoiCalculatorRoute,
+  BlogIndexRoute: BlogIndexRoute,
+  CaseStudiesIndexRoute: CaseStudiesIndexRoute,
   ServicesIndexRoute: ServicesIndexRoute,
 }
 export const routeTree = rootRouteImport
