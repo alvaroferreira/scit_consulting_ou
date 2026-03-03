@@ -1,4 +1,18 @@
 {
+  "index": {
+    "seo": {
+      "title": "Ferramentas de AI Gratuitas",
+      "description": "Ferramentas de AI interativas e gratuitas: Calculadora de ROI e Avaliação de Maturidade AI. Avalie o potencial do seu negócio com AI."
+    },
+    "hero": {
+      "title": "Ferramentas de AI Gratuitas",
+      "subtitle": "Ferramentas interativas para avaliar oportunidades de AI e medir o impacto potencial no seu negócio."
+    },
+    "sections": {
+      "title": "Escolha uma Ferramenta",
+      "subtitle": "Selecione uma ferramenta para iniciar a sua avaliação de AI."
+    }
+  },
   "roiCalculator": {
     "sectionTitle": "Configure os Seus Parâmetros",
     "sliders": {

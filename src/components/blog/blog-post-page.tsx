@@ -9,6 +9,7 @@ import { Section } from '@/components/shared/section'
 import { useLocale } from '@/hooks/use-locale'
 import { BlogCard } from './blog-card'
 import { blogPosts, type BlogPost } from '@/data/blog-posts'
+import i18n from '@/lib/i18n'
 
 interface BlogPostPageProps {
   post: BlogPost
@@ -121,7 +122,11 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
       <Section>
         <div
           className="blog-content mx-auto max-w-3xl"
-          dangerouslySetInnerHTML={{ __html: post.content }}
+          dangerouslySetInnerHTML={{
+            __html:
+              i18n.getResourceBundle(locale, `blog-content/${post.slug}`)
+                ?.content || post.content,
+          }}
         />
       </Section>
 

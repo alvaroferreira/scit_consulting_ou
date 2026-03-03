@@ -1,4 +1,18 @@
 {
+  "index": {
+    "seo": {
+      "title": "Free AI Tools",
+      "description": "Free interactive AI tools: ROI Calculator and AI Readiness Assessment. Evaluate your business potential with AI."
+    },
+    "hero": {
+      "title": "Free AI Tools",
+      "subtitle": "Interactive tools to help you evaluate AI opportunities and measure potential impact on your business."
+    },
+    "sections": {
+      "title": "Choose a Tool",
+      "subtitle": "Select a tool to get started with your AI evaluation."
+    }
+  },
   "roiCalculator": {
     "sectionTitle": "Configure Your Parameters",
     "sliders": {

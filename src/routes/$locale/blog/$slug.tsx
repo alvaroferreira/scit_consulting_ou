@@ -1,8 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { BlogPostPage } from '@/components/blog/blog-post-page'
 import { blogPosts } from '@/data/blog-posts'
+import { loadBlogContent } from '@/lib/i18n'
 
 export const Route = createFileRoute('/$locale/blog/$slug')({
+  beforeLoad: async ({ params }) => {
+    await loadBlogContent(params.locale, params.slug)
+  },
   component: BlogPostRoute,
 })
 

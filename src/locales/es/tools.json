@@ -1,4 +1,18 @@
 {
+  "index": {
+    "seo": {
+      "title": "Herramientas de AI Gratuitas",
+      "description": "Herramientas de AI interactivas y gratuitas: Calculadora de ROI y Evaluación de Preparación para AI. Evalúe el potencial de su negocio con AI."
+    },
+    "hero": {
+      "title": "Herramientas de AI Gratuitas",
+      "subtitle": "Herramientas interactivas para evaluar oportunidades de AI y medir el impacto potencial en su negocio."
+    },
+    "sections": {
+      "title": "Elija una Herramienta",
+      "subtitle": "Seleccione una herramienta para comenzar su evaluación de AI."
+    }
+  },
   "roiCalculator": {
     "sectionTitle": "Configure Sus Parametros",
     "sliders": {

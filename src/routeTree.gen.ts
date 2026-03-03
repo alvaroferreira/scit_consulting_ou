@@ -18,6 +18,7 @@ import { Route as LocalePrivacyPolicyRouteImport } from './routes/$locale/privac
 import { Route as LocaleContactRouteImport } from './routes/$locale/contact'
 import { Route as LocaleApproachRouteImport } from './routes/$locale/approach'
 import { Route as LocaleAboutRouteImport } from './routes/$locale/about'
+import { Route as LocaleToolsIndexRouteImport } from './routes/$locale/tools/index'
 import { Route as LocaleServicesIndexRouteImport } from './routes/$locale/services/index'
 import { Route as LocaleCaseStudiesIndexRouteImport } from './routes/$locale/case-studies/index'
 import { Route as LocaleBlogIndexRouteImport } from './routes/$locale/blog/index'
@@ -75,6 +76,11 @@ const LocaleApproachRoute = LocaleApproachRouteImport.update({
 const LocaleAboutRoute = LocaleAboutRouteImport.update({
   id: '/about',
   path: '/about',
+  getParentRoute: () => LocaleRoute,
+} as any)
+const LocaleToolsIndexRoute = LocaleToolsIndexRouteImport.update({
+  id: '/tools/',
+  path: '/tools/',
   getParentRoute: () => LocaleRoute,
 } as any)
 const LocaleServicesIndexRoute = LocaleServicesIndexRouteImport.update({
@@ -171,6 +177,7 @@ export interface FileRoutesByFullPath {
   '/$locale/blog/': typeof LocaleBlogIndexRoute
   '/$locale/case-studies/': typeof LocaleCaseStudiesIndexRoute
   '/$locale/services/': typeof LocaleServicesIndexRoute
+  '/$locale/tools/': typeof LocaleToolsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -194,6 +201,7 @@ export interface FileRoutesByTo {
   '/$locale/blog': typeof LocaleBlogIndexRoute
   '/$locale/case-studies': typeof LocaleCaseStudiesIndexRoute
   '/$locale/services': typeof LocaleServicesIndexRoute
+  '/$locale/tools': typeof LocaleToolsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -219,6 +227,7 @@ export interface FileRoutesById {
   '/$locale/blog/': typeof LocaleBlogIndexRoute
   '/$locale/case-studies/': typeof LocaleCaseStudiesIndexRoute
   '/$locale/services/': typeof LocaleServicesIndexRoute
+  '/$locale/tools/': typeof LocaleToolsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -245,6 +254,7 @@ export interface FileRouteTypes {
     | '/$locale/blog/'
     | '/$locale/case-studies/'
     | '/$locale/services/'
+    | '/$locale/tools/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -268,6 +278,7 @@ export interface FileRouteTypes {
     | '/$locale/blog'
     | '/$locale/case-studies'
     | '/$locale/services'
+    | '/$locale/tools'
   id:
     | '__root__'
     | '/'
@@ -292,6 +303,7 @@ export interface FileRouteTypes {
     | '/$locale/blog/'
     | '/$locale/case-studies/'
     | '/$locale/services/'
+    | '/$locale/tools/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -362,6 +374,13 @@ declare module '@tanstack/react-router' {
       path: '/about'
       fullPath: '/$locale/about'
       preLoaderRoute: typeof LocaleAboutRouteImport
+      parentRoute: typeof LocaleRoute
+    }
+    '/$locale/tools/': {
+      id: '/$locale/tools/'
+      path: '/tools'
+      fullPath: '/$locale/tools/'
+      preLoaderRoute: typeof LocaleToolsIndexRouteImport
       parentRoute: typeof LocaleRoute
     }
     '/$locale/services/': {
@@ -479,6 +498,7 @@ interface LocaleRouteChildren {
   LocaleBlogIndexRoute: typeof LocaleBlogIndexRoute
   LocaleCaseStudiesIndexRoute: typeof LocaleCaseStudiesIndexRoute
   LocaleServicesIndexRoute: typeof LocaleServicesIndexRoute
+  LocaleToolsIndexRoute: typeof LocaleToolsIndexRoute
 }
 
 const LocaleRouteChildren: LocaleRouteChildren = {
@@ -503,6 +523,7 @@ const LocaleRouteChildren: LocaleRouteChildren = {
   LocaleBlogIndexRoute: LocaleBlogIndexRoute,
   LocaleCaseStudiesIndexRoute: LocaleCaseStudiesIndexRoute,
   LocaleServicesIndexRoute: LocaleServicesIndexRoute,
+  LocaleToolsIndexRoute: LocaleToolsIndexRoute,
 }
 
 const LocaleRouteWithChildren =

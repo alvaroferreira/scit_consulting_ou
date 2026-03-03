@@ -1,4 +1,18 @@
 {
+  "index": {
+    "seo": {
+      "title": "Outils IA Gratuits",
+      "description": "Outils IA interactifs et gratuits : Calculateur de ROI et Évaluation de Maturité IA. Évaluez le potentiel de votre entreprise avec l'IA."
+    },
+    "hero": {
+      "title": "Outils IA Gratuits",
+      "subtitle": "Outils interactifs pour évaluer les opportunités IA et mesurer l'impact potentiel sur votre entreprise."
+    },
+    "sections": {
+      "title": "Choisissez un Outil",
+      "subtitle": "Sélectionnez un outil pour commencer votre évaluation IA."
+    }
+  },
   "roiCalculator": {
     "sectionTitle": "Configurez Vos Parametres",
     "sliders": {
