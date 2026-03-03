@@ -7,57 +7,66 @@
     "contact": "Contacto",
     "blog": "Blog e Insights",
     "roiCalculator": "Calculadora de ROI de AI",
-    "aiReadiness": "Evaluacion de Preparacion para AI",
-    "aiAutomation": "Automatizacion con AI y Procesos",
+    "aiReadiness": "Evaluación de Preparación para AI",
+    "aiAutomation": "Automatización con AI y Procesos",
     "aiAgents": "Agentes de AI Personalizados",
     "chatbots": "Chatbots e AI Conversacional",
-    "aiTools": "Implementacion de Herramientas de AI",
-    "aiConsulting": "Estrategia y Consultoria de AI",
-    "digitalTransformation": "Transformacion Digital"
+    "aiTools": "Implementación de Herramientas de AI",
+    "aiConsulting": "Estrategia y Consultoría de AI",
+    "digitalTransformation": "Transformación Digital"
   },
   "header": {
     "bookConsultation": "Agendar Consulta",
-    "toggleMenu": "Abrir menu",
-    "mainNavigation": "Navegacion principal",
-    "mobileNavigation": "Navegacion movil"
+    "toggleMenu": "Abrir menú",
+    "mainNavigation": "Navegación principal",
+    "mobileNavigation": "Navegación móvil"
   },
   "footer": {
-    "description": "Consultoria de transformacion digital con enfoque AI-first. Implementamos herramientas de AI, automatizamos procesos y construimos agentes inteligentes.",
+    "description": "Consultoría de transformación digital con enfoque AI-first. Implementamos herramientas de AI, automatizamos procesos y construimos agentes inteligentes.",
     "company": "SCIT Consulting",
     "servicesTitle": "Servicios",
     "companyTitle": "Empresa",
     "legalTitle": "Legal",
     "copyright": "SCIT Consulting. Todos los derechos reservados.",
     "tagline": "Construido con AI, para empresas que adoptan AI.",
-    "aiAutomation": "Automatizacion con AI",
+    "aiAutomation": "Automatización con AI",
     "aiAgents": "Agentes de AI",
     "chatbots": "Chatbots",
     "aiTools": "Herramientas de AI",
-    "aiConsulting": "Consultoria de AI",
-    "digitalTransformation": "Transformacion Digital",
+    "aiConsulting": "Consultoría de AI",
+    "digitalTransformation": "Transformación Digital",
     "about": "Nosotros",
-    "approach": "Metodologia",
+    "approach": "Metodología",
     "blog": "Blog",
     "resources": "Recursos",
     "contact": "Contacto",
-    "privacyPolicy": "Politica de Privacidad",
-    "termsOfService": "Terminos de Servicio"
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "switchLabel": "Cambiar idioma"
   },
   "notFound": {
     "title": "404",
-    "message": "Pagina no encontrada",
+    "message": "Página no encontrada",
     "backHome": "Volver al inicio"
   },
   "cta": {
-    "getInTouch": "Contactenos",
+    "getInTouch": "Contáctenos",
     "bookConsultation": "Agendar Consulta",
     "bookFreeConsultation": "Agendar Consulta Gratuita",
     "getStarted": "Comenzar",
-    "learnMore": "Saber mas",
+    "learnMore": "Saber más",
     "explore": "Explorar",
-    "viewAllArticles": "Ver todos los articulos",
+    "viewAllArticles": "Ver todos los artículos",
     "viewCaseStudies": "Ver Casos de Estudio",
-    "readArticle": "Leer Articulo",
+    "readArticle": "Leer Artículo",
     "readCaseStudy": "Leer Caso de Estudio",
     "viewCaseStudiesInline": "Ver casos de estudio"
   }

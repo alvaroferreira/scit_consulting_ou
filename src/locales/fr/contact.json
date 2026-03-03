@@ -1,11 +1,11 @@
 {
   "seo": {
     "title": "Contactez-Nous",
-    "description": "Pret a transformer votre entreprise avec l'IA ? Contactez SCIT Consulting. Reservez une consultation gratuite ou envoyez-nous un message."
+    "description": "Prêt à transformer votre entreprise avec l'IA ? Contactez SCIT Consulting. Réservez une consultation gratuite ou envoyez-nous un message."
   },
   "hero": {
     "title": "Contactez-Nous",
-    "subtitle": "Pret a transformer votre entreprise avec l'IA ? Parlez-nous de votre projet et nous vous repondrons sous 24 heures."
+    "subtitle": "Prêt à transformer votre entreprise avec l'IA ? Parlez-nous de votre projet et nous vous répondrons sous 24 heures."
   },
   "tabs": {
     "message": "Envoyer un Message",
@@ -13,10 +13,10 @@
   },
   "booking": {
     "iframeTitle": "Planifier un Appel de Consultation",
-    "loading": "Chargement du calendrier de reservation..."
+    "loading": "Chargement du calendrier de réservation..."
   },
   "footer": {
-    "responseTime": "Nous repondons generalement sous 24 heures les jours ouvrables."
+    "responseTime": "Nous répondons généralement sous 24 heures les jours ouvrables."
   },
   "form": {
     "fields": {
@@ -29,13 +29,13 @@
         "placeholder": "vous@entreprise.com"
       },
       "phone": {
-        "label": "Telephone (facultatif)",
+        "label": "Téléphone (facultatif)",
         "placeholder": "+33 1 23 45 67 89"
       },
       "message": {
         "label": "Comment pouvons-nous vous aider ? *",
-        "placeholder": "Parlez-nous de votre projet, de vos objectifs et de vos defis...",
-        "maxLengthHint": "500 caracteres maximum"
+        "placeholder": "Parlez-nous de votre projet, de vos objectifs et de vos défis...",
+        "maxLengthHint": "500 caractères maximum"
       }
     },
     "submit": {
@@ -43,12 +43,18 @@
       "loading": "Envoi en cours..."
     },
     "success": {
-      "title": "Message Envoye !",
-      "description": "Merci pour votre interet. Nous vous repondrons sous 24 heures."
+      "title": "Message Envoyé !",
+      "description": "Merci pour votre intérêt. Nous vous répondrons sous 24 heures."
     },
     "errors": {
-      "generic": "Une erreur est survenue. Veuillez reessayer.",
-      "network": "Erreur reseau. Veuillez verifier votre connexion et reessayer."
+      "generic": "Une erreur est survenue. Veuillez réessayer.",
+      "network": "Erreur réseau. Veuillez vérifier votre connexion et réessayer.",
+      "nameRequired": "Veuillez entrer votre nom.",
+      "nameMax": "Le nom doit contenir 100 caractères ou moins.",
+      "emailRequired": "Veuillez entrer votre adresse email.",
+      "emailInvalid": "Veuillez entrer une adresse email valide.",
+      "messageRequired": "Veuillez entrer un message.",
+      "messageMax": "Le message doit contenir 500 caractères ou moins."
     }
   }
 }

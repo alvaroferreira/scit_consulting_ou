@@ -48,7 +48,13 @@
     },
     "errors": {
       "generic": "Something went wrong. Please try again.",
-      "network": "Network error. Please check your connection and try again."
+      "network": "Network error. Please check your connection and try again.",
+      "nameRequired": "Please enter your name.",
+      "nameMax": "Name must be 100 characters or fewer.",
+      "emailRequired": "Please enter your email address.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Please enter a message.",
+      "messageMax": "Message must be 500 characters or fewer."
     }
   }
 }

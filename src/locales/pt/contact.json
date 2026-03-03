@@ -48,7 +48,13 @@
     },
     "errors": {
       "generic": "Ocorreu um erro. Por favor, tente novamente.",
-      "network": "Erro de rede. Verifique a sua ligação e tente novamente."
+      "network": "Erro de rede. Verifique a sua ligação e tente novamente.",
+      "nameRequired": "Por favor, introduza o seu nome.",
+      "nameMax": "O nome deve ter no máximo 100 caracteres.",
+      "emailRequired": "Por favor, introduza o seu email.",
+      "emailInvalid": "Por favor, introduza um email válido.",
+      "messageRequired": "Por favor, introduza uma mensagem.",
+      "messageMax": "A mensagem deve ter no máximo 500 caracteres."
     }
   }
 }

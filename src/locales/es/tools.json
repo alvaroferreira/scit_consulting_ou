@@ -14,10 +14,10 @@
     }
   },
   "roiCalculator": {
-    "sectionTitle": "Configure Sus Parametros",
+    "sectionTitle": "Configure Sus Parámetros",
     "sliders": {
       "employees": {
-        "label": "Numero de empleados"
+        "label": "Número de empleados"
       },
       "hoursPerWeek": {
         "label": "Horas dedicadas a tareas repetitivas por semana (por empleado)"
@@ -33,15 +33,15 @@
       },
       "estimatedSavings": {
         "label": "Ahorro Anual Estimado",
-        "sublabel": "Basado en una tasa de automatizacion del {{rate}}%"
+        "sublabel": "Basado en una tasa de automatización del {{rate}}%"
       },
       "estimatedRoi": {
         "label": "ROI Estimado",
-        "sublabel": "Costo de implementacion: {{cost}}"
+        "sublabel": "Costo de implementación: {{cost}}"
       },
       "paybackPeriod": {
-        "label": "Periodo de Recuperacion",
-        "sublabel": "Tiempo para recuperar su inversion"
+        "label": "Período de Recuperación",
+        "sublabel": "Tiempo para recuperar su inversión"
       }
     },
     "payback": {
@@ -49,11 +49,11 @@
       "oneMonth": "1 mes",
       "months": "{{count}} meses"
     },
-    "disclaimer": "Estas estimaciones se basan en promedios de la industria. Los resultados reales pueden variar dependiendo de sus procesos de negocio especificos y el alcance de la implementacion.",
+    "disclaimer": "Estas estimaciones se basan en promedios de la industria. Los resultados reales pueden variar dependiendo de sus procesos de negocio específicos y el alcance de la implementación.",
     "cta": {
-      "title": "¿Desea un analisis de ROI preciso para su empresa?",
-      "subtitle": "Nuestro equipo analizara sus flujos de trabajo especificos y proporcionara una evaluacion detallada y personalizada con recomendaciones accionables.",
-      "button": "Obtener Su Analisis Personalizado"
+      "title": "¿Desea un análisis de ROI preciso para su empresa?",
+      "subtitle": "Nuestro equipo analizará sus flujos de trabajo específicos y proporcionará una evaluación detallada y personalizada con recomendaciones accionables.",
+      "button": "Obtener Su Análisis Personalizado"
     }
   },
   "aiReadiness": {
@@ -63,67 +63,67 @@
       "complete": "Completado"
     },
     "navigation": {
-      "back": "Atras",
+      "back": "Atrás",
       "next": "Siguiente",
       "seeResults": "Ver Resultados"
     },
     "questions": {
       "1": {
-        "text": "¿Como describiria la infraestructura de datos actual de su organizacion?",
+        "text": "¿Cómo describiría la infraestructura de datos actual de su organización?",
         "options": [
-          "Tenemos datos digitales minimos",
-          "Tenemos algunos sistemas digitales pero los datos estan aislados",
-          "Tenemos datos centralizados con cierta integracion",
-          "Tenemos una plataforma de datos moderna con fuerte integracion"
+          "Tenemos datos digitales mínimos",
+          "Tenemos algunos sistemas digitales pero los datos están aislados",
+          "Tenemos datos centralizados con cierta integración",
+          "Tenemos una plataforma de datos moderna con fuerte integración"
         ]
       },
       "2": {
-        "text": "¿Como percibe su liderazgo la adopcion de AI?",
+        "text": "¿Cómo percibe su liderazgo la adopción de AI?",
         "options": [
-          "La AI no esta en la agenda",
+          "La AI no está en la agenda",
           "Hay curiosidad pero no compromiso",
           "El liderazgo apoya y ha asignado presupuesto exploratorio",
-          "La AI es una prioridad estrategica con inversion dedicada"
+          "La AI es una prioridad estratégica con inversión dedicada"
         ]
       },
       "3": {
-        "text": "¿Cual es la capacidad tecnica actual de su equipo con AI?",
+        "text": "¿Cuál es la capacidad técnica actual de su equipo con AI?",
         "options": [
           "Sin experiencia en AI o ciencia de datos",
-          "Conocimiento basico, alguna exploracion autodidacta",
+          "Conocimiento básico, alguna exploración autodidacta",
           "Algunos miembros del equipo con experiencia en AI/ML",
-          "Equipo dedicado de AI/ciencia de datos o alianzas solidas"
+          "Equipo dedicado de AI/ciencia de datos o alianzas sólidas"
         ]
       },
       "4": {
-        "text": "¿Que proporcion de su flujo de trabajo involucra procesos manuales y repetitivos?",
+        "text": "¿Qué proporción de su flujo de trabajo involucra procesos manuales y repetitivos?",
         "options": [
           "Casi todo es manual",
-          "Muchos procesos son manuales con algo de automatizacion",
-          "La mayoria de las tareas rutinarias estan automatizadas",
-          "Totalmente automatizado con minima intervencion manual"
+          "Muchos procesos son manuales con algo de automatización",
+          "La mayoría de las tareas rutinarias están automatizadas",
+          "Totalmente automatizado con mínima intervención manual"
         ]
       },
       "5": {
-        "text": "¿Como gestiona actualmente las interacciones con clientes?",
+        "text": "¿Cómo gestiona actualmente las interacciones con clientes?",
         "options": [
-          "Totalmente manual (telefono, correo electronico)",
-          "Algunas herramientas de autoservicio (FAQ, formularios basicos)",
+          "Totalmente manual (teléfono, correo electrónico)",
+          "Algunas herramientas de autoservicio (FAQ, formularios básicos)",
           "Multicanal con algunas respuestas automatizadas",
-          "Asistido por AI con enrutamiento inteligente y automatizacion"
+          "Asistido por AI con enrutamiento inteligente y automatización"
         ]
       },
       "6": {
-        "text": "¿Cual es su enfoque para la toma de decisiones basada en datos?",
+        "text": "¿Cuál es su enfoque para la toma de decisiones basada en datos?",
         "options": [
-          "Las decisiones se basan principalmente en la intuicion",
-          "Usamos reportes basicos y hojas de calculo",
-          "Tenemos dashboards y analiticas regulares",
-          "Usamos analitica predictiva y modelos de datos"
+          "Las decisiones se basan principalmente en la intuición",
+          "Usamos reportes básicos y hojas de cálculo",
+          "Tenemos dashboards y analíticas regulares",
+          "Usamos analítica predictiva y modelos de datos"
         ]
       },
       "7": {
-        "text": "¿Como describiria su infraestructura de IT?",
+        "text": "¿Cómo describiría su infraestructura de IT?",
         "options": [
           "Sistemas heredados, principalmente on-premises",
           "Mezcla de sistemas heredados y algunos servicios en la nube",
@@ -132,37 +132,37 @@
         ]
       },
       "8": {
-        "text": "¿Cual es la actitud de su organizacion hacia el cambio?",
+        "text": "¿Cuál es la actitud de su organización hacia el cambio?",
         "options": [
           "Resistente al cambio",
           "Abierta pero lenta para adoptar",
-          "Buscando activamente la innovacion",
+          "Buscando activamente la innovación",
           "El cambio es parte de nuestra cultura"
         ]
       },
       "9": {
-        "text": "¿Como gestiona los datos sensibles y el cumplimiento normativo?",
+        "text": "¿Cómo gestiona los datos sensibles y el cumplimiento normativo?",
         "options": [
           "Sin gobernanza formal de datos",
-          "Existen politicas basicas pero no se siguen consistentemente",
-          "Gobernanza formal de datos con auditorias regulares",
+          "Existen políticas básicas pero no se siguen consistentemente",
+          "Gobernanza formal de datos con auditorías regulares",
           "Programa integral de cumplimiento (GDPR, etc.) con controles automatizados"
         ]
       },
       "10": {
-        "text": "¿Cual es su perspectiva de presupuesto para inversiones tecnologicas?",
+        "text": "¿Cuál es su perspectiva de presupuesto para inversiones tecnológicas?",
         "options": [
           "Muy limitado, sin espacio para nuevas herramientas",
           "Pequeño presupuesto para pilotos y experimentos",
-          "Presupuesto moderado para iniciativas estrategicas",
+          "Presupuesto moderado para iniciativas estratégicas",
           "Presupuesto significativo con expectativas claras de ROI"
         ]
       }
     },
     "emailGate": {
-      "title": "¡Sus resultados estan listos!",
-      "subtitle": "Ingrese su correo electronico para recibir un informe detallado de preparacion para AI con recomendaciones personalizadas.",
-      "emailLabel": "Correo electronico",
+      "title": "¡Sus resultados están listos!",
+      "subtitle": "Ingrese su correo electrónico para recibir un informe detallado de preparación para AI con recomendaciones personalizadas.",
+      "emailLabel": "Correo electrónico",
       "emailPlaceholder": "usted@empresa.com",
       "companyLabel": "Nombre de la empresa",
       "companyOptional": "(opcional)",
@@ -172,46 +172,46 @@
     },
     "results": {
       "scoreOf": "/ 40",
-      "recommendedNextSteps": "Proximos Pasos Recomendados",
+      "recommendedNextSteps": "Próximos Pasos Recomendados",
       "cta": {
         "title": "Obtenga una Estrategia de AI Personalizada",
-        "subtitle": "Permita que nuestro equipo analice su situacion especifica y construya una hoja de ruta a medida para la adopcion de AI.",
+        "subtitle": "Permita que nuestro equipo analice su situación específica y construya una hoja de ruta a medida para la adopción de AI.",
         "primaryButton": "Agendar Consulta Gratuita",
-        "secondaryButton": "Repetir la Evaluacion"
+        "secondaryButton": "Repetir la Evaluación"
       },
       "tiers": {
         "early": {
           "name": "Etapa Inicial",
-          "description": "Su organizacion esta al inicio del camino con AI. Enfoquese en la infraestructura de datos y en construir conciencia.",
+          "description": "Su organización está al inicio del camino con AI. Enfóquese en la infraestructura de datos y en construir conciencia.",
           "steps": [
             "Audite sus sistemas de datos actuales e identifique brechas",
             "Comience a recopilar y organizar los datos clave del negocio",
-            "Programe un taller de concienciacion sobre AI para su equipo directivo"
+            "Programe un taller de concienciación sobre AI para su equipo directivo"
           ]
         },
         "developing": {
           "name": "En Desarrollo",
-          "description": "Tiene algunas bases en su lugar. Resultados rapidos en automatizacion podrian generar impulso para una adopcion mas amplia de AI.",
+          "description": "Tiene algunas bases en su lugar. Resultados rápidos en automatización podrían generar impulso para una adopción más amplia de AI.",
           "steps": [
-            "Identifique 2-3 procesos repetitivos listos para automatizacion",
-            "Realice un piloto con una herramienta de AI en un area de bajo riesgo para generar confianza",
-            "Desarrolle una estrategia basica de datos para unificar la informacion aislada"
+            "Identifique 2-3 procesos repetitivos listos para automatización",
+            "Realice un piloto con una herramienta de AI en un área de bajo riesgo para generar confianza",
+            "Desarrolle una estrategia básica de datos para unificar la información aislada"
           ]
         },
         "ready": {
           "name": "Preparado",
-          "description": "Su organizacion esta bien posicionada para la implementacion de AI. Una hoja de ruta estrategica le ayudara a priorizar los casos de uso de mayor impacto.",
+          "description": "Su organización está bien posicionada para la implementación de AI. Una hoja de ruta estratégica le ayudará a priorizar los casos de uso de mayor impacto.",
           "steps": [
             "Construya una hoja de ruta de AI alineada con los objetivos de negocio",
-            "Evalue y despliegue soluciones de AI para sus 3 principales casos de uso",
-            "Invierta en la capacitacion de su equipo en herramientas y flujos de trabajo de AI"
+            "Evalúe y despliegue soluciones de AI para sus 3 principales casos de uso",
+            "Invierta en la capacitación de su equipo en herramientas y flujos de trabajo de AI"
           ]
         },
         "advanced": {
           "name": "Avanzado",
-          "description": "Esta listo para soluciones de AI sofisticadas. Enfoquese en casos de uso avanzados, agentes de AI y escalar las capacidades existentes.",
+          "description": "Está listo para soluciones de AI sofisticadas. Enfóquese en casos de uso avanzados, agentes de AI y escalar las capacidades existentes.",
           "steps": [
-            "Despliegue agentes de AI autonomos para flujos de trabajo complejos",
+            "Despliegue agentes de AI autónomos para flujos de trabajo complejos",
             "Escale las iniciativas de AI exitosas a todos los departamentos",
             "Explore modelos de AI personalizados adaptados a los datos de su industria"
           ]

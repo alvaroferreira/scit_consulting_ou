@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import {
   IconArrowRight,
   IconBriefcase,
@@ -15,6 +16,12 @@ import { blogPosts } from '@/data/blog-posts'
 import { useLocale } from '@/hooks/use-locale'
 
 export const Route = createFileRoute('/$locale/resources')({
+  beforeLoad: async ({ params }) => {
+    await Promise.all([
+      loadNamespace(params.locale, 'resources'),
+      loadNamespace(params.locale, 'blog'),
+    ])
+  },
   component: ResourcesPage,
 })
 

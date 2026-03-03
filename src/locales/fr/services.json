@@ -1,28 +1,28 @@
 {
   "page": {
     "title": "Nos Services",
-    "subtitle": "Des solutions IA completes articulees autour de trois piliers : implementation, conseil et transformation.",
+    "subtitle": "Des solutions IA complètes articulées autour de trois piliers : implémentation, conseil et transformation.",
     "pillarsTitle": "Trois Piliers de la Transformation IA",
-    "pillarsSubtitle": "Chaque mission commence par une comprehension de votre situation actuelle et de vos ambitions.",
+    "pillarsSubtitle": "Chaque mission commence par une compréhension de votre situation actuelle et de vos ambitions.",
     "allServicesTitle": "Tous Nos Services",
-    "allServicesSubtitle": "Decouvrez l'ensemble de nos solutions IA.",
-    "ctaTitle": "Vous Ne Savez Pas Par Ou Commencer ?",
-    "ctaSubtitle": "Reservez une consultation gratuite et nous identifierons ensemble les meilleures opportunites IA pour votre entreprise."
+    "allServicesSubtitle": "Découvrez l'ensemble de nos solutions IA.",
+    "ctaTitle": "Vous Ne Savez Pas Par Où Commencer ?",
+    "ctaSubtitle": "Réservez une consultation gratuite et nous identifierons ensemble les meilleures opportunités IA pour votre entreprise."
   },
   "template": {
-    "theChallenge": "Le Defi",
+    "theChallenge": "Le Défi",
     "ourSolution": "Notre Solution",
     "whatsIncluded": "Ce Qui Est Inclus",
-    "whatsIncludedSubtitle": "Des solutions completes concues pour delivrer des resultats mesurables.",
-    "realResults": "Resultats Concrets",
-    "realResultsSubtitle": "Decouvrez comment nous avons genere un impact mesurable dans une mission similaire.",
-    "readFullCaseStudy": "Lire l'Etude de Cas Complete",
-    "businessBenefits": "Benefices Business",
-    "faq": "Questions Frequentes",
-    "relatedServices": "Services Associes",
-    "ctaTitle": "Pret a Demarrer ?",
-    "ctaSubtitle": "Echangeons sur la facon dont nous pouvons aider votre entreprise a exploiter l'IA pour des resultats concrets.",
-    "getStarted": "Demarrer",
+    "whatsIncludedSubtitle": "Des solutions complètes conçues pour délivrer des résultats mesurables.",
+    "realResults": "Résultats Concrets",
+    "realResultsSubtitle": "Découvrez comment nous avons généré un impact mesurable dans une mission similaire.",
+    "readFullCaseStudy": "Lire l'Étude de Cas Complète",
+    "businessBenefits": "Bénéfices Business",
+    "faq": "Questions Fréquentes",
+    "relatedServices": "Services Associés",
+    "ctaTitle": "Prêt à Démarrer ?",
+    "ctaSubtitle": "Échangeons sur la façon dont nous pouvons aider votre entreprise à exploiter l'IA pour des résultats concrets.",
+    "getStarted": "Démarrer",
     "bookConsultation": "Prendre Rendez-vous",
     "learnMore": "En savoir plus"
   },
@@ -30,331 +30,331 @@
     "ai-automation": {
       "title": "Automatisation IA & Automatisation des Processus",
       "shortTitle": "Automatisation IA",
-      "description": "Workflows automatises, traitement de documents et RPA enrichis par l'IA pour eliminer les taches repetitives et gagner en efficacite.",
-      "longDescription": "Nous concevons et implementons des solutions d'automatisation intelligente qui combinent la RPA traditionnelle avec les capacites de pointe de l'IA. Du traitement de documents et de l'extraction de donnees aux workflows multi-etapes complexes, nous aidons vos equipes a se concentrer sur les taches a haute valeur ajoutee pendant que l'IA gere le quotidien.",
-      "heroHeadline": "Vos Equipes Croulent Sous les Taches Repetitives. L'IA Peut Changer la Donne.",
-      "problemDescription": "Chaque jour, vos collaborateurs passent des heures a saisir des donnees, traiter des documents et executer des workflows routiniers qui epuisent leur energie et freinent votre croissance. Ces taches repetitives creent des goulots d'etranglement, introduisent des erreurs humaines et empechent vos meilleurs talents de se consacrer au travail strategique qui fait veritablement avancer l'entreprise.",
-      "solutionDescription": "Nous concevons des systemes d'automatisation intelligente qui combinent l'IA avec vos outils existants pour eliminer le travail repetitif a grande echelle. Du traitement documentaire qui lit et extrait les donnees automatiquement aux workflows multi-etapes qui fonctionnent sans intervention humaine, nous liberons vos equipes pour qu'elles se concentrent sur les taches a forte valeur ajoutee.",
+      "description": "Workflows automatisés, traitement de documents et RPA enrichis par l'IA pour éliminer les tâches répétitives et gagner en efficacité.",
+      "longDescription": "Nous concevons et implémentons des solutions d'automatisation intelligente qui combinent la RPA traditionnelle avec les capacités de pointe de l'IA. Du traitement de documents et de l'extraction de données aux workflows multi-étapes complexes, nous aidons vos équipes à se concentrer sur les tâches à haute valeur ajoutée pendant que l'IA gère le quotidien.",
+      "heroHeadline": "Vos Équipes Croulent Sous les Tâches Répétitives. L'IA Peut Changer la Donne.",
+      "problemDescription": "Chaque jour, vos collaborateurs passent des heures à saisir des données, traiter des documents et exécuter des workflows routiniers qui épuisent leur énergie et freinent votre croissance. Ces tâches répétitives créent des goulots d'étranglement, introduisent des erreurs humaines et empêchent vos meilleurs talents de se consacrer au travail stratégique qui fait véritablement avancer l'entreprise.",
+      "solutionDescription": "Nous concevons des systèmes d'automatisation intelligente qui combinent l'IA avec vos outils existants pour éliminer le travail répétitif à grande échelle. Du traitement documentaire qui lit et extrait les données automatiquement aux workflows multi-étapes qui fonctionnent sans intervention humaine, nous libérons vos équipes pour qu'elles se concentrent sur les tâches à forte valeur ajoutée.",
       "features": [
         "Traitement intelligent de documents & OCR",
-        "Automatisation de workflows avec prise de decision IA",
-        "Pipelines d'extraction et de transformation de donnees",
+        "Automatisation de workflows avec prise de décision IA",
+        "Pipelines d'extraction et de transformation de données",
         "Automatisation des emails et de la communication",
-        "Integration avec les systemes d'information existants",
-        "Monitoring en temps reel et alertes"
+        "Intégration avec les systèmes d'information existants",
+        "Monitoring en temps réel et alertes"
       ],
       "benefits": [
-        "Reduisez le temps de traitement manuel jusqu'a 80 %",
-        "Eliminez les erreurs humaines sur les taches repetitives",
+        "Réduisez le temps de traitement manuel jusqu'à 80 %",
+        "Éliminez les erreurs humaines sur les tâches répétitives",
         "Montez en charge sans augmenter les effectifs proportionnellement",
-        "Liberez vos equipes pour le travail strategique et creatif"
+        "Libérez vos équipes pour le travail stratégique et créatif"
       ],
       "useCases": [
         "Traitement de factures et automatisation de documents financiers",
-        "Qualification de leads et enrichissement des donnees CRM",
-        "Generation de rapports et agregation de donnees",
+        "Qualification de leads et enrichissement des données CRM",
+        "Génération de rapports et agrégation de données",
         "Automatisation du workflow d'onboarding client"
       ],
       "faqs": [
         {
           "question": "Combien de temps faut-il pour mettre en place une automatisation IA ?",
-          "answer": "La plupart des projets d'automatisation prennent 4 a 8 semaines du diagnostic au deploiement. Nous commencons par vos processus a plus fort impact, livrons une solution fonctionnelle des le premier sprint et iterons ensuite. Vous constatez des resultats mesurables des le premier mois."
+          "answer": "La plupart des projets d'automatisation prennent 4 à 8 semaines du diagnostic au déploiement. Nous commençons par vos processus à plus fort impact, livrons une solution fonctionnelle dès le premier sprint et itérons ensuite. Vous constatez des résultats mesurables dès le premier mois."
         },
         {
           "question": "L'automatisation IA va-t-elle remplacer nos collaborateurs ?",
-          "answer": "Non. Notre objectif est d'augmenter les capacites de vos equipes, pas de les remplacer. L'automatisation prend en charge les taches fastidieuses et repetitives pour que vos collaborateurs puissent se consacrer a la resolution creative de problemes, au developpement relationnel et a la prise de decision strategique, le travail pour lequel ils ont ete recrutes."
+          "answer": "Non. Notre objectif est d'augmenter les capacités de vos équipes, pas de les remplacer. L'automatisation prend en charge les tâches fastidieuses et répétitives pour que vos collaborateurs puissent se consacrer à la résolution créative de problèmes, au développement relationnel et à la prise de décision stratégique, le travail pour lequel ils ont été recrutés."
         },
         {
-          "question": "L'automatisation IA peut-elle s'integrer a nos logiciels existants ?",
-          "answer": "Oui. Nous creons des integrations avec pratiquement tous les systemes : CRM, ERP, logiciels comptables, plateformes email et outils legacy. S'il dispose d'une API ou accepte des fichiers en entree, nous pouvons le connecter."
+          "question": "L'automatisation IA peut-elle s'intégrer à nos logiciels existants ?",
+          "answer": "Oui. Nous créons des intégrations avec pratiquement tous les systèmes : CRM, ERP, logiciels comptables, plateformes email et outils legacy. S'il dispose d'une API ou accepte des fichiers en entrée, nous pouvons le connecter."
         },
         {
           "question": "Quel ROI peut-on attendre ?",
-          "answer": "La plupart de nos clients obtiennent un retour sur investissement de 3 a 5 fois dans la premiere annee. Le delai de rentabilisation typique est de 3 a 6 mois, porte par la reduction du temps de traitement, la diminution des erreurs et la capacite a monter en charge sans augmenter les effectifs."
+          "answer": "La plupart de nos clients obtiennent un retour sur investissement de 3 à 5 fois dans la première année. Le délai de rentabilisation typique est de 3 à 6 mois, porté par la réduction du temps de traitement, la diminution des erreurs et la capacité à monter en charge sans augmenter les effectifs."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-agents": "Pour les taches trop complexes pour une simple automatisation, nos Agents IA Sur Mesure ajoutent raisonnement et jugement pour gerer des processus multi-etapes en autonomie.",
-        "chatbots": "Associez vos workflows automatises a l'IA Conversationnelle pour offrir a vos clients et collaborateurs une interface naturelle pour declencher des processus et suivre leur avancement.",
-        "ai-tools": "Maximisez le ROI de votre automatisation en equipant vos equipes des bons outils IA pour les taches qui necessitent encore une intervention humaine."
+        "ai-agents": "Pour les tâches trop complexes pour une simple automatisation, nos Agents IA Sur Mesure ajoutent raisonnement et jugement pour gérer des processus multi-étapes en autonomie.",
+        "chatbots": "Associez vos workflows automatisés à l'IA Conversationnelle pour offrir à vos clients et collaborateurs une interface naturelle pour déclencher des processus et suivre leur avancement.",
+        "ai-tools": "Maximisez le ROI de votre automatisation en équipant vos équipes des bons outils IA pour les tâches qui nécessitent encore une intervention humaine."
       }
     },
     "ai-agents": {
       "title": "Agents IA Sur Mesure",
       "shortTitle": "Agents IA",
-      "description": "Agents IA autonomes pour des taches complexes : prospection commerciale, support client, analyse de donnees et intelligence decisionnelle.",
-      "longDescription": "Nous developpons des agents IA sur mesure qui operent de maniere autonome pour gerer des taches business complexes. Ces systemes intelligents peuvent prospecter des leads, analyser des tendances, accompagner les clients et prendre des decisions selon vos regles metier, 24 heures sur 24, sans fatigue.",
-      "heroHeadline": "Les Taches Complexes Submergent Vos Equipes. Laissez les Agents IA Prendre le Relais.",
-      "problemDescription": "Vos professionnels qualifies sont engloutis par des taches qui necessitent du jugement mais suivent des schemas previsibles : qualifier des leads, rediger des propositions, analyser des rapports ou trier des tickets de support. Ces activites a forte intensite cognitive sont trop complexes pour une simple automatisation, mais trop repetitives pour justifier vos talents seniors.",
-      "solutionDescription": "Nous developpons des agents IA sur mesure qui raisonnent, decidident et agissent en votre nom. Contrairement a l'automatisation basique, ces agents gerent des processus multi-etapes qui requierent du contexte, du jugement et de l'adaptabilite. Ils s'integrent a vos outils existants, suivent vos regles metier et n'escaladent aux humains que lorsque c'est reellement necessaire.",
+      "description": "Agents IA autonomes pour des tâches complexes : prospection commerciale, support client, analyse de données et intelligence décisionnelle.",
+      "longDescription": "Nous développons des agents IA sur mesure qui opèrent de manière autonome pour gérer des tâches business complexes. Ces systèmes intelligents peuvent prospecter des leads, analyser des tendances, accompagner les clients et prendre des décisions selon vos règles métier, 24 heures sur 24, sans fatigue.",
+      "heroHeadline": "Les Tâches Complexes Submergent Vos Équipes. Laissez les Agents IA Prendre le Relais.",
+      "problemDescription": "Vos professionnels qualifiés sont engloutis par des tâches qui nécessitent du jugement mais suivent des schémas prévisibles : qualifier des leads, rédiger des propositions, analyser des rapports ou trier des tickets de support. Ces activités à forte intensité cognitive sont trop complexes pour une simple automatisation, mais trop répétitives pour justifier vos talents seniors.",
+      "solutionDescription": "Nous développons des agents IA sur mesure qui raisonnent, décident et agissent en votre nom. Contrairement à l'automatisation basique, ces agents gèrent des processus multi-étapes qui requièrent du contexte, du jugement et de l'adaptabilité. Ils s'intègrent à vos outils existants, suivent vos règles métier et n'escaladent aux humains que lorsque c'est réellement nécessaire.",
       "features": [
-        "Raisonnement multi-etapes et execution de taches",
-        "Integration avec les APIs et outils metier",
-        "Comprehension et generation en langage naturel",
-        "Gestion de la memoire et du contexte",
+        "Raisonnement multi-étapes et exécution de tâches",
+        "Intégration avec les APIs et outils métier",
+        "Compréhension et génération en langage naturel",
+        "Gestion de la mémoire et du contexte",
         "Workflows d'approbation avec intervention humaine",
         "Monitoring des performances et optimisation"
       ],
       "benefits": [
-        "Gerez des taches complexes necessitant du jugement",
+        "Gérez des tâches complexes nécessitant du jugement",
         "Fonctionnement 24h/24 et 7j/7 sans supervision",
-        "Qualite et conformite constantes",
-        "Montee en charge rapide du travail a forte intensite cognitive"
+        "Qualité et conformité constantes",
+        "Montée en charge rapide du travail à forte intensité cognitive"
       ],
       "useCases": [
         "Prospection commerciale et outreach B2B",
         "Analyse et recherche de documents juridiques",
-        "Surveillance des donnees financieres et alertes",
-        "Triage et resolution du support technique"
+        "Surveillance des données financières et alertes",
+        "Triage et résolution du support technique"
       ],
       "faqs": [
         {
-          "question": "Quelle est la difference entre un agent IA et une simple automatisation ?",
-          "answer": "Une automatisation simple suit des regles rigides et predefinies. Un agent IA peut raisonner sur des situations, s'adapter a de nouvelles informations, prendre des decisions en fonction du contexte et gerer des taches multi-etapes necessitant du jugement. Imaginez l'automatisation comme un tapis roulant et l'agent IA comme un assistant qualifie."
+          "question": "Quelle est la différence entre un agent IA et une simple automatisation ?",
+          "answer": "Une automatisation simple suit des règles rigides et prédéfinies. Un agent IA peut raisonner sur des situations, s'adapter à de nouvelles informations, prendre des décisions en fonction du contexte et gérer des tâches multi-étapes nécessitant du jugement. Imaginez l'automatisation comme un tapis roulant et l'agent IA comme un assistant qualifié."
         },
         {
-          "question": "Comment les agents IA gerent-ils les cas limites ou les situations inhabituelles ?",
-          "answer": "Nous integrons des workflows avec intervention humaine pour que les agents puissent escalader les decisions sur lesquelles ils manquent de confiance. Avec le temps, les agents apprennent de ces escalades et gerent davantage de situations de maniere autonome, mais vous conservez toujours la supervision et le controle."
+          "question": "Comment les agents IA gèrent-ils les cas limites ou les situations inhabituelles ?",
+          "answer": "Nous intégrons des workflows avec intervention humaine pour que les agents puissent escalader les décisions sur lesquelles ils manquent de confiance. Avec le temps, les agents apprennent de ces escalades et gèrent davantage de situations de manière autonome, mais vous conservez toujours la supervision et le contrôle."
         },
         {
-          "question": "Les agents IA sont-ils suffisamment securises pour les donnees sensibles ?",
-          "answer": "Absolument. Nous implementons une securite de niveau entreprise incluant le chiffrement des donnees, les controles d'acces, la journalisation des audits et la conformite au RGPD et autres reglementations. Vos donnees ne quittent jamais votre infrastructure approuvee."
+          "question": "Les agents IA sont-ils suffisamment sécurisés pour les données sensibles ?",
+          "answer": "Absolument. Nous implémentons une sécurité de niveau entreprise incluant le chiffrement des données, les contrôles d'accès, la journalisation des audits et la conformité au RGPD et autres réglementations. Vos données ne quittent jamais votre infrastructure approuvée."
         },
         {
           "question": "Peut-on personnaliser le comportement de l'agent selon nos processus ?",
-          "answer": "Oui, c'est precisement l'objectif. Chaque agent est construit autour de vos workflows specifiques, de vos regles metier et de vos standards de qualite. Nous travaillons en etroite collaboration avec vos equipes pour encoder votre expertise metier dans la logique de l'agent."
+          "answer": "Oui, c'est précisément l'objectif. Chaque agent est construit autour de vos workflows spécifiques, de vos règles métier et de vos standards de qualité. Nous travaillons en étroite collaboration avec vos équipes pour encoder votre expertise métier dans la logique de l'agent."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-automation": "Pour les taches plus simples et basees sur des regles qui alimentent vos workflows d'agents, nos solutions d'Automatisation IA gerent le travail structure en amont.",
-        "chatbots": "Offrez a vos agents IA une interface conversationnelle avec nos solutions de Chatbots, pour que clients et collaborateurs interagissent naturellement avec les agents.",
-        "ai-consulting": "Vous ne savez pas ou les agents genereront le plus de valeur ? Notre Conseil en Strategie IA identifie d'abord les opportunites a plus fort impact."
+        "ai-automation": "Pour les tâches plus simples et basées sur des règles qui alimentent vos workflows d'agents, nos solutions d'Automatisation IA gèrent le travail structuré en amont.",
+        "chatbots": "Offrez à vos agents IA une interface conversationnelle avec nos solutions de Chatbots, pour que clients et collaborateurs interagissent naturellement avec les agents.",
+        "ai-consulting": "Vous ne savez pas où les agents généreront le plus de valeur ? Notre Conseil en Stratégie IA identifie d'abord les opportunités à plus fort impact."
       }
     },
     "chatbots": {
       "title": "Chatbots & IA Conversationnelle",
       "shortTitle": "Chatbots",
-      "description": "Interfaces conversationnelles intelligentes pour le support client, les helpdesks internes et les experiences produit interactives.",
-      "longDescription": "Nous creons des systemes d'IA conversationnelle sophistiques qui vont bien au-dela des simples bots FAQ. Nos chatbots comprennent le contexte, traitent des requetes complexes et fournissent des reponses personnalisees, que ce soit pour vos clients ou pour vos equipes internes.",
-      "heroHeadline": "Vos Clients Attendent des Reponses Instantanees. Vos Equipes Ne Peuvent Pas Suivre.",
-      "problemDescription": "Les clients vous contactent a toute heure, sur de multiples canaux, et attendent des reponses immediates. Votre equipe support est submergee par des questions repetitives, entrainant des temps de reponse lents, des reponses inconsistantes et un epuisement du personnel. Chaque message sans reponse est un client potentiellement perdu.",
-      "solutionDescription": "Nous developpons des chatbots intelligents qui comprennent le contexte, parlent avec la voix de votre marque et resolvent la majorite des demandes sans intervention humaine. Deployes sur le web, WhatsApp, Slack et d'autres canaux, ils fournissent un support instantane et precis 24h/24 tout en escaladant naturellement les cas complexes vers vos equipes.",
+      "description": "Interfaces conversationnelles intelligentes pour le support client, les helpdesks internes et les expériences produit interactives.",
+      "longDescription": "Nous créons des systèmes d'IA conversationnelle sophistiqués qui vont bien au-delà des simples bots FAQ. Nos chatbots comprennent le contexte, traitent des requêtes complexes et fournissent des réponses personnalisées, que ce soit pour vos clients ou pour vos équipes internes.",
+      "heroHeadline": "Vos Clients Attendent des Réponses Instantanées. Vos Équipes Ne Peuvent Pas Suivre.",
+      "problemDescription": "Les clients vous contactent à toute heure, sur de multiples canaux, et attendent des réponses immédiates. Votre équipe support est submergée par des questions répétitives, entraînant des temps de réponse lents, des réponses inconsistantes et un épuisement du personnel. Chaque message sans réponse est un client potentiellement perdu.",
+      "solutionDescription": "Nous développons des chatbots intelligents qui comprennent le contexte, parlent avec la voix de votre marque et résolvent la majorité des demandes sans intervention humaine. Déployés sur le web, WhatsApp, Slack et d'autres canaux, ils fournissent un support instantané et précis 24h/24 tout en escaladant naturellement les cas complexes vers vos équipes.",
       "features": [
-        "Deploiement multi-canal (web, WhatsApp, Slack)",
-        "Integration de base de connaissances et RAG",
+        "Déploiement multi-canal (web, WhatsApp, Slack)",
+        "Intégration de base de connaissances et RAG",
         "Support multilingue",
         "Transfert fluide vers un agent humain",
         "Analytique et insights conversationnels",
-        "Personnalite et ton de marque sur mesure"
+        "Personnalité et ton de marque sur mesure"
       ],
       "benefits": [
-        "Support client instantane 24h/24 et 7j/7",
-        "Reduction du volume de tickets de 40 a 60 %",
-        "Experience de marque coherente sur tous les canaux",
-        "Insights precieux issus des donnees conversationnelles"
+        "Support client instantané 24h/24 et 7j/7",
+        "Réduction du volume de tickets de 40 à 60 %",
+        "Expérience de marque cohérente sur tous les canaux",
+        "Insights précieux issus des données conversationnelles"
       ],
       "useCases": [
         "Automatisation du support client et des FAQ",
         "Assistant de base de connaissances interne",
         "Moteur de recommandation de produits",
-        "Prise de rendez-vous et reservation"
+        "Prise de rendez-vous et réservation"
       ],
       "faqs": [
         {
-          "question": "Quelle est la precision des chatbots IA par rapport aux agents humains ?",
-          "answer": "Nos chatbots atteignent 85 a 95 % de precision sur les sujets entraines grace a la generation augmentee par recuperation (RAG) ancree dans votre base de connaissances. Ils ne repondent qu'a partir d'informations verifiees, reduisant ainsi les risques d'hallucination. Pour tout ce qui depasse leur seuil de confiance, ils redirigent vers un agent humain."
+          "question": "Quelle est la précision des chatbots IA par rapport aux agents humains ?",
+          "answer": "Nos chatbots atteignent 85 à 95 % de précision sur les sujets entraînés grâce à la génération augmentée par récupération (RAG) ancrée dans votre base de connaissances. Ils ne répondent qu'à partir d'informations vérifiées, réduisant ainsi les risques d'hallucination. Pour tout ce qui dépasse leur seuil de confiance, ils redirigent vers un agent humain."
         },
         {
-          "question": "Le chatbot peut-il gerer plusieurs langues ?",
-          "answer": "Oui. Nos chatbots supportent plus de 50 langues nativement et peuvent etre affines pour des dialectes specifiques ou une terminologie sectorielle. C'est particulierement precieux pour les entreprises europeennes servant des clients sur plusieurs marches."
+          "question": "Le chatbot peut-il gérer plusieurs langues ?",
+          "answer": "Oui. Nos chatbots supportent plus de 50 langues nativement et peuvent être affinés pour des dialectes spécifiques ou une terminologie sectorielle. C'est particulièrement précieux pour les entreprises européennes servant des clients sur plusieurs marchés."
         },
         {
-          "question": "Que se passe-t-il quand le chatbot ne peut pas repondre a une question ?",
-          "answer": "Nous implementons des workflows de transfert intelligent. Lorsque le chatbot detecte une requete qu'il ne peut pas traiter avec confiance, il transfere naturellement la conversation a un agent humain, avec tout le contexte, pour que le client n'ait jamais a se repeter."
+          "question": "Que se passe-t-il quand le chatbot ne peut pas répondre à une question ?",
+          "answer": "Nous implémentons des workflows de transfert intelligent. Lorsque le chatbot détecte une requête qu'il ne peut pas traiter avec confiance, il transfère naturellement la conversation à un agent humain, avec tout le contexte, pour que le client n'ait jamais à se répéter."
         },
         {
-          "question": "Comment formez-vous le chatbot sur nos connaissances metier specifiques ?",
-          "answer": "Nous integrons votre documentation existante, vos FAQ, vos informations produit et vos bases de connaissances internes grace a la technologie RAG. Le chatbot recupere les informations les plus pertinentes en temps reel. Les mises a jour de votre base de connaissances sont refletees immediatement, sans re-entrainement necessaire."
+          "question": "Comment formez-vous le chatbot sur nos connaissances métier spécifiques ?",
+          "answer": "Nous intégrons votre documentation existante, vos FAQ, vos informations produit et vos bases de connaissances internes grâce à la technologie RAG. Le chatbot récupère les informations les plus pertinentes en temps réel. Les mises à jour de votre base de connaissances sont reflétées immédiatement, sans ré-entraînement nécessaire."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-agents": "Lorsque les conversations necessitent des actions complexes au-dela de la simple reponse, nos Agents IA peuvent executer des taches multi-etapes declenchees directement depuis les interactions chatbot.",
-        "ai-automation": "Connectez votre chatbot a l'automatisation back-end pour que les conversations menent a des actions concretes : prise de rendez-vous, mise a jour de dossiers ou traitement de demandes.",
-        "ai-tools": "Completez votre chatbot avec des outils IA d'entreprise qui permettent a vos equipes internes de traiter les requetes complexes necessitant encore une expertise humaine."
+        "ai-agents": "Lorsque les conversations nécessitent des actions complexes au-delà de la simple réponse, nos Agents IA peuvent exécuter des tâches multi-étapes déclenchées directement depuis les interactions chatbot.",
+        "ai-automation": "Connectez votre chatbot à l'automatisation back-end pour que les conversations mènent à des actions concrètes : prise de rendez-vous, mise à jour de dossiers ou traitement de demandes.",
+        "ai-tools": "Complétez votre chatbot avec des outils IA d'entreprise qui permettent à vos équipes internes de traiter les requêtes complexes nécessitant encore une expertise humaine."
       }
     },
     "ai-tools": {
-      "title": "Deploiement d'Outils IA",
+      "title": "Déploiement d'Outils IA",
       "shortTitle": "Outils IA",
-      "description": "Selection et deploiement d'outils IA en entreprise : ChatGPT Enterprise, Claude, GitHub Copilot et solutions sur mesure.",
-      "longDescription": "Naviguer dans le paysage des outils IA en constante evolution peut etre deroutant. Nous vous aidons a selectionner, deployer et optimiser les bons outils IA pour vos besoins specifiques, des plateformes d'entreprise comme ChatGPT et Claude aux outils specialises pour le code, le design et la creation de contenu.",
-      "heroHeadline": "Submerge par les Outils IA ? Arretez de Deviner, Obtenez des Resultats.",
-      "problemDescription": "De nouveaux outils IA sortent chaque semaine, chacun promettant de transformer votre entreprise. Vos equipes experimentent avec des versions gratuites, des donnees fuient vers des plateformes non verifiees et personne ne sait quels outils delivrent reellement du ROI. Sans strategie claire, vous gaspillez du budget sur des logiciels inutilises et exposez votre entreprise a des risques de securite.",
-      "solutionDescription": "Nous coupons a travers le bruit et vous aidons a selectionner, deployer et adopter les outils IA qui comptent reellement pour votre activite. De la configuration securisee de niveau entreprise aux bibliotheques de prompts sur mesure et a la formation des equipes, nous garantissons que votre investissement en outils IA se traduit par des gains de productivite mesurables, et non par un abonnement de plus inutilise.",
+      "description": "Sélection et déploiement d'outils IA en entreprise : ChatGPT Enterprise, Claude, GitHub Copilot et solutions sur mesure.",
+      "longDescription": "Naviguer dans le paysage des outils IA en constante évolution peut être déroutant. Nous vous aidons à sélectionner, déployer et optimiser les bons outils IA pour vos besoins spécifiques, des plateformes d'entreprise comme ChatGPT et Claude aux outils spécialisés pour le code, le design et la création de contenu.",
+      "heroHeadline": "Submergé par les Outils IA ? Arrêtez de Deviner, Obtenez des Résultats.",
+      "problemDescription": "De nouveaux outils IA sortent chaque semaine, chacun promettant de transformer votre entreprise. Vos équipes expérimentent avec des versions gratuites, des données fuient vers des plateformes non vérifiées et personne ne sait quels outils délivrent réellement du ROI. Sans stratégie claire, vous gaspillez du budget sur des logiciels inutilisés et exposez votre entreprise à des risques de sécurité.",
+      "solutionDescription": "Nous coupons à travers le bruit et vous aidons à sélectionner, déployer et adopter les outils IA qui comptent réellement pour votre activité. De la configuration sécurisée de niveau entreprise aux bibliothèques de prompts sur mesure et à la formation des équipes, nous garantissons que votre investissement en outils IA se traduit par des gains de productivité mesurables, et non par un abonnement de plus inutilisé.",
       "features": [
-        "Evaluation du paysage des outils IA",
-        "Deploiement et configuration en entreprise",
-        "Mise en conformite et securisation",
-        "Bibliotheques de prompts et modeles sur mesure",
-        "Programmes de formation et d'adoption par les equipes",
+        "Évaluation du paysage des outils IA",
+        "Déploiement et configuration en entreprise",
+        "Mise en conformité et sécurisation",
+        "Bibliothèques de prompts et modèles sur mesure",
+        "Programmes de formation et d'adoption par les équipes",
         "Suivi de l'utilisation et mesure du ROI"
       ],
       "benefits": [
-        "Prenez des decisions eclairees sur le choix des outils",
+        "Prenez des décisions éclairées sur le choix des outils",
         "Maximisez le ROI de vos investissements IA",
-        "Garantissez la securite et la conformite",
-        "Accelerez l'adoption et la productivite des equipes"
+        "Garantissez la sécurité et la conformité",
+        "Accélérez l'adoption et la productivité des équipes"
       ],
       "useCases": [
-        "Deploiement de ChatGPT Enterprise ou Claude",
-        "GitHub Copilot pour les equipes de developpement",
-        "Workflows de creation de contenu assistes par l'IA",
-        "Comparaison et optimisation multi-modeles"
+        "Déploiement de ChatGPT Enterprise ou Claude",
+        "GitHub Copilot pour les équipes de développement",
+        "Workflows de création de contenu assistés par l'IA",
+        "Comparaison et optimisation multi-modèles"
       ],
       "faqs": [
         {
           "question": "Quels outils IA recommandez-vous pour la plupart des entreprises ?",
-          "answer": "Il n'existe pas de reponse universelle. Nous evaluons vos workflows specifiques, les competences de vos equipes, vos exigences de securite et votre budget avant de recommander des outils. Cela dit, nous aidons frequemment les entreprises a deployer des plateformes comme ChatGPT Enterprise, Claude for Teams, GitHub Copilot et des outils specialises pour le contenu, le design et l'analyse de donnees."
+          "answer": "Il n'existe pas de réponse universelle. Nous évaluons vos workflows spécifiques, les compétences de vos équipes, vos exigences de sécurité et votre budget avant de recommander des outils. Cela dit, nous aidons fréquemment les entreprises à déployer des plateformes comme ChatGPT Enterprise, Claude for Teams, GitHub Copilot et des outils spécialisés pour le contenu, le design et l'analyse de données."
         },
         {
-          "question": "Comment garantissez-vous la securite des donnees avec les outils IA ?",
-          "answer": "Nous mettons en place des configurations de niveau entreprise qui protegent vos donnees : integration SSO, politiques de prevention des fuites de donnees, directives d'utilisation approuvees et journalisation des audits. Nous veillons a ce qu'aucune donnee sensible ne soit utilisee pour l'entrainement des modeles et que tous les outils soient conformes au RGPD et a vos politiques de securite internes."
+          "question": "Comment garantissez-vous la sécurité des données avec les outils IA ?",
+          "answer": "Nous mettons en place des configurations de niveau entreprise qui protègent vos données : intégration SSO, politiques de prévention des fuites de données, directives d'utilisation approuvées et journalisation des audits. Nous veillons à ce qu'aucune donnée sensible ne soit utilisée pour l'entraînement des modèles et que tous les outils soient conformes au RGPD et à vos politiques de sécurité internes."
         },
         {
-          "question": "Comment favorisez-vous l'adoption par les equipes pour que les outils ne restent pas inutilises ?",
-          "answer": "Nous combinons des ateliers pratiques avec des bibliotheques de prompts specifiques par role et des guides de cas d'usage. Nous identifions des ambassadeurs internes, mettons en place des boucles de feedback et suivons les metriques d'adoption pour garantir que les outils sont reellement utilises, et utilises efficacement."
+          "question": "Comment favorisez-vous l'adoption par les équipes pour que les outils ne restent pas inutilisés ?",
+          "answer": "Nous combinons des ateliers pratiques avec des bibliothèques de prompts spécifiques par rôle et des guides de cas d'usage. Nous identifions des ambassadeurs internes, mettons en place des boucles de feedback et suivons les métriques d'adoption pour garantir que les outils sont réellement utilisés, et utilisés efficacement."
         },
         {
-          "question": "Pouvez-vous nous aider a consolider les outils que nous avons deja adoptes ?",
-          "answer": "Absolument. Nous constatons souvent que les entreprises paient pour des outils qui se chevauchent avec une faible utilisation. Nous auditons votre stack d'outils IA actuel, mesurons l'utilisation et la valeur reelles, et recommandons une configuration rationalisee qui reduit les couts tout en ameliorant les capacites."
+          "question": "Pouvez-vous nous aider à consolider les outils que nous avons déjà adoptés ?",
+          "answer": "Absolument. Nous constatons souvent que les entreprises paient pour des outils qui se chevauchent avec une faible utilisation. Nous auditons votre stack d'outils IA actuel, mesurons l'utilisation et la valeur réelles, et recommandons une configuration rationalisée qui réduit les coûts tout en améliorant les capacités."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-consulting": "Associez votre deploiement d'outils a notre Conseil en Strategie IA pour garantir que chaque outil s'aligne sur vos objectifs business globaux et votre feuille de route de transformation.",
-        "ai-automation": "Une fois vos equipes equipees d'outils IA, nos solutions d'Automatisation connectent ces outils dans des workflows de bout en bout qui multiplient leur impact.",
-        "ai-agents": "Allez au-dela des outils individuels en deployant des Agents IA Sur Mesure qui orchestrent plusieurs outils de maniere autonome pour accomplir des taches complexes."
+        "ai-consulting": "Associez votre déploiement d'outils à notre Conseil en Stratégie IA pour garantir que chaque outil s'aligne sur vos objectifs business globaux et votre feuille de route de transformation.",
+        "ai-automation": "Une fois vos équipes équipées d'outils IA, nos solutions d'Automatisation connectent ces outils dans des workflows de bout en bout qui multiplient leur impact.",
+        "ai-agents": "Allez au-delà des outils individuels en déployant des Agents IA Sur Mesure qui orchestrent plusieurs outils de manière autonome pour accomplir des tâches complexes."
       }
     },
     "ai-consulting": {
-      "title": "Strategie & Conseil en IA",
+      "title": "Stratégie & Conseil en IA",
       "shortTitle": "Conseil en IA",
-      "description": "Evaluations de maturite IA, feuilles de route strategiques, alignement OKR et formation des equipes pour definir votre parcours de transformation IA.",
-      "longDescription": "Avant d'implementer l'IA, il vous faut la bonne strategie. Nous evaluons vos capacites actuelles, identifions les opportunites a plus fort impact et creons une feuille de route actionnable qui aligne les initiatives IA sur vos objectifs business et des resultats mesurables.",
-      "heroHeadline": "Tout le Monde Vous Dit de Passer a l'IA. Personne Ne Vous Dit Par Ou Commencer.",
-      "problemDescription": "La pression pour adopter l'IA est reelle, mais se lancer sans strategie mene a des budgets gaspilles, des pilotes echoues et des equipes frustraes. Vous voyez vos concurrents avancer vite tandis que votre organisation debat du premier cas d'usage a traiter. Sans feuille de route claire, chaque initiative IA ressemble a un pari.",
-      "solutionDescription": "Nous vous apportons de la clarte avant que vous ne depensiez un seul euro en implementation. Grace a des evaluations structurees, des ateliers avec les parties prenantes et une cartographie des opportunites basee sur les donnees, nous construisons une feuille de route IA priorisee alignee sur vos objectifs business. Vous saurez exactement quoi construire, dans quel ordre et quels resultats attendre.",
+      "description": "Évaluations de maturité IA, feuilles de route stratégiques, alignement OKR et formation des équipes pour définir votre parcours de transformation IA.",
+      "longDescription": "Avant d'implémenter l'IA, il vous faut la bonne stratégie. Nous évaluons vos capacités actuelles, identifions les opportunités à plus fort impact et créons une feuille de route actionnable qui aligne les initiatives IA sur vos objectifs business et des résultats mesurables.",
+      "heroHeadline": "Tout le Monde Vous Dit de Passer à l'IA. Personne Ne Vous Dit Par Où Commencer.",
+      "problemDescription": "La pression pour adopter l'IA est réelle, mais se lancer sans stratégie mène à des budgets gaspillés, des pilotes échoués et des équipes frustrées. Vous voyez vos concurrents avancer vite tandis que votre organisation débat du premier cas d'usage à traiter. Sans feuille de route claire, chaque initiative IA ressemble à un pari.",
+      "solutionDescription": "Nous vous apportons de la clarté avant que vous ne dépensiez un seul euro en implémentation. Grâce à des évaluations structurées, des ateliers avec les parties prenantes et une cartographie des opportunités basée sur les données, nous construisons une feuille de route IA priorisée alignée sur vos objectifs business. Vous saurez exactement quoi construire, dans quel ordre et quels résultats attendre.",
       "features": [
-        "Evaluation de maturite IA",
-        "Identification et priorisation des opportunites",
-        "Feuille de route IA strategique avec jalons",
-        "Alignement OKR et metriques de succes",
-        "Programmes de formation et de montee en competences",
-        "Aide a l'evaluation et a la selection de fournisseurs"
+        "Évaluation de maturité IA",
+        "Identification et priorisation des opportunités",
+        "Feuille de route IA stratégique avec jalons",
+        "Alignement OKR et métriques de succès",
+        "Programmes de formation et de montée en compétences",
+        "Aide à l'évaluation et à la sélection de fournisseurs"
       ],
       "benefits": [
-        "Vision claire et strategie IA actionnable",
-        "Initiatives priorisees a plus fort ROI",
-        "Objectifs et resultats cles mesurables",
-        "Reduction du risque d'echec des implementations IA"
+        "Vision claire et stratégie IA actionnable",
+        "Initiatives priorisées à plus fort ROI",
+        "Objectifs et résultats clés mesurables",
+        "Réduction du risque d'échec des implémentations IA"
       ],
       "useCases": [
-        "Ateliers strategie IA pour dirigeants",
-        "Cartographie des opportunites IA par departement",
-        "Evaluation de maturite IA et benchmarking",
-        "Programmes de formation sur mesure pour les equipes"
+        "Ateliers stratégie IA pour dirigeants",
+        "Cartographie des opportunités IA par département",
+        "Évaluation de maturité IA et benchmarking",
+        "Programmes de formation sur mesure pour les équipes"
       ],
       "faqs": [
         {
-          "question": "Avons-nous besoin d'une strategie IA si nous sommes une PME ?",
-          "answer": "Surtout si vous etes une entreprise de taille moyenne. Les grandes entreprises peuvent se permettre d'experimenter et d'echouer. Les PME ont besoin que chaque investissement compte. Une strategie ciblee garantit que vous investissez dans les initiatives IA qui delivreront le plus fort impact pour votre situation specifique, pas dans ce qui est a la mode."
+          "question": "Avons-nous besoin d'une stratégie IA si nous sommes une PME ?",
+          "answer": "Surtout si vous êtes une entreprise de taille moyenne. Les grandes entreprises peuvent se permettre d'expérimenter et d'échouer. Les PME ont besoin que chaque investissement compte. Une stratégie ciblée garantit que vous investissez dans les initiatives IA qui délivreront le plus fort impact pour votre situation spécifique, pas dans ce qui est à la mode."
         },
         {
-          "question": "Combien de temps dure une mission de strategie IA ?",
-          "answer": "Une evaluation de maturite IA ciblee prend 2 a 3 semaines. Une strategie complete avec feuille de route prend generalement 4 a 6 semaines. Nous pouvons egalement organiser des ateliers intensifs pour dirigeants en 2 a 3 jours pour les equipes qui ont besoin de s'aligner rapidement sur une direction."
+          "question": "Combien de temps dure une mission de stratégie IA ?",
+          "answer": "Une évaluation de maturité IA ciblée prend 2 à 3 semaines. Une stratégie complète avec feuille de route prend généralement 4 à 6 semaines. Nous pouvons également organiser des ateliers intensifs pour dirigeants en 2 à 3 jours pour les équipes qui ont besoin de s'aligner rapidement sur une direction."
         },
         {
           "question": "Quels livrables recevons-nous ?",
-          "answer": "Vous recevez un rapport de maturite IA, une carte des opportunites priorisees, une feuille de route de mise en oeuvre phasee avec calendrier et estimations budgetaires, des metriques de succes et des OKR, ainsi qu'un cadre d'evaluation des fournisseurs. Tout est actionnable, pas un enieme jeu de slides generiques."
+          "answer": "Vous recevez un rapport de maturité IA, une carte des opportunités priorisées, une feuille de route de mise en œuvre phasée avec calendrier et estimations budgétaires, des métriques de succès et des OKR, ainsi qu'un cadre d'évaluation des fournisseurs. Tout est actionnable, pas un énième jeu de slides génériques."
         },
         {
-          "question": "Pouvez-vous aussi accompagner l'implementation apres la phase strategique ?",
-          "answer": "Oui. De nombreux clients font appel a nous d'abord pour la strategie, puis passent a l'implementation avec nos services d'Automatisation IA, d'Agents IA ou de Transformation Digitale. Ayant concu la strategie, nous sommes idealement positionnes pour l'executer efficacement."
+          "question": "Pouvez-vous aussi accompagner l'implémentation après la phase stratégique ?",
+          "answer": "Oui. De nombreux clients font appel à nous d'abord pour la stratégie, puis passent à l'implémentation avec nos services d'Automatisation IA, d'Agents IA ou de Transformation Digitale. Ayant conçu la stratégie, nous sommes idéalement positionnés pour l'exécuter efficacement."
         }
       ],
       "relatedServiceDescriptions": {
-        "digital-transformation": "Une fois votre strategie IA definie, notre service de Transformation Digitale execute le programme complet de transformation, du redesign des processus a la conduite du changement.",
-        "ai-tools": "Votre strategie identifiera quels outils IA adopter. Notre service de Deploiement d'Outils IA gere le deploiement, la securisation et la formation des equipes.",
-        "ai-automation": "Transformez vos priorites strategiques en solutions operationnelles avec notre service d'Automatisation IA, qui construit les workflows identifies dans votre feuille de route."
+        "digital-transformation": "Une fois votre stratégie IA définie, notre service de Transformation Digitale exécute le programme complet de transformation, du redesign des processus à la conduite du changement.",
+        "ai-tools": "Votre stratégie identifiera quels outils IA adopter. Notre service de Déploiement d'Outils IA gère le déploiement, la sécurisation et la formation des équipes.",
+        "ai-automation": "Transformez vos priorités stratégiques en solutions opérationnelles avec notre service d'Automatisation IA, qui construit les workflows identifiés dans votre feuille de route."
       }
     },
     "digital-transformation": {
       "title": "Transformation Digitale",
       "shortTitle": "Transformation",
-      "description": "Programmes complets de modernisation des processus : audit, livraison agile, conduite du changement et redesign centre sur l'IA.",
-      "longDescription": "La vraie transformation digitale va au-dela de la technologie : elle exige de repenser les processus, la culture et les flux de travail avec l'IA au centre. Nous accompagnons les organisations dans des programmes de transformation globaux qui delivrent des resultats business mesurables.",
-      "heroHeadline": "Vos Processus Ont Ete Concus pour un Monde Sans IA. Il Est Temps de les Repenser.",
-      "problemDescription": "Votre organisation fonctionne sur des processus concus il y a des annees, replates avec des contournements et maintenus avec des tableurs. Les equipes resistent au changement parce que les precedentes tentatives de transformation ont echoue. Pendant ce temps, les concurrents IA-natifs operent a une vitesse et une efficacite que votre configuration actuelle ne peut tout simplement pas egaliser.",
-      "solutionDescription": "Nous ne greffons pas l'IA sur des processus defaillants. Nous repensons vos operations de fond en comble avec l'IA au centre, combinant audit des processus, livraison agile et conduite du changement operationnelle. Nous delivrons des resultats rapides pour creer un elan, puis transformons systematiquement votre organisation en une structure prete a rivaliser sur un marche domine par l'IA.",
+      "description": "Programmes complets de modernisation des processus : audit, livraison agile, conduite du changement et redesign centré sur l'IA.",
+      "longDescription": "La vraie transformation digitale va au-delà de la technologie : elle exige de repenser les processus, la culture et les flux de travail avec l'IA au centre. Nous accompagnons les organisations dans des programmes de transformation globaux qui délivrent des résultats business mesurables.",
+      "heroHeadline": "Vos Processus Ont Été Conçus pour un Monde Sans IA. Il Est Temps de les Repenser.",
+      "problemDescription": "Votre organisation fonctionne sur des processus conçus il y a des années, replâtrés avec des contournements et maintenus avec des tableurs. Les équipes résistent au changement parce que les précédentes tentatives de transformation ont échoué. Pendant ce temps, les concurrents IA-natifs opèrent à une vitesse et une efficacité que votre configuration actuelle ne peut tout simplement pas égaliser.",
+      "solutionDescription": "Nous ne greffons pas l'IA sur des processus défaillants. Nous repensons vos opérations de fond en comble avec l'IA au centre, combinant audit des processus, livraison agile et conduite du changement opérationnelle. Nous délivrons des résultats rapides pour créer un élan, puis transformons systématiquement votre organisation en une structure prête à rivaliser sur un marché dominé par l'IA.",
       "features": [
-        "Audit des processus et cartographie des opportunites IA",
+        "Audit des processus et cartographie des opportunités IA",
         "Livraison IA agile (Scrum/Kanban)",
         "Conduite du changement et alignement culturel",
-        "Modernisation des systemes legacy",
-        "Optimisation de l'infrastructure de donnees",
-        "Cadres d'amelioration continue"
+        "Modernisation des systèmes legacy",
+        "Optimisation de l'infrastructure de données",
+        "Cadres d'amélioration continue"
       ],
       "benefits": [
         "Transformation de bout en bout avec une gouvernance claire",
-        "Reduction de la resistance grace a la conduite du changement",
-        "Livraison iterative avec des victoires rapides",
-        "Changement organisationnel durable et perenne"
+        "Réduction de la résistance grâce à la conduite du changement",
+        "Livraison itérative avec des victoires rapides",
+        "Changement organisationnel durable et pérenne"
       ],
       "useCases": [
-        "Programmes de transformation IA a l'echelle de l'entreprise",
-        "Initiatives de numerisation par departement",
-        "Migration de systemes legacy vers des plateformes IA",
+        "Programmes de transformation IA à l'échelle de l'entreprise",
+        "Initiatives de numérisation par département",
+        "Migration de systèmes legacy vers des plateformes IA",
         "Construction d'une culture IA organisationnelle"
       ],
       "faqs": [
         {
-          "question": "En quoi est-ce different de la transformation digitale traditionnelle ?",
-          "answer": "La transformation digitale traditionnelle consiste souvent a numeriser les processus existants, a passer du papier au logiciel. La transformation centree sur l'IA repense les processus eux-memes. Au lieu d'automatiser un workflow defaillant, nous le reconceevons autour de ce que l'IA rend possible, en eliminant souvent des etapes entieres."
+          "question": "En quoi est-ce différent de la transformation digitale traditionnelle ?",
+          "answer": "La transformation digitale traditionnelle consiste souvent à numériser les processus existants, à passer du papier au logiciel. La transformation centrée sur l'IA repense les processus eux-mêmes. Au lieu d'automatiser un workflow défaillant, nous le reconcevons autour de ce que l'IA rend possible, en éliminant souvent des étapes entières."
         },
         {
-          "question": "Comment gerez-vous la resistance au changement des collaborateurs ?",
-          "answer": "La conduite du changement est integree a chaque phase, jamais en afterthought. Nous impliquons les parties prenantes des le premier jour, communiquons clairement les benefices, delivrons des victoires rapides pour instaurer la confiance et fournissons une formation complete. Les gens resistent quand ils se sentent exclus ; nous en faisons des co-proprietaires de la transformation."
+          "question": "Comment gérez-vous la résistance au changement des collaborateurs ?",
+          "answer": "La conduite du changement est intégrée à chaque phase, jamais en afterthought. Nous impliquons les parties prenantes dès le premier jour, communiquons clairement les bénéfices, délivrons des victoires rapides pour instaurer la confiance et fournissons une formation complète. Les gens résistent quand ils se sentent exclus ; nous en faisons des co-propriétaires de la transformation."
         },
         {
-          "question": "Combien de temps dure une transformation digitale complete ?",
-          "answer": "Un programme de transformation complet s'etend generalement sur 6 a 12 mois, mais nous livrons en sprints agiles pour que vous voyiez des resultats des le premier mois. Nous priorisons les initiatives a fort impact et victoires rapides pour creer un elan et demontrer le ROI avant de s'attaquer aux changements systemiques plus importants."
+          "question": "Combien de temps dure une transformation digitale complète ?",
+          "answer": "Un programme de transformation complet s'étend généralement sur 6 à 12 mois, mais nous livrons en sprints agiles pour que vous voyiez des résultats dès le premier mois. Nous priorisons les initiatives à fort impact et victoires rapides pour créer un élan et démontrer le ROI avant de s'attaquer aux changements systémiques plus importants."
         },
         {
-          "question": "Et si nous ne voulons transformer qu'un seul departement ?",
-          "answer": "C'est en fait une approche tres judicieuse. Nous recommandons souvent de commencer par un seul departement en mode pilote, de valider le modele, puis de l'etendre. Cela reduit les risques, cree des ambassadeurs internes et fournit un playbook eprouve pour le reste de l'organisation."
+          "question": "Et si nous ne voulons transformer qu'un seul département ?",
+          "answer": "C'est en fait une approche très judicieuse. Nous recommandons souvent de commencer par un seul département en mode pilote, de valider le modèle, puis de l'étendre. Cela réduit les risques, crée des ambassadeurs internes et fournit un playbook éprouvé pour le reste de l'organisation."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-consulting": "Toute transformation commence par une strategie. Notre Conseil en Strategie IA definit la vision et la feuille de route avant le debut de l'execution.",
+        "ai-consulting": "Toute transformation commence par une stratégie. Notre Conseil en Stratégie IA définit la vision et la feuille de route avant le début de l'exécution.",
         "ai-automation": "Dans le cadre de votre transformation, notre service d'Automatisation IA construit les workflows intelligents qui remplacent les processus manuels et legacy.",
-        "ai-agents": "Deployez des Agents IA Sur Mesure pour gerer les taches complexes et a forte intensite cognitive qui emergent de vos processus redesignes."
+        "ai-agents": "Déployez des Agents IA Sur Mesure pour gérer les tâches complexes et à forte intensité cognitive qui émergent de vos processus redesignés."
       }
     }
   },
   "pillars": {
     "implement": {
-      "title": "Implementer",
-      "subtitle": "Outils IA & Developpement",
-      "description": "Nous concevons et integrons des solutions IA dans votre entreprise : workflows automatises, agents intelligents, interfaces conversationnelles et deploiements d'outils en entreprise."
+      "title": "Implémenter",
+      "subtitle": "Outils IA & Développement",
+      "description": "Nous concevons et intégrons des solutions IA dans votre entreprise : workflows automatisés, agents intelligents, interfaces conversationnelles et déploiements d'outils en entreprise."
     },
     "consult": {
       "title": "Conseiller",
       "subtitle": "Conseil en IA",
-      "description": "Nous definissons la bonne strategie IA pour votre entreprise : evaluation de maturite, identification des opportunites, alignement des objectifs et formation de vos equipes pour une adoption reussie."
+      "description": "Nous définissons la bonne stratégie IA pour votre entreprise : évaluation de maturité, identification des opportunités, alignement des objectifs et formation de vos équipes pour une adoption réussie."
     },
     "transform": {
       "title": "Transformer",
       "subtitle": "Processus IA",
-      "description": "Nous repensons vos processus avec l'IA au centre : audit des operations, livraison agile, conduite du changement et transformation digitale globale."
+      "description": "Nous repensons vos processus avec l'IA au centre : audit des opérations, livraison agile, conduite du changement et transformation digitale globale."
     }
   }
 }

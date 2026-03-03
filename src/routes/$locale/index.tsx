@@ -1,4 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import { SEO } from '@/components/shared/seo'
 import { Hero } from '@/components/home/hero'
 import { TechPartners } from '@/components/home/tech-partners'
@@ -13,15 +15,19 @@ import { Testimonials } from '@/components/home/testimonials'
 import { CtaBanner } from '@/components/home/cta-banner'
 
 export const Route = createFileRoute('/$locale/')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'home')
+  },
   component: HomePage,
 })
 
 function HomePage() {
+  const { t } = useTranslation('seo')
   return (
     <>
       <SEO
-        title="SCIT Consulting - AI-First Digital Transformation"
-        description="We implement AI tools, automate processes and build intelligent agents. From strategy to execution, SCIT Consulting transforms your business with artificial intelligence."
+        title={t('home.title')}
+        description={t('home.description')}
         path="/"
       />
       <Hero />

@@ -1,11 +1,11 @@
 {
   "seo": {
-    "title": "Contactenos",
-    "description": "¿Listo para transformar su negocio con AI? Contacte a SCIT Consulting. Agende una consulta gratuita o envienos un mensaje."
+    "title": "Contáctenos",
+    "description": "¿Listo para transformar su negocio con AI? Contacte a SCIT Consulting. Agende una consulta gratuita o envíenos un mensaje."
   },
   "hero": {
-    "title": "Contactenos",
-    "subtitle": "¿Listo para transformar su negocio con AI? Cuentenos sobre su proyecto y le responderemos en un plazo de 24 horas."
+    "title": "Contáctenos",
+    "subtitle": "¿Listo para transformar su negocio con AI? Cuéntenos sobre su proyecto y le responderemos en un plazo de 24 horas."
   },
   "tabs": {
     "message": "Enviar un Mensaje",
@@ -16,7 +16,7 @@
     "loading": "Cargando calendario de reservas..."
   },
   "footer": {
-    "responseTime": "Normalmente respondemos en un plazo de 24 horas en dias habiles."
+    "responseTime": "Normalmente respondemos en un plazo de 24 horas en días hábiles."
   },
   "form": {
     "fields": {
@@ -25,17 +25,17 @@
         "placeholder": "Su nombre"
       },
       "email": {
-        "label": "Correo electronico *",
+        "label": "Correo electrónico *",
         "placeholder": "usted@empresa.com"
       },
       "phone": {
-        "label": "Telefono (opcional)",
+        "label": "Teléfono (opcional)",
         "placeholder": "+34 600 000 000"
       },
       "message": {
-        "label": "¿Como podemos ayudarle? *",
-        "placeholder": "Cuentenos sobre su proyecto, objetivos y desafios...",
-        "maxLengthHint": "Maximo 500 caracteres"
+        "label": "¿Cómo podemos ayudarle? *",
+        "placeholder": "Cuéntenos sobre su proyecto, objetivos y desafíos...",
+        "maxLengthHint": "Máximo 500 caracteres"
       }
     },
     "submit": {
@@ -44,11 +44,17 @@
     },
     "success": {
       "title": "¡Mensaje Enviado!",
-      "description": "Gracias por su interes. Le responderemos en un plazo de 24 horas."
+      "description": "Gracias por su interés. Le responderemos en un plazo de 24 horas."
     },
     "errors": {
-      "generic": "Algo salio mal. Por favor, intentelo de nuevo.",
-      "network": "Error de conexion. Verifique su conexion a internet e intentelo de nuevo."
+      "generic": "Algo salió mal. Por favor, inténtelo de nuevo.",
+      "network": "Error de conexión. Verifique su conexión a internet e inténtelo de nuevo.",
+      "nameRequired": "Por favor, introduzca su nombre.",
+      "nameMax": "El nombre debe tener 100 caracteres o menos.",
+      "emailRequired": "Por favor, introduzca su correo electrónico.",
+      "emailInvalid": "Por favor, introduzca un correo electrónico válido.",
+      "messageRequired": "Por favor, introduzca un mensaje.",
+      "messageMax": "El mensaje debe tener 500 caracteres o menos."
     }
   }
 }

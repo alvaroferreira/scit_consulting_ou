@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { mainNavItems, footerNavItems, type NavItem } from '@/data/navigation'
 import { useLocale } from '@/hooks/use-locale'
 
-export interface LocalizedNavItem {
+interface LocalizedNavItem {
   label: string
   href: string
   children?: LocalizedNavItem[]

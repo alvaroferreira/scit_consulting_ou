@@ -43,6 +43,15 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "language": {
+    "switchLabel": "Switch language"
+  },
   "notFound": {
     "title": "404",
     "message": "Page not found",

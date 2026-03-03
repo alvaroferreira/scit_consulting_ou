@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { Link, useRouter } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
 import { IconMenu2, IconX, IconChevronDown } from '@tabler/icons-react'
@@ -17,6 +17,61 @@ export function Header() {
   const locale = useLocale()
   const navItems = useLocalizedMainNav()
   const { t } = useTranslation('common')
+  const dropdownTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const mobileNavRef = useRef<HTMLDivElement>(null)
+
+  // Focus trap + Escape for mobile menu
+  useEffect(() => {
+    if (!mobileOpen) return
+    const nav = mobileNavRef.current
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setMobileOpen(false)
+        return
+      }
+      if (e.key === 'Tab' && nav) {
+        const focusable = nav.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'
+        )
+        if (focusable.length === 0) return
+        const first = focusable[0]
+        const last = focusable[focusable.length - 1]
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault()
+          last.focus()
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault()
+          first.focus()
+        }
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    // Move focus into the mobile menu
+    const firstLink = nav?.querySelector<HTMLElement>('a[href], button')
+    firstLink?.focus()
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [mobileOpen])
+
+  // Close dropdown on Escape (desktop)
+  useEffect(() => {
+    if (!openDropdown) return
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setOpenDropdown(null)
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [openDropdown])
+
+  const openDropdownWithDelay = useCallback((href: string) => {
+    if (dropdownTimerRef.current) clearTimeout(dropdownTimerRef.current)
+    setOpenDropdown(href)
+  }, [])
+
+  const closeDropdownWithDelay = useCallback(() => {
+    dropdownTimerRef.current = setTimeout(() => setOpenDropdown(null), 150)
+  }, [])
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-lg">
@@ -41,11 +96,15 @@ export function Header() {
             <div
               key={item.href}
               className="relative"
-              onMouseEnter={() => item.children && setOpenDropdown(item.href)}
-              onMouseLeave={() => setOpenDropdown(null)}
+              onMouseEnter={() => item.children && openDropdownWithDelay(item.href)}
+              onMouseLeave={closeDropdownWithDelay}
+              onFocusCapture={() => item.children && openDropdownWithDelay(item.href)}
+              onBlurCapture={closeDropdownWithDelay}
             >
               <Link
                 to={item.href}
+                aria-expanded={item.children ? openDropdown === item.href : undefined}
+                aria-haspopup={item.children ? 'true' : undefined}
                 className={cn(
                   'flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-scit-purple',
                   pathname.startsWith(item.href)
@@ -54,17 +113,29 @@ export function Header() {
                 )}
               >
                 {item.label}
-                {item.children && <IconChevronDown size={14} />}
+                {item.children && (
+                  <IconChevronDown
+                    size={14}
+                    className={cn(
+                      'transition-transform',
+                      openDropdown === item.href && 'rotate-180'
+                    )}
+                  />
+                )}
               </Link>
 
               {/* Dropdown */}
               {item.children && openDropdown === item.href && (
-                <div className="absolute top-full left-0 z-50 mt-1 w-64 rounded-lg border border-border bg-background p-2 shadow-lg">
+                <div
+                  role="menu"
+                  className="absolute top-full left-0 z-50 mt-1 w-64 rounded-lg border border-border bg-background p-2 shadow-lg"
+                >
                   {item.children.map((child) => (
                     <Link
                       key={child.href}
                       to={child.href}
-                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-scit-purple"
+                      role="menuitem"
+                      className="block rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-scit-purple focus-visible:bg-muted focus-visible:text-scit-purple focus-visible:outline-none"
                     >
                       {child.label}
                     </Link>
@@ -91,6 +162,7 @@ export function Header() {
             onClick={() => setMobileOpen(!mobileOpen)}
             className="p-2 text-foreground"
             aria-label={t('header.toggleMenu')}
+            aria-expanded={mobileOpen}
           >
             {mobileOpen ? <IconX size={24} /> : <IconMenu2 size={24} />}
           </button>
@@ -99,7 +171,7 @@ export function Header() {
 
       {/* Mobile Navigation */}
       {mobileOpen && (
-        <div className="border-t border-border bg-background md:hidden">
+        <div ref={mobileNavRef} className="border-t border-border bg-background md:hidden">
           <nav aria-label={t('header.mobileNavigation')} className="container mx-auto py-4">
             {navItems.map((item) => (
               <div key={item.href}>

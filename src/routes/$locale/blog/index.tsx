@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { BlogCard } from '@/components/blog/blog-card'
 import { blogPosts, allTags } from '@/data/blog-posts'
 
 export const Route = createFileRoute('/$locale/blog/')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'blog')
+  },
   component: BlogIndex,
 })
 
@@ -62,20 +66,20 @@ function BlogIndex() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div aria-live="polite" className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filtered.map((post) => (
             <BlogCard key={post.slug} post={post} />
           ))}
-        </div>
 
-        {/* Empty State */}
-        {filtered.length === 0 && (
-          <div className="py-12 text-center">
-            <p className="text-muted-foreground">
-              {t('page.emptyState')}
-            </p>
-          </div>
-        )}
+          {/* Empty State */}
+          {filtered.length === 0 && (
+            <div className="col-span-full py-12 text-center">
+              <p className="text-muted-foreground">
+                {t('page.emptyState')}
+              </p>
+            </div>
+          )}
+        </div>
       </Section>
     </>
   )

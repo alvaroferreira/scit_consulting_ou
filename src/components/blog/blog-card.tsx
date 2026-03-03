@@ -12,7 +12,7 @@ export function BlogCard({ post }: BlogCardProps) {
   const { t } = useTranslation('blog')
   const locale = useLocale()
 
-  const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
+  const formattedDate = new Date(post.date).toLocaleDateString(locale, {
     year: 'numeric',
     month: 'short',
     day: 'numeric',
@@ -32,7 +32,7 @@ export function BlogCard({ post }: BlogCardProps) {
         </span>
         <span className="inline-flex items-center gap-1">
           <IconClock size={14} />
-          {post.readTime}
+          {t('template.readTime', { count: parseInt(post.readTime) })}
         </span>
       </div>
 

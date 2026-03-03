@@ -6,6 +6,7 @@
     "emptyState": "No articles found for this tag. Try selecting a different filter."
   },
   "template": {
+    "readTime": "{{count}} min read",
     "backToBlog": "Back to Blog",
     "by": "By",
     "ctaTitle": "Need Help Implementing AI?",

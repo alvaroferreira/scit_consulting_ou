@@ -1,8 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { loadNamespace } from '@/lib/i18n'
 import { SEO } from '@/components/shared/seo'
 import { AiReadinessAssessment } from '@/components/tools/ai-readiness-assessment'
 
 export const Route = createFileRoute('/$locale/tools/ai-readiness-assessment')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'tools')
+  },
   component: AiReadinessAssessmentPage,
 })
 

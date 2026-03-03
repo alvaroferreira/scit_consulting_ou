@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs'
 import { resolve } from 'path'
 
-const SITE_URL = 'https://www.scitconsulting.eu'
+const SITE_URL = 'https://scitconsulting.eu'
 const LOCALES = ['en', 'pt', 'es', 'fr']
 const DEFAULT_LOCALE = 'en'
 

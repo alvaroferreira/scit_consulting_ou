@@ -1,5 +1,6 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
+import { z } from 'zod'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
@@ -8,14 +9,24 @@ import { IconSend, IconCheck } from '@tabler/icons-react'
 
 const TURNSTILE_SITE_KEY = import.meta.env.VITE_TURNSTILE_SITE_KEY || '1x00000000000000000000AA' // test key fallback
 
+type FieldErrors = Partial<Record<'name' | 'email' | 'message', string>>
+
 export function ContactForm() {
   const { t } = useTranslation('contact')
   const [submitted, setSubmitted] = useState(false)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [fieldErrors, setFieldErrors] = useState<FieldErrors>({})
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null)
   const turnstileRef = useRef<HTMLDivElement>(null)
   const turnstileWidgetId = useRef<string | null>(null)
+
+  const contactSchema = useMemo(() => z.object({
+    name: z.string().min(1, t('form.errors.nameRequired')).max(100, t('form.errors.nameMax')),
+    email: z.string().min(1, t('form.errors.emailRequired')).email(t('form.errors.emailInvalid')),
+    phone: z.string().optional(),
+    message: z.string().min(1, t('form.errors.messageRequired')).max(500, t('form.errors.messageMax')),
+  }), [t])
 
   useEffect(() => {
     // Load Turnstile script if not already loaded
@@ -54,15 +65,32 @@ export function ContactForm() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setError(null)
+    setFieldErrors({})
     setLoading(true)
 
     const formData = new FormData(e.currentTarget)
 
+    const raw = {
+      name: (formData.get('name') as string) ?? '',
+      email: (formData.get('email') as string) ?? '',
+      phone: (formData.get('phone') as string) ?? '',
+      message: (formData.get('message') as string) ?? '',
+    }
+
+    const result = contactSchema.safeParse(raw)
+    if (!result.success) {
+      const errs: FieldErrors = {}
+      for (const issue of result.error.issues) {
+        const field = issue.path[0] as keyof FieldErrors
+        if (!errs[field]) errs[field] = issue.message
+      }
+      setFieldErrors(errs)
+      setLoading(false)
+      return
+    }
+
     const payload = {
-      name: formData.get('name') as string,
-      email: formData.get('email') as string,
-      phone: formData.get('phone') as string,
-      message: formData.get('message') as string,
+      ...result.data,
       'cf-turnstile-response': turnstileToken || '',
       _gotcha: formData.get('_gotcha') as string, // honeypot
     }
@@ -95,7 +123,7 @@ export function ContactForm() {
 
   if (submitted) {
     return (
-      <div className="rounded-xl border border-border bg-card p-8 text-center">
+      <div aria-live="polite" className="rounded-xl border border-border bg-card p-8 text-center">
         <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 dark:bg-green-900/30">
           <IconCheck size={32} className="text-green-600" />
         </div>
@@ -118,11 +146,13 @@ export function ContactForm() {
         <div className="grid gap-6 md:grid-cols-2">
           <div className="space-y-2">
             <Label htmlFor="name">{t('form.fields.name.label')}</Label>
-            <Input id="name" name="name" required placeholder={t('form.fields.name.placeholder')} />
+            <Input id="name" name="name" required placeholder={t('form.fields.name.placeholder')} aria-invalid={!!fieldErrors.name} aria-describedby={fieldErrors.name ? 'name-error' : undefined} />
+            {fieldErrors.name && <p id="name-error" className="text-xs text-red-600 dark:text-red-400">{fieldErrors.name}</p>}
           </div>
           <div className="space-y-2">
             <Label htmlFor="email">{t('form.fields.email.label')}</Label>
-            <Input id="email" name="email" type="email" required placeholder={t('form.fields.email.placeholder')} />
+            <Input id="email" name="email" type="email" required placeholder={t('form.fields.email.placeholder')} aria-invalid={!!fieldErrors.email} aria-describedby={fieldErrors.email ? 'email-error' : undefined} />
+            {fieldErrors.email && <p id="email-error" className="text-xs text-red-600 dark:text-red-400">{fieldErrors.email}</p>}
           </div>
         </div>
 
@@ -140,15 +170,20 @@ export function ContactForm() {
             placeholder={t('form.fields.message.placeholder')}
             rows={5}
             maxLength={500}
+            aria-invalid={!!fieldErrors.message}
+            aria-describedby={fieldErrors.message ? 'message-error' : 'message-hint'}
           />
-          <p className="text-xs text-muted-foreground">{t('form.fields.message.maxLengthHint')}</p>
+          {fieldErrors.message
+            ? <p id="message-error" className="text-xs text-red-600 dark:text-red-400">{fieldErrors.message}</p>
+            : <p id="message-hint" className="text-xs text-muted-foreground">{t('form.fields.message.maxLengthHint')}</p>
+          }
         </div>
 
         {/* Cloudflare Turnstile widget */}
         <div ref={turnstileRef} className="flex justify-center" />
 
         {error && (
-          <p className="text-sm text-red-600 dark:text-red-400">{error}</p>
+          <p role="alert" aria-live="assertive" className="text-sm text-red-600 dark:text-red-400">{error}</p>
         )}
 
         <Button

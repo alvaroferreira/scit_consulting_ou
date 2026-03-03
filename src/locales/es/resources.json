@@ -1,11 +1,11 @@
 {
   "seo": {
     "title": "Recursos",
-    "description": "Recursos gratuitos de AI: casos de estudio, articulos de blog, calculadora de ROI y evaluacion de preparacion para AI. Todo lo que necesita para planificar su camino con AI."
+    "description": "Recursos gratuitos de AI: casos de estudio, artículos de blog, calculadora de ROI y evaluación de preparación para AI. Todo lo que necesita para planificar su camino con AI."
   },
   "hero": {
     "title": "Recursos",
-    "subtitle": "Casos de estudio, articulos y herramientas gratuitas para ayudarle a planificar y tener exito con AI."
+    "subtitle": "Casos de estudio, artículos y herramientas gratuitas para ayudarle a planificar y tener éxito con AI."
   },
   "sections": {
     "title": "Explore Nuestros Recursos",
@@ -18,21 +18,21 @@
       },
       {
         "title": "Blog e Insights",
-        "descriptionTemplate": "{{count}} articulos sobre estrategia de AI, implementacion, ROI de automatizacion y transformacion digital."
+        "descriptionTemplate": "{{count}} artículos sobre estrategia de AI, implementación, ROI de automatización y transformación digital."
       },
       {
         "title": "Calculadora de ROI de AI",
-        "description": "Estime los ahorros potenciales y el retorno de inversion de la automatizacion con AI para su negocio."
+        "description": "Estime los ahorros potenciales y el retorno de inversión de la automatización con AI para su negocio."
       },
       {
-        "title": "Evaluacion de Preparacion para AI",
-        "description": "Responda 10 preguntas para descubrir que tan preparada esta su organizacion para la adopcion de AI y obtenga recomendaciones practicas."
+        "title": "Evaluación de Preparación para AI",
+        "description": "Responda 10 preguntas para descubrir qué tan preparada está su organización para la adopción de AI y obtenga recomendaciones prácticas."
       }
     ]
   },
   "latestArticles": {
-    "title": "Ultimos Articulos",
-    "subtitle": "Mantengase al dia con las ultimas novedades sobre AI y transformacion digital.",
-    "viewAll": "Ver todos los articulos"
+    "title": "Últimos Artículos",
+    "subtitle": "Manténgase al día con las últimas novedades sobre AI y transformación digital.",
+    "viewAll": "Ver todos los artículos"
   }
 }

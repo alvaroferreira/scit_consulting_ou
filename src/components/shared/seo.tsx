@@ -22,6 +22,7 @@ interface SEOProps {
   description: string
   path: string
   ogImage?: string
+  ogType?: 'website' | 'article'
 }
 
 function getOrCreateMeta(attribute: string, value: string): HTMLMetaElement {
@@ -54,7 +55,7 @@ function getOrCreateLink(rel: string, hreflang?: string): HTMLLinkElement {
   return element
 }
 
-export function SEO({ title, description, path, ogImage }: SEOProps) {
+export function SEO({ title, description, path, ogImage, ogType = 'website' }: SEOProps) {
   const locale = useLocale()
 
   useEffect(() => {
@@ -100,6 +101,12 @@ export function SEO({ title, description, path, ogImage }: SEOProps) {
     const ogImg = getOrCreateMeta('property', 'og:image')
     ogImg.setAttribute('content', image)
 
+    const ogTypeEl = getOrCreateMeta('property', 'og:type')
+    ogTypeEl.setAttribute('content', ogType)
+
+    const ogSiteName = getOrCreateMeta('property', 'og:site_name')
+    ogSiteName.setAttribute('content', SITE_NAME)
+
     const ogLocale = getOrCreateMeta('property', 'og:locale')
     ogLocale.setAttribute('content', LOCALE_TO_OG[locale] || 'en_GB')
 
@@ -113,15 +120,21 @@ export function SEO({ title, description, path, ogImage }: SEOProps) {
       ogAlternateElements.push(el)
     }
 
-    // Twitter tags
-    const twTitle = getOrCreateMeta('property', 'twitter:title')
+    // Twitter tags (use name, not property, per Twitter Cards spec)
+    const twCard = getOrCreateMeta('name', 'twitter:card')
+    twCard.setAttribute('content', 'summary_large_image')
+
+    const twTitle = getOrCreateMeta('name', 'twitter:title')
     twTitle.setAttribute('content', fullTitle)
 
-    const twDesc = getOrCreateMeta('property', 'twitter:description')
+    const twDesc = getOrCreateMeta('name', 'twitter:description')
     twDesc.setAttribute('content', description)
 
-    const twUrl = getOrCreateMeta('property', 'twitter:url')
+    const twUrl = getOrCreateMeta('name', 'twitter:url')
     twUrl.setAttribute('content', canonicalUrl)
+
+    const twImage = getOrCreateMeta('name', 'twitter:image')
+    twImage.setAttribute('content', image)
 
     // Cleanup: restore defaults on unmount
     return () => {
@@ -135,11 +148,15 @@ export function SEO({ title, description, path, ogImage }: SEOProps) {
       ogDesc.setAttribute('content', DEFAULT_DESCRIPTION)
       ogUrl.setAttribute('content', SITE_URL)
       ogImg.setAttribute('content', DEFAULT_OG_IMAGE)
+      ogTypeEl.setAttribute('content', 'website')
+      ogSiteName.setAttribute('content', SITE_NAME)
       ogLocale.setAttribute('content', 'en_GB')
 
+      twCard.setAttribute('content', 'summary_large_image')
       twTitle.setAttribute('content', DEFAULT_TITLE)
       twDesc.setAttribute('content', DEFAULT_DESCRIPTION)
       twUrl.setAttribute('content', SITE_URL)
+      twImage.setAttribute('content', DEFAULT_OG_IMAGE)
 
       // Remove hreflang and og:locale:alternate elements
       hreflangLinks.forEach((el) => el.remove())

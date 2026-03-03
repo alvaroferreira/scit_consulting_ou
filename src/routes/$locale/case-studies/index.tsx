@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { CaseStudyCard } from '@/components/case-studies/case-study-card'
 import { caseStudies, industryCategories } from '@/data/case-studies'
 
 export const Route = createFileRoute('/$locale/case-studies/')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'case-studies')
+  },
   component: CaseStudiesIndex,
 })
 
@@ -57,7 +61,7 @@ function CaseStudiesIndex() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div aria-live="polite" className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filtered.map((caseStudy) => (
             <CaseStudyCard key={caseStudy.slug} caseStudy={caseStudy} />
           ))}

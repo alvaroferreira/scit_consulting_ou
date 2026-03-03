@@ -8,10 +8,3 @@ export function useLocale(): Locale {
   if (locale && isValidLocale(locale)) return locale
   return DEFAULT_LOCALE
 }
-
-export function useLocalePath(path: string): string {
-  const locale = useLocale()
-  // Strip leading slash if present
-  const cleanPath = path.startsWith('/') ? path.slice(1) : path
-  return `/${locale}/${cleanPath}`
-}

@@ -1,6 +1,5 @@
-'use client'
-
 import { useRouter } from '@tanstack/react-router'
+import { useTranslation } from 'react-i18next'
 import { IconCheck } from '@tabler/icons-react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
@@ -24,6 +23,7 @@ export function LanguageSwitcher() {
   const currentLocale = useLocale()
   const setLocale = useLocaleStore((s) => s.setLocale)
   const router = useRouter()
+  const { t } = useTranslation('common')
 
   async function handleSelect(locale: Locale) {
     if (locale === currentLocale) return
@@ -52,7 +52,7 @@ export function LanguageSwitcher() {
           variant="ghost"
           size="sm"
           className="scale-95 rounded-full gap-1.5 px-2.5 font-medium text-sm"
-          aria-label="Switch language"
+          aria-label={t('language.switchLabel')}
         >
           <span aria-hidden="true">{LOCALE_FLAGS[currentLocale]}</span>
           <span className="uppercase">{currentLocale}</span>

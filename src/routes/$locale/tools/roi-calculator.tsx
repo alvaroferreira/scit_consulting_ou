@@ -1,8 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { loadNamespace } from '@/lib/i18n'
 import { SEO } from '@/components/shared/seo'
 import { RoiCalculator } from '@/components/tools/roi-calculator'
 
 export const Route = createFileRoute('/$locale/tools/roi-calculator')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'tools')
+  },
   component: RoiCalculatorPage,
 })
 

@@ -1,12 +1,16 @@
 import { useState } from 'react'
 import { createFileRoute } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import { IconMessageCircle, IconCalendar } from '@tabler/icons-react'
 import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 import { ContactForm } from '@/components/contact/contact-form'
 
 export const Route = createFileRoute('/$locale/contact')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'contact')
+  },
   component: ContactPage,
 })
 
@@ -81,6 +85,7 @@ function ContactPage() {
                   className="w-full border-0"
                   style={{ height: '500px' }}
                   loading="lazy"
+                  sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
                 />
               ) : (
                 <div className="flex items-center justify-center py-20 text-muted-foreground">

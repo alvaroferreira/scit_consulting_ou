@@ -1,61 +1,62 @@
 {
   "page": {
     "title": "Blog & Perspectives",
-    "subtitle": "Perspectives pratiques sur l'implementation de l'IA, la strategie d'automatisation et la transformation digitale pour les dirigeants d'entreprise.",
+    "subtitle": "Perspectives pratiques sur l'implémentation de l'IA, la stratégie d'automatisation et la transformation digitale pour les dirigeants d'entreprise.",
     "filterAll": "Tous",
-    "emptyState": "Aucun article trouve pour ce tag. Essayez de selectionner un autre filtre."
+    "emptyState": "Aucun article trouvé pour ce tag. Essayez de sélectionner un autre filtre."
   },
   "template": {
+    "readTime": "{{count}} min de lecture",
     "backToBlog": "Retour au Blog",
     "by": "Par",
-    "ctaTitle": "Besoin d'Aide pour Implementer l'IA ?",
-    "ctaSubtitle": "Notre equipe peut vous aider a transformer ces perspectives en actions concretes. Echangeons sur la facon dont l'IA peut transformer vos operations.",
+    "ctaTitle": "Besoin d'Aide pour Implémenter l'IA ?",
+    "ctaSubtitle": "Notre équipe peut vous aider à transformer ces perspectives en actions concrètes. Échangeons sur la façon dont l'IA peut transformer vos opérations.",
     "ctaPrimary": "Nous Contacter",
-    "ctaSecondary": "Voir les Etudes de Cas",
-    "relatedArticles": "Articles Associes",
+    "ctaSecondary": "Voir les Études de Cas",
+    "relatedArticles": "Articles Associés",
     "notFound": "Article Introuvable",
-    "notFoundMessage": "L'article que vous recherchez n'existe pas ou a ete deplace."
+    "notFoundMessage": "L'article que vous recherchez n'existe pas ou a été déplacé."
   },
   "posts": {
     "ai-agents-transforming-business-operations-2025": {
-      "title": "Comment les Agents IA Transforment les Operations des Entreprises en 2025",
-      "excerpt": "Les agents IA depassent la simple automatisation de taches pour devenir des decideurs autonomes dans les operations d'entreprise. Voici ce que cette evolution signifie pour votre organisation."
+      "title": "Comment les Agents IA Transforment les Opérations des Entreprises en 2025",
+      "excerpt": "Les agents IA dépassent la simple automatisation de tâches pour devenir des décideurs autonomes dans les opérations d'entreprise. Voici ce que cette évolution signifie pour votre organisation."
     },
     "roi-of-ai-automation-year-one": {
-      "title": "Le ROI de l'Automatisation IA : A Quoi S'attendre la Premiere Annee",
-      "excerpt": "Comprendre le retour sur investissement realiste des projets d'automatisation IA au cours des 12 premiers mois, y compris les couts caches et les benefices inattendus."
+      "title": "Le ROI de l'Automatisation IA : À Quoi S'attendre la Première Année",
+      "excerpt": "Comprendre le retour sur investissement réaliste des projets d'automatisation IA au cours des 12 premiers mois, y compris les coûts cachés et les bénéfices inattendus."
     },
     "choosing-right-ai-strategy-business-size": {
-      "title": "Choisir la Bonne Strategie IA Selon la Taille de Votre Entreprise",
-      "excerpt": "Un cadre pratique pour selectionner les initiatives IA adaptees a la taille de votre entreprise, votre budget et votre maturite technique, de l'entrepreneur individuel a l'ETI."
+      "title": "Choisir la Bonne Stratégie IA Selon la Taille de Votre Entreprise",
+      "excerpt": "Un cadre pratique pour sélectionner les initiatives IA adaptées à la taille de votre entreprise, votre budget et votre maturité technique, de l'entrepreneur individuel à l'ETI."
     },
     "5-signs-business-ready-ai-implementation": {
-      "title": "5 Signes Que Votre Entreprise Est Prete pour l'IA",
-      "excerpt": "Toutes les entreprises ne sont pas pretes pour l'IA. Voici cinq indicateurs concrets que votre organisation dispose des fondations necessaires pour reussir avec l'IA."
+      "title": "5 Signes Que Votre Entreprise Est Prête pour l'IA",
+      "excerpt": "Toutes les entreprises ne sont pas prêtes pour l'IA. Voici cinq indicateurs concrets que votre organisation dispose des fondations nécessaires pour réussir avec l'IA."
     },
     "conversational-ai-vs-traditional-chatbots": {
-      "title": "IA Conversationnelle vs Chatbots Traditionnels : Quelle Difference ?",
-      "excerpt": "Comprendre les differences fondamentales entre les chatbots bases sur des regles et l'IA conversationnelle moderne, et pourquoi cette distinction est importante pour votre entreprise."
+      "title": "IA Conversationnelle vs Chatbots Traditionnels : Quelle Différence ?",
+      "excerpt": "Comprendre les différences fondamentales entre les chatbots basés sur des règles et l'IA conversationnelle moderne, et pourquoi cette distinction est importante pour votre entreprise."
     },
     "ai-in-healthcare-practical-applications": {
-      "title": "L'IA dans la Sante : Applications Pratiques Au-dela du Battage Mediatique",
-      "excerpt": "Au-dela des gros titres, examinons ou l'IA delivre une valeur reelle et mesurable dans les operations de sante aujourd'hui, de la planification a la documentation clinique."
+      "title": "L'IA dans la Santé : Applications Pratiques Au-delà du Battage Médiatique",
+      "excerpt": "Au-delà des gros titres, examinons où l'IA délivre une valeur réelle et mesurable dans les opérations de santé aujourd'hui, de la planification à la documentation clinique."
     },
     "building-ai-first-culture-leadership-guide": {
       "title": "Construire une Culture IA-First : Guide pour les Dirigeants",
-      "excerpt": "Creer une culture organisationnelle qui embrasse l'IA necessite des actions deliberees de la part du leadership. Voici un guide pratique pour faire de l'adoption de l'IA une norme culturelle."
+      "excerpt": "Créer une culture organisationnelle qui embrasse l'IA nécessite des actions délibérées de la part du leadership. Voici un guide pratique pour faire de l'adoption de l'IA une norme culturelle."
     },
     "hidden-costs-not-automating-b2b": {
-      "title": "Les Couts Caches de la Non-Automatisation : Perspective B2B",
-      "excerpt": "Alors que les entreprises calculent soigneusement le cout de l'automatisation, elles mesurent rarement le cout continu des processus manuels. Voici ce que l'inaction vous coute reellement."
+      "title": "Les Coûts Cachés de la Non-Automatisation : Perspective B2B",
+      "excerpt": "Alors que les entreprises calculent soigneusement le coût de l'automatisation, elles mesurent rarement le coût continu des processus manuels. Voici ce que l'inaction vous coûte réellement."
     },
     "data-privacy-ai-european-businesses": {
-      "title": "Protection des Donnees et IA : Ce Que les Entreprises Europeennes Doivent Savoir",
-      "excerpt": "Naviguer a l'intersection de l'implementation IA et des reglementations europeennes de protection des donnees, avec des conseils pratiques pour un deploiement IA conforme au RGPD."
+      "title": "Protection des Données et IA : Ce Que les Entreprises Européennes Doivent Savoir",
+      "excerpt": "Naviguer à l'intersection de l'implémentation IA et des réglementations européennes de protection des données, avec des conseils pratiques pour un déploiement IA conforme au RGPD."
     },
     "pilot-to-production-scaling-ai-projects": {
-      "title": "Du Pilote a la Production : Reussir le Passage a l'Echelle des Projets IA",
-      "excerpt": "La plupart des pilotes IA n'atteignent jamais la production. Voici un cadre pratique pour combler le fosse entre une preuve de concept reussie et un systeme IA pleinement operationnel."
+      "title": "Du Pilote à la Production : Réussir le Passage à l'Échelle des Projets IA",
+      "excerpt": "La plupart des pilotes IA n'atteignent jamais la production. Voici un cadre pratique pour combler le fossé entre une preuve de concept réussie et un système IA pleinement opérationnel."
     }
   }
 }

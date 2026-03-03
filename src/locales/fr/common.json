@@ -1,18 +1,18 @@
 {
   "nav": {
     "services": "Services",
-    "caseStudies": "Etudes de Cas",
+    "caseStudies": "Études de Cas",
     "resources": "Ressources",
-    "about": "A Propos",
+    "about": "À Propos",
     "contact": "Contact",
     "blog": "Blog & Perspectives",
     "roiCalculator": "Calculateur ROI de l'IA",
-    "aiReadiness": "Evaluation de Maturite IA",
+    "aiReadiness": "Évaluation de Maturité IA",
     "aiAutomation": "Automatisation & Processus IA",
     "aiAgents": "Agents IA Sur Mesure",
     "chatbots": "Chatbots & IA Conversationnelle",
-    "aiTools": "Deploiement d'Outils IA",
-    "aiConsulting": "Strategie & Conseil en IA",
+    "aiTools": "Déploiement d'Outils IA",
+    "aiConsulting": "Stratégie & Conseil en IA",
     "digitalTransformation": "Transformation Digitale"
   },
   "header": {
@@ -22,43 +22,52 @@
     "mobileNavigation": "Navigation mobile"
   },
   "footer": {
-    "description": "Cabinet de conseil en transformation digitale, IA-first. Nous implementons des outils IA, automatisons vos processus et developpons des agents intelligents.",
+    "description": "Cabinet de conseil en transformation digitale, IA-first. Nous implémentons des outils IA, automatisons vos processus et développons des agents intelligents.",
     "company": "SCIT Consulting",
     "servicesTitle": "Services",
     "companyTitle": "Entreprise",
-    "legalTitle": "Mentions legales",
-    "copyright": "SCIT Consulting. Tous droits reserves.",
-    "tagline": "Concu avec l'IA, pour les entreprises qui adoptent l'IA.",
+    "legalTitle": "Mentions légales",
+    "copyright": "SCIT Consulting. Tous droits réservés.",
+    "tagline": "Conçu avec l'IA, pour les entreprises qui adoptent l'IA.",
     "aiAutomation": "Automatisation IA",
     "aiAgents": "Agents IA",
     "chatbots": "Chatbots",
     "aiTools": "Outils IA",
     "aiConsulting": "Conseil en IA",
     "digitalTransformation": "Transformation Digitale",
-    "about": "A Propos",
+    "about": "À Propos",
     "approach": "Approche",
     "blog": "Blog",
     "resources": "Ressources",
     "contact": "Contact",
-    "privacyPolicy": "Politique de Confidentialite",
-    "termsOfService": "Conditions Generales"
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions Générales"
+  },
+  "theme": {
+    "toggle": "Changer le thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  },
+  "language": {
+    "switchLabel": "Changer de langue"
   },
   "notFound": {
     "title": "404",
     "message": "Page introuvable",
-    "backHome": "Retour a l'accueil"
+    "backHome": "Retour à l'accueil"
   },
   "cta": {
     "getInTouch": "Nous Contacter",
     "bookConsultation": "Prendre Rendez-vous",
     "bookFreeConsultation": "Consultation Gratuite",
-    "getStarted": "Demarrer",
+    "getStarted": "Démarrer",
     "learnMore": "En savoir plus",
     "explore": "Explorer",
     "viewAllArticles": "Voir tous les articles",
-    "viewCaseStudies": "Voir les Etudes de Cas",
+    "viewCaseStudies": "Voir les Études de Cas",
     "readArticle": "Lire l'Article",
-    "readCaseStudy": "Lire l'Etude de Cas",
-    "viewCaseStudiesInline": "Voir les etudes de cas"
+    "readCaseStudy": "Lire l'Étude de Cas",
+    "viewCaseStudiesInline": "Voir les études de cas"
   }
 }

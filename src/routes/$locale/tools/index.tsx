@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import {
   IconArrowRight,
   IconCalculator,
@@ -11,6 +12,12 @@ import { SectionHeading } from '@/components/shared/section-heading'
 import { useLocale } from '@/hooks/use-locale'
 
 export const Route = createFileRoute('/$locale/tools/')({
+  beforeLoad: async ({ params }) => {
+    await Promise.all([
+      loadNamespace(params.locale, 'tools'),
+      loadNamespace(params.locale, 'resources'),
+    ])
+  },
   component: ToolsPage,
 })
 

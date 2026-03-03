@@ -7,7 +7,7 @@ import {
   IconTransform,
 } from '@tabler/icons-react'
 
-export interface ServiceFAQ {
+interface ServiceFAQ {
   question: string
   answer: string
 }
@@ -443,7 +443,7 @@ export const services: Service[] = [
   },
 ]
 
-export interface Pillar {
+interface Pillar {
   id: string
   title: string
   subtitle: string

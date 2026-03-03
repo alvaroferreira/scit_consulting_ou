@@ -5,7 +5,7 @@ import {
   IconTrendingUp,
 } from '@tabler/icons-react'
 
-export interface ProcessStep {
+interface ProcessStep {
   number: number
   title: string
   description: string

@@ -1,258 +1,258 @@
 {
   "page": {
     "title": "Nuestros Servicios",
-    "subtitle": "Soluciones integrales de AI en tres pilares: implementacion, consultoria y transformacion.",
-    "pillarsTitle": "Tres Pilares de la Transformacion con AI",
-    "pillarsSubtitle": "Cada compromiso comienza por entender donde se encuentra y hacia donde quiere ir.",
+    "subtitle": "Soluciones integrales de AI en tres pilares: implementación, consultoría y transformación.",
+    "pillarsTitle": "Tres Pilares de la Transformación con AI",
+    "pillarsSubtitle": "Cada compromiso comienza por entender dónde se encuentra y hacia dónde quiere ir.",
     "allServicesTitle": "Todos los Servicios",
     "allServicesSubtitle": "Explore nuestra gama completa de soluciones de AI.",
-    "ctaTitle": "¿No Sabe Por Donde Empezar?",
+    "ctaTitle": "¿No Sabe Por Dónde Empezar?",
     "ctaSubtitle": "Agende una consulta gratuita y le ayudaremos a identificar las mejores oportunidades de AI para su negocio."
   },
   "template": {
-    "theChallenge": "El Desafio",
-    "ourSolution": "Nuestra Solucion",
-    "whatsIncluded": "Que Incluye",
+    "theChallenge": "El Desafío",
+    "ourSolution": "Nuestra Solución",
+    "whatsIncluded": "Qué Incluye",
     "whatsIncludedSubtitle": "Soluciones integrales diseñadas para entregar resultados medibles.",
     "realResults": "Resultados Reales",
-    "realResultsSubtitle": "Vea como generamos impacto medible en un proyecto similar.",
+    "realResultsSubtitle": "Vea cómo generamos impacto medible en un proyecto similar.",
     "readFullCaseStudy": "Leer el Caso de Estudio Completo",
     "businessBenefits": "Beneficios para el Negocio",
     "faq": "Preguntas Frecuentes",
     "relatedServices": "Servicios Relacionados",
     "ctaTitle": "¿Listo para Comenzar?",
-    "ctaSubtitle": "Hablemos sobre como podemos ayudar a su empresa a aprovechar la AI para obtener resultados reales.",
+    "ctaSubtitle": "Hablemos sobre cómo podemos ayudar a su empresa a aprovechar la AI para obtener resultados reales.",
     "getStarted": "Comenzar",
     "bookConsultation": "Agendar Consulta",
-    "learnMore": "Saber mas"
+    "learnMore": "Saber más"
   },
   "services": {
     "ai-automation": {
-      "title": "Automatizacion con AI y Procesos",
-      "shortTitle": "Automatizacion con AI",
+      "title": "Automatización con AI y Procesos",
+      "shortTitle": "Automatización con AI",
       "description": "Flujos de trabajo automatizados, procesamiento de documentos y RPA potenciado con AI para eliminar tareas repetitivas y aumentar la eficiencia.",
-      "longDescription": "Diseñamos e implementamos soluciones de automatizacion inteligente que combinan RPA tradicional con capacidades de AI de vanguardia. Desde el procesamiento de documentos y la extraccion de datos hasta flujos de trabajo complejos de multiples pasos, ayudamos a su equipo a enfocarse en trabajo de alto valor mientras la AI se encarga de lo rutinario.",
+      "longDescription": "Diseñamos e implementamos soluciones de automatización inteligente que combinan RPA tradicional con capacidades de AI de vanguardia. Desde el procesamiento de documentos y la extracción de datos hasta flujos de trabajo complejos de múltiples pasos, ayudamos a su equipo a enfocarse en trabajo de alto valor mientras la AI se encarga de lo rutinario.",
       "heroHeadline": "Su Equipo Se Ahoga en Tareas Repetitivas. La AI Puede Solucionarlo.",
-      "problemDescription": "Cada dia, sus empleados dedican horas a la entrada manual de datos, procesamiento de documentos y flujos de trabajo rutinarios que agotan su energia y frenan su crecimiento. Estas tareas repetitivas crean cuellos de botella, introducen errores humanos y alejan a sus mejores profesionales del trabajo estrategico que realmente impulsa el negocio.",
-      "solutionDescription": "Diseñamos sistemas de automatizacion inteligente que combinan AI con sus herramientas existentes para eliminar el trabajo tedioso a escala. Desde el procesamiento de documentos que lee y extrae datos automaticamente hasta flujos de trabajo de multiples pasos que se ejecutan sin intervencion humana, liberamos a su equipo para que se enfoque en trabajo de alto valor mientras la AI se encarga del resto.",
+      "problemDescription": "Cada día, sus empleados dedican horas a la entrada manual de datos, procesamiento de documentos y flujos de trabajo rutinarios que agotan su energía y frenan su crecimiento. Estas tareas repetitivas crean cuellos de botella, introducen errores humanos y alejan a sus mejores profesionales del trabajo estratégico que realmente impulsa el negocio.",
+      "solutionDescription": "Diseñamos sistemas de automatización inteligente que combinan AI con sus herramientas existentes para eliminar el trabajo tedioso a escala. Desde el procesamiento de documentos que lee y extrae datos automáticamente hasta flujos de trabajo de múltiples pasos que se ejecutan sin intervención humana, liberamos a su equipo para que se enfoque en trabajo de alto valor mientras la AI se encarga del resto.",
       "features": [
         "Procesamiento inteligente de documentos y OCR",
-        "Automatizacion de flujos de trabajo con toma de decisiones por AI",
-        "Pipelines de extraccion y transformacion de datos",
-        "Automatizacion de correos electronicos y comunicaciones",
-        "Integracion con sistemas empresariales existentes",
+        "Automatización de flujos de trabajo con toma de decisiones por AI",
+        "Pipelines de extracción y transformación de datos",
+        "Automatización de correos electrónicos y comunicaciones",
+        "Integración con sistemas empresariales existentes",
         "Monitoreo y alertas en tiempo real"
       ],
       "benefits": [
         "Reduzca el tiempo de procesamiento manual hasta un 80%",
         "Elimine errores humanos en tareas repetitivas",
         "Escale operaciones sin aumentar la plantilla proporcionalmente",
-        "Libere a su equipo para trabajo estrategico y creativo"
+        "Libere a su equipo para trabajo estratégico y creativo"
       ],
       "useCases": [
-        "Procesamiento de facturas y automatizacion de documentos financieros",
-        "Cualificacion de leads y enriquecimiento de datos en CRM",
-        "Generacion de informes y agregacion de datos",
-        "Automatizacion del flujo de incorporacion de clientes"
+        "Procesamiento de facturas y automatización de documentos financieros",
+        "Cualificación de leads y enriquecimiento de datos en CRM",
+        "Generación de informes y agregación de datos",
+        "Automatización del flujo de incorporación de clientes"
       ],
       "faqs": [
         {
-          "question": "¿Cuanto tiempo lleva implementar la automatizacion con AI?",
-          "answer": "La mayoria de los proyectos de automatizacion toman de 4 a 8 semanas desde el descubrimiento hasta el despliegue. Comenzamos con sus procesos de mayor impacto, entregamos una solucion funcional en el primer sprint e iteramos desde ahi. Vera resultados medibles dentro del primer mes."
+          "question": "¿Cuánto tiempo lleva implementar la automatización con AI?",
+          "answer": "La mayoría de los proyectos de automatización toman de 4 a 8 semanas desde el descubrimiento hasta el despliegue. Comenzamos con sus procesos de mayor impacto, entregamos una solución funcional en el primer sprint e iteramos desde ahí. Verá resultados medibles dentro del primer mes."
         },
         {
-          "question": "¿La automatizacion con AI reemplazara a nuestros empleados?",
-          "answer": "No. Nuestro objetivo es potenciar a su equipo, no reemplazarlo. La automatizacion se encarga de las tareas tediosas y repetitivas para que sus empleados puedan enfocarse en la resolucion creativa de problemas, la construccion de relaciones y la toma de decisiones estrategicas, el trabajo para el que realmente fueron contratados."
+          "question": "¿La automatización con AI reemplazará a nuestros empleados?",
+          "answer": "No. Nuestro objetivo es potenciar a su equipo, no reemplazarlo. La automatización se encarga de las tareas tediosas y repetitivas para que sus empleados puedan enfocarse en la resolución creativa de problemas, la construcción de relaciones y la toma de decisiones estratégicas, el trabajo para el que realmente fueron contratados."
         },
         {
-          "question": "¿La automatizacion con AI se puede integrar con nuestro software existente?",
-          "answer": "Si. Construimos integraciones con practicamente cualquier sistema, incluyendo CRMs, ERPs, software contable, plataformas de correo electronico y herramientas heredadas. Si tiene una API o acepta archivos de entrada, podemos conectarlo."
+          "question": "¿La automatización con AI se puede integrar con nuestro software existente?",
+          "answer": "Sí. Construimos integraciones con prácticamente cualquier sistema, incluyendo CRMs, ERPs, software contable, plataformas de correo electrónico y herramientas heredadas. Si tiene una API o acepta archivos de entrada, podemos conectarlo."
         },
         {
-          "question": "¿Que tipo de ROI podemos esperar?",
-          "answer": "La mayoria de los clientes obtienen un retorno de inversion de 3 a 5 veces en el primer año. El periodo tipico de recuperacion de la inversion es de 3 a 6 meses, impulsado por la reduccion del tiempo de procesamiento, menos errores y la capacidad de escalar sin agregar personal."
+          "question": "¿Qué tipo de ROI podemos esperar?",
+          "answer": "La mayoría de los clientes obtienen un retorno de inversión de 3 a 5 veces en el primer año. El período típico de recuperación de la inversión es de 3 a 6 meses, impulsado por la reducción del tiempo de procesamiento, menos errores y la capacidad de escalar sin agregar personal."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-agents": "Para tareas demasiado complejas para la automatizacion simple, nuestros Agentes de AI Personalizados añaden razonamiento y juicio para gestionar procesos de multiples pasos de forma autonoma.",
+        "ai-agents": "Para tareas demasiado complejas para la automatización simple, nuestros Agentes de AI Personalizados añaden razonamiento y juicio para gestionar procesos de múltiples pasos de forma autónoma.",
         "chatbots": "Combine sus flujos de trabajo automatizados con AI Conversacional para ofrecer a clientes y empleados una interfaz natural para activar procesos y consultar el estado.",
-        "ai-tools": "Maximice el ROI de su automatizacion equipando a su equipo con las herramientas de AI adecuadas para las tareas que aun requieren intervencion humana."
+        "ai-tools": "Maximice el ROI de su automatización equipando a su equipo con las herramientas de AI adecuadas para las tareas que aún requieren intervención humana."
       }
     },
     "ai-agents": {
       "title": "Agentes de AI Personalizados",
       "shortTitle": "Agentes de AI",
-      "description": "Agentes de AI autonomos para tareas complejas como prospeccion de ventas, atencion al cliente, analisis de datos e inteligencia de negocio.",
-      "longDescription": "Construimos agentes de AI personalizados que operan de forma autonoma para gestionar tareas empresariales complejas. Estos sistemas inteligentes pueden prospectar leads, analizar patrones de datos, atender clientes y tomar decisiones basadas en las reglas de su negocio, trabajando 24/7 sin fatiga.",
+      "description": "Agentes de AI autónomos para tareas complejas como prospección de ventas, atención al cliente, análisis de datos e inteligencia de negocio.",
+      "longDescription": "Construimos agentes de AI personalizados que operan de forma autónoma para gestionar tareas empresariales complejas. Estos sistemas inteligentes pueden prospectar leads, analizar patrones de datos, atender clientes y tomar decisiones basadas en las reglas de su negocio, trabajando 24/7 sin fatiga.",
       "heroHeadline": "Las Tareas Complejas Consumen a Su Equipo. Deje Que los Agentes de AI Hagan el Trabajo Pesado.",
-      "problemDescription": "Sus profesionales mas cualificados estan enterrados en tareas que requieren juicio pero siguen patrones predecibles, desde cualificar leads y redactar propuestas hasta analizar informes y clasificar tickets de soporte. Estas actividades intensivas en conocimiento son demasiado complejas para la automatizacion simple, pero demasiado repetitivas para justificar talento senior.",
-      "solutionDescription": "Construimos agentes de AI personalizados que razonan, deciden y actuan en su nombre. A diferencia de la automatizacion basica, estos agentes gestionan procesos de multiples pasos que requieren contexto, juicio y adaptabilidad. Se integran con sus herramientas existentes, siguen las reglas de su negocio y escalan a humanos solo cuando es realmente necesario.",
+      "problemDescription": "Sus profesionales más cualificados están enterrados en tareas que requieren juicio pero siguen patrones predecibles, desde cualificar leads y redactar propuestas hasta analizar informes y clasificar tickets de soporte. Estas actividades intensivas en conocimiento son demasiado complejas para la automatización simple, pero demasiado repetitivas para justificar talento senior.",
+      "solutionDescription": "Construimos agentes de AI personalizados que razonan, deciden y actúan en su nombre. A diferencia de la automatización básica, estos agentes gestionan procesos de múltiples pasos que requieren contexto, juicio y adaptabilidad. Se integran con sus herramientas existentes, siguen las reglas de su negocio y escalan a humanos solo cuando es realmente necesario.",
       "features": [
-        "Razonamiento de multiples pasos y ejecucion de tareas",
-        "Integracion con APIs y herramientas empresariales",
-        "Comprension y generacion de lenguaje natural",
-        "Gestion de memoria y contexto",
-        "Flujos de aprobacion con intervencion humana",
-        "Monitoreo de rendimiento y optimizacion"
+        "Razonamiento de múltiples pasos y ejecución de tareas",
+        "Integración con APIs y herramientas empresariales",
+        "Comprensión y generación de lenguaje natural",
+        "Gestión de memoria y contexto",
+        "Flujos de aprobación con intervención humana",
+        "Monitoreo de rendimiento y optimización"
       ],
       "benefits": [
         "Gestione tareas complejas que requieren juicio",
-        "Operacion 24/7 sin supervision",
+        "Operación 24/7 sin supervisión",
         "Calidad y cumplimiento consistentes",
-        "Escalado rapido de trabajo intensivo en conocimiento"
+        "Escalado rápido de trabajo intensivo en conocimiento"
       ],
       "useCases": [
-        "Prospeccion y alcance de ventas B2B",
-        "Analisis e investigacion de documentos legales",
+        "Prospección y alcance de ventas B2B",
+        "Análisis e investigación de documentos legales",
         "Monitoreo de datos financieros y alertas",
-        "Clasificacion y resolucion de soporte tecnico"
+        "Clasificación y resolución de soporte técnico"
       ],
       "faqs": [
         {
-          "question": "¿Cual es la diferencia entre agentes de AI y automatizacion simple?",
-          "answer": "La automatizacion simple sigue reglas rigidas y predefinidas. Los agentes de AI pueden razonar sobre situaciones, adaptarse a nueva informacion, tomar decisiones basadas en contexto y gestionar tareas de multiples pasos que requieren juicio. Piense en la automatizacion como una cinta transportadora y en un agente de AI como un asistente cualificado."
+          "question": "¿Cuál es la diferencia entre agentes de AI y automatización simple?",
+          "answer": "La automatización simple sigue reglas rígidas y predefinidas. Los agentes de AI pueden razonar sobre situaciones, adaptarse a nueva información, tomar decisiones basadas en contexto y gestionar tareas de múltiples pasos que requieren juicio. Piense en la automatización como una cinta transportadora y en un agente de AI como un asistente cualificado."
         },
         {
-          "question": "¿Como gestionan los agentes de AI los casos excepcionales o situaciones inusuales?",
-          "answer": "Construimos flujos de trabajo con intervencion humana para que los agentes puedan escalar decisiones en las que no tienen suficiente confianza. Con el tiempo, los agentes aprenden de estas escalaciones y gestionan mas situaciones de forma independiente, pero usted siempre mantiene la supervision y el control."
+          "question": "¿Cómo gestionan los agentes de AI los casos excepcionales o situaciones inusuales?",
+          "answer": "Construimos flujos de trabajo con intervención humana para que los agentes puedan escalar decisiones en las que no tienen suficiente confianza. Con el tiempo, los agentes aprenden de estas escalaciones y gestionan más situaciones de forma independiente, pero usted siempre mantiene la supervisión y el control."
         },
         {
           "question": "¿Son los agentes de AI lo suficientemente seguros para datos empresariales sensibles?",
-          "answer": "Absolutamente. Implementamos seguridad de nivel empresarial que incluye encriptacion de datos, controles de acceso, registro de auditorias y cumplimiento con el GDPR y otras regulaciones. Sus datos nunca abandonan su infraestructura aprobada."
+          "answer": "Absolutamente. Implementamos seguridad de nivel empresarial que incluye encriptación de datos, controles de acceso, registro de auditorías y cumplimiento con el GDPR y otras regulaciones. Sus datos nunca abandonan su infraestructura aprobada."
         },
         {
-          "question": "¿Podemos personalizar el comportamiento del agente segun nuestros procesos?",
-          "answer": "Si, ese es precisamente el objetivo. Cada agente se construye alrededor de sus flujos de trabajo especificos, reglas de negocio y estandares de calidad. Trabajamos estrechamente con su equipo para incorporar su experiencia en el dominio dentro de la logica del agente."
+          "question": "¿Podemos personalizar el comportamiento del agente según nuestros procesos?",
+          "answer": "Sí, ese es precisamente el objetivo. Cada agente se construye alrededor de sus flujos de trabajo específicos, reglas de negocio y estándares de calidad. Trabajamos estrechamente con su equipo para incorporar su experiencia en el dominio dentro de la lógica del agente."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-automation": "Para tareas mas simples y basadas en reglas que alimentan los flujos de trabajo de sus agentes, nuestras soluciones de Automatizacion con AI se encargan del trabajo estructurado.",
+        "ai-automation": "Para tareas más simples y basadas en reglas que alimentan los flujos de trabajo de sus agentes, nuestras soluciones de Automatización con AI se encargan del trabajo estructurado.",
         "chatbots": "Dote a sus agentes de AI de una interfaz conversacional con nuestras soluciones de Chatbots, para que clientes y miembros del equipo puedan interactuar con los agentes de forma natural.",
-        "ai-consulting": "¿No sabe donde los agentes generaran mas valor? Nuestra consultoria de Estrategia de AI identifica primero las oportunidades de mayor impacto."
+        "ai-consulting": "¿No sabe dónde los agentes generarán más valor? Nuestra consultoría de Estrategia de AI identifica primero las oportunidades de mayor impacto."
       }
     },
     "chatbots": {
       "title": "Chatbots e AI Conversacional",
       "shortTitle": "Chatbots",
-      "description": "Interfaces conversacionales inteligentes para atencion al cliente, mesas de ayuda internas y experiencias interactivas de producto.",
-      "longDescription": "Creamos sistemas de AI conversacional sofisticados que van mas alla de los bots de FAQ simples. Nuestros chatbots entienden el contexto, gestionan consultas complejas y proporcionan respuestas personalizadas, ya sea atendiendo a sus clientes o empoderando a sus equipos internos.",
-      "heroHeadline": "Sus Clientes Esperan Respuestas Instantaneas. Su Equipo No Da Abasto.",
-      "problemDescription": "Los clientes envian mensajes a todas horas, por multiples canales, esperando respuestas inmediatas. Su equipo de soporte esta abrumado con preguntas repetitivas, lo que genera tiempos de respuesta lentos, respuestas inconsistentes y personal agotado. Cada mensaje sin responder es un cliente potencialmente perdido.",
-      "solutionDescription": "Construimos chatbots inteligentes que entienden el contexto, hablan con la voz de su marca y resuelven la mayoria de las consultas sin intervencion humana. Desplegados en web, WhatsApp, Slack y mas, brindan soporte instantaneo y preciso 24/7 mientras escalan los asuntos complejos a su equipo de forma fluida.",
+      "description": "Interfaces conversacionales inteligentes para atención al cliente, mesas de ayuda internas y experiencias interactivas de producto.",
+      "longDescription": "Creamos sistemas de AI conversacional sofisticados que van más allá de los bots de FAQ simples. Nuestros chatbots entienden el contexto, gestionan consultas complejas y proporcionan respuestas personalizadas, ya sea atendiendo a sus clientes o empoderando a sus equipos internos.",
+      "heroHeadline": "Sus Clientes Esperan Respuestas Instantáneas. Su Equipo No Da Abasto.",
+      "problemDescription": "Los clientes envían mensajes a todas horas, por múltiples canales, esperando respuestas inmediatas. Su equipo de soporte está abrumado con preguntas repetitivas, lo que genera tiempos de respuesta lentos, respuestas inconsistentes y personal agotado. Cada mensaje sin responder es un cliente potencialmente perdido.",
+      "solutionDescription": "Construimos chatbots inteligentes que entienden el contexto, hablan con la voz de su marca y resuelven la mayoría de las consultas sin intervención humana. Desplegados en web, WhatsApp, Slack y más, brindan soporte instantáneo y preciso 24/7 mientras escalan los asuntos complejos a su equipo de forma fluida.",
       "features": [
         "Despliegue multicanal (web, WhatsApp, Slack)",
-        "Integracion con base de conocimientos y RAG",
-        "Soporte multilingue",
+        "Integración con base de conocimientos y RAG",
+        "Soporte multilingüe",
         "Transferencia fluida a agentes humanos",
-        "Analiticas e insights de conversacion",
+        "Analíticas e insights de conversación",
         "Personalidad y voz de marca personalizadas"
       ],
       "benefits": [
-        "Atencion al cliente instantanea 24/7",
+        "Atención al cliente instantánea 24/7",
         "Reduzca el volumen de tickets de soporte entre un 40-60%",
         "Experiencia de marca consistente en todos los canales",
-        "Insights valiosos de los datos de conversacion"
+        "Insights valiosos de los datos de conversación"
       ],
       "useCases": [
-        "Atencion al cliente y automatizacion de FAQ",
+        "Atención al cliente y automatización de FAQ",
         "Asistente interno de base de conocimientos",
-        "Motor de recomendacion de productos",
-        "Programacion de citas y reservas"
+        "Motor de recomendación de productos",
+        "Programación de citas y reservas"
       ],
       "faqs": [
         {
-          "question": "¿Que tan precisos son los chatbots de AI comparados con agentes humanos?",
-          "answer": "Nuestros chatbots alcanzan una precision del 85-95% en temas entrenados mediante generacion aumentada por recuperacion (RAG) basada en su base de conocimientos real. Solo responden con informacion verificada, reduciendo los riesgos de alucinacion. Para cualquier consulta fuera de su umbral de confianza, la redirigen a un agente humano."
+          "question": "¿Qué tan precisos son los chatbots de AI comparados con agentes humanos?",
+          "answer": "Nuestros chatbots alcanzan una precisión del 85-95% en temas entrenados mediante generación aumentada por recuperación (RAG) basada en su base de conocimientos real. Solo responden con información verificada, reduciendo los riesgos de alucinación. Para cualquier consulta fuera de su umbral de confianza, la redirigen a un agente humano."
         },
         {
-          "question": "¿El chatbot puede gestionar multiples idiomas?",
-          "answer": "Si. Nuestros chatbots soportan mas de 50 idiomas de forma nativa y pueden ajustarse para dialectos especificos o terminologia de la industria. Esto es especialmente valioso para empresas europeas que atienden clientes en multiples mercados."
+          "question": "¿El chatbot puede gestionar múltiples idiomas?",
+          "answer": "Sí. Nuestros chatbots soportan más de 50 idiomas de forma nativa y pueden ajustarse para dialectos específicos o terminología de la industria. Esto es especialmente valioso para empresas europeas que atienden clientes en múltiples mercados."
         },
         {
-          "question": "¿Que sucede cuando el chatbot no puede responder una pregunta?",
-          "answer": "Implementamos flujos de transferencia inteligentes. Cuando el chatbot detecta una consulta que no puede manejar con confianza, transfiere la conversacion de forma fluida a un agente humano, junto con el contexto completo, para que el cliente nunca tenga que repetir su consulta."
+          "question": "¿Qué sucede cuando el chatbot no puede responder una pregunta?",
+          "answer": "Implementamos flujos de transferencia inteligentes. Cuando el chatbot detecta una consulta que no puede manejar con confianza, transfiere la conversación de forma fluida a un agente humano, junto con el contexto completo, para que el cliente nunca tenga que repetir su consulta."
         },
         {
-          "question": "¿Como entrenan el chatbot con nuestro conocimiento empresarial especifico?",
-          "answer": "Integramos su documentacion existente, FAQs, informacion de productos y bases de conocimiento internas utilizando tecnologia RAG. El chatbot recupera la informacion mas relevante en tiempo real. Las actualizaciones de su base de conocimientos se reflejan inmediatamente, sin necesidad de re-entrenamiento."
+          "question": "¿Cómo entrenan el chatbot con nuestro conocimiento empresarial específico?",
+          "answer": "Integramos su documentación existente, FAQs, información de productos y bases de conocimiento internas utilizando tecnología RAG. El chatbot recupera la información más relevante en tiempo real. Las actualizaciones de su base de conocimientos se reflejan inmediatamente, sin necesidad de re-entrenamiento."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-agents": "Cuando las conversaciones requieren acciones complejas mas alla de responder preguntas, nuestros Agentes de AI pueden ejecutar tareas de multiples pasos activadas directamente desde las interacciones del chatbot.",
-        "ai-automation": "Conecte su chatbot a la automatizacion del backend para que las conversaciones generen acciones reales, como agendar citas, actualizar registros o procesar solicitudes.",
-        "ai-tools": "Complemente su chatbot con herramientas de AI empresariales que empoderan a su equipo interno para gestionar las consultas complejas que aun necesitan un toque humano."
+        "ai-agents": "Cuando las conversaciones requieren acciones complejas más allá de responder preguntas, nuestros Agentes de AI pueden ejecutar tareas de múltiples pasos activadas directamente desde las interacciones del chatbot.",
+        "ai-automation": "Conecte su chatbot a la automatización del backend para que las conversaciones generen acciones reales, como agendar citas, actualizar registros o procesar solicitudes.",
+        "ai-tools": "Complemente su chatbot con herramientas de AI empresariales que empoderan a su equipo interno para gestionar las consultas complejas que aún necesitan un toque humano."
       }
     },
     "ai-tools": {
-      "title": "Implementacion de Herramientas de AI",
+      "title": "Implementación de Herramientas de AI",
       "shortTitle": "Herramientas de AI",
-      "description": "Seleccion e implementacion de herramientas de AI empresariales como ChatGPT Enterprise, Claude, GitHub Copilot y soluciones personalizadas.",
-      "longDescription": "Navegar el panorama de herramientas de AI en rapida evolucion puede ser abrumador. Le ayudamos a seleccionar, implementar y optimizar las herramientas de AI adecuadas para sus necesidades especificas, desde plataformas empresariales como ChatGPT y Claude hasta herramientas especializadas para programacion, diseño y creacion de contenido.",
+      "description": "Selección e implementación de herramientas de AI empresariales como ChatGPT Enterprise, Claude, GitHub Copilot y soluciones personalizadas.",
+      "longDescription": "Navegar el panorama de herramientas de AI en rápida evolución puede ser abrumador. Le ayudamos a seleccionar, implementar y optimizar las herramientas de AI adecuadas para sus necesidades específicas, desde plataformas empresariales como ChatGPT y Claude hasta herramientas especializadas para programación, diseño y creación de contenido.",
       "heroHeadline": "¿Abrumado por las Herramientas de AI? Deje de Adivinar y Comience a Obtener Resultados.",
-      "problemDescription": "Cada semana se lanzan nuevas herramientas de AI, cada una prometiendo transformar su negocio. Su equipo experimenta con versiones gratuitas, los datos se filtran hacia plataformas no verificadas y nadie sabe que herramientas realmente generan ROI. Sin una estrategia clara, esta desperdiciando presupuesto en software sin usar y exponiendo su empresa a riesgos de seguridad.",
-      "solutionDescription": "Cortamos el ruido y le ayudamos a seleccionar, desplegar y adoptar las herramientas de AI que realmente importan para su negocio. Desde la configuracion de seguridad empresarial hasta bibliotecas de prompts personalizadas y capacitacion de equipos, nos aseguramos de que su inversion en herramientas de AI se traduzca en ganancias de productividad medibles, no en otra suscripcion sin usar.",
+      "problemDescription": "Cada semana se lanzan nuevas herramientas de AI, cada una prometiendo transformar su negocio. Su equipo experimenta con versiones gratuitas, los datos se filtran hacia plataformas no verificadas y nadie sabe qué herramientas realmente generan ROI. Sin una estrategia clara, está desperdiciando presupuesto en software sin usar y exponiendo su empresa a riesgos de seguridad.",
+      "solutionDescription": "Cortamos el ruido y le ayudamos a seleccionar, desplegar y adoptar las herramientas de AI que realmente importan para su negocio. Desde la configuración de seguridad empresarial hasta bibliotecas de prompts personalizadas y capacitación de equipos, nos aseguramos de que su inversión en herramientas de AI se traduzca en ganancias de productividad medibles, no en otra suscripción sin usar.",
       "features": [
-        "Evaluacion del panorama de herramientas de AI",
-        "Despliegue y configuracion empresarial",
-        "Configuracion de seguridad y cumplimiento",
+        "Evaluación del panorama de herramientas de AI",
+        "Despliegue y configuración empresarial",
+        "Configuración de seguridad y cumplimiento",
         "Bibliotecas de prompts y plantillas personalizadas",
-        "Programas de capacitacion y adopcion de equipos",
+        "Programas de capacitación y adopción de equipos",
         "Monitoreo de uso y seguimiento de ROI"
       ],
       "benefits": [
-        "Tome decisiones informadas en la seleccion de herramientas",
+        "Tome decisiones informadas en la selección de herramientas",
         "Maximice el ROI de sus inversiones en AI",
         "Garantice la seguridad y el cumplimiento normativo",
-        "Acelere la adopcion y productividad del equipo"
+        "Acelere la adopción y productividad del equipo"
       ],
       "useCases": [
         "Despliegue de ChatGPT Enterprise o Claude",
         "GitHub Copilot para equipos de desarrollo",
-        "Flujos de trabajo de creacion de contenido con AI",
-        "Comparacion y optimizacion multi-modelo"
+        "Flujos de trabajo de creación de contenido con AI",
+        "Comparación y optimización multi-modelo"
       ],
       "faqs": [
         {
-          "question": "¿Que herramientas de AI recomiendan para la mayoria de las empresas?",
-          "answer": "No existe una respuesta unica para todos. Evaluamos sus flujos de trabajo especificos, capacidades del equipo, requisitos de seguridad y presupuesto antes de recomendar herramientas. Dicho esto, frecuentemente ayudamos a empresas a implementar plataformas como ChatGPT Enterprise, Claude for Teams, GitHub Copilot y herramientas especializadas para contenido, diseño y analisis de datos."
+          "question": "¿Qué herramientas de AI recomiendan para la mayoría de las empresas?",
+          "answer": "No existe una respuesta única para todos. Evaluamos sus flujos de trabajo específicos, capacidades del equipo, requisitos de seguridad y presupuesto antes de recomendar herramientas. Dicho esto, frecuentemente ayudamos a empresas a implementar plataformas como ChatGPT Enterprise, Claude for Teams, GitHub Copilot y herramientas especializadas para contenido, diseño y análisis de datos."
         },
         {
-          "question": "¿Como garantizan la seguridad de los datos al usar herramientas de AI?",
-          "answer": "Implementamos configuraciones de nivel empresarial que mantienen sus datos privados, incluyendo integracion SSO, politicas de prevencion de perdida de datos, directrices de uso aprobadas y registro de auditorias. Nos aseguramos de que ningun dato sensible se use para entrenar modelos y de que todas las herramientas cumplan con el GDPR y sus politicas internas de seguridad."
+          "question": "¿Cómo garantizan la seguridad de los datos al usar herramientas de AI?",
+          "answer": "Implementamos configuraciones de nivel empresarial que mantienen sus datos privados, incluyendo integración SSO, políticas de prevención de pérdida de datos, directrices de uso aprobadas y registro de auditorías. Nos aseguramos de que ningún dato sensible se use para entrenar modelos y de que todas las herramientas cumplan con el GDPR y sus políticas internas de seguridad."
         },
         {
-          "question": "¿Como impulsan la adopcion del equipo para que las herramientas no queden sin usar?",
-          "answer": "Combinamos talleres de capacitacion practica con bibliotecas de prompts especificas por rol y guias de casos de uso. Identificamos promotores internos, establecemos ciclos de retroalimentacion y hacemos seguimiento de las metricas de adopcion para asegurar que las herramientas se usen de manera efectiva."
+          "question": "¿Cómo impulsan la adopción del equipo para que las herramientas no queden sin usar?",
+          "answer": "Combinamos talleres de capacitación práctica con bibliotecas de prompts específicas por rol y guías de casos de uso. Identificamos promotores internos, establecemos ciclos de retroalimentación y hacemos seguimiento de las métricas de adopción para asegurar que las herramientas se usen de manera efectiva."
         },
         {
           "question": "¿Pueden ayudarnos a consolidar herramientas que ya hemos adoptado?",
-          "answer": "Por supuesto. Frecuentemente encontramos empresas que pagan por herramientas con funcionalidades superpuestas y baja utilizacion. Auditamos su stack actual de herramientas de AI, medimos el uso y valor real, y recomendamos una configuracion optimizada que reduce costos mientras mejora las capacidades."
+          "answer": "Por supuesto. Frecuentemente encontramos empresas que pagan por herramientas con funcionalidades superpuestas y baja utilización. Auditamos su stack actual de herramientas de AI, medimos el uso y valor real, y recomendamos una configuración optimizada que reduce costos mientras mejora las capacidades."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-consulting": "Combine la implementacion de herramientas con nuestra consultoria de Estrategia de AI para asegurar que cada herramienta se alinee con sus objetivos de negocio mas amplios y su hoja de ruta de transformacion.",
-        "ai-automation": "Una vez que su equipo esta equipado con herramientas de AI, nuestras soluciones de Automatizacion conectan esas herramientas en flujos de trabajo de extremo a extremo que multiplican su impacto.",
-        "ai-agents": "Vaya mas alla de las herramientas individuales desplegando Agentes de AI Personalizados que orquestan multiples herramientas de forma autonoma para completar tareas complejas."
+        "ai-consulting": "Combine la implementación de herramientas con nuestra consultoría de Estrategia de AI para asegurar que cada herramienta se alinee con sus objetivos de negocio más amplios y su hoja de ruta de transformación.",
+        "ai-automation": "Una vez que su equipo está equipado con herramientas de AI, nuestras soluciones de Automatización conectan esas herramientas en flujos de trabajo de extremo a extremo que multiplican su impacto.",
+        "ai-agents": "Vaya más allá de las herramientas individuales desplegando Agentes de AI Personalizados que orquestan múltiples herramientas de forma autónoma para completar tareas complejas."
       }
     },
     "ai-consulting": {
-      "title": "Estrategia y Consultoria de AI",
-      "shortTitle": "Consultoria de AI",
-      "description": "Evaluaciones de preparacion para AI, hojas de ruta estrategicas, alineacion de OKR y capacitacion de equipos para definir su camino de transformacion con AI.",
-      "longDescription": "Antes de implementar AI, necesita la estrategia correcta. Evaluamos sus capacidades actuales, identificamos las oportunidades de mayor impacto y creamos una hoja de ruta practica que alinea las iniciativas de AI con sus objetivos de negocio y resultados medibles.",
-      "heroHeadline": "Todos Dicen Que Necesita AI. Nadie Le Dice Por Donde Empezar.",
-      "problemDescription": "La presion para adoptar AI es real, pero lanzarse sin estrategia lleva a presupuestos desperdiciados, pilotos fallidos y equipos frustrados. Ve a sus competidores avanzando rapido mientras su organizacion debate cual caso de uso abordar primero. Sin una hoja de ruta clara, cada iniciativa de AI se siente como una apuesta.",
-      "solutionDescription": "Le damos claridad antes de que invierta un solo euro en implementacion. A traves de evaluaciones estructuradas, talleres con stakeholders y mapeo de oportunidades basado en datos, construimos una hoja de ruta de AI priorizada que se alinea con sus objetivos de negocio. Sabra exactamente que construir, en que orden y que resultados esperar.",
+      "title": "Estrategia y Consultoría de AI",
+      "shortTitle": "Consultoría de AI",
+      "description": "Evaluaciones de preparación para AI, hojas de ruta estratégicas, alineación de OKR y capacitación de equipos para definir su camino de transformación con AI.",
+      "longDescription": "Antes de implementar AI, necesita la estrategia correcta. Evaluamos sus capacidades actuales, identificamos las oportunidades de mayor impacto y creamos una hoja de ruta práctica que alinea las iniciativas de AI con sus objetivos de negocio y resultados medibles.",
+      "heroHeadline": "Todos Dicen Que Necesita AI. Nadie Le Dice Por Dónde Empezar.",
+      "problemDescription": "La presión para adoptar AI es real, pero lanzarse sin estrategia lleva a presupuestos desperdiciados, pilotos fallidos y equipos frustrados. Ve a sus competidores avanzando rápido mientras su organización debate cuál caso de uso abordar primero. Sin una hoja de ruta clara, cada iniciativa de AI se siente como una apuesta.",
+      "solutionDescription": "Le damos claridad antes de que invierta un solo euro en implementación. A través de evaluaciones estructuradas, talleres con stakeholders y mapeo de oportunidades basado en datos, construimos una hoja de ruta de AI priorizada que se alinea con sus objetivos de negocio. Sabrá exactamente qué construir, en qué orden y qué resultados esperar.",
       "features": [
-        "Evaluacion de preparacion para AI",
-        "Identificacion y priorizacion de oportunidades",
-        "Hoja de ruta estrategica de AI con hitos",
-        "Alineacion de OKR y metricas de exito",
-        "Programas de capacitacion y mejora de habilidades",
-        "Evaluacion y seleccion de proveedores"
+        "Evaluación de preparación para AI",
+        "Identificación y priorización de oportunidades",
+        "Hoja de ruta estratégica de AI con hitos",
+        "Alineación de OKR y métricas de éxito",
+        "Programas de capacitación y mejora de habilidades",
+        "Evaluación y selección de proveedores"
       ],
       "benefits": [
-        "Vision clara y estrategia de AI accionable",
+        "Visión clara y estrategia de AI accionable",
         "Iniciativas priorizadas con el mayor ROI",
         "Objetivos y resultados clave medibles",
         "Menor riesgo de implementaciones de AI fallidas"
@@ -260,82 +260,82 @@
       "useCases": [
         "Talleres ejecutivos de estrategia de AI",
         "Mapeo de oportunidades de AI a nivel departamental",
-        "Evaluacion de madurez de AI y benchmarking",
-        "Programas de capacitacion personalizados para equipos"
+        "Evaluación de madurez de AI y benchmarking",
+        "Programas de capacitación personalizados para equipos"
       ],
       "faqs": [
         {
           "question": "¿Necesitamos una estrategia de AI si somos una empresa pequeña o mediana?",
-          "answer": "Especialmente si es una empresa mas pequeña. Las grandes corporaciones pueden permitirse experimentar y fallar. Las PYMES necesitan que cada inversion cuente. Una estrategia enfocada asegura que invierta en las iniciativas de AI que entregaran el mayor impacto para su situacion especifica, no en lo que esta de moda."
+          "answer": "Especialmente si es una empresa más pequeña. Las grandes corporaciones pueden permitirse experimentar y fallar. Las PYMES necesitan que cada inversión cuente. Una estrategia enfocada asegura que invierta en las iniciativas de AI que entregarán el mayor impacto para su situación específica, no en lo que está de moda."
         },
         {
-          "question": "¿Cuanto tiempo toma un compromiso de estrategia de AI?",
-          "answer": "Una evaluacion de preparacion para AI enfocada toma de 2 a 3 semanas. Una estrategia integral con hoja de ruta tipicamente toma de 4 a 6 semanas. Tambien podemos realizar talleres ejecutivos intensivos en tan solo 2 a 3 dias para equipos que necesitan alinearse rapidamente sobre la direccion."
+          "question": "¿Cuánto tiempo toma un compromiso de estrategia de AI?",
+          "answer": "Una evaluación de preparación para AI enfocada toma de 2 a 3 semanas. Una estrategia integral con hoja de ruta típicamente toma de 4 a 6 semanas. También podemos realizar talleres ejecutivos intensivos en tan solo 2 a 3 días para equipos que necesitan alinearse rápidamente sobre la dirección."
         },
         {
-          "question": "¿Que entregables recibimos?",
-          "answer": "Recibe un informe de preparacion para AI, mapa de oportunidades priorizado, una hoja de ruta de implementacion por fases con plazos y estimaciones de presupuesto, metricas de exito y OKRs, y un marco de evaluacion de proveedores. Todo es accionable, no una presentacion generica."
+          "question": "¿Qué entregables recibimos?",
+          "answer": "Recibe un informe de preparación para AI, mapa de oportunidades priorizado, una hoja de ruta de implementación por fases con plazos y estimaciones de presupuesto, métricas de éxito y OKRs, y un marco de evaluación de proveedores. Todo es accionable, no una presentación genérica."
         },
         {
-          "question": "¿Pueden ayudar con la implementacion despues de la fase de estrategia?",
-          "answer": "Si. Muchos clientes nos contratan primero para la estrategia y luego avanzan a la implementacion con nuestros servicios de Automatizacion con AI, Agentes de AI o Transformacion Digital. Al haber construido la estrategia, estamos en una posicion unica para ejecutarla de manera eficiente."
+          "question": "¿Pueden ayudar con la implementación después de la fase de estrategia?",
+          "answer": "Sí. Muchos clientes nos contratan primero para la estrategia y luego avanzan a la implementación con nuestros servicios de Automatización con AI, Agentes de AI o Transformación Digital. Al haber construido la estrategia, estamos en una posición única para ejecutarla de manera eficiente."
         }
       ],
       "relatedServiceDescriptions": {
-        "digital-transformation": "Una vez definida su estrategia de AI, nuestro servicio de Transformacion Digital ejecuta el programa completo de transformacion, desde el rediseño de procesos hasta la gestion del cambio.",
-        "ai-tools": "Su estrategia identificara que herramientas de AI adoptar. Nuestro servicio de Implementacion de Herramientas de AI se encarga del despliegue, la seguridad y la capacitacion del equipo.",
-        "ai-automation": "Convierta las prioridades estrategicas en soluciones funcionales con nuestro servicio de Automatizacion con AI, que construye los flujos de trabajo identificados en su hoja de ruta."
+        "digital-transformation": "Una vez definida su estrategia de AI, nuestro servicio de Transformación Digital ejecuta el programa completo de transformación, desde el rediseño de procesos hasta la gestión del cambio.",
+        "ai-tools": "Su estrategia identificará qué herramientas de AI adoptar. Nuestro servicio de Implementación de Herramientas de AI se encarga del despliegue, la seguridad y la capacitación del equipo.",
+        "ai-automation": "Convierta las prioridades estratégicas en soluciones funcionales con nuestro servicio de Automatización con AI, que construye los flujos de trabajo identificados en su hoja de ruta."
       }
     },
     "digital-transformation": {
-      "title": "Transformacion Digital",
-      "shortTitle": "Transformacion",
-      "description": "Programas completos de modernizacion de procesos, incluyendo auditoria, entrega agil, gestion del cambio y rediseño centrado en AI.",
-      "longDescription": "La verdadera transformacion digital va mas alla de la tecnologia: requiere repensar procesos, cultura y flujos de trabajo con AI como eje central. Guiamos a las organizaciones a traves de programas integrales de transformacion que entregan resultados de negocio medibles.",
+      "title": "Transformación Digital",
+      "shortTitle": "Transformación",
+      "description": "Programas completos de modernización de procesos, incluyendo auditoría, entrega ágil, gestión del cambio y rediseño centrado en AI.",
+      "longDescription": "La verdadera transformación digital va más allá de la tecnología: requiere repensar procesos, cultura y flujos de trabajo con AI como eje central. Guiamos a las organizaciones a través de programas integrales de transformación que entregan resultados de negocio medibles.",
       "heroHeadline": "Sus Procesos Fueron Diseñados para un Mundo Pre-AI. Es Hora de Rediseñarlos.",
-      "problemDescription": "Su organizacion opera con procesos diseñados hace decadas, parcheados con soluciones improvisadas y sostenidos con hojas de calculo. Los equipos se resisten al cambio porque los esfuerzos de transformacion anteriores no cumplieron sus promesas. Mientras tanto, los competidores AI-nativos operan a una velocidad y eficiencia que su configuracion actual simplemente no puede igualar.",
-      "solutionDescription": "No nos limitamos a colocar AI sobre procesos deficientes. Rediseñamos sus operaciones desde cero con AI como eje central, combinando auditoria de procesos, entrega agil y gestion del cambio practica. Entregamos resultados rapidos para generar impulso, y luego transformamos sistematicamente su organizacion en una preparada para competir en un mercado impulsado por AI.",
+      "problemDescription": "Su organización opera con procesos diseñados hace décadas, parcheados con soluciones improvisadas y sostenidos con hojas de cálculo. Los equipos se resisten al cambio porque los esfuerzos de transformación anteriores no cumplieron sus promesas. Mientras tanto, los competidores AI-nativos operan a una velocidad y eficiencia que su configuración actual simplemente no puede igualar.",
+      "solutionDescription": "No nos limitamos a colocar AI sobre procesos deficientes. Rediseñamos sus operaciones desde cero con AI como eje central, combinando auditoría de procesos, entrega ágil y gestión del cambio práctica. Entregamos resultados rápidos para generar impulso, y luego transformamos sistemáticamente su organización en una preparada para competir en un mercado impulsado por AI.",
       "features": [
-        "Auditoria de procesos y mapeo de oportunidades de AI",
-        "Entrega agil de AI (Scrum/Kanban)",
-        "Gestion del cambio y alineacion cultural",
-        "Modernizacion de sistemas heredados",
-        "Optimizacion de infraestructura de datos",
+        "Auditoría de procesos y mapeo de oportunidades de AI",
+        "Entrega ágil de AI (Scrum/Kanban)",
+        "Gestión del cambio y alineación cultural",
+        "Modernización de sistemas heredados",
+        "Optimización de infraestructura de datos",
         "Marcos de mejora continua"
       ],
       "benefits": [
-        "Transformacion de extremo a extremo con responsabilidad clara",
-        "Menor resistencia al cambio mediante gestion del cambio",
-        "Entrega iterativa con resultados rapidos",
+        "Transformación de extremo a extremo con responsabilidad clara",
+        "Menor resistencia al cambio mediante gestión del cambio",
+        "Entrega iterativa con resultados rápidos",
         "Cambio organizacional sostenible a largo plazo"
       ],
       "useCases": [
-        "Programas de transformacion empresarial con AI",
-        "Iniciativas de digitalizacion departamental",
-        "Migracion de sistemas heredados a plataformas con AI",
-        "Construccion de cultura de AI organizacional"
+        "Programas de transformación empresarial con AI",
+        "Iniciativas de digitalización departamental",
+        "Migración de sistemas heredados a plataformas con AI",
+        "Construcción de cultura de AI organizacional"
       ],
       "faqs": [
         {
-          "question": "¿En que se diferencia de la transformacion digital tradicional?",
-          "answer": "La transformacion digital tradicional a menudo significa digitalizar procesos existentes, pasar del papel al software. La transformacion centrada en AI replantea los procesos en si mismos. En lugar de automatizar un flujo de trabajo deficiente, lo rediseñamos en torno a lo que la AI hace posible, eliminando a menudo pasos por completo."
+          "question": "¿En qué se diferencia de la transformación digital tradicional?",
+          "answer": "La transformación digital tradicional a menudo significa digitalizar procesos existentes, pasar del papel al software. La transformación centrada en AI replantea los procesos en sí mismos. En lugar de automatizar un flujo de trabajo deficiente, lo rediseñamos en torno a lo que la AI hace posible, eliminando a menudo pasos por completo."
         },
         {
-          "question": "¿Como gestionan la resistencia al cambio de los empleados?",
-          "answer": "La gestion del cambio esta integrada en cada fase, no es una idea de ultimo momento. Involucramos a los stakeholders desde el primer dia, comunicamos los beneficios claramente, entregamos resultados rapidos para construir confianza y proporcionamos capacitacion integral. Las personas se resisten cuando se sienten excluidas; nosotros los hacemos co-responsables de la transformacion."
+          "question": "¿Cómo gestionan la resistencia al cambio de los empleados?",
+          "answer": "La gestión del cambio está integrada en cada fase, no es una idea de último momento. Involucramos a los stakeholders desde el primer día, comunicamos los beneficios claramente, entregamos resultados rápidos para construir confianza y proporcionamos capacitación integral. Las personas se resisten cuando se sienten excluidas; nosotros los hacemos co-responsables de la transformación."
         },
         {
-          "question": "¿Cuanto tiempo toma una transformacion digital completa?",
-          "answer": "Un programa integral de transformacion tipicamente dura de 6 a 12 meses, pero entregamos en sprints agiles para que vea resultados desde el primer mes. Priorizamos las iniciativas de alto impacto y resultados rapidos primero para generar impulso y demostrar ROI antes de abordar cambios sistemicos mas amplios."
+          "question": "¿Cuánto tiempo toma una transformación digital completa?",
+          "answer": "Un programa integral de transformación típicamente dura de 6 a 12 meses, pero entregamos en sprints ágiles para que vea resultados desde el primer mes. Priorizamos las iniciativas de alto impacto y resultados rápidos primero para generar impulso y demostrar ROI antes de abordar cambios sistémicos más amplios."
         },
         {
-          "question": "¿Que pasa si solo queremos transformar un departamento?",
-          "answer": "En realidad, es un enfoque inteligente. Frecuentemente recomendamos comenzar con un solo departamento como piloto, probar el modelo y luego expandir. Esto reduce el riesgo, crea promotores internos y genera una guia probada para el resto de la organizacion."
+          "question": "¿Qué pasa si solo queremos transformar un departamento?",
+          "answer": "En realidad, es un enfoque inteligente. Frecuentemente recomendamos comenzar con un solo departamento como piloto, probar el modelo y luego expandir. Esto reduce el riesgo, crea promotores internos y genera una guía probada para el resto de la organización."
         }
       ],
       "relatedServiceDescriptions": {
-        "ai-consulting": "Toda transformacion comienza con estrategia. Nuestra consultoria de Estrategia de AI define la vision y la hoja de ruta antes de que comience la ejecucion.",
-        "ai-automation": "Como parte de su transformacion, nuestro servicio de Automatizacion con AI construye los flujos de trabajo inteligentes que reemplazan los procesos manuales y heredados.",
+        "ai-consulting": "Toda transformación comienza con estrategia. Nuestra consultoría de Estrategia de AI define la visión y la hoja de ruta antes de que comience la ejecución.",
+        "ai-automation": "Como parte de su transformación, nuestro servicio de Automatización con AI construye los flujos de trabajo inteligentes que reemplazan los procesos manuales y heredados.",
         "ai-agents": "Despliegue Agentes de AI Personalizados para gestionar las tareas complejas e intensivas en conocimiento que surgen de sus procesos rediseñados."
       }
     }
@@ -348,13 +348,13 @@
     },
     "consult": {
       "title": "Asesorar",
-      "subtitle": "Consultoria de AI",
-      "description": "Definimos la estrategia de AI adecuada para su empresa, evaluando la preparacion, mapeando oportunidades, alineando objetivos y capacitando a sus equipos para una adopcion exitosa de AI."
+      "subtitle": "Consultoría de AI",
+      "description": "Definimos la estrategia de AI adecuada para su empresa, evaluando la preparación, mapeando oportunidades, alineando objetivos y capacitando a sus equipos para una adopción exitosa de AI."
     },
     "transform": {
       "title": "Transformar",
       "subtitle": "Procesos con AI",
-      "description": "Rediseñamos sus procesos con AI como eje central, auditando operaciones, implementando entregas agiles, gestionando el cambio e impulsando una transformacion digital integral."
+      "description": "Rediseñamos sus procesos con AI como eje central, auditando operaciones, implementando entregas ágiles, gestionando el cambio e impulsando una transformación digital integral."
     }
   }
 }

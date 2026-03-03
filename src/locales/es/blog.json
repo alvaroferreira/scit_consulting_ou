@@ -1,61 +1,62 @@
 {
   "page": {
     "title": "Blog e Insights",
-    "subtitle": "Conocimientos practicos sobre implementacion de AI, estrategia de automatizacion y transformacion digital para lideres empresariales.",
+    "subtitle": "Conocimientos prácticos sobre implementación de AI, estrategia de automatización y transformación digital para líderes empresariales.",
     "filterAll": "Todos",
-    "emptyState": "No se encontraron articulos para esta etiqueta. Intente seleccionar un filtro diferente."
+    "emptyState": "No se encontraron artículos para esta etiqueta. Intente seleccionar un filtro diferente."
   },
   "template": {
+    "readTime": "{{count}} min de lectura",
     "backToBlog": "Volver al Blog",
     "by": "Por",
     "ctaTitle": "¿Necesita Ayuda para Implementar AI?",
-    "ctaSubtitle": "Nuestro equipo puede ayudarle a convertir estos conocimientos en accion. Hablemos sobre como la AI puede transformar sus operaciones empresariales.",
-    "ctaPrimary": "Contactenos",
+    "ctaSubtitle": "Nuestro equipo puede ayudarle a convertir estos conocimientos en acción. Hablemos sobre cómo la AI puede transformar sus operaciones empresariales.",
+    "ctaPrimary": "Contáctenos",
     "ctaSecondary": "Ver Casos de Estudio",
-    "relatedArticles": "Articulos Relacionados",
-    "notFound": "Articulo No Encontrado",
-    "notFoundMessage": "El articulo que busca no existe o ha sido trasladado."
+    "relatedArticles": "Artículos Relacionados",
+    "notFound": "Artículo No Encontrado",
+    "notFoundMessage": "El artículo que busca no existe o ha sido trasladado."
   },
   "posts": {
     "ai-agents-transforming-business-operations-2025": {
-      "title": "Como los Agentes de AI Estan Transformando las Operaciones Empresariales en 2025",
-      "excerpt": "Los agentes de AI estan evolucionando mas alla de la simple automatizacion de tareas para convertirse en tomadores de decisiones autonomos en las operaciones empresariales. Esto es lo que este cambio significa para su organizacion."
+      "title": "Cómo los Agentes de AI Están Transformando las Operaciones Empresariales en 2025",
+      "excerpt": "Los agentes de AI están evolucionando más allá de la simple automatización de tareas para convertirse en tomadores de decisiones autónomos en las operaciones empresariales. Esto es lo que este cambio significa para su organización."
     },
     "roi-of-ai-automation-year-one": {
-      "title": "El ROI de la Automatizacion con AI: Que Esperar en el Primer Año",
-      "excerpt": "Entendiendo el retorno de inversion realista de los proyectos de automatizacion con AI en los primeros 12 meses, incluyendo costos ocultos y beneficios inesperados."
+      "title": "El ROI de la Automatización con AI: Qué Esperar en el Primer Año",
+      "excerpt": "Entendiendo el retorno de inversión realista de los proyectos de automatización con AI en los primeros 12 meses, incluyendo costos ocultos y beneficios inesperados."
     },
     "choosing-right-ai-strategy-business-size": {
-      "title": "Como Elegir la Estrategia de AI Adecuada Segun el Tamaño de Su Empresa",
-      "excerpt": "Un marco practico para seleccionar iniciativas de AI que se ajusten al tamaño de su empresa, presupuesto y madurez tecnica, desde emprendedores independientes hasta empresas medianas."
+      "title": "Cómo Elegir la Estrategia de AI Adecuada Según el Tamaño de Su Empresa",
+      "excerpt": "Un marco práctico para seleccionar iniciativas de AI que se ajusten al tamaño de su empresa, presupuesto y madurez técnica, desde emprendedores independientes hasta empresas medianas."
     },
     "5-signs-business-ready-ai-implementation": {
-      "title": "5 Señales de Que Su Empresa Esta Lista para Implementar AI",
-      "excerpt": "No todas las empresas estan listas para la AI. Estas son cinco señales concretas de que su organizacion tiene las bases para tener exito con la implementacion de AI."
+      "title": "5 Señales de Que Su Empresa Está Lista para Implementar AI",
+      "excerpt": "No todas las empresas están listas para la AI. Estas son cinco señales concretas de que su organización tiene las bases para tener éxito con la implementación de AI."
     },
     "conversational-ai-vs-traditional-chatbots": {
-      "title": "AI Conversacional vs Chatbots Tradicionales: ¿Cual es la Diferencia?",
-      "excerpt": "Entendiendo las diferencias fundamentales entre chatbots basados en reglas y la AI conversacional moderna, y por que esta distincion es importante para su negocio."
+      "title": "AI Conversacional vs Chatbots Tradicionales: ¿Cuál es la Diferencia?",
+      "excerpt": "Entendiendo las diferencias fundamentales entre chatbots basados en reglas y la AI conversacional moderna, y por qué esta distinción es importante para su negocio."
     },
     "ai-in-healthcare-practical-applications": {
-      "title": "AI en Salud: Aplicaciones Practicas Mas Alla del Hype",
-      "excerpt": "Mas alla de los titulares, examinamos donde la AI esta entregando valor real y medible en las operaciones de salud hoy, desde la programacion hasta la documentacion clinica."
+      "title": "AI en Salud: Aplicaciones Prácticas Más Allá del Hype",
+      "excerpt": "Más allá de los titulares, examinamos dónde la AI está entregando valor real y medible en las operaciones de salud hoy, desde la programación hasta la documentación clínica."
     },
     "building-ai-first-culture-leadership-guide": {
-      "title": "Construir una Cultura AI-First: Guia para Lideres",
-      "excerpt": "Crear una cultura organizacional que adopte la AI requiere accion deliberada del liderazgo. Esta es una guia practica para hacer de la adopcion de AI una norma cultural."
+      "title": "Construir una Cultura AI-First: Guía para Líderes",
+      "excerpt": "Crear una cultura organizacional que adopte la AI requiere acción deliberada del liderazgo. Esta es una guía práctica para hacer de la adopción de AI una norma cultural."
     },
     "hidden-costs-not-automating-b2b": {
       "title": "Los Costos Ocultos de No Automatizar: Una Perspectiva B2B",
-      "excerpt": "Mientras las empresas calculan cuidadosamente el costo de la automatizacion, rara vez miden el costo continuo de los procesos manuales. Esto es lo que realmente esta pagando por la inaccion."
+      "excerpt": "Mientras las empresas calculan cuidadosamente el costo de la automatización, rara vez miden el costo continuo de los procesos manuales. Esto es lo que realmente está pagando por la inacción."
     },
     "data-privacy-ai-european-businesses": {
       "title": "Privacidad de Datos y AI: Lo Que las Empresas Europeas Necesitan Saber",
-      "excerpt": "Navegando la interseccion entre la implementacion de AI y las regulaciones europeas de proteccion de datos, con orientacion practica para un despliegue de AI compatible con el GDPR."
+      "excerpt": "Navegando la intersección entre la implementación de AI y las regulaciones europeas de protección de datos, con orientación práctica para un despliegue de AI compatible con el GDPR."
     },
     "pilot-to-production-scaling-ai-projects": {
-      "title": "Del Piloto a Produccion: Como Escalar Proyectos de AI con Exito",
-      "excerpt": "La mayoria de los pilotos de AI nunca llegan a produccion. Este es un marco practico para cerrar la brecha entre una prueba de concepto exitosa y un sistema de AI completamente operativo."
+      "title": "Del Piloto a Producción: Cómo Escalar Proyectos de AI con Éxito",
+      "excerpt": "La mayoría de los pilotos de AI nunca llegan a producción. Este es un marco práctico para cerrar la brecha entre una prueba de concepto exitosa y un sistema de AI completamente operativo."
     }
   }
 }

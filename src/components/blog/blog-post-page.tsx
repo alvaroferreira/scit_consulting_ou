@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { Link } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import DOMPurify from 'dompurify'
 import { IconArrowRight, IconArrowLeft, IconClock, IconCalendar } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
 import { SEO } from '@/components/shared/seo'
@@ -33,7 +34,7 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
   const { t } = useTranslation('blog')
   const locale = useLocale()
 
-  const formattedDate = new Date(post.date).toLocaleDateString('en-US', {
+  const formattedDate = new Date(post.date).toLocaleDateString(locale, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -68,6 +69,7 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
         title={t(`posts.${post.slug}.title`, post.title)}
         description={t(`posts.${post.slug}.excerpt`, post.excerpt)}
         path={`/blog/${post.slug}`}
+        ogType="article"
       />
       <JsonLd data={articleJsonLd} />
 
@@ -110,7 +112,7 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <IconClock size={16} />
-                {post.readTime}
+                {t('template.readTime', { count: parseInt(post.readTime) })}
               </span>
               <span>{t('template.by')} {post.author}</span>
             </div>
@@ -123,9 +125,14 @@ export function BlogPostPage({ post }: BlogPostPageProps) {
         <div
           className="blog-content mx-auto max-w-3xl"
           dangerouslySetInnerHTML={{
-            __html:
+            __html: DOMPurify.sanitize(
               i18n.getResourceBundle(locale, `blog-content/${post.slug}`)
                 ?.content || post.content,
+              {
+                ALLOWED_TAGS: ['h2', 'h3', 'h4', 'p', 'ul', 'ol', 'li', 'strong', 'em', 'a', 'br', 'blockquote'],
+                ALLOWED_ATTR: ['href', 'target', 'rel'],
+              }
+            ),
           }}
         />
       </Section>

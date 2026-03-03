@@ -17,6 +17,7 @@ export function Hero() {
           loop
           playsInline
           preload="metadata"
+          poster="/images/hero-poster.jpg"
           className="h-full w-full object-cover"
         >
           <source src="/videos/hero-bg.mp4" type="video/mp4" />
@@ -39,7 +40,7 @@ export function Hero() {
           </span>
         </h1>
 
-        <p className="mt-6 max-w-2xl text-lg text-white/70 md:text-xl">
+        <p className="mt-6 max-w-2xl text-lg text-white/90 md:text-xl">
           {t('hero.subtitle')}
         </p>
 
@@ -65,7 +66,7 @@ export function Hero() {
         </div>
 
         {/* Trust indicators */}
-        <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-white/40 text-sm">
+        <div className="mt-16 flex flex-wrap items-center justify-center gap-8 text-white/70 text-sm">
           <span>{t('hero.trustProjects')}</span>
           <span className="hidden sm:inline">&middot;</span>
           <span>{t('hero.trustIndustries')}</span>

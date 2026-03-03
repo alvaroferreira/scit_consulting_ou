@@ -1,14 +1,14 @@
 {
   "hero": {
-    "badge": "Transformacion Digital AI-First",
+    "badge": "Transformación Digital AI-First",
     "headline": "Transforme Su Negocio con",
     "headlineHighlight": "Inteligencia Artificial",
-    "subtitle": "Implementamos herramientas de AI, automatizamos procesos y construimos agentes inteligentes, desde la estrategia hasta la ejecucion.",
+    "subtitle": "Implementamos herramientas de AI, automatizamos procesos y construimos agentes inteligentes, desde la estrategia hasta la ejecución.",
     "ctaPrimary": "Agendar Consulta",
-    "ctaSecondary": "Nuestra Metodologia",
+    "ctaSecondary": "Nuestra Metodología",
     "trustProjects": "35+ Proyectos Entregados",
     "trustIndustries": "6+ Industrias",
-    "trustCountries": "3 Paises"
+    "trustCountries": "3 Países"
   },
   "techPartners": {
     "title": "Construido con las principales plataformas de AI y cloud",
@@ -23,9 +23,9 @@
     }
   },
   "pillars": {
-    "sectionTitle": "Como Le Ayudamos",
-    "sectionSubtitle": "Tres pilares que impulsan su proceso de transformacion con AI, desde la estrategia hasta la implementacion y mas alla.",
-    "learnMore": "Saber mas",
+    "sectionTitle": "Cómo Le Ayudamos",
+    "sectionSubtitle": "Tres pilares que impulsan su proceso de transformación con AI, desde la estrategia hasta la implementación y más allá.",
+    "learnMore": "Saber más",
     "items": {
       "implement": {
         "title": "Implementar",
@@ -34,50 +34,50 @@
       },
       "consult": {
         "title": "Asesorar",
-        "subtitle": "Consultoria de AI",
-        "description": "Definimos la estrategia de AI adecuada para su empresa, evaluando la preparacion, mapeando oportunidades, alineando objetivos y capacitando a sus equipos para una adopcion exitosa de AI."
+        "subtitle": "Consultoría de AI",
+        "description": "Definimos la estrategia de AI adecuada para su empresa, evaluando la preparación, mapeando oportunidades, alineando objetivos y capacitando a sus equipos para una adopción exitosa de AI."
       },
       "transform": {
         "title": "Transformar",
         "subtitle": "Procesos con AI",
-        "description": "Rediseñamos sus procesos con AI como eje central, auditando operaciones, implementando entregas agiles, gestionando el cambio e impulsando una transformacion digital integral."
+        "description": "Rediseñamos sus procesos con AI como eje central, auditando operaciones, implementando entregas ágiles, gestionando el cambio e impulsando una transformación digital integral."
       }
     }
   },
   "servicesGrid": {
     "sectionTitle": "Nuestros Servicios",
-    "sectionSubtitle": "Soluciones integrales de AI adaptadas a las necesidades de su negocio, desde automatizacion hasta consultoria estrategica.",
-    "learnMore": "Saber mas",
+    "sectionSubtitle": "Soluciones integrales de AI adaptadas a las necesidades de su negocio, desde automatización hasta consultoría estratégica.",
+    "learnMore": "Saber más",
     "items": {
       "aiAutomation": {
-        "shortTitle": "Automatizacion con AI",
+        "shortTitle": "Automatización con AI",
         "description": "Flujos de trabajo automatizados, procesamiento de documentos y RPA potenciado con AI para eliminar tareas repetitivas y aumentar la eficiencia."
       },
       "aiAgents": {
         "shortTitle": "Agentes de AI",
-        "description": "Agentes de AI autonomos para tareas complejas como prospeccion de ventas, atencion al cliente, analisis de datos e inteligencia de negocio."
+        "description": "Agentes de AI autónomos para tareas complejas como prospección de ventas, atención al cliente, análisis de datos e inteligencia de negocio."
       },
       "chatbots": {
         "shortTitle": "Chatbots",
-        "description": "Interfaces conversacionales inteligentes para atencion al cliente, mesas de ayuda internas y experiencias interactivas de producto."
+        "description": "Interfaces conversacionales inteligentes para atención al cliente, mesas de ayuda internas y experiencias interactivas de producto."
       },
       "aiTools": {
         "shortTitle": "Herramientas de AI",
-        "description": "Seleccion e implementacion de herramientas de AI empresariales como ChatGPT Enterprise, Claude, GitHub Copilot y soluciones personalizadas."
+        "description": "Selección e implementación de herramientas de AI empresariales como ChatGPT Enterprise, Claude, GitHub Copilot y soluciones personalizadas."
       },
       "aiConsulting": {
-        "shortTitle": "Consultoria de AI",
-        "description": "Evaluaciones de preparacion para AI, hojas de ruta estrategicas, alineacion de OKR y capacitacion de equipos para definir su camino de transformacion con AI."
+        "shortTitle": "Consultoría de AI",
+        "description": "Evaluaciones de preparación para AI, hojas de ruta estratégicas, alineación de OKR y capacitación de equipos para definir su camino de transformación con AI."
       },
       "digitalTransformation": {
-        "shortTitle": "Transformacion",
-        "description": "Programas completos de modernizacion de procesos, incluyendo auditoria, entrega agil, gestion del cambio y rediseño centrado en AI."
+        "shortTitle": "Transformación",
+        "description": "Programas completos de modernización de procesos, incluyendo auditoría, entrega ágil, gestión del cambio y rediseño centrado en AI."
       }
     }
   },
   "needs": {
-    "sectionTitle": "¿Que Desea Lograr?",
-    "sectionSubtitle": "Elija su objetivo y le mostraremos como podemos ayudarle.",
+    "sectionTitle": "¿Qué Desea Lograr?",
+    "sectionSubtitle": "Elija su objetivo y le mostraremos cómo podemos ayudarle.",
     "items": {
       "automateProcesses": {
         "label": "Automatizar procesos repetitivos",
@@ -85,23 +85,23 @@
       },
       "buildAgents": {
         "label": "Construir agentes de AI inteligentes",
-        "description": "Despliegue agentes personalizados que gestionan tareas complejas de forma autonoma."
+        "description": "Despliegue agentes personalizados que gestionan tareas complejas de forma autónoma."
       },
       "improveSupport": {
-        "label": "Mejorar la atencion al cliente",
+        "label": "Mejorar la atención al cliente",
         "description": "Chatbots de AI que resuelven consultas y escalan sin esfuerzo."
       },
       "implementTools": {
-        "label": "Implementar herramientas de AI en mi organizacion",
-        "description": "Despliegue estrategico de Claude, GPT, Gemini y mas."
+        "label": "Implementar herramientas de AI en mi organización",
+        "description": "Despliegue estratégico de Claude, GPT, Gemini y más."
       },
       "defineStrategy": {
         "label": "Definir una estrategia de AI",
-        "description": "Evaluacion de preparacion y hoja de ruta para la adopcion de AI."
+        "description": "Evaluación de preparación y hoja de ruta para la adopción de AI."
       },
       "modernizeOperations": {
         "label": "Modernizar operaciones heredadas",
-        "description": "Transformacion digital de extremo a extremo con AI como eje central."
+        "description": "Transformación digital de extremo a extremo con AI como eje central."
       },
       "seeResults": {
         "label": "Ver resultados comprobados primero",
@@ -110,13 +110,13 @@
     }
   },
   "process": {
-    "sectionTitle": "Nuestra Metodologia",
-    "sectionSubtitle": "Una metodologia probada que asegura que cada iniciativa de AI entregue resultados de negocio medibles.",
+    "sectionTitle": "Nuestra Metodología",
+    "sectionSubtitle": "Una metodología probada que asegura que cada iniciativa de AI entregue resultados de negocio medibles.",
     "stepLabel": "Paso",
     "steps": {
       "diagnose": {
         "title": "Diagnosticar",
-        "description": "Analizamos sus procesos actuales, stack tecnologico y objetivos de negocio para identificar donde la AI puede generar el mayor impacto."
+        "description": "Analizamos sus procesos actuales, stack tecnológico y objetivos de negocio para identificar dónde la AI puede generar el mayor impacto."
       },
       "plan": {
         "title": "Planificar",
@@ -124,16 +124,16 @@
       },
       "implement": {
         "title": "Implementar",
-        "description": "Construimos y desplegamos soluciones de AI utilizando metodologias agiles con seguimiento en tiempo real de la evolucion del producto, para que usted siga cada paso del progreso."
+        "description": "Construimos y desplegamos soluciones de AI utilizando metodologías ágiles con seguimiento en tiempo real de la evolución del producto, para que usted siga cada paso del progreso."
       },
       "scale": {
         "title": "Escalar",
-        "description": "Optimizamos, monitoreamos y expandimos las implementaciones de AI exitosas en toda su organizacion para maximizar el impacto en el negocio."
+        "description": "Optimizamos, monitoreamos y expandimos las implementaciones de AI exitosas en toda su organización para maximizar el impacto en el negocio."
       }
     }
   },
   "stats": {
-    "ariaLabel": "Estadisticas de la empresa",
+    "ariaLabel": "Estadísticas de la empresa",
     "items": {
       "projectsDelivered": {
         "value": 35,
@@ -148,40 +148,40 @@
       "countries": {
         "value": 3,
         "suffix": "",
-        "label": "Paises"
+        "label": "Países"
       },
       "clientSatisfaction": {
         "value": 95,
         "suffix": "%",
-        "label": "Satisfaccion del Cliente"
+        "label": "Satisfacción del Cliente"
       }
     }
   },
   "industries": {
     "sectionTitle": "Industrias que Atendemos",
-    "sectionSubtitle": "Soluciones de AI adaptadas a los desafios especificos de su industria.",
+    "sectionSubtitle": "Soluciones de AI adaptadas a los desafíos específicos de su industria.",
     "viewCaseStudies": "Ver casos de estudio",
     "items": {
       "healthcare": {
         "title": "Salud",
-        "description": "Programacion inteligente, documentacion clinica, participacion del paciente y coordinacion asistencial impulsadas por AI para clinicas y proveedores de salud."
+        "description": "Programación inteligente, documentación clínica, participación del paciente y coordinación asistencial impulsadas por AI para clínicas y proveedores de salud."
       },
       "financialServices": {
         "title": "Servicios Financieros",
-        "description": "Procesamiento inteligente de documentos, automatizacion de cumplimiento, analisis de riesgos y asistentes de AI para instituciones financieras."
+        "description": "Procesamiento inteligente de documentos, automatización de cumplimiento, análisis de riesgos y asistentes de AI para instituciones financieras."
       },
       "retail": {
-        "title": "Retail y Comercio Electronico",
-        "description": "Experiencias personalizadas para el cliente, optimizacion de inventario, comercio conversacional y prediccion de demanda con AI."
+        "title": "Retail y Comercio Electrónico",
+        "description": "Experiencias personalizadas para el cliente, optimización de inventario, comercio conversacional y predicción de demanda con AI."
       },
       "b2bServices": {
         "title": "Servicios B2B",
-        "description": "Automatizacion de ventas, generacion de propuestas, calificacion de leads y flujos de trabajo potenciados con AI para empresas de servicios profesionales."
+        "description": "Automatización de ventas, generación de propuestas, calificación de leads y flujos de trabajo potenciados con AI para empresas de servicios profesionales."
       }
     }
   },
   "techStack": {
-    "sectionTitle": "Construido con Tecnologia Moderna",
+    "sectionTitle": "Construido con Tecnología Moderna",
     "sectionSubtitle": "Aprovechamos las mejores herramientas y plataformas para construir soluciones de AI robustas y escalables.",
     "categories": {
       "aiModels": {
@@ -207,28 +207,28 @@
     "sectionSubtitle": "Resultados reales de alianzas reales.",
     "items": [
       {
-        "quote": "SCIT transformo nuestro flujo de procesamiento de documentos con automatizacion de AI. Lo que antes tomaba horas a nuestro equipo ahora se completa en minutos con mayor precision.",
-        "name": "Maria S.",
+        "quote": "SCIT transformó nuestro flujo de procesamiento de documentos con automatización de AI. Lo que antes tomaba horas a nuestro equipo ahora se completa en minutos con mayor precisión.",
+        "name": "María S.",
         "role": "Directora de Operaciones",
         "company": "Firma de Servicios Legales"
       },
       {
-        "quote": "El agente de prospeccion de AI que SCIT construyo para nosotros genera leads cualificados las 24 horas del dia. Nuestro pipeline de ventas nunca habia estado tan saludable.",
+        "quote": "El agente de prospección de AI que SCIT construyó para nosotros genera leads cualificados las 24 horas del día. Nuestro pipeline de ventas nunca había estado tan saludable.",
         "name": "Thomas K.",
         "role": "Director de Ventas",
         "company": "Empresa B2B SaaS"
       },
       {
-        "quote": "Su enfoque estrategico para la implementacion de AI nos dio claridad. En lugar de perseguir tendencias, ahora tenemos una hoja de ruta enfocada con resultados medibles.",
+        "quote": "Su enfoque estratégico para la implementación de AI nos dio claridad. En lugar de perseguir tendencias, ahora tenemos una hoja de ruta enfocada con resultados medibles.",
         "name": "Ana R.",
         "role": "CEO",
-        "company": "Startup de Tecnologia en Salud"
+        "company": "Startup de Tecnología en Salud"
       }
     ]
   },
   "ctaBanner": {
-    "title": "¿Listo para Iniciar Su Transformacion con AI?",
-    "subtitle": "Hablemos sobre como la AI puede transformar sus procesos de negocio, reducir costos y desbloquear nuevas oportunidades de crecimiento.",
+    "title": "¿Listo para Iniciar Su Transformación con AI?",
+    "subtitle": "Hablemos sobre cómo la AI puede transformar sus procesos de negocio, reducir costos y desbloquear nuevas oportunidades de crecimiento.",
     "ctaPrimary": "Agendar Consulta Gratuita"
   }
 }

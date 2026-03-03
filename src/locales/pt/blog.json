@@ -6,6 +6,7 @@
     "emptyState": "Nenhum artigo encontrado para esta categoria. Experimente selecionar um filtro diferente."
   },
   "template": {
+    "readTime": "{{count}} min de leitura",
     "backToBlog": "Voltar ao Blog",
     "by": "Por",
     "ctaTitle": "Precisa de Ajuda a Implementar AI?",

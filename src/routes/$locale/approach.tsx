@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import { IconArrowRight, IconCheck } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
 import { SEO } from '@/components/shared/seo'
@@ -9,6 +10,9 @@ import { processSteps } from '@/data/process'
 import { useLocale } from '@/hooks/use-locale'
 
 export const Route = createFileRoute('/$locale/approach')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'approach')
+  },
   component: ApproachPage,
 })
 

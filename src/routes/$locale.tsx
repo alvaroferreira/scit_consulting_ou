@@ -16,19 +16,10 @@ export const Route = createFileRoute('/$locale')({
       })
     }
 
-    // Load all page namespaces and set language
+    // Load shared namespaces; page-specific ones are loaded per-route
     await Promise.all([
       loadNamespace(locale, 'common'),
-      loadNamespace(locale, 'home'),
-      loadNamespace(locale, 'services'),
-      loadNamespace(locale, 'about'),
-      loadNamespace(locale, 'case-studies'),
-      loadNamespace(locale, 'contact'),
-      loadNamespace(locale, 'tools'),
-      loadNamespace(locale, 'blog'),
-      loadNamespace(locale, 'approach'),
-      loadNamespace(locale, 'resources'),
-      loadNamespace(locale, 'legal'),
+      loadNamespace(locale, 'seo'),
     ])
     await changeLocale(locale)
   },

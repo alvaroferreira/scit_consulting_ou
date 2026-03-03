@@ -15,18 +15,6 @@ import { Button } from '@/components/ui/button'
 const AUTOMATION_RATE = 0.65
 const COST_PER_EMPLOYEE = 500
 
-const formatCurrency = new Intl.NumberFormat('de-DE', {
-  style: 'currency',
-  currency: 'EUR',
-  minimumFractionDigits: 0,
-  maximumFractionDigits: 0,
-})
-
-const formatPercent = new Intl.NumberFormat('de-DE', {
-  minimumFractionDigits: 0,
-  maximumFractionDigits: 0,
-})
-
 interface SliderFieldProps {
   label: string
   value: number
@@ -36,6 +24,7 @@ interface SliderFieldProps {
   unit?: string
   prefix?: string
   onChange: (value: number) => void
+  formatNumber: (n: number) => string
 }
 
 function SliderField({
@@ -47,6 +36,7 @@ function SliderField({
   unit,
   prefix,
   onChange,
+  formatNumber,
 }: SliderFieldProps) {
   return (
     <div className="space-y-3">
@@ -54,7 +44,7 @@ function SliderField({
         <label className="text-sm font-medium text-foreground">{label}</label>
         <span className="rounded-lg bg-scit-purple/10 px-3 py-1 text-sm font-semibold text-scit-purple">
           {prefix}
-          {formatPercent.format(value)}
+          {formatNumber(value)}
           {unit}
         </span>
       </div>
@@ -70,12 +60,12 @@ function SliderField({
       <div className="flex justify-between text-xs text-muted-foreground">
         <span>
           {prefix}
-          {formatPercent.format(min)}
+          {formatNumber(min)}
           {unit}
         </span>
         <span>
           {prefix}
-          {formatPercent.format(max)}
+          {formatNumber(max)}
           {unit}
         </span>
       </div>
@@ -113,6 +103,18 @@ export function RoiCalculator() {
   const [employees, setEmployees] = useState(25)
   const [hoursPerWeek, setHoursPerWeek] = useState(10)
   const [hourlyCost, setHourlyCost] = useState(45)
+
+  const formatCurrency = useMemo(() => new Intl.NumberFormat(locale, {
+    style: 'currency',
+    currency: 'EUR',
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  }), [locale])
+
+  const formatNumber = useMemo(() => new Intl.NumberFormat(locale, {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  }), [locale])
 
   const results = useMemo(() => {
     const weeklyHoursWasted = employees * hoursPerWeek
@@ -159,6 +161,7 @@ export function RoiCalculator() {
               max={500}
               step={5}
               onChange={setEmployees}
+              formatNumber={(n) => formatNumber.format(n)}
             />
             <SliderField
               label={t('roiCalculator.sliders.hoursPerWeek.label')}
@@ -168,6 +171,7 @@ export function RoiCalculator() {
               step={1}
               unit="h"
               onChange={setHoursPerWeek}
+              formatNumber={(n) => formatNumber.format(n)}
             />
             <SliderField
               label={t('roiCalculator.sliders.hourlyCost.label')}
@@ -177,17 +181,18 @@ export function RoiCalculator() {
               step={5}
               prefix="\u20AC"
               onChange={setHourlyCost}
+              formatNumber={(n) => formatNumber.format(n)}
             />
           </div>
         </div>
 
         {/* Results Grid */}
-        <div className="mt-8 grid gap-4 sm:grid-cols-2">
+        <div aria-live="polite" className="mt-8 grid gap-4 sm:grid-cols-2">
           <MetricCard
             icon={<IconCurrencyEuro size={18} />}
             label={t('roiCalculator.metrics.annualCostManualWork.label')}
             value={formatCurrency.format(results.annualCostManualWork)}
-            sublabel={`${formatPercent.format(employees * hoursPerWeek)} ${t('roiCalculator.metrics.annualCostManualWork.sublabel')}`}
+            sublabel={`${formatNumber.format(employees * hoursPerWeek)} ${t('roiCalculator.metrics.annualCostManualWork.sublabel')}`}
           />
           <MetricCard
             icon={<IconTrendingUp size={18} />}
@@ -198,7 +203,7 @@ export function RoiCalculator() {
           <MetricCard
             icon={<IconTrendingUp size={18} />}
             label={t('roiCalculator.metrics.estimatedRoi.label')}
-            value={`${formatPercent.format(results.roiPercentage)}%`}
+            value={`${formatNumber.format(results.roiPercentage)}%`}
             sublabel={t('roiCalculator.metrics.estimatedRoi.sublabel', { cost: formatCurrency.format(results.implementationCost) })}
           />
           <MetricCard

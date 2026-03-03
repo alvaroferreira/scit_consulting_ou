@@ -1,50 +1,50 @@
 {
   "home": {
-    "title": "SCIT Consulting - Transformacion Digital con Inteligencia Artificial",
-    "description": "Implementamos herramientas de AI, automatizamos procesos y construimos agentes inteligentes. De la estrategia a la ejecucion, SCIT Consulting transforma su negocio con inteligencia artificial."
+    "title": "SCIT Consulting - Transformación Digital con Inteligencia Artificial",
+    "description": "Implementamos herramientas de AI, automatizamos procesos y construimos agentes inteligentes. De la estrategia a la ejecución, SCIT Consulting transforma su negocio con inteligencia artificial."
   },
   "about": {
-    "title": "Sobre Nosotros - Consultoria de AI en Europa",
-    "description": "SCIT Consulting es una consultoria boutique de AI con mas de 15 anos de experiencia en transformacion digital en Europa. Mas de 35 proyectos entregados en 6 industrias."
+    "title": "Sobre Nosotros - Consultoría de AI en Europa",
+    "description": "SCIT Consulting es una consultoría boutique de AI con más de 15 años de experiencia en transformación digital en Europa. Más de 35 proyectos entregados en 6 industrias."
   },
   "services": {
-    "title": "Servicios de AI - Automatizacion, Agentes y Consultoria",
-    "description": "Soluciones integrales de AI: automatizacion, agentes personalizados, chatbots, implementacion de herramientas de AI, consultoria estrategica y transformacion digital."
+    "title": "Servicios de AI - Automatización, Agentes y Consultoría",
+    "description": "Soluciones integrales de AI: automatización, agentes personalizados, chatbots, implementación de herramientas de AI, consultoría estratégica y transformación digital."
   },
   "caseStudies": {
     "title": "Casos de Estudio - Resultados Reales con AI",
-    "description": "Descubra como SCIT Consulting ha ayudado a empresas en salud, servicios B2B e inmobiliaria a lograr resultados medibles con soluciones de AI."
+    "description": "Descubra cómo SCIT Consulting ha ayudado a empresas en salud, servicios B2B e inmobiliaria a lograr resultados medibles con soluciones de AI."
   },
   "blog": {
-    "title": "Blog e Insights sobre AI y Transformacion Digital",
-    "description": "Conocimientos expertos sobre automatizacion con AI, transformacion digital y estrategia empresarial. Guias practicas y liderazgo de pensamiento de SCIT Consulting."
+    "title": "Blog e Insights sobre AI y Transformación Digital",
+    "description": "Conocimientos expertos sobre automatización con AI, transformación digital y estrategia empresarial. Guías prácticas y liderazgo de pensamiento de SCIT Consulting."
   },
   "contact": {
-    "title": "Contactenos - Consultoria de AI",
-    "description": "Listo para transformar su negocio con AI? Contacte a SCIT Consulting. Agende una consulta gratuita o envienos un mensaje."
+    "title": "Contáctenos - Consultoría de AI",
+    "description": "¿Listo para transformar su negocio con AI? Contacte a SCIT Consulting. Agende una consulta gratuita o envíenos un mensaje."
   },
   "approach": {
-    "title": "Nuestra Metodologia de Implementacion de AI",
-    "description": "Una metodologia probada en cuatro fases que asegura que cada iniciativa de AI entregue resultados de negocio medibles. Desde el descubrimiento hasta la optimizacion."
+    "title": "Nuestra Metodología de Implementación de AI",
+    "description": "Una metodología probada en cuatro fases que asegura que cada iniciativa de AI entregue resultados de negocio medibles. Desde el descubrimiento hasta la optimización."
   },
   "resources": {
     "title": "Recursos Gratuitos de AI para Empresas",
-    "description": "Recursos gratuitos de AI: casos de estudio, articulos de blog, calculadora de ROI y evaluacion de preparacion para AI. Todo lo que necesita para planificar su camino con AI."
+    "description": "Recursos gratuitos de AI: casos de estudio, artículos de blog, calculadora de ROI y evaluación de preparación para AI. Todo lo que necesita para planificar su camino con AI."
   },
   "privacyPolicy": {
-    "title": "Politica de Privacidad",
-    "description": "Politica de privacidad de SCIT Consulting. Conozca como recopilamos, utilizamos y protegemos sus datos personales en cumplimiento con el GDPR."
+    "title": "Política de Privacidad",
+    "description": "Política de privacidad de SCIT Consulting. Conozca cómo recopilamos, utilizamos y protegemos sus datos personales en cumplimiento con el GDPR."
   },
   "terms": {
-    "title": "Terminos de Servicio",
-    "description": "Terminos de servicio de SCIT Consulting para servicios de consultoria de AI y transformacion digital."
+    "title": "Términos de Servicio",
+    "description": "Términos de servicio de SCIT Consulting para servicios de consultoría de AI y transformación digital."
   },
   "roiCalculator": {
     "title": "Calculadora de ROI de AI - Herramienta Gratuita",
-    "description": "Calcule el retorno de inversion potencial de la automatizacion con AI para su empresa. Herramienta interactiva gratuita de SCIT Consulting."
+    "description": "Calcule el retorno de inversión potencial de la automatización con AI para su empresa. Herramienta interactiva gratuita de SCIT Consulting."
   },
   "aiReadiness": {
-    "title": "Evaluacion de Preparacion para AI - Test Gratuito",
-    "description": "Realice nuestra evaluacion gratuita de 10 preguntas para descubrir que tan preparada esta su organizacion para la adopcion de AI. Obtenga recomendaciones personalizadas de SCIT Consulting."
+    "title": "Evaluación de Preparación para AI - Test Gratuito",
+    "description": "Realice nuestra evaluación gratuita de 10 preguntas para descubrir qué tan preparada está su organización para la adopción de AI. Obtenga recomendaciones personalizadas de SCIT Consulting."
   }
 }

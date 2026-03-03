@@ -1,9 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import { CaseStudyPage } from '@/components/case-studies/case-study-page'
 import { caseStudies } from '@/data/case-studies'
 
 export const Route = createFileRoute('/$locale/case-studies/$slug')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'case-studies')
+  },
   component: CaseStudyRoute,
 })
 

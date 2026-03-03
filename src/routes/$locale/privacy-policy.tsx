@@ -1,9 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useTranslation } from 'react-i18next'
+import { loadNamespace } from '@/lib/i18n'
 import { SEO } from '@/components/shared/seo'
 import { Section } from '@/components/shared/section'
 
 export const Route = createFileRoute('/$locale/privacy-policy')({
+  beforeLoad: async ({ params }) => {
+    await loadNamespace(params.locale, 'legal')
+  },
   component: PrivacyPolicyPage,
 })
 

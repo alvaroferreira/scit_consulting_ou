@@ -143,15 +143,6 @@ export function AiReadinessAssessment() {
 
   function handleEmailSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (email) {
-      try {
-        const stored = JSON.parse(localStorage.getItem('scit_leads') || '[]')
-        stored.push({ email, company, score: totalScore, tier, date: new Date().toISOString() })
-        localStorage.setItem('scit_leads', JSON.stringify(stored))
-      } catch {
-        // Silently fail — localStorage might be unavailable
-      }
-    }
     setPhase('results')
   }
 
@@ -378,7 +369,7 @@ export function AiReadinessAssessment() {
 
   return (
     <Section>
-      <div className="mx-auto max-w-2xl">
+      <div aria-live="polite" className="mx-auto max-w-2xl">
         <div className="animate-[fadeSlide_0.35s_ease-out]">
           {/* Score Circle */}
           <div className="mb-8 flex flex-col items-center">

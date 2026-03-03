@@ -1,4 +1,4 @@
-export interface TechCategory {
+interface TechCategory {
   name: string
   technologies: string[]
 }

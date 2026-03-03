@@ -43,6 +43,15 @@
     "privacyPolicy": "Política de Privacidade",
     "termsOfService": "Termos de Serviço"
   },
+  "theme": {
+    "toggle": "Alternar tema",
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "language": {
+    "switchLabel": "Mudar idioma"
+  },
   "notFound": {
     "title": "404",
     "message": "Página não encontrada",
